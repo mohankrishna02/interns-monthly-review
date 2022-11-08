@@ -1,0 +1,190 @@
+{
+  "gwc": {
+    "lngName": "Français",
+    "app": {
+      "ending": {
+        "title": "L'application s'est arrêtée",
+        "session": "ID de session",
+        "redirect": "Votre session s'est terminée. Vous allez être redirigé automatiquement dans quelques secondes."
+      },
+      "notFound": {
+        "title": "L'application est introuvable",
+        "message": "L'application __appId__ ne s'est pas lancée car elle est introuvable.<br> Veuillez vous assurer que l'application existe et essayez de la relancer"
+      },
+      "error": {
+        "message": "L'application s'est arrêtée"
+      },
+      "forbidden": {
+        "message": "L'application a rencontré une erreur d'accès"
+      },
+      "webcompNotFound": {
+        "message": "Webcomponent introuvable ou la méthode 'onICHostReady' n'est pas présente : cette application ne peut pas continuer!"
+      },
+      "webcompError": {
+        "message": "Le Webcomponent a rencontré une erreur"
+      },
+      "autologout": {
+        "message": "Vous avez été déconnecté"
+      },
+      "uaProxy": {
+        "message": "L'application s'est terminée de manière inattendue"
+      },
+      "logs": {
+        "vm": "Afficher les journaux VM",
+        "proxy": "Afficher les journaux proxy",
+        "gbc": "Afficher les journaux GBC"
+      },
+      "waiting": "En attente de connexion",
+      "restart": "Relancer cette application",
+      "busy": "L'application est occupée",
+      "noload": "Si la page ne charge pas, cliquez ici",
+      "run": "Lancer",
+      "close": "Fermer",
+      "networkError": "L'application n'est plus accessible (erreur %1)."
+    },
+    "welcome": {
+      "history": "Historique",
+      "bookmark": "Signets",
+      "urlLauncher": "UA Url launcher"
+    },
+    "date": {
+      "monthList": "Janvier,Février,Mars,Avril,Mai,Juin,Juillet,Août,Septembre,Octobre,Novembre,Décembre",
+      "dayList": "Dimanche,Lundi,Mardi,Mercredi,Jeudi,Vendredi,Samedi",
+      "weekdaysShort": "Dim,Lun,Mar,Mer,Jeu,Ven,Sam",
+      "previousMonth": "Mois précédent",
+      "nextMonth": "Mois suivant",
+      "midnight": "Minuit",
+      "noon": "Midi"
+    },
+    "button": {
+      "ok": "OK",
+      "cancel": "Annuler"
+    },
+    "contextMenu": {
+      "restoreColumnSort": "Rétablir le tri des colonnes",
+      "showAllColumns": "Voir toutes les colonnes",
+      "disable": "Désactivés",
+      "readOnly": "Non-modifiés",
+      "clearSettings": "Remettre à zero",
+      "restoreDefaultSettings": "Restaurer les réglages par défaut",
+      "clearStoredSettingsQuestion": "Voulez-vous effacer les paramètres mémorisés ? (Veuillez redémarrer l\"application pour prendre en compte la suppression.)",
+      "freezeLeft": "Fixer à gauche",
+      "freezeRight": "Fixer à droite",
+      "unfreezeAll": "Ne plus fixer",
+      "hideAllButSelected": "Cacher les autres colonnes",
+      "selectAll": "Sélectionner tout",
+      "copyRow": "Copier la ligne",
+      "copyCell": "Copier la cellule",
+      "autoFitAllColumns": "Redimensionner toutes les colonnes",
+      "fitToViewAllColumns": "Afficher toutes les colonnes visibles"
+    },
+    "file": {
+      "upload": {
+        "droporclick": "Déposer le fichier ici ou cliquer pour le choisir.",
+        "droporclick-multiple": "Déposer le(s) fichier(s) ici ou cliquer pour le choisir.",
+        "select": "Selectionner un fichier",
+        "select-multiple": "Selectionner le(s) fichier(s)",
+        "processing": "Téléversement en cours",
+        "nofile": "Aucun fichier sélectionné",
+        "upload": "Upload",
+        "ready": "Pret à télécharger",
+        "waiting": "en attente",
+        "confirmation": "Téléverser le fichier ?",
+        "confirmation-multiple": "Téléverser le(s) fichier(s) ?",
+        "uploading": "Envoi en cours",
+        "required": "Vous devez choisir un fichier à uploader",
+        "accept": "Le fichier nécessite une extension",
+        "accept-multiple": "le(s) fichier(s) nécessite(nt) une extension"
+      },
+      "clickForDownload": "Cliquez ici si le téléchargement ne démarre pas automatiquement.",
+      "select": "Sélectionner un fichier"
+    },
+    "clipboard": {
+      "title": "Pour copier ceci dans votre presse-papier, utilisez votre raccourci système (généralement Ctrl+C)",
+      "copy": "Copier",
+      "paste": "Coller"
+    },
+    "storedSettings": {
+      "configuration": "Configuration des paramètres mémorisés",
+      "settings": "Paramètres mémorisés",
+      "theme": "Thème de l'interface",
+      "uiLanguage": "Langue de l'interface",
+      "defaultLng": "Utiliser les paramètres du navigateur",
+      "disable": "Desactiver les paramètres mémorisés",
+      "enable": "Activer les paramètres mémorisés",
+      "reset": "Effacer les paramètres mémorisés",
+      "confirm": "Êtes vous certain?",
+      "changed": "Les paramètres mémorisés ont été modifiés. Veuillez redémarrer l\"application pour les prendre en compte.",
+      "done": "Terminé!",
+      "message": "Message",
+      "messageContent": "Quelque chose ne vas pas avec la connfiguration localStorage de votre navigateur"
+    },
+    "settings": "Paramètres",
+    "decimalSeparator": ".",
+    "session": {
+      "logprompt": {
+        "logneeded": "Vos identifiants ne sont plus valides, merci de vous reconnecter",
+        "relog": "Se reconnecter"
+      },
+      "waitingend": {
+        "title": "Votre session est toujours en cours d'exécution",
+        "message": "Votre session est toujours en cours d'exécution. Si vous fermez cette page, toutes les applications en cours dans cette session seront perdues."
+      }
+    },
+    "main": {
+      "sidebar": {
+        "title": "Mes applications Genero",
+        "multitab_title": "Les fenêtres de mon application"
+      },
+      "chromebar": {
+        "appInfo": "Informations sur l'application",
+        "debugTools": "Outils de debug",
+        "runInGDC": "Lancer avec GDC",
+        "proxyLog": "Journaux Proxy",
+        "vmLog": "Journaux VM",
+        "settings": "Paramètres",
+        "bookmark": "Signets",
+        "bookmarkAlt": "Ajouter l'application aux signets",
+        "close": "Fermer la fenêtre",
+        "recordingLog": "Enregistrement des journaux GBC",
+        "getRecordedLog": "Cliquez ici pour télécharger les journaux GBC",
+        "filter": "Filtre"
+      }
+    },
+    "logPlayer": {
+      "unsavedConfirm": "Un log non enregistré existe déjà! \nVoulez-vous le télécharger avant de lancer une nouvelle session?",
+      "recordingLog": "Enregistrement du log",
+      "notEnabled": "L'enregistrement des logs n'est pas activé!, utilisez la queryString ?recordGbcLog=1",
+      "logInfo": {
+        "headers": {
+          "browser": "NAVIGATEUR",
+          "themeVariables": "VARIABLES DE THEME",
+          "storedSettings": "PARAMÈTRES MÉMORISÉS"
+        },
+        "version": "Version",
+        "platform": "Plateforme",
+        "protocol": "Protocole",
+        "theme": "Thème",
+        "availableThemes": "Thèmes disponibles",
+        "sidebar": "Panneau latéral visible",
+        "userAgent": "User Agent",
+        "os": "OS",
+        "lang": "Langue",
+        "availableLang": "Langues disponibles",
+        "dimension": "Dimension",
+        "url": "URL"
+      },
+      "topBar": {
+        "logFile": "Fichier de log",
+        "statistics": "Statistiques",
+        "statisticsTitle": "Activer les statistiques",
+        "delayFromLog": "Utiliser la temporisation du log",
+        "showHelpers": "Afficher les aides d'interaction",
+        "showHelpersTitle": "Affiche les touches et les clics souris",
+        "controls": "Contrôles",
+        "gotoStep": "Aller à l'étape",
+        "delay": "Temporisation"
+      }
+    }
+  }
+}

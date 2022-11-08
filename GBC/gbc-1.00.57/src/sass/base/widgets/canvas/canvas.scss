@@ -1,0 +1,33 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_CanvasWidget {
+  box-shadow: inset 0 1px $gbc-CanvasWidget-margin-ratio*4px rgba(0,0,0,.24), inset 0 -1px $gbc-CanvasWidget-margin-ratio*4px rgba(0,0,0,.24);
+  min-height: $gbc-CanvasWidget-default-height;
+  width:100%;
+  height:100%;
+  svg {
+    display: block;
+  }
+  .gbc_noPointerEvents {
+    pointer-events: none;
+  }
+
+  text {
+    cursor: default;
+  }
+
+  .g_measuring & > svg {
+    width:auto;
+    min-width:1px;
+    height: $gbc-CanvasWidget-default-height;
+  }
+}

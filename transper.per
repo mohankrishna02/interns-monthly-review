@@ -1,0 +1,53 @@
+SCHEMA project
+TOOLBAR 
+ITEM find(IMAGE="find",TEXT=%"find")
+SEPARATOR
+ITEM accept(IMAGE ="accept",TEXT =%"accept")
+SEPARATOR
+ITEM cancel(IMAGE ="cancel",TEXT =%"cancel")
+SEPARATOR
+ITEM quit(IMAGE ="quit",TEXT =%"quit")
+
+LAYOUT 
+VBOX 
+GRID
+{
+ <g                                                   >
+   INTERN ID           :[f01                 ]
+   INTERN NAME         :[f02                 ]
+   MENTOR ID           :[f03                 ]
+   MENTOR NAME         :[f04                 ]
+ <                                                    >
+}
+END 
+
+TABLE 
+{
+   INTERN NAME     MENTOR NAME   TEST1     TEST2         TEST3     MONTHLY TEST   ATTENDENCE
+  [f06            |f07          |f08       |f09          |f10     |f11           |f12                ]
+}
+
+END 
+END 
+END 
+
+TABLES intern,mentor,details
+ATTRIBUTES 
+EDIT f01 = intern.id;
+EDIT f02 = intern.name;
+EDIT f03 = mentor.mentor_id;
+EDIT f04 = mentor.mentor_name;
+PHANTOM  details.intern_id;
+EDIT f06 = details.name;
+EDIT f07 = details.mentor_name;
+EDIT f08 = details.test1;
+EDIT f09 = details.test2;
+EDIT f10 = details.test3;
+EDIT f11 = details.monthly_test_result;
+EDIT f12 = details.attendance;
+END 
+
+INSTRUCTIONS 
+SCREEN RECORD mohan(details.*);
+
+

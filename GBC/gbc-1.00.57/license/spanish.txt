@@ -1,0 +1,480 @@
+CONTRATO DE LICENCIA DESTINADO AL USUARIO FINAL
+
+
+El presente contrato de licencia destinado al usuario final ("Contrato de 
+licencia destinado al usuario final") se concluye entre usted, persona u 
+organismo (el "Licenciado" o "Usted") y Four Js Development Tools Ltd. 
+("Four Js")
+
+AL ABRIR EL EMBALAJE SELLADO DEL PRODUCTO, AL HACER CLIC SOBRE LA MENCIÓN 
+"ACCEPT" (ACEPTO) QUE FIGURA AL FINAL DEL PRESENTE CONTRATO EN EL SITIO WEB, 
+AL UTILIZAR EL SOFTWARE BAJO LICENCIA O AL PULSAR LA TECLA DE ACTIVACIÓN DEL 
+SOFTWARE BAJO LICENCIA, RECONOCE HABER LEÍDO EL PRESENTE CONTRATO DE LICENCIA 
+DESTINADO AL USUARIO FINAL, HABERLO COMPRENDIDO Y ACEPTAR HALLARSE LIGADO POR 
+SUS CONDICIONES.  SI NO LO ACEPTA, NO TIENE DERECHO ALGUNO A UTILIZAR EL 
+SOFTWARE BAJO LICENCIA; EN SU LUGAR, DEBERÁ CONFORMARSE INMEDIATAMENTE A LOS 
+PROCEDIMIENTOS DEL ARTÍCULO 8.3 (II) EXPUESTO MÁS ADELANTE. SI NO ACEPTA 
+HALLARSE OBLIGADO POR EL PRESENTE CONTRATO DE LICENCIA DESTINADO AL USUARIO 
+FINAL Y SI TODAVÍA NO HA UTILIZADO EL SOFTWARE BAJO LICENCIA, PODRÁ OBTENER EL 
+REEMBOLSO SI RESPETA LOS PROCEDIMIENTOS DE DEVOLUCIÓN ESTÁNDAR DE FOUR JS. EL 
+PRESENTE CONTRATO DE LICENCIA DESTINADO AL USUARIO FINAL SURTIRÁ EFECTO A 
+PARTIR DE LA FECHA DE ABERTURA DEL EMBALAJE SELLADO DEL PRODUCTO, LA 
+UTILIZACIÓN DEL SOFTWARE BAJO LICENCIA O TRAS HABER PULSADO LA TECLA DE 
+ACTIVACIÓN DEL SOFTWARE BAJO LICENCIA (LA "FECHA DE ENTRADA EN VIGOR")
+
+
+1 DEFINICIONES
+
+Cuando se utilizan en el presente Contrato de licencia destinado al usuario 
+final:
+
+"Documentación", se entienden los manuales de utilización (por escrito o en 
+formato electrónico) suministrados al Licenciado juntamente con el Software 
+bajo licencia.
+
+"Código ejecutable" se entiende la versión compilada completa de un programa de
+software que pueda ejecutarse en un ordenador y ser utilizado por un usuario 
+final sin otra compilación.
+
+"Software bajo licencia" se entiende el o lo programas de software por los que 
+el Lienciado ha comprado una licencia (incluido, para los licenciados de los 
+productos de "Clase A" definidos en el artículo 10.1 únicamente, todos los 
+módulos de ejecución destinados a la redistribución por el Licenciado ("los 
+Elementos redistribuibles") y toda versión modificada, actualizada o mejorada 
+de dichos programas que Four Js pudiese suministrar al Licenciado de 
+conformidad con el presente contrato de licencia destinado al usuario final o 
+un Contrato de servicio separado).
+
+"Código fuente" se entiende la versión legible para el hombre de un programa de
+software que pueda ser compilado en Código ejecutable.
+
+
+2. CESIONES DE LICENCIA
+
+A condición de que el Licenciado respete completamente las condiciones del 
+presente contrato de licencia destinado al usuario final, Four Js cede al 
+Licenciado (i) una licencia no exclusiva y no transferible para utilizar el 
+Software bajo licencia (en la forma únicamente de Código ejecutable), 
+conformándose exclusivamente a la documentación y a efectuar una sola copia del
+Software bajo licencia, únicamente por razones de copia de seguridad o de 
+archivo; y (ii) (para los Licenciados de los productos de la "Clase A" 
+definidos en el artículo 10.1 únicamente) una licencia no exclusiva y no 
+transferible con vistas a utilizar, reproducir y distribuir (únicamente a los 
+usuarios finales que hayan comprado licencias de ejecución adaptadas a 
+Four Js) los Elementos redistribuibles (únicamente bajo forma de Código 
+ejecutable), y solamente dentro del marco de una aplicación desarrollada por el
+Licenciado. El licenciado no puede distribuir los Elementos redistribuibles de 
+manera independiente. El Software bajo licencia solo puede ser utilizado de 
+acuerdo con la Documentación. Four Js cede al licenciado una licencia no 
+exclusiva y no transferible que permite utilizar la documentación. En su caso, 
+Four Js comunicará al licenciado una nueva clave de activación si este último 
+certifica por escrito que debe instalar el Software bajo licencia en un nuevo 
+ordenador debido a una actualización, un robo o una avería. La presente 
+licencia se concede al Licenciado para el único número de usuarios simultáneos 
+especificado en un vale de pedido válido aceptado por Four Js y pagado por el 
+Licenciado. Four Js efectuará cierta Mejoras generalmente puestas a 
+disposición del Licenciado, a condición que el Licenciado suscriba 
+separadamente unos servicios de asistencia y mantenimiento. Además de dicha 
+suscripción, si Four Js suministra al Licenciado cualquier actualización del 
+Software bajo licencia, el Licenciado acepta adoptar dicha actualización en 
+un plazo de treinta (30) días a partir de la salida de dicha actualización. 
+Si dicha actualización fuese considerada urgente por Four Js, a su discreción 
+razonable y de buena fe, el Licenciado emprendería esfuerzos razonables para 
+adoptar dicha actualización urgente lo antes posible.
+
+
+3. RESTRICCIONES DE UTILIZACIÓN
+
+El Licenciado reconoce que el Software bajo licencia y su estructura, su
+secuencia, su organización y su Código fuente constituyen secretos comerciales
+de valor de Four Js  o de sus proveedores. Así pues, con excepción de lo que
+se autoriza expresamente en el presente contrato, el Licenciado acepta (a) no
+modificar, adaptar, alterar, traducir o crear obras derivadas del Software bajo
+licencia, (b) no sublicenciar, alquilar poner en leasing, prestar, divulgar o
+transferir de cualquier otra forma o autorizar la utilización del Software bajo
+licencia por cualquier tercero, incluido el personal de externalización, (c) no
+efectuar una ingeniería inversa, descompilar, desensamblar o cambiar de
+cualquier otra manera el Código fuente del Software bajo licencia o (d)
+utilizar de otra forma o copiar el Software bajo licencia. A pesar de lo
+anteriormente expuesto, la descompilación del Software bajo licencia se
+autoriza siempre que las leyes de la jurisdicción del Licenciado le concedan el
+derecho de hacerlo para obtener las informaciones necesarias para el
+funcionamiento cruzado de este Software bajo licencia con otros programas de
+software. Conviene sin embargo precisar que el Licenciado deberá pedir
+primeramente dicha información a Four Js  y que Four Js  debe poder, a
+discreción suya, ya sea facilitar dichas informaciones al Licenciado, o bien
+imponerle una condiciones razonables, incluidos unos gastos razonables, para
+esta utilización del Software bajo licencia, con el fin de asegurar la
+protección de los derechos de propiedad de Four Js  y de sus proveedores del
+software bajo licencia. El Licenciado acepta no hacer uso de los derechos de la
+licencia acordados en el Software bajo licencia para desarrollar o
+comercializar un producto similar o competitivo al Software bajo licencia.
+
+
+4. PEDIDO, ACEPTACIÓN, TARIFICACIÓN Y PAGOS
+
+Las condiciones del vale de pedido estándar del Licenciado, o de cualquier otro
+documento que se le enviase y que entrase en conflicto con las condiciones del
+presente Contrato de licencia destinado al usuario final o que, de alguna
+manera, tratase de enmendar cualquiera de sus condiciones, son específicamente
+rechazados por el presente contrato y no podrán en modo alguno producir efectos
+ni entrar en vigor. Four Js hará esfuerzos comercialmente razonables para
+respetar las fechas de disponibilidad y de entrega así como las cantidades
+demandadas en todo pedido que haya aceptado; sin embargo, se reserva el derecho
+de rechazar vales de pedidos. A partir del momento de la aceptación de un
+pedido y la descarga del Software bajo licencia  por el Licenciado o la entrega
+de un Kit del producto por parte de Four Js, Four Js suministrará al
+Licenciado las claves del Software bajo licencia que permitan su utilización..
+El Licenciado será responsable de la instalación del Software bajo licencia en
+sus ordenadores, tal como se especifica en el marco de este Contrato de
+licencia destinado al usuario final. Se considerará que el Software bajo
+licencia ha sido aceptado a partir del momento de su entrega. Si usted instala
+el Software bajo licencia a nombre del Licenciado que figura en el vale de
+pedido, corresponderá al Licenciado hacer clic en el botón "I accept" (Acepto)
+y conformarse a las condiciones del presente Contrato de licencia destinado al
+usuario final. Si usted lo hace en su nombre, usted y su organismo quedarán
+conjuntamente vinculados por las condiciones del presente Contrato de licencia
+destinado al usuario final y serán responsables de todo incumplimiento de éste.
+
+
+5 GARANTÍAS
+
+5.1 Resultados
+
+(a) Durante un período de sesenta (60) días a partir de la entrega del Software
+bajo licencia (aparte para los productos de "clase B" previstos en el artículo
+10.2) al Licenciado ("el Período de garantía del software"), Four Js garantiza
+que el Software bajo licencia, cuando se utiliza tal como indica Four Js y tal
+como se autoriza en el marco del presente Contrato de licencia destinado al
+usuario final y de acuerdo con la Documentación (incluida su utilización en un
+material informático y una plataforma de sistema de explotación realizada por
+Four Js ), funcionará substancialmente tal como se describe en la
+Documentación.
+
+(b) Para los productos de "Clase B" definidos en el artículo 10.2, Four Js no
+aporta ninguna garantía, ya sea expresa, implícita o estatutaria. LOS PRODUCTOS
+DE "CLASE B" DEFINIDOS EN EL ARTÍCULO 10.2 SE SUMINISTRAN EN CONDICIONES.
+
+(c) Four Js no garantiza que la utilización del Software bajo licencia por el
+Licenciado se haga sin errores ni interrupciones. Four Js, con gastos a su
+cuenta y con su única obligación, subsiguiente a un recurso exclusivo del
+licenciado relativo a la ruptura de la garantía anteriormente mencionada,
+emprenderá todos los esfuerzos comercialmente razonables para corregir o
+proporcionar una solución a todos los errores que pudiera producir el Software
+bajo licencia y que hubieren sido señalados a Four Js por el Licenciado por
+escrito en el curso del período de garantía del software. No obstante, si Four
+J's considerase, según su opinión profesionalmente razonable, que es
+comercialmente imposible corregir el error o proporcionar una solución, Four
+J's reembolsará al Licenciado los gastos de licencia pagados por el Software
+bajo licencia. En este caso, el presente Contrato de licencia destinado al
+usuario final así como el derecho del Licenciado a utilizar el Software bajo
+licencia serán rescindidos. Toda corrección de errores, toda solución para
+eludir la dificultad o todo suministro de un nuevo código al Licenciado no
+podrán prolongar el periodo de garantía original del software.
+
+5.2 Límites de responsabilidad. LAS GARANTÍAS EXPRESAS PRESENTADAS EN EL
+PRESENTE ARTÍCULO 5 REEMPLAZAN CUALESQUIERA OTRAS GARANTÍAS EXPRESAS,
+IMPLÍCITAS O ESTATUTARIAS RELATIVAS AL SOFTWARE BAJO LICENCIA Y A LA
+DOCUMENTACIÓN, INCLUIDA TODA GARANTÍA DE CALIDAD DE MERCANCÍA, DE ADAPTACIÓN A
+UNA FINALIDAD PARTICULAR, DE TÍTULO Y DE NO INFRACCIÓN A LOS DERECHOS DE
+TERCEROS. Dado que ciertas jurisdicciones no autorizan la exclusión de
+garantías implícitas, la presente limitación de responsabilidad pudiera no
+aplicarse en su caso. EL LICENCIADO RECONOCE QUE SE BASA EN LA AUSENCIA DE
+GARANTÍAS DISTINTAS A LAS EXPRESADAS EN EL PRESENTE CONTRATO DE LICENCIA
+DESTINADO AL USUARIO FINAL Y QUE FOUR JS  NO ESTARÁ LIGADO POR NINGUNA
+GARANTÍA PROPORCIONADA POR UN TERCERO. La presente garantía le acuerda derechos
+específicos; pueden corresponderle otros derechos, en función de las
+jurisdicciones competentes.
+
+
+6. QUERELLAS EN CASO DE INFRACCIÓN
+
+Four Js defenderá, con gastos a su cuenta, toda acción iniciada contra el
+Licenciado por un tercero siempre que la acción tenga como fundamento una
+querella estipulando que el Software bajo licencia infringe cualesquiera
+derechos de autor americanos de un tercero o se apropia por error cualesquiera
+derechos comerciales de un tercero, hechos reconocidos como tales dentro del
+marco de la Ley sobre el secreto comercial uniforme. Además, Four Js pagará
+los costes y daños y perjuicios decididos en última instancia contra el
+Licenciado en toda acción de este tipo y que fuesen específicamente atribuibles
+a dicha querella o también los costes y daños y perjuicios convenidos como pago
+monetario de dicha acción. Las obligaciones precedentes se hallan condicionadas
+al hecho que el Licenciado advierta a Four Js rápidamente y por escrito de
+dicha acción, que el Licenciado atribuya a Four Js el único control de la
+defensa de esta querella y de cualquier negociación de pago a ella vinculado y
+que el Licenciado coopere y, a petición y con gastos a costa de Four Js,
+asista a dicha defensa. Si el Software bajo licencia fuese o, según opinión del
+Four Js, corriese el riesgo de  ser un objeto de querella por infracción, 
+Four Js podría, a su parecer y con gastos a su cuenta, (a) ofrecer al 
+Licenciado el derecho de continuar utilizando el Software bajo licencia, (b) 
+reembolsar o modificar el Software bajo licencia con objeto de poner fin a la 
+infracción o (c) aceptar la devolución del Software bajo licencia y reembolsar 
+al Licenciado los gastos de licencia pagados por éste, descontando una 
+indemnización razonable equivalente al período durante el cual el Licenciado 
+hubiese utilizado el Software bajo licencia. A pesar de lo anteriormente 
+expuesto, Four Js no asumirá ninguna obligación en el marco del presente 
+artículo 6 o de otra forma en lo relativo a cualquier querella por infracción 
+basada en (i) cualquier utilización del Software bajo licencia que no estuviese
+de acuerdo con el presente Contrato de licencia destinado al usuario final o 
+con los objetivos que no hubiesen sido previstos por Four Js, (ii) cualquier
+utilización del Software bajo licencia en combinación con otros productos,
+equipos, programas de software o datos que no fuesen suministrados por Four Js
+, siempre que dicha combinación constituyese la causa de cualquier querella,
+(iii) cualquier utilización de toda versión del Software bajo licencia distinta
+a la versión más corriente puesta a disposición del Licenciado o (iv) toda
+modificación del Software bajo licencia  por cualquier persona que no sea 
+Four Js. EL PRESENTE ARTÍCULO 6 PREVÉ LA TOTALIDAD DE LA RESPONSABILIDAD DE 
+FOUR JS Y EL RECURSO ÚNICO Y EXCLUSIVO DEL LICENCIADO PARA LAS QUERELLAS Y 
+ACCIONES EN CASO DE INFRACCIÓN.
+
+
+7. LIMITES DE RESPONSABILIDAD
+
+A. Exclusión de ciertos daños. FOUR JS  NO PODRÁ EN NINGÚN CASO SER
+CONSIDERADO RESPONSABLE DE CUALESQUIERA DAÑOS CONSECUTIVOS, INDIRECTOS,
+EJEMPLARES, ESPECIALES O INCIDENTES, INCLUIDO CUALQUIER PÉRDIDA DE DATOS Y DE
+BENEFICIOS DERIVADOS DEL PRESENTE CONTRATO DE LICENCIA DESTINADO AL USUARIO
+FINAL O A ÉL VINCULADOS. Algunos estados no autorizan la exclusión de
+limitación de daños incidentes o consecutivos; en consecuencia, la limitación o
+exclusión que precede no se aplicará tal vez a usted.
+
+B. Limitación de responsabilidad. LA RESPONSABILIDAD ACUMULADA TOTAL DE 
+FOUR JS EN RELACIÓN EL PRESENTE CONTRATO DE LICENCIA DESTINADO AL USUARIO 
+FINAL ASÍ COMO EL SOFTWARE BAJO LICENCIA Y LA DOCUMENTACIÓN, YA SEA DENTRO DEL 
+MARCO DEL CONTRATO O FUERA DE ÉSTE O DE OTRO MODO, NO PODRÁ REBASAR EL IMPORTE 
+DE LOS HONORARIOS PAGADOS A FOUR JS DENTRO DEL MARCO DEL PRESENTE CONTRATO.
+
+C. Aplicaciones de control primordial. EL SOFTWARE BAJO LICENCIA NO TIENE POR
+OBJETO SER UTILIZADO EN RELACIÓN A CUALQUIER APLICACIÓN NUCLEAR, AÉREA, DE
+TRÁNSITO EN MASA O MÉDICA O CUALQUIER OTRA APLICACIÓN PELIGROSA QUE PUDIESE
+ACARREAR LA MUERTE, HERIDAS CORPORALES, DAÑOS CATASTRÓFICOS O UNA DESTRUCCIÓN
+EN MASA. EL LICENCIADO ACEPTA EL HECHO QUE FOUR JS NO SOPORTARÁ EN
+CONSECUENCIA NINGUNA RESPONSABILIDAD DE LA CLASE QUE FUERE DE TODA UTILIZACIÓN
+DE ESTE TIPO DEL SOFTWARE BAJO LICENCIA.
+
+D. Atribución de riesgos. EL LICENCIADO RECONOCE QUE LOS HONORARIOS PAGADOS
+DENTRO DEL MARCO DEL PRESENTE CONTRATO PREVÉN LA TRANSFERENCIA DE LOS RIESGOS
+ESPECIFICADOS EN EL PRESENTE CONTRATO DE LICENCIA DESTINADO AL USUARIO FINAL Y
+QUE FOUR JS NO PODRÁ CONCLUIR EL PRESENTE CONTRATO DE LICENCIA DESTINADO AL
+USUARIO FINAL EN AUSENCIA DE ESTAS LIMITACIONES DE RESPONSABILIDAD. ADEMÁS, EL
+LICENCIADO RENUNCIA A TODA RESPONSABILIDAD, DE LA CLASE QUE FUERE, DE PARTE LOS
+PROVEEDORES DE FOUR JS.
+
+
+8. DURACIÓN Y RESCISIÓN
+
+8.1 Duración. La duración del presente Contrato de licencia destinado al
+usuario final comenzará en la fecha de entrada en vigor y proseguirá
+indefinidamente hasta su rescisión, de conformidad con el artículo 8.2.
+
+8.2 Rescisión. El Licenciado puede rescindir el presente Contrato de licencia
+destinado al usuario final en todo momento, con o sin razón, con una
+notificación escrita enviada a Four Js . El presente Contrato de licencia
+destinado al usuario final quedará automáticamente rescindido si (a) el
+Licenciado deja de cumplir cualquier disposición del artículo 3 o del artículo
+9.1 o si (b) el Licenciado deja de cumplir alguna de las disposiciones del
+presente Contrato de licencia destinado al usuario final sin reparar este
+incumplimiento en un plazo de treinta (30) días, a partir de la recepción de su
+notificación escrita por parte de Four Js.
+
+8.3 Efectos de la rescisión. A partir del momento de la rescisión del presente
+Contrato de licencia destinado al usuario final por la causa que fuere, (i)
+todos los derechos de licencia acordados por el presente Contrato de licencia
+destinado al usuario final dejarán inmediatamente de existir, (ii) el
+Licenciado deberá interrumpir rápidamente toda utilización del Software bajo
+licencia, suprimir todas las copias de sus ordenadores y devolver a Four Js
+todas las copias del Software bajo licencia  y de la Documentación sobre un
+soporte tangible en posesión del Licenciado o bajo su control y certificar por
+escrito a Four Js que ha respetado totalmente sus obligaciones y (iii) (para
+los licenciados de los productos de la "Clase A" definidos en el artículo 10.1
+únicamente) el Licenciado deberá rápidamente interrumpir la utilización, la
+reproducción y la distribución de los Elementos redistribuibles. Con excepción
+de las disposiciones de los artículos 5.1 (c) y 6 (c) del presente Contrato de
+licencia destinado al usuario final, el Licenciado no podrá ser autorizado a
+percibir ningún reembolso de cualesquiera cantidades pagadas por el Software
+bajo licencia . Los artículos 1 ("Definiciones"), 3 ("Restricciones de
+utilización"), 5 ("Garantías"), 7 ("Límites de responsabilidad"), 8,3 ("Efectos
+de la rescisión") y 9 ("Generalidades") del presente Contrato de licencia
+destinado al usuario final seguirán siendo válidos después de la rescisión,
+cualquiera que hubiere sido su causa.
+
+
+9. GENERALIDADES
+
+9.1 Derechos propietarios. Tal como se convino, las partes reconocen que el
+Software bajo licencia y la Documentación, así como cualesquiera derechos de
+propiedad intelectual internacional al presente convenio, son propiedad
+exclusiva de Four Js y de sus proveedores. Todos los derechos relativos al
+Software bajo licencia que no sean expresamente acordados al licenciado en el
+presente Contrato de licencia destinado al usuario final seguirán perteneciendo
+a Four Js  y sus proveedores. Si que ello constituya una limitación a lo
+anteriormente expuesto, el presente contrato no acuerda ninguna licencia que
+permita utilizar las marcas comerciales o los nombre comerciales. El Licenciado
+no podrá suprimir, alterar ni oscurecer cualquier nota propietaria (incluidas
+las notificaciones de derechos de autor) de Four Js o de sus proveedores
+presentes en el Software bajo licencia o en la Documentación. El Licenciado
+reconoce que el Software bajo licencia contiene Informaciones confidenciales y
+secretos comerciales de valor, así como informaciones propietarias de Four Js,
+que todo incumplimiento real o amenazado del artículo 3 o de los artículos 9.1
+o 9.2 constituiría un daño inmediato e irreparable para Four Js. En este caso,
+los daños y perjuicios no constituiría un recurso adaptado; con el fin de
+ejercer un recurso adaptado a dicho incumplimiento, deberían pronunciarse
+medidas de reparación por vía de apremio.
+
+9.2 Confidencialidad. "Las informaciones confidenciales" se entienden por
+cualesquiera informaciones divulgadas por una parte ("la Parte difusora") a la
+otra parte ("la Parte receptora") incluido, pero sin limitarse a ello, toda
+información o documento propietario (bajo la forma y el soporte que fuere) que
+hubieren sido o fuesen seguidamente difundidas y que no sean generalmente
+conocidas del comercio o mercado concernido. Las informaciones confidenciales
+incluyen, pero sin limitarse a ello, todos los secretos comerciales y derechos
+de propiedad intelectual así como todos los productos existentes o proyectados
+y las previsiones de funciones, plan de actividades, tarifas, rebajas, datos de
+estudios de mercados, ya contengan informaciones pasadas, actuales o vinculadas
+al futuro, el Software bajo licencia  (incluido todo "fallo" o cualesquiera
+errores que en él figuren) así como la Documentación. Las "informaciones
+confidenciales" no incluyen informaciones que (a) sean públicas o puestas en
+conocimiento del público sin que haya ruptura de una obligación de
+confidencialidad por la Parte receptora, (b) fuesen desarrolladas
+independientemente por la Parte receptora sin acceso a las informaciones
+confidenciales de la Parte difusora o (c) fuesen suministradas por un tercero,
+sin que haya no obstante ruptura de cualquier obligación de confidencialidad
+por una parte. La Parte receptora puede divulgar las informaciones
+confidenciales de la parte difusora siempre que dicha difusión sea exigida por
+la ley, una decisión de un tribunal o una orden de una agencia gubernamental
+competente, a condición que la parte receptora lo comunique a la parte difusora
+antes de dicha difusión y le ofrezca una oportunidad razonable de buscar una
+protección o de impugnar dicha obligación. La parte receptora tratará todas las
+informaciones confidenciales como estrictamente confidenciales y empleará el
+mismo cuidado para impedir su difusión que para sus propias informaciones
+confidenciales con unos cuidados que no sean en modo alguno inferiores a un
+grado razonable de atención. La parte receptora deberá (aa) difundir dichas
+informaciones confidenciales (i) únicamente a los empleados autorizados y a los
+directores de la parte receptora cuyas obligaciones justifiquen su necesidad de
+conocer dichas informaciones y que hayan acordado por escrito asegurar la
+confidencialidad o la condición propietaria o (ii) únicamente a los terceros
+exigidos para la ejecución de las obligaciones de la Parte receptora dentro del
+marco del Contrato de licencia destinado al usuario final, de conformidad con
+un acuerdo escrito que contenga las disposiciones al menos tan protectoras como
+las disposiciones de confidencialidad del presente convenio y (bb) utilizar
+dichas informaciones confidenciales únicamente para el respeto del Contrato de
+licencia destinado al usuario final y en beneficio de una y otra parte en el
+presente contrato.
+
+9.3 Política de privacidad. El software con licencia se comunica
+automáticamente con los servidores de la Four J’s para comprobar si hay
+actualizaciones de software, tales como parches, correcciones de errores,
+revisiones, ampliaciones u otras mejoras. Usted acepta que el Software con
+licencia puede hacer estas búsquedas automáticamente y avisarle de estas
+mejoras. Puede optar por rechazar este servicio. Si desea obtener más
+información acerca de la información que le enviamos, visite
+https://4js.com/updates/.
+
+9.4 Respeto de las leyes. En su utilización del Software bajo licencia , el
+Licenciado deberá conformarse a todas las leyes y reglamentaciones aplicables
+para el control de la importación y la exportación y, en particular, no
+exportará ni reexportará el Software bajo licencia si no dispone de licencias
+gubernamentales de Estados Unidos y las exigidas por otros países. El
+Licenciado defenderá Four Js, lo indemnizará y le tendrá a cubierto de
+cualquier violación de dichas leyes o reglamentaciones por parte del Licenciado
+o por cualquiera de sus agentes, representantes, directores o empleados.
+
+9.5 Cesión. El Licenciado no podrá ceder ni transferir, por medio de la ley, o
+de otra manera ninguno de sus derechos o ninguna de sus obligaciones en el
+marco del presente Contrato de licencia destinado al usuario final (incluidas
+sus licencias relativas al Software bajo licencia ) a un tercero si no tiene el
+consentimiento previo y por escrito de Four Js, salvo en caso de una fusión,
+una venta, una adquisición, una reorganización de empresa o cualquier otra
+modificación de dirección del Licenciado en su integralidad. Toda tentativa de
+cesión o de transferencia que viole lo anteriormente expuesto será anulada.
+Four Js puede transferir o ceder el presente Contrato de licencia destinado al
+usuario final después de una fusión, venta, adquisición, consolidación,
+reorganización de empresa o cambio de dirección, incluso después de la venta de
+todo o parte de los activos a los que pudiese estar ligado el presente Contrato
+de licencia destinado al usuario final.
+
+9.6 Usuarios finales en el gobierno norteamericano. Si el Licenciado es una
+rama o una agencia del Gobierno de Estados Unidos, se aplicará la siguiente
+disposición. El Software bajo licencia y la Documentación forman parte del
+"software informático comercial" y de la "Documentación del software
+informático comercial", tal como se utilizan dichos términos en el documento 48
+C.F.R. 12.212 (septiembre de 1995) y son suministrados al Gobierno (i) para
+adquisición por o en nombre de agencias civiles, de conformidad con la política
+definida en el documento 48 C.F.R. 12.212 o (ii) para adquisición por o en
+nombre de servicios del Ministerio de Defensa, de conformidad con las políticas
+definidas en los documentos 48 C.F.R. 7202-1 (junio de 1995) y 27.7202-3 (junio
+de 1995).
+
+9.7 Notificaciones. Todas las notificaciones, consentimientos y aprobaciones
+vinculados al presente Contrato de licencia destinado al usuario final deberán
+entregarse por escrito y por correo o fax, o también por carta certificada
+(franqueada a la tarifa vigente con acuse de recibo) a la otra parte y tomarán
+efecto desde la recepción o tres (3) días laborables después de haber sido
+expedidas por correo, como se exige más arriba, cualquiera que sea el evento
+que acaezca en primer lugar.
+
+9.8 Derecho aplicable y jurisdicción. El presente Contrato de licencia
+destinado al usuario final se regirá por las leyes de California, en la medida
+en que estas leyes se apliquen a los contratos concluidos entre los residentes
+de California y que deban aplicarse totalmente en California. La Convención de
+las Naciones Unidas sobre los Contratos para la venta de mercancías en el plano
+internacional no se aplica al presente Contrato de licencia destinado al
+usuario final. Usted conviene que toda acción o procedimiento que nazca del
+presente Contrato de licencia destinado al usuario final o vinculado a él e
+iniciado por usted, debe llevarse ante un tribunal en California(ilegible) y
+que cada parte se somete de manera irrevocable a la jurisdicción y competencia
+de todo Tribunal de este tipo en cualquier acción o procedimiento de este tipo.
+A pesar de lo anteriormente expuesto, (i) usted consiente participar en toda
+decisión tomada en contra suya en cualquier jurisdicción en la que usted lleve
+o realice una actividad o unos activos y a ejecutarla y (ii) conviene que 
+Four Js puede iniciar una acción contra usted en cualquier jurisdicción 
+escogida por él, con objeto de hacer aplicar sus derechos conforme al presente 
+Contrato de licencia destinado al usuario final o a sus derechos de propiedad
+intelectual.
+
+9.9 Recursos. Con excepción de lo estipulado en los artículo 5 y 6
+anteriormente expuestos, los derechos y recursos de las Partes dentro del marco
+del presente Contrato de licencia destinado al usuario final son acumulativos.
+En caso de que se entablase cualquier acción legal con vistas a aplicar el
+presente Contrato de licencia destinado al usuario final, la parte ganadora
+sería autorizada a hacerse reembolsar sus gastos de abogado, gastos de
+tribunales y otros gastos de cobro, además de cualesquiera indemnizaciones que
+pudiese recibir.
+
+9.10 Mantenimiento o asistencia. Four Js no tiene la obligación de suministrar
+servicios de asistencia o de mantenimiento a cualquier parte dentro del marco
+del presente Contrato de licencia destinado al usuario final. El mantenimiento
+y asistencia, siempre que sean proporcionados, deberán ser objeto de un
+Contrato de servicio separado.
+
+9.11 Diversos. Todas las renuncias deben hacerse por escrito. Toda renuncia o
+todo incumplimiento en la aplicación de cualquier disposición del presente
+Contrato de licencia destinado al usuario final, en una ocasión precisa, no se
+considerará como una renuncia a cualquier otra disposición o a esta disposición
+en cualquier otra ocasión. En caso de que cualquier disposición del presente
+Contrato de licencia destinado al usuario final fuese inaplicable, dicha
+disposición sería modificada e interpretada con vistas a alcanzar los objetivos
+de dicha disposición en el mayor grado posible, de conformidad con la ley
+aplicable. Las disposiciones restantes continuarán produciendo efecto. Los
+títulos de los artículos del presente Contrato de licencia destinado al usuario
+final solo tienen un carácter de comodidad y no pueden ser utilizados para
+interpretarlo. Tal como se utilizan en el presente Contrato de licencia
+destinado al usuario final, las palabras "incluidos" se entienden "incluidos,
+pero sin limitarse a ello". El presente Contrato de licencia destinado al
+usuario final constituye la totalidad del acuerdo entre las partes en lo que
+concierne al objeto del presente convenio y reemplaza cualquier contrato,
+acuerdo y comunicación precedentes o contemporáneos, ya fuesen escritos u
+orales. El presente Contrato de licencia destinado al usuario final sólo podrá
+ser enmendado mediante un documento escrito, firmado en el original con tinta,
+por una y otra parte.
+
+
+10. PRODUCTOS
+
+10.1 Los productos de "Clase A" designan los productos principalmente
+utilizados para objetivos de desarrollo.
+
+10.2 Los productos de "Clase B" designan los productos principalmente
+utilizados para ejecutar aplicaciones desarrolladas por medio de productos de
+la "Clase A".
+

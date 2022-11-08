@@ -1,0 +1,30 @@
+{
+  "name": "ModalWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-ModalWidget-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "gbc-ModalWidget-field-height-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-field-height-ratio"
+    },
+    {
+      "name": "gbc-ModalWidget-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Modal"
+    },
+    {
+      "name": "gbc-ModalWidget-button-hover-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    }
+  ]
+}

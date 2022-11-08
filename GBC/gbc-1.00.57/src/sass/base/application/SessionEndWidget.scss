@@ -1,0 +1,43 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_SessionEndWidget {
+  @include fill-absolute(0px);
+  display: flex;
+  flex-direction: column;
+}
+[__SessionEndWidget].mt-card {
+  margin: 16px;
+}
+[__SessionEndWidget].mt-card-richhead {
+  display: flex;
+  align-items: center;
+}
+[__SessionEndWidget].mt-card-header-text {
+        padding-left: 32px;
+      }
+[__SessionEndWidget].session {
+        padding: 32px 16px 16px 16px;
+        margin: 0;
+      }
+[__SessionEndWidget].message {
+        border-bottom: 1px solid $gbc-SessionEndWidget-message-separator;
+      }
+[__SessionEndWidget].message, [__SessionEndWidget].mt-actions {
+  padding: 16px 32px;
+}
+[__SessionEndWidget].mt-action {
+  margin-bottom: 4px;
+  list-style-type: none;
+}
+[__SessionEndWidget].mt-card-actions {
+  margin-bottom: 16px;
+}

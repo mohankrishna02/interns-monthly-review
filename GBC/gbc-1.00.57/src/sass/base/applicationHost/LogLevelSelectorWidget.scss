@@ -1,0 +1,87 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2017)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2017, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_LogLevelSelectorWidget {
+  display: flex;
+  font-family: "Droid Sans Mono", monospace;
+  line-height: 2em;
+
+  > div {
+    border-radius: 4px;
+    min-width: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 4px;
+  }
+
+  > .active, > .active ~ div {
+    background-color: transparent;
+  }
+
+  > .debug {
+    color: white;
+    background-color: $mt-yellow-700;
+  }
+  > .active ~ .debug {
+    color: $mt-yellow-700;
+  }
+
+  > .log {
+    color: white;
+    background-color: $mt-green-400;
+  }
+  > .active ~ .log {
+    color: $mt-green-400;
+  }
+
+  > .info {
+    color: white;
+    background-color: $mt-light-blue-600;
+  }
+  > .active ~ .info {
+    color: $mt-light-blue-600;
+  }
+
+  > .warn {
+    color: white;
+    background-color: $mt-orange-700;
+  }
+  > .active ~ .warn {
+    color: $mt-orange-700;
+  }
+
+  > .error {
+    color: white;
+    background-color: $mt-red-600;
+  }
+  > .active ~ .error {
+    color: $mt-red-600;
+  }
+
+  > .none {
+    color: white;
+    background-color: $mt-grey-800;
+  }
+  > .active ~ .none {
+    color: $mt-grey-800;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .gbc_LogLevelSelectorWidget {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    > div {
+      margin-right: 0;
+      margin-top: 4px;
+    }
+  }
+}

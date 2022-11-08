@@ -1,0 +1,39 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+
+[__EditWidget] {
+  cursor:default;
+  &.noTextSelection input{
+    user-select: none;
+  }
+
+  &.gbc_isPassword{
+    &.gbc_Focus.capsOn:after{
+      @extend .zmdi;
+      content: "\F632"; // shift-lock styled icon
+      position: relative;
+      right: 0;
+      color:$theme-secondary-faded-color;
+    }
+  }
+}
+
+.g_measured [__EditWidget].g_measureable, .g_measured [__DummyEditWidget].g_measureable > input {
+  width:100%;
+}
+
+input[__EditWidget] {
+  font-family:inherit;
+  min-width:0;
+  box-shadow: none;
+  cursor:text;
+}

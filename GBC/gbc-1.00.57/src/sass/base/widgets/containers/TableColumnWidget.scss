@@ -1,0 +1,207 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_TableColumnWidget {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  vertical-align: top;
+  min-height: 1px;
+
+  &.resizing {
+    border-right: solid 1px $gbc-TableWidget-inner-border-color;
+  }
+  &.reordering_right {
+    border-right: dotted 1px $gbc-TableWidget-inner-border-color;
+  }
+  &.reordering_left {
+    border-left: dotted 1px $gbc-TableWidget-inner-border-color;
+  }
+
+  .valueHidden {
+    display: none !important;
+  }
+}
+
+.gbc_TableAfterLastItemZone {
+  flex: 1 0 auto;
+}
+
+[__tableColumnItemWidget]:not(.gbc_TreeAnchor):not(.gbc_TableItemImage) {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: stretch;
+}
+
+[__tableColumnItemWidget].containerElement {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  overflow: hidden;
+
+  > * {
+    flex: 1 1 auto;
+    overflow: hidden;
+  }
+
+  .mt-field {
+    box-shadow: none;
+    border: none;
+  }
+
+  .gbc_WidgetBase {
+    padding: $gbc-TableWidget-margin-ratio*$gbc-TableWidget-table-margin;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    > * {
+     padding: 0;
+    }
+  }
+
+  .gbc_RadioGroupWidget {
+    display: block; // necessary for vertical radiogroup widget
+  }
+
+  .gbc_ImageWidget {
+    position: static; // optimize for ie11
+    box-shadow: none;
+    &.gbc_fixedSvg{
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .gbc_TextEditWidget, .gbc_DummyTextEditWidget {
+    flex-direction: column;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+    .textEditHtml{
+      white-space: normal;
+    }
+  }
+
+  .gbc_ComboBoxWidget {
+    &.disabled, &.readonly {
+      .zmdi.toggle {
+        display: none;
+      }
+    }
+  }
+
+  .gbc_ProgressBarWidget {
+    > * {
+      flex: 1 1 auto;
+    }
+  }
+
+  .gbc_ButtonEditWidget, .gbc_DummyButtonEditWidget{
+    padding: 0;
+    align-items: stretch;
+
+    &.disabled .gbc_ButtonWidget {
+      display: none;
+    }
+
+    .gbc_ButtonWidget, .gbc_EditWidget, input {
+      height: 100%;
+    }
+
+    .gbc_EditWidget {
+      padding: 0;
+      margin: 0 0.5*$gbc-TableWidget-table-margin;
+    }
+
+    .gbc_ImageWidget, img {
+      max-height: 20px;
+      max-width: 20px;
+      padding: 0;
+    }
+  }
+}
+
+.gbc_TableColumnItemWidget {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  .containerElement{
+    background: transparent;
+    color: inherit;
+    fill: inherit;
+    > .mt-label {
+      background: transparent;
+    }
+  }
+}
+
+.gbc_TreeAnchor {
+  @extend .zmdi;
+  &.treeExpanded {
+    @extend .zmdi-#{$gbc-TableWidget-treeview-expanded-icon};
+  }
+  &.treeCollapsed {
+    @extend .zmdi-#{$gbc-TableWidget-treeview-collapsed-icon};
+  }
+  &.treeLeaf {
+    @extend .zmdi-#{$gbc-TableWidget-treeview-leaf-icon};
+  }
+
+  display: flex;
+  flex: 0 0 auto;
+  cursor: default;
+  align-self: center;
+  width: $gbc-TableWidget-font-size-ratio*25px;
+  text-align: center;
+  font-size: 1.8em;
+  padding-right: 0.7em;
+  height:100%;
+}
+
+.gbc_TableItemImage {
+  display: none;
+  flex: 0 0 auto;
+  align-self: center;
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  &.visibleImage{
+    display: flex;
+  }
+  & > .gbc_ImageWidget {
+    margin-left: 2px;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & > img {
+      flex:0 0 auto;
+      display: block;
+    }
+  }
+}
+
+.g_TableMeasuring {
+  position: absolute;
+  left: -10000px;
+  top: -10000px;
+  width: auto !important;
+  height: auto !important;
+
+  .gbc_WidgetBase {
+    width: auto !important;
+    height: auto !important;
+  }
+}
+

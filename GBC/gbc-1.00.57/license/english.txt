@@ -1,0 +1,403 @@
+                        FOUR JS DEVELOPMENT TOOLS
+
+                        END USER LICENSE AGREEMENT
+
+
+This End User License Agreement ("End User License Agreement") is between you,
+either an individual or an entity, ("Licensee" or "You") and Four Js
+Development Tools Ltd. ("Four Js").
+
+BY OPENING THE SEALED MEDIA PACKAGE, CLICKING ON 'ACCEPT' AT THE FOOT OF THIS
+AGREEMENT VIA THE WEB-SITE, USING THE LICENSED SOFTWARE, OR USING THE ACTIVATION
+KEY OF THE LICENSED SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS END USER
+LICENSE AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS. IF YOU DO
+NOT SO AGREE, YOU HAVE NO RIGHTS TO USE THE LICENSED SOFTWARE; INSTEAD YOU MUST
+COMPLY IMMEDIATELY WITH THE PROCEDURES IN SECTION 8.3(ii) BELOW. IF YOU DO NOT
+AGREE TO BE BOUND BY THIS END USER LICENSE AGREEMENT AND HAVE NOT ALREADY USED
+THE LICENSED SOFTWARE, YOU MAY OBTAIN A REFUND UPON YOUR COMPLIANCE WITH THE
+STANDARD RETURN PROCEDURES OF FOUR JS. THIS END USER LICENSE AGREEMENT IS
+EFFECTIVE AS OF THE DATE YOU OPEN THE SEALED MEDIA PACKAGE, USE THE LICENSED
+SOFTWARE, OR USE THE ACTIVATION KEY OF THE LICENSED SOFTWARE (THE "EFFECTIVE
+DATE").
+
+
+1. DEFINITIONS
+
+As used in this End User License Agreement:
+
+"Documentation" means the user manuals (in written or electronic form) provided
+to Licensee along with the Licensed Software.
+
+"Executable Code" means the fully compiled version of a software program that
+can be executed by a computer and used by an end user without further
+compilation.
+
+"Licensed Software" means the software program or programs for which Licensee
+has purchased a license (including, for Licensees of the "Class A" products
+defined in Section 10.1 only, any runtime modules intended for redistribution by
+Licensee (the Redistributables"), and any modified, updated or enhanced versions
+of such programs that Four Js may provide to Licensee pursuant to this End User
+License Agreement or to a separate Service Level Agreement.
+
+"License Activation Key" means the serial number that is purchased by Licensee
+from Four Js and is required to unlock the Licensed Software to make it
+function. The License Activation Key is synonymous with the License.
+
+"Source Code" means the human-readable version of a software program that can be
+compiled into Executable Code.
+
+
+2. LICENSE GRANTS
+
+Subject to Licensee's full compliance with the terms and conditions of this End
+User License Agreement, Four Js grants to Licensee (i) a non-exclusive,
+non-transferable license to use the Licensed Software (in Executable Code form
+only) only in accordance with the Documentation, and to make a single copy of
+the Licensed Software solely for backup or archival purposes; and (ii) (for
+Licensees of the "Class A" products defined in Section 10.1 only) a
+non-exclusive, non-transferable license to use, reproduce, and distribute
+(solely to end users who have purchased appropriate runtime licenses from Four
+Js) the Redistributables (in Executable Code form only) solely as part of an
+application developed by Licensee. Licensee may not distribute Redistributables
+on a standalone basis. The Licensed Software may only be used in accordance with
+the Documentation. Four Js grants to Licensee a non-exclusive, non-transferable
+license to use the Documentation. When applicable, Four Js will communicate a
+new activation key if Licensee certifies in writing that Licensee must install
+the Licensed Software on a new computer because of update, theft, or breakdown.
+This license is granted to Licensee only for the number of concurrent users
+specified in a valid purchase order accepted by Four Js and paid for by
+Licensee. Four Js will make certain Enhancements generally available to
+Licensee provided that Licensee separately subscribes to Support and
+Maintenance. Regardless of such subscription, if Four Js provides Licensee with
+any update of the Licensed Software, Licensee agrees to adopt such update within
+thirty (30) days of the release of each such update. If any such update is
+deemed urgent by Four Js in its reasonable, good faith discretion, Licensee
+shall make every reasonable effort to adopt such urgent update as soon as
+possible. The parties also acknowledge that the License Activation Key is the
+exclusive property of Licensee.
+
+
+3. RESTRICTIONS ON USE
+
+Licensee acknowledges that the Licensed Software and its structure, sequence,
+organization and Source Code constitute valuable trade secrets of Four Js
+and/or its suppliers. Accordingly, except as specifically authorized herein,
+Licensee agrees not to (a) modify, adapt, alter, translate, or create derivative
+works from the Licensed Software; (b) sublicense, lease, rent, loan, disclose,
+or otherwise transfer or allow use of the Licensed Software to or by any third
+party, including outsourcing personnel, (c) reverse engineer, decompile,
+disassemble, or otherwise attempt to derive the Source Code of the Licensed
+Software; or (d) otherwise use or copy the Licensed Software. Notwithstanding
+the foregoing, decompiling the Licensed Software is permitted to the extent the
+laws of Licensee's jurisdiction give Licensee the right to do so to obtain
+information necessary to render the Licensed Software interoperable with other
+software; provided, however, that Licensee must first request such information
+from Four Js and Four Js may, in its discretion, either provide such
+information to Licensee or impose reasonable conditions, including a reasonable
+fee, on such use of the Licensed Software to ensure that Four Js' and its
+suppliers' proprietary rights in the Licensed Software are protected. Licensee
+agrees not to use the license rights granted to the Licensed Software to develop
+or market a product similar to or competitive with the Licensed Software.
+
+
+4. ORDERING, ACCEPTANCE, PRICING AND PAYMENTS
+
+The terms and conditions of Licensee's standard purchase order (or any other
+document submitted) that conflict with or in any way purport to amend any of the
+terms and conditions of this End User License Agreement are hereby specifically
+objected to and will be of no force or effect. Four Js will use commercially
+reasonable efforts to meet the requested delivery availability dates and
+quantities for any purchase order it accepts but reserves the right to reject
+purchase orders. Upon acceptance of a purchase order and download of the
+Licensed Software by Licensee or delivery of a Media Kit by Four Js, Four Js
+shall provide Licensee with applicable software keys authorizing use of the
+Licensed Software. Licensee will be responsible for installing the Licensed
+Software on its computers as permitted under this End User License Agreement.
+The Licensed Software will be deemed accepted upon delivery. If you are
+installing the Licensed Software on behalf of the Licensee listed on a purchase
+order, such Licensee must be the party clicking through the "I Accept" button
+and agreeing to the terms of this End User License Agreement. If you do so on
+behalf of Licensee, you and/or your organization shall be jointly bound by the
+terms of this End User License Agreement and responsible for any breach hereof.
+
+
+5. WARRANTIES
+
+5.1 Performance
+
+(a) For a period of sixty (60) days after shipment of the Licensed Software
+(other than the "Class B" products defined in Section 10.2) to Licensee (the
+"Software Warranty Period"), Four Js warrants that the Licensed Software, when
+used as delivered by Four Js and as permitted under this End User License
+Agreement and in accordance with the Documentation (including use on a computer
+hardware and operating system platform supported by Four Js), will operate
+substantially as described in the Documentation.
+
+(b) For the "Class B" products defined in Section 10.2, Four Js makes no
+warranties, express, implied or statutory. THE "CLASS B" PRODUCTS DEFINED ON
+SECTION 10.2 ARE PROVIDED ON AN AS IS BASIS.
+
+(c) Four Js does not warrant the Licensee's use of the Licensed Software will
+be error free or uninterrupted. Four Js will, at its own expense and as its
+sole obligation and Licensee's exclusive remedy for any breach of the above
+warranty, use commercially reasonable efforts to correct or provide a workaround
+for any reproducible error in the Licensed Software reported to Four Js by
+Licensee in writing during the Software Warranty Period or, if Four Js
+determines in its reasonable business judgment that it is commercially
+impractical to correct the error or provide a workaround, Four Js will refund
+to Licensee the license fee paid for the Licensed Software, in which case this
+End User License Agreement and Licensee's right to use the Licensed Software
+will be terminated. Any error correction, workaround or subsequent code delivery
+provided to Licensee will not extend the original Software Warranty Period.
+
+5.2 Disclaimers. THE EXPRESS WARRANTIES IN THIS SECTION 5 ARE IN LIEU OF ALL
+OTHER WARRANTIES, EXPRESS, IMPLIED, OR STATUTORY, REGARDING THE LICENSED
+SOFTWARE AND DOCUMENTATION, INCLUDING ANY WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS.
+Because some jurisdictions do not permit the exclusion of implied warranties,
+this disclaimer may not apply to you. LICENSEE ACKNOWLEDGES THAT IT HAS RELIED
+ON NO WARRANTIES OTHER THAN THE EXPRESS WARRANTIES IN THIS END USER LICENSE
+AGREEMENT AND THAT FOUR JS SHALL NOT BE BOUND BY ANY WARRANTIES ARE MADE BY ANY
+THIRD PARTY. This warranty gives you specific rights, and you may also have
+other rights that vary by jurisdiction.
+
+
+6. INFRINGEMENT CLAIMS
+
+Four Js will defend at its own expense any action against Licensee brought by a
+third party to the extent that the action is based upon a claim that the
+Licensed Software infringes any such third party's U.S. copyrights or
+misappropriates any such third party's trade secrets recognized as such under
+the Uniform Trade Secret law, and Four Js will pay those costs and damages
+finally awarded against Licensee in any such action that are specifically
+attributable to such claim or those costs and damages agreed to in a monetary
+settlement of such action. The foregoing obligations are conditioned on Licensee
+notifying Four Js promptly in writing of such action, Licensee giving Four Js
+sole control of the defense thereof and any related settlement negotiations, and
+Licensee cooperating and, at Four Js' request and expense, assisting in such
+defense. If the Licensed Software becomes, or in Four Js' opinion is likely to
+become, the subject of an infringement claim, Four Js may, at its option and
+expense, either (a) procure for Licensee the right to continue using the
+Licensed Software, (b) replace or modify the Licensed Software so that it
+becomes non-infringing, or (c) accept return of the Licensed Software and give
+Licensee a refund for the License Fees paid by Licensee less a reasonable
+allowance for the period of time Licensee has used the Licensed Software.
+Notwithstanding the foregoing, Four Js will have no obligation under this
+Section 6 or otherwise with respect to any infringement claim based upon (i) any
+use of the Licensed Software not in accordance with this End User License
+Agreement or for purposes not intended by Four Js, (ii) any use of the Licensed
+Software in combination with other products, equipment, software, or data not
+supplied by Four Js to the extent such combination is the cause of any claim,
+(iii) any use of any release of the Licensed Software other than the most
+current release made available to Licensee, or (iv) any modification of the
+Licensed Software by any person other than Four Js. THIS SECTION 6 STATES FOUR
+JS' ENTIRE LIABILITY AND LICENSEE'S SOLE AND EXCLUSIVE REMEDY FOR INFRINGEMENT
+CLAIMS AND ACTIONS.
+
+
+7. LIMITATION OF LIABILITY
+
+A. Exclusion of Certain Damages. IN NO EVENT WILL FOUR JS BE LIABLE FOR ANY
+CONSEQUENTIAL, INDIRECT, EXEMPLARY, SPECIAL OR INCIDENTAL DAMAGES, INCLUDING ANY
+LOST DATA AND LOST PROFITS, ARISING FROM OR RELATING TO THIS END USER LICENSE
+AGREEMENT. Some states do not allow the exclusion or limitation of incidental or
+consequential damages, so the above limitation or exclusion may not apply to
+you.
+
+B. Liability Limitation. FOUR JS' TOTAL CUMULATIVE LIABILITY IN CONNECTION WITH
+THIS END USER LICENSE AGREEMENT AND THE LICENSED SOFTWARE AND DOCUMENTATION,
+WHETHER IN CONTRACT OR TORT OR OTHERWISE, WILL NOT EXCEED THE AMOUNT OF FEES
+PAID TO FOUR JS HEREUNDER.
+
+C. Critical Control Applications. THE LICENSED SOFTWARE IS NOT INTENDED FOR USE
+IN CONNECTION WITH ANY NUCLEAR, AVIATION, MASS TRANSIT OR MEDICAL APPLICATION OR
+ANY OTHER INHERENTLY DANGEROUS APPLICATION THAT COULD RESULT IN DEATH, PERSONAL
+INJURY, CATASTROPHIC DAMAGE OR MASS DESTRUCTION, AND LICENSEE AGREES THAT FOUR
+JS WILL HAVE NO LIABILITY OF ANY NATURE AS A RESULT OF ANY SUCH USE OF THE
+LICENSED SOFTWARE.
+
+D. Allocation of Risk. LICENSEE ACKNOWLEDGES THAT THE FEES PAID HEREUNDER
+REFLECT THE ALLOCATION OF RISK SET FORTH IN THIS END USER LICENSE AGREEMENT AND
+THAT FOUR JS WOULD NOT ENTER INTO THIS END USER LICENSE AGREEMENT WITHOUT THESE
+LIMITATIONS ON ITS LIABILITY. IN ADDITION, LICENSEE DISCLAIMS ALL LIABILITY OF
+ANY KIND OF FOUR JS' SUPPLIERS.
+
+
+8. TERM AND TERMINATION
+
+8.1 Term. The term of this End User License Agreement will begin on the
+Effective Date and will continue indefinitely unless terminated pursuant to
+Section 8.2.
+
+8.2 Termination. Licensee may terminate this End User License Agreement at any
+time, with or without cause, upon written notice to Four Js. This End User
+License Agreement will automatically terminate if (a) Licensee breaches any
+provision in Section 3 or Section 9.1, or (b) Licensee breaches any other
+provision of this End User License Agreement and does not cure the breach within
+thirty (30) days after receiving written notice thereof from Four Js.
+
+8.3 Effects of Termination. Upon termination of this End User License Agreement
+for any reason, (i) all license rights granted in this End User License
+Agreement will immediately cease to exist, (ii) Licensee must promptly
+discontinue all use of the Licensed Software, erase all copies of the Licensed
+Software from Licensee's computers, and return to Four Js all copies of the
+Licensed Software and Documentation on tangible media in Licensee's possession
+or control and certify in writing to Four Js that it has fully complied with
+these requirements, and (iii) (for Licensees of the "Class A" products defined
+in Section 10.1 only) Licensee must promptly discontinue the use, reproduction,
+and distribution of the Redistributables. Except under the provisions of Section
+5.1(c) and 6(c) of this End User License Agreement, Licensee shall not be
+entitled to any refund of any amounts paid for Licensed Software. Sections 1
+("Definitions"), 3 ("Restrictions on Use"), 5 ("Warranties"), 7 ("Limitation of
+Liability"), 8.3 ("Effects of Termination"), and 9 ("General") of this End User
+License Agreement will survive termination for any reason.
+
+
+9. GENERAL
+
+9.1 Proprietary Rights. As between the parties, the parties acknowledge that the
+Licensed Software and Documentation, and all worldwide intellectual property
+rights therein, are the exclusive property of Four Js and its suppliers. All
+rights in and to the Licensed Software not expressly granted to Licensee in this
+End User License Agreement are reserved by Four Js and its suppliers. Without
+limiting the foregoing, no license to use the trademarks or trade names of Four
+Js or its suppliers is granted hereby. Licensee will not remove, alter, or
+obscure any proprietary notices (including copyright notices) of Four Js or its
+suppliers on the Licensed Software or the Documentation. Licensee acknowledges
+that the Licensed Software contains Confidential Information and valuable trade
+secrets and proprietary information of Four Js, that any actual or threatened
+breach of Section 3 or Sections 9.1 or 9.2 will constitute immediate,
+irreparable harm to Four Js for which monetary damages would be an inadequate
+remedy, and that injunctive relief is an appropriate remedy for such breach. The
+parties also acknowledge that the License Activation Key is the exclusive
+property of Licensee.
+
+9.2 Confidentiality. "Confidential Information" means all information disclosed
+by the one party (the "Disclosing Party") to the other party (the "Receiving
+Party"), including, without limitation, any and all information or proprietary
+materials (in every form and media) which have been or are hereafter disclosed
+and which are not generally known in the relevant trade or industry.
+Confidential Information includes, without limitation, all trade secrets and
+intellectual property rights, and all existing or contemplated products and
+planned features, business plans, pricing, discounts, market research data,
+whether containing historic, current or future-related information, the Licensed
+Software (including any bugs or errors therein), and Documentation.
+"Confidential Information" shall not include information that: (a) is public or
+becomes known to the public through no breach of an obligation of
+confidentiality by the Receiving Party, (b) is independently developed by the
+Receiving Party with no access to the Disclosing Party's Confidential
+Information or (c) is received from a third party not as a result of any breach
+of any party's breach of confidentiality obligation. The Receiving Party may
+disclose Confidential Information of the Disclosing Party to the extent such
+disclosure is required by law, court order or order of a governmental agency
+with jurisdiction; provided that the Receiving Party notifies the Disclosing
+Party prior to such disclosure and gives the Disclosing Party a reasonable
+opportunity to seek a protective order or to contest such requirement. The
+Receiving Party shall treat all Confidential Information as strictly
+confidential, and shall use the same care to prevent disclosure of such
+information as such party uses with respect to its own confidential information,
+which shall in no event be less than a reasonable degree of care. The Receiving
+Party shall: (aa) disclose such Confidential Information to (i) only those
+authorized employees and directors of the Receiving Party whose duties justify
+their need to know such information and who have agreed in writing to maintain
+the confidential and/or proprietary status of such Confidential Information; or
+(ii) only those third parties required for the performance of the Receiving
+Party's obligations under the End User License Agreement pursuant to a written
+agreement containing provisions as least as protective as the confidentiality
+provisions herein; and (bb) use such Confidential Information only in connection
+with the furtherance of the End User License Agreement and for the benefit of
+both parties thereto.
+
+9.3 Privacy Notice. The Licensed Software automatically communicates with
+Four Js servers to check for software updates such as patches, bug fixes,
+upgrades or other improvements. You agree that the Licensed Software may
+automatically check and notify You of the presence of such improvements.
+You may opt out of this service. If you would like to learn more about the
+information we send, please visit https://4js.com/updates/.
+
+9.4 Compliance with Laws. Licensee will comply with all applicable export and
+import control laws and regulations in its use of the Licensed Software and, in
+particular, Licensee will not export or re-export the Licensed Software without
+all required United States and foreign government licenses. Licensee will
+defend, indemnify, and hold harmless Four Js from and against any violation of
+such laws or regulations by Licensee or any of its agents, officers, directors,
+or employees.
+
+9.5 Assignments. Licensee may not assign or transfer, by operation of law or
+otherwise, any of its rights or obligations under this End User License
+Agreement (including its licenses with respect to the Licensed Software) to any
+third party without Four Js' prior written consent except pursuant to a merger,
+sale, acquisition, corporate reorganization or other change of control event of
+Licensee in its entirety. Any attempted assignment or transfer in violation of
+the foregoing will be void. Four Js may transfer or assign this End User
+License Agreement in connection with any merger, sale, acquisition,
+consolidation, corporate reorganization or change of control event, including
+sale of any or all of the assets to which this End User License Agreement might
+relate.
+
+9.6 U.S. Government End Users. If Licensee is a branch or agency of the United
+States Government, the following provision applies. The Licensed Software and
+Documentation are comprised of "commercial computer software" and "commercial
+computer software documentation" as such terms are used in 48 C.F.R. 12.212
+(SEPT 1995) and are provided to the Government (i) for acquisition by or on
+behalf of civilian agencies, consistent with the policy set forth in 48 C.F.R.
+12.212; or (ii) for acquisition by or on behalf of units of the Department of
+Defense, consistent with the policies set forth in 48 C.F.R. 227.7202-1 (JUN
+1995) and 27.7202-3 (JUN 1995).
+
+9.7 Notices. All notices, consents and approvals under this End User License
+Agreement must be delivered in writing by courier, by electronic facsimile
+(fax), or by certified or registered mail, (postage prepaid and return receipt
+requested) to the other party, and will be effective upon receipt or three (3)
+business days after being deposited in the mail as required above, whichever
+occurs sooner.
+
+9.8 Governing Law and Venue. This End User License Agreement will be governed by
+the laws of California, as such laws apply to contracts between California
+residents to be performed entirely within California. The United Nations
+Convention on Contracts for the International Sale of Goods does not apply to
+this End User License Agreement. You agree that any action or proceeding arising
+from or relating to this End User License Agreement brought by you must be
+brought in a court in California , and each party irrevocably submits to the
+jurisdiction and venue of any such court in any such action or proceeding.
+Notwithstanding the foregoing: (i) You consent to entry and execution of any
+judgment against You in any jurisdiction where You conduct or maintain business
+or assets; and, (ii) You agree that Four Js may bring an action against You in
+any jurisdiction it elects for the purpose of enforcing its rights under this
+End User License Agreement and/or related to its intellectual property rights.
+
+9.9 Remedies. Except as provided in Sections 5 and 6 above, the parties' rights
+and remedies under this End User License Agreement are cumulative. If any legal
+action is brought to enforce this End User License Agreement, the prevailing
+party will be entitled to receive its attorneys' fees, court costs and other
+collection expenses, in addition to any other relief it may receive.
+
+9.10 Maintenance or Support. Four Js is not required to provide any maintenance
+or support services to any party under this End User License Agreement.
+Maintenance and support, to the extent offered, shall be under a separate
+Service Level Agreement.
+
+9.11 Miscellaneous. All waivers must be in writing. Any waiver or failure to
+enforce any provision of this End User License Agreement on one occasion will
+not be deemed a waiver of any other provision or of such provision on any other
+occasion. If any provision of this End User License Agreement is unenforceable,
+such provision will be changed and interpreted to accomplish the objectives of
+such provision to the greatest extent possible under applicable law and the
+remaining provisions will continue in full force and effect. The headings of
+sections of this End User License Agreement are for convenience and are not to
+be used in interpreting this End User License Agreement. As used in this End
+User License Agreement, the word "including" means "including but not limited
+to." This End User License Agreement constitutes the entire agreement between
+the parties regarding the subject hereof and supersedes all prior or
+contemporaneous agreements, understandings, and communication, whether written
+or oral. This End User License Agreement may be amended only by a written
+document originally signed in ink by both parties.
+
+
+10. PRODUCTS
+
+10.1 "Class A" products are the products primarily used for development
+purposes.
+
+10.2 "Class B" products are the products primarily used to deploy applications
+developed with "Class A" products.

@@ -1,0 +1,108 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ComboBoxWidget {
+  display: flex;
+  padding: $gbc-ComboBoxWidget-padding;
+
+  cursor:pointer;
+
+  .g_measured & {
+    .gbc_EditWidget.mt-field input {
+      width: 0;
+      font-family: inherit;
+      flex:1 1 0px;
+    }
+  }
+}
+
+.dd_ComboBoxWidget {
+  .gbc_WidgetBase_standalone {
+    background-color: $gbc-ComboBoxWidget-background-color;
+  }
+}
+
+[__ComboBoxWidget].toggle{
+  @extend .zmdi-#{$gbc-ComboBoxWidget-toggle-icon};
+
+  &.dd-open{
+    @extend .zmdi-#{$gbc-ComboBoxWidget-toggle-open-icon};
+  }
+
+  line-height: 1em;
+  padding-top: $gbc-ComboBoxWidget-padding;
+  padding-bottom: $gbc-ComboBoxWidget-padding;
+  align-content: flex-start;
+  flex: 0 0 auto;
+  text-align: right;
+  color: $gbc-ComboBoxWidget-color;
+  font-size: $gbc-ComboBoxWidget-toggle-size;
+
+  .disabled &{
+    cursor: default;
+  }
+}
+
+.gbc_LabelWidget{
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+
+[__ComboBoxWidget].mt-field {
+  background-color: $gbc-ComboBoxWidget-background-color;
+
+  &.disabled {
+    background-color: $theme-disabled-color;
+
+    .mt-field {
+      background-color: $theme-disabled-color;
+    }
+  }
+}
+
+[__ComboBoxWidget] {
+  padding-right: $gbc-ComboBoxWidget-padding;
+  &:hover {
+    cursor: pointer;
+  }
+  .mt-field:hover {
+    cursor: pointer;
+  }
+
+  &.placeholder{
+    color: $gbc-ComboBoxWidget-placeholder-color;
+  }
+  .gbc_EditWidget.mt-field {
+    background-color: $gbc-ComboBoxWidget-background-color;
+    border: none;
+    box-shadow: none;
+    min-height: auto;
+    width: 0;
+    flex:1 1 0px;
+    input{ //Ne pas mettre de background color ici
+      padding: 0 $mt-field-input-padding-left;
+    }
+    .g_measuring & {
+      width: auto;
+      flex:1 1 auto;
+    }
+  }
+
+  > [__EditWidget] {
+    .gbc_dataContentMeasure{
+      padding-right: $gbc-ComboBoxWidget-padding + 1px;
+    }
+  }
+}
+[__DropdownWidget] [__CheckboxWidget]{
+  cursor: pointer;
+}

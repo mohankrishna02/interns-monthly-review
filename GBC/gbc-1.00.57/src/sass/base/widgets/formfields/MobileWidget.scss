@@ -1,0 +1,48 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+/*
+ * Use this class to hide native input and replace it
+ * by a text controled by attributes : data-date and data-time
+ */
+
+.gbc_MobileWidget{
+  input{
+    vertical-align: middle;
+  }
+
+  .widget-decoration {
+    padding-right: $gbc-DateEdit-margin-ratio*6px;
+    font-size: $theme-font-size-ratio *1em;
+  }
+  .gbc_dataContentPlaceholder{
+    width: 100%;
+    overflow: hidden;
+  }
+
+  input::-webkit-inner-spin-button,
+  input::-webkit-clear-button ,
+  input::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+  }
+
+
+  body.is-ios & input[readonly="readonly"]{
+    pointer-events: none;
+  }
+
+  input[type="date"],
+  input[type="time"] {
+    -webkit-appearance: none;
+  }
+
+}

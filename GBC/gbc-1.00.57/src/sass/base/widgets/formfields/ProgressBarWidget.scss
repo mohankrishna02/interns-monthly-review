@@ -1,0 +1,94 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ProgressBarWidget {
+  display: flex;
+  align-items: center;
+
+  > div {
+    position: relative;
+    > div {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background-color: $gbc-ProgressBarWidget-color;
+      width: 0;
+      transition: width 0.4s;
+    }
+  }
+
+  /* Arabic */
+  &.reverse{
+    > div > div {
+      left: auto;
+      right: 0;
+    }
+  }
+
+  &.mt-progress {
+    .mt-progress-bar{
+      flex: 1 1 auto;
+      margin:0;
+    }
+  }
+
+  .mt-progress-bar-percentage{
+    display: none;
+    position: relative;
+    width: 100%;
+    top: -5px;
+    background: none;
+
+    &.percentage-center {
+      display: inherit;
+      text-align: center;
+      margin: 0 auto;
+    }
+    &.percentage-left {
+      display: inherit;
+      text-align: left;
+    }
+    &.percentage-right {
+      display: inherit;
+      text-align: right;
+    }
+
+    span{
+      background: rgba(255, 255, 255, 0.88);
+      padding: 0 3px;
+      border-radius: 2px;
+      &:after {
+        content: '%';
+      }
+    }
+  }
+
+
+  &.g_measuring &.g_measureable{
+    .mt-progress-bar-percentage {
+      display: inherit;
+    }
+  }
+
+  //Progress bar currentRow exception
+  .currentRow & {
+    .mt-progress-bar {
+      background-color: $mt-progress-background-color !important;
+    }
+    .mt-progress-level {
+      background-color: $mt-progress-alternate-color !important;
+    }
+    .mt-progress-bar-percentage span{
+      color: $gbc-ProgressBarWidget-color;
+    }
+  }
+}

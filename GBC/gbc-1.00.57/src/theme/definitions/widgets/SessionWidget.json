@@ -1,0 +1,56 @@
+{
+  "name": "session",
+  "title": "Session level specific variables",
+  "description": "Configure variables specific to Session",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-SessionEndWidget-message-separator",
+      "title": "Gbc SessionEndWidget message separator",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$palette-text-secondary-12"
+    },
+    {
+      "name": "gbc-SessionLogPromptWidget-color",
+      "title": "Gbc SessionLogPromptWidget color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-color"
+    },
+    {
+      "name": "gbc-SessionLogPromptWidget-background-color",
+      "title": "Gbc SessionLogPromptWidget background color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-color"
+    },
+    {
+      "name": "gbc-SessionLogPromptWidget-z-index",
+      "title": "Gbc SessionLogPromptWidget z index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-LogPrompt"
+    },
+    {
+      "name": "gbc-SessionLogPromptWidget-button-height",
+      "title": "Gbc SessionLogPromptWidget button height",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-field-default-height"
+    },
+    {
+      "name": "gbc-WaitingWidget-color",
+      "title": "Gbc WaitingWidget color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-color"
+    },
+    {
+      "name": "gbc-WaitingWidget-background-color",
+      "title": "Gbc WaitingWidget background color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-disabled-background-color"
+    }
+  ]
+}

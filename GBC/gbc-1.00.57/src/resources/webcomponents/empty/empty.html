@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<!--
+   FOURJS_START_COPYRIGHT(D,2014)
+   Property of Four Js*
+   (c) Copyright Four Js 2014, 2019. All Rights Reserved.
+   * Trademark of Four Js Development Tools Europe Ltd
+     in the United States and elsewhere
+
+   This file can be modified by licensees according to the
+   product manual.
+   FOURJS_END_COPYRIGHT
+ -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+  </head>
+  <body>
+    <script>
+      var onICHostReady = function(version) {
+
+        gICAPI.onData = function(content) {
+        };
+
+        gICAPI.onFocus = function(polarity) {
+        };
+
+        // set property of the editor
+        gICAPI.onProperty = function(property) {
+        };
+      };
+
+      var href = window.location.href;
+      var field = "autoclose";
+      var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
+      var string = reg.exec(href);
+
+      if(string && parseInt(string[1]) === 1) {
+        window.setTimeout(function () {
+          console.log("close window");
+          window.close();
+        }, 1000);
+      }
+    </script>
+  </body>
+</html>

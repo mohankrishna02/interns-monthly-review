@@ -1,0 +1,19 @@
+{
+  "name": "SplitterWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-SplitterWidget-hover-color",
+      "title": "SplitterWidget hover color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$mt-light-grey-200"
+    },
+    {
+      "name": "gbc-SplitterWidget-splitter-size",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-splitter-size"
+    }
+  ]
+}

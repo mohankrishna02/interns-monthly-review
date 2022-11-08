@@ -1,0 +1,232 @@
+{
+  "name": "material-color-const",
+  "title": "Material color constants",
+  "description": "Predefined material base colors for theming",
+  "type": "group",
+  "contents": [{
+      "name": "mt-white",
+      "title": "Material White",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "mt-black",
+      "title": "Material Black",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#000000"
+    },
+    {
+      "name": "mt-text-white",
+      "title": "Material Text white",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-text-color",
+      "value": "$mt-white"
+    },
+    {
+      "name": "mt-text-black",
+      "title": "Material Text Black",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-text-color",
+      "value": "$mt-grey-900"
+    },
+    {
+      "name": "mt-red",
+      "title": "Material Red",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#f44336"
+    },
+    {
+      "name": "mt-pink",
+      "title": "Material Pink",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#e91e63"
+    },
+    {
+      "name": "mt-purple",
+      "title": "Material Purple",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#9c27b0"
+    },
+    {
+      "name": "mt-deep-purple",
+      "title": "Material Deep Purple",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#673ab7"
+    },
+    {
+      "name": "mt-indigo",
+      "title": "Material Indigo",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#3f51b5"
+    },
+    {
+      "name": "mt-blue",
+      "title": "Material Blue",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#2196f3"
+    },
+    {
+      "name": "mt-light-blue",
+      "title": "Material Light Blue",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#03a9f4"
+    },
+    {
+      "name": "mt-cyan",
+      "title": "Material Cyan",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#00bcd4"
+    },
+    {
+      "name": "mt-teal",
+      "title": "Material Teal",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#009688"
+    },
+    {
+      "name": "mt-green",
+      "title": "Material Green",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#4caf50"
+    },
+    {
+      "name": "mt-light-green",
+      "title": "Material Light Green",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#8bc34a"
+    },
+    {
+      "name": "mt-lime",
+      "title": "Material Lime",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#cddc39"
+    },
+    {
+      "name": "mt-yellow",
+      "title": "Material Yellow",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#ffeb3b"
+    },
+    {
+      "name": "mt-amber",
+      "title": "Material Amber",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#ffc107"
+    },
+    {
+      "name": "mt-orange",
+      "title": "Material Orange",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#ff9800"
+    },
+    {
+      "name": "mt-deep-orange",
+      "title": "Material Deep Orange",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#ff5722"
+    },
+    {
+      "name": "mt-brown",
+      "title": "Material Brown",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#795548"
+    },
+    {
+      "name": "mt-grey",
+      "title": "Material Grey",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#9e9e9e"
+    },
+    {
+      "name": "mt-light-grey",
+      "title": "Material Light Grey",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#9e9e9e"
+    },
+    {
+      "name": "mt-lighter-grey",
+      "title": "Material Lighter Grey",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#CCCCCC"
+    },
+    {
+      "name": "mt-blue-grey",
+      "title": "Material Blue Grey",
+      "description": "Material color and generated palette.",
+      "const": true,
+      "type": "color",
+      "generator": "material-color",
+      "value": "#607d8b"
+    }
+  ]
+}

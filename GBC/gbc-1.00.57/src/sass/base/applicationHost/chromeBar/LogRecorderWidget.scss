@@ -1,0 +1,41 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2019)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2019, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_LogRecorderWidget{
+  display: flex;
+  color: #ffe6e4;
+  font-style: italic;
+
+  &:hover{
+    cursor: pointer;
+  }
+
+  span {
+    font-size: 3em;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation: pulse 1s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      color: #FF7068;
+    }
+    50% {
+      color: #FF0000;
+    }
+    100% {
+      color: #FF7068;
+    }
+  }
+}
+

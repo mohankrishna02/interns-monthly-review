@@ -1,0 +1,47 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+
+.gbc_ChromeBarItemFilterWidget {
+
+  .gbc_Filter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    padding-left: $gbc-ChromeBarWidget-item-spacing / 2;
+    padding-right: $gbc-ChromeBarWidget-item-spacing / 2;
+    width: 45%;
+    background-color: $mt-toolbar-background-color;
+    height: $mt-toolbar-item-height;
+    align-items: center;
+    z-index:  $gbc-UserInterfaceWidget-bars-container-z-index + 1;
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: $mt-toolbar-color;
+      opacity: 0.8;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: $mt-toolbar-color;
+      opacity: 0.8;
+    }
+
+    input {
+      flex: 1 0 auto;
+      background-color: $mt-toolbar-background-color;
+      border-bottom: 1px solid $mt-toolbar-separator-color;
+      margin-left: $gbc-ChromeBarWidget-item-spacing / 2;
+      max-width: 85%;
+    }
+  }
+}
+

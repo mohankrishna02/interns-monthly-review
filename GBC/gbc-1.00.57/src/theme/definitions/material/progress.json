@@ -1,0 +1,30 @@
+{
+  "name": "mt-progress",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "mt-progress-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-faded-background-color"
+    },
+    {
+      "name": "mt-progress-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-emphasis-background-color"
+    },
+    {
+      "name": "mt-progress-alternate-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    },
+    {
+      "name": "mt-progress-height",
+      "description": "",
+      "type": "size",
+      "defaultValue": "4px"
+    }
+  ]
+}

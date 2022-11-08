@@ -1,0 +1,47 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_WidgetBase {
+  &:focus{
+    outline:none;
+  }
+  &.gbc_WidgetBase_defaultwidth {
+    width: 120px;
+  }
+  &.gbc_WidgetBase_autoheight {
+    width: auto;
+  }
+  .g_measuring .gbc_FormWidget &.g_measureable {
+    display: inline-flex !important;
+  }
+}
+
+.gbc_HLineWidget {
+  border-top: 1px solid $gbc-HLineWidget-color;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+.measureHelper {
+  border:0 !important;
+  margin:0 !important;
+  padding: 0 !important;
+  width:1em !important;
+  height:1em !important;
+  min-width:1em !important;
+  min-height:1em !important;
+  max-width:1em !important;
+  max-height:1em !important;
+  display: inline-block !important;
+  flex:0 0 auto !important;
+}

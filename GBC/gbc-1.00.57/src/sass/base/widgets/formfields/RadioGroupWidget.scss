@@ -1,0 +1,75 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_RadioGroupWidget, .gbc_DummyRadioGroupWidget {
+  display: inline-flex;
+  white-space: nowrap;
+  cursor: default;
+  
+  .gbc_RadioGroupItem {
+    align-items: center;
+    display: inline-flex;
+
+    > span {
+      margin: 0 $gbc-RadioGroupWidget-margin-ratio*8px;
+    }
+    margin: 2px 0;
+    padding: 2px;
+
+    &:focus {
+      outline: none;
+    }
+
+  }
+  span {
+    white-space: nowrap;
+  }
+  &.gbc_RadioGroupWidget_vertical, &.gbc_DummyRadioGroupWidget_vertical{
+    flex-direction: column;
+    > .gbc_RadioGroupItem {
+      display: flex;
+    }
+    .g_measuring &.g_measureable {
+      flex-direction: column;
+    }
+  }
+
+  &.gbc_Focus{
+    .gbc_RadioGroupItem.aimed{
+      outline: $mt-field-focus-border-width-bottom dotted $gbc-RadioGroupWidget-focus-border-color;
+    }
+  }
+
+  .zmdi{
+    font-size: 3+$gbc-RadioGroupWidget-radiobutton-size;
+    color: $gbc-RadioGroupWidget-unchecked-color;
+    @extend .zmdi-#{$gbc-RadioGroupWidget-unchecked-icon};
+
+    &.unchecked {
+      @extend .zmdi-#{$gbc-RadioGroupWidget-unchecked-icon};
+    }
+
+    &.checked{
+      @extend .zmdi-#{$gbc-RadioGroupWidget-checked-icon};
+      color: $gbc-RadioGroupWidget-checked-color;
+    }
+
+    &.disabled{
+      color: $gbc-RadioGroupWidget-disabled-color;
+    }
+  }
+
+  &.disabled{
+    .zmdi {
+      color: $gbc-RadioGroupWidget-disabled-color;
+    }
+  }
+}

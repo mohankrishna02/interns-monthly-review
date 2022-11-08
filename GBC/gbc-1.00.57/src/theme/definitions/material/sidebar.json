@@ -1,0 +1,84 @@
+{
+  "name": "mt-sidebar",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "mt-sidebar-always-visible-min-width",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-sidebar-always-visible-min-width"
+    },
+    {
+      "name": "mt-sidebar-default-width",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-sidebar-default-width"
+    },
+    {
+      "name": "mt-sidebar-splitter-size",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-splitter-size"
+    },
+    {
+      "name": "mt-sidebar-item-height",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-host-action-default-height"
+    },
+    {
+      "name": "mt-sidebar-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "mt-sidebar-font-size-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-font-size-ratio"
+    },
+    {
+      "name": "mt-sidebar-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-alternative-background-color"
+    },
+    {
+      "name": "mt-sidebar-item-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    },
+    {
+      "name": "mt-sidebar-overlay-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-overlay-background-color"
+    },
+    {
+      "name": "mt-sidebar-resizer-hover-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "mt-sidebar-overlay-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-DropDown"
+    },
+    {
+      "name": "mt-sidebar-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-above-DropDown"
+    },
+    {
+      "name": "mt-sidebar-animation-duration",
+      "description": "",
+      "type": "string",
+      "defaultValue": "$theme-animation-duration"
+    }
+  ]
+}

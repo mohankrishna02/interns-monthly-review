@@ -1,0 +1,46 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_SessionSidebarWindowItemWidget {
+    display: flex;
+    flex-direction: row;
+    line-height: $gbc-SessionSidebarWindowItemWidget-height;
+    > a {
+      flex: 1 1 auto;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  &.activeWindow .applicationName {
+    font-weight: bold;
+  }
+  &.visibleWindow .windowName{
+    font-weight: bold;
+  }
+
+  .windowIcon {
+    display: flex;
+    align-items: center;
+
+    .gbc_ImageWidget {
+      fill: $gbc-ApplicationHostMenuWidget-sidebar-item-color;
+      margin-right: $gbc-ApplicationHostMenuWidget-margin-ratio*4px;
+    }
+  }
+
+  &:not(.activeWindow) > span.close, &:not(.closableWindow) > span.close{
+    @include vanished();
+  }
+}
+
+span.close{
+  cursor:pointer;
+}

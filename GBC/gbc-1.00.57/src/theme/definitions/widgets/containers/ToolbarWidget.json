@@ -1,0 +1,36 @@
+{
+  "name": "ToolbarWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-ToolBarWidget-trigger-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    },
+    {
+      "name": "gbc-ToolBarWidget-font-size-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-font-size-ratio"
+    },
+    {
+      "name": "gbc-ToolBarWidget-hover-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-faded-background-color"
+    },
+    {
+      "name": "gbc-ToolBarSeparatorWidget-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "gbc-ToolBarItemWidget-icon-size",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-small-icon-size"
+    }
+  ]
+}

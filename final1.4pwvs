@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceViewState version="1.0">
+  <ExpandedNodes>
+    <Node path="final1.4pw" type="pm/main-project"/>
+    <Node path="final1.4pw/Group" type="pm/group"/>
+    <Node path="final1.4pw/Group/Application" type="pm/application"/>
+    <Node path="final1.4pw/Group/Application/details" type="pm/virtual-folder"/>
+  </ExpandedNodes>
+  <OpenDocuments>
+    <Document container="true" filePath="project.4db" locator="" module="mod-db3"/>
+    <Document container="true" filePath="trans.4gl" locator="31:1" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+    <Document container="true" filePath="transper.per" locator="1:1" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+    <Document container="true" filePath="details.4gl" locator="1:1" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+  </OpenDocuments>
+  <CurrentDocument filePath="details.4gl" module="mod-ce3"/>
+</WorkspaceViewState>

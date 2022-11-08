@@ -1,0 +1,54 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2019)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2019, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_LogInfoWidget {
+  overflow: auto;
+  height: 100%;
+
+  .panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  }
+  .panel-primary {
+    border-color: $theme-separator-color;
+    &>.panel-heading {
+      color: $gbc-AccordionFolderWidget-color;
+      background-color: $gbc-AccordionFolderWidget-background-color;
+      border-color: $theme-separator-color;
+    }
+    .panel-heading {
+      padding: 10px 15px;
+      border-bottom: 1px solid transparent;
+      border-top-right-radius: 3px;
+      border-top-left-radius: 3px;
+    }
+  }
+  .panel-body {
+    padding: 15px;
+  }
+
+  ul{
+    list-style: none;
+    li{
+      padding: 2px;
+      .title {
+        font-weight: bold;
+      }
+      .value {
+        color: #06A4D3;
+      }
+    }
+  }
+}

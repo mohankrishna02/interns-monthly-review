@@ -1,0 +1,115 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+@import "../../../node_modules/@mdi/font/scss/variables";
+@import "../../../node_modules/@mdi/font/scss/functions";
+@import "../../../node_modules/@mdi/font/scss/path";
+@import "../../../node_modules/@mdi/font/scss/core";
+@import "../../../node_modules/@mdi/font/scss/extras";
+@import "../../../node_modules/@mdi/font/scss/animated";
+
+.#{$mdi-css-prefix},
+.#{$mdi-css-prefix}-set {
+  font: normal normal normal #{$mdi-font-size-base}/1 '#{$mdi-font-name}';
+  font-size: inherit;
+  display: inline-block;
+}
+.#{$mdi-css-prefix}:before{
+  display: inline;
+}
+$gbc-mdi-icons:
+        "chevron-left" "chevron-right" "chevron-up" "chevron-down" "drag-vertical" "drag-horizontal" "dots-vertical"
+        "checkbox-marked" "minus-box" "radiobox-marked" "radiobox-blank" "swap-vertical" "close" "close-circle" "menu" "menu-down"
+        "repeat" "settings" "backup-restore" "debug-step-over" "play" "pause" "fast-forward" "information"
+        "bookmark" "bookmark-outline" "memory" "lan-connect" "file-document" "upload" "delete" "undo"
+        "restore" "notification-clear-all" "resize-bottom-right" "checkbox-blank-outline" "clock-outline" "calendar-blank" "calendar-clock" "apple-keyboard-caps"
+        "menu-right" "menu-down" "filter-variant" "arrow-left";
+
+@each $key in $gbc-mdi-icons {
+  @if(map_has_key($mdi-icons,$key)) {
+    .#{$mdi-css-prefix}-#{$key}:before {
+      content: char(map_get($mdi-icons,$key));
+    }
+  } @else {
+    @error "cannot find icon #{$key}";
+  }
+}
+@each $key in $mdi-cust-icons {
+  @if($key != "") {
+    @if(map_has_key($mdi-icons,$key)) {
+      .#{$mdi-css-prefix}-#{$key}:before {
+        content: char(map_get($mdi-icons,$key));
+      }
+    } @else {
+      @error "cannot find icon #{$key}";
+    }
+  }
+}
+
+.#{$mdi-css-prefix}-blank:before {
+  content: "\F68C";
+  visibility: hidden;
+}
+
+.#{$mdi-css-prefix}-hc-lg {
+  font-size: (4em / 3);
+  line-height: (3em / 4);
+  vertical-align: -15%;
+}
+.#{$mdi-css-prefix}-hc-2x {
+  font-size: 2em;
+}
+.#{$mdi-css-prefix}-hc-3x {
+  font-size: 3em;
+}
+.#{$mdi-css-prefix}-hc-4x {
+  font-size: 4em;
+}
+.#{$mdi-css-prefix}-hc-5x {
+  font-size: 5em;
+}
+
+@import "mixins";
+
+@import "components/button";
+@import "components/dialog";
+@import "components/card";
+@import "components/field";
+@import "components/list";
+@import "components/progress";
+@import "components/sidebar";
+@import "components/tabs";
+@import "components/toolbar";
+
+
+.md-empty:before{
+  content: "\f299";
+  visibility: hidden;
+}
+
+.mt-top-separator {
+  border-top: solid 1px $theme-separator-color;
+}
+
+.mt-side-by-side {
+  @include flexible_host_stretch_row;
+  > * {
+    @include flexible_guest_stretch;
+    flex:1 1 50%;
+  }
+}
+
+.mt-as-link {
+  cursor:pointer;
+}
+
+
+@import "components/responsive";

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="main" build="3.20.08" sqlDbName="project" width="94" height="11">
+  <ActionDefaultList>
+    <ActionDefault name="exit" text="exit" image="exit"/>
+  </ActionDefaultList>
+  <VBox>
+    <HBox>
+      <VBox>
+        <Grid width="43" height="6">
+          <Label text="                        " posY="0" posX="2" gridWidth="26"/>
+          <Label name="label2" width="6" text="YOUR DETAILS" style="mystyle" posY="0" posX="34" gridWidth="6"/>
+          <Label text="                        " posY="1" posX="2" gridWidth="26"/>
+          <Label text="          " posY="1" posX="30" gridWidth="12"/>
+          <Label text="                        " posY="2" posX="2" gridWidth="26"/>
+          <Image name="details_img" width="12" image="details.png" posY="2" posX="30" gridWidth="12"/>
+          <Label text="                        " posY="3" posX="2" gridWidth="26"/>
+          <Label text="          " posY="3" posX="30" gridWidth="12"/>
+          <Label text="                        " posY="4" posX="2" gridWidth="26"/>
+          <Button name="details" width="12" comment="click on details" style="mystyle" text="DETAILS" posY="4" posX="30" gridWidth="12" tabIndex="1"/>
+        </Grid>
+      </VBox>
+      <VBox>
+        <Grid width="45" height="5">
+          <Label text="                        " posY="0" posX="2" gridWidth="26"/>
+          <Label name="label3" width="6" text="INTERN DETAILS" style="mystyle" posY="0" posX="34" gridWidth="6"/>
+          <Label text="                        " posY="1" posX="2" gridWidth="26"/>
+          <Label text="            " posY="1" posX="30" gridWidth="14"/>
+          <Label text="                        " posY="2" posX="2" gridWidth="26"/>
+          <Image name="intern_img" width="14" image="intern.jpg" posY="2" posX="30" gridWidth="14"/>
+          <Label text="                        " posY="3" posX="2" gridWidth="26"/>
+          <Label text="            " posY="3" posX="30" gridWidth="14"/>
+          <Label text="                        " posY="4" posX="2" gridWidth="26"/>
+          <Button name="intern" width="14" comment="click on intern" style="mystyle" text="INTERN" posY="4" posX="30" gridWidth="14" tabIndex="2"/>
+        </Grid>
+      </VBox>
+    </HBox>
+    <HBox>
+      <VBox>
+        <Grid width="47" height="5">
+          <Label text="                        " posY="0" posX="2" gridWidth="26"/>
+          <Label name="label4" width="6" text="MENTOR DETAILS" style="mystyle" posY="0" posX="35" gridWidth="6"/>
+          <Label text="                        " posY="1" posX="2" gridWidth="26"/>
+          <Label text="              " posY="1" posX="30" gridWidth="16"/>
+          <Label text="                        " posY="2" posX="2" gridWidth="26"/>
+          <Image name="mentor_img" width="16" image="mentor.jpg" posY="2" posX="30" gridWidth="16"/>
+          <Label text="                        " posY="3" posX="2" gridWidth="26"/>
+          <Label text="              " posY="3" posX="30" gridWidth="16"/>
+          <Label text="                        " posY="4" posX="2" gridWidth="26"/>
+          <Button name="mentor" width="16" comment="click on mentor" style="mystyle" text="MENTOR" posY="4" posX="30" gridWidth="16" tabIndex="3"/>
+        </Grid>
+      </VBox>
+      <VBox>
+        <Grid width="47" height="5">
+          <Label text="                        " posY="0" posX="2" gridWidth="26"/>
+          <Label name="label9" width="7" text="TRANSACTION DETAILS" style="mystyle" posY="0" posX="35" gridWidth="7"/>
+          <Label text="                        " posY="1" posX="2" gridWidth="26"/>
+          <Label text="              " posY="1" posX="30" gridWidth="16"/>
+          <Label text="                        " posY="2" posX="2" gridWidth="26"/>
+          <Image name="trans_img" width="16" image="transaction.png" posY="2" posX="30" gridWidth="16"/>
+          <Label text="                        " posY="3" posX="2" gridWidth="26"/>
+          <Label text="              " posY="3" posX="30" gridWidth="16"/>
+          <Label text="                        " posY="4" posX="2" gridWidth="26"/>
+          <Button name="transaction" width="16" comment="click on transaction" style="mystyle" text="TRANSACTION" posY="4" posX="30" gridWidth="16" tabIndex="4"/>
+        </Grid>
+      </VBox>
+    </HBox>
+  </VBox>
+</Form>

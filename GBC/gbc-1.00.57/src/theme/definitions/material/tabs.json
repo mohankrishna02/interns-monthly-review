@@ -1,0 +1,30 @@
+{
+  "name": "mt-tabs",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "mt-tabs-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "mt-tabs-font-size-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-font-size-ratio"
+    },
+    {
+      "name": "mt-tabs-tab-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal"
+    },
+    {
+      "name": "mt-tabs-tab-current-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-above-Normal"
+    }
+  ]
+}

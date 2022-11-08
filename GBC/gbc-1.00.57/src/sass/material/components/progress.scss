@@ -1,0 +1,39 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.mt-progress{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  .mt-progress-bar {
+    transition: height 0.3s;
+    height: $mt-progress-height;
+    background-color: $mt-progress-background-color;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    position: relative;
+    .mt-progress-level {
+      background-color: $mt-progress-color;
+      width: 0;
+      height: 100%;
+      transition: width 0.3s, box-shadow 0.3s;
+      &.running {
+        box-shadow: 1px 1px 1px 1px $mt-progress-color;
+      }
+      &.mt-progress-level-unknown {
+        width: 100%;
+      }
+    }
+  }
+  &.running > .mt-progress-bar {
+    height: $mt-progress-height;
+  }
+
+}

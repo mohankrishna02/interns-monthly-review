@@ -1,0 +1,36 @@
+{
+  "name": "ButtonWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-ButtonWidget-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "gbc-ButtonWidget-font-size-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-font-size-ratio"
+    },
+    {
+      "name": "gbc-ButtonWidget-default-height",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-field-default-height"
+    },
+    {
+      "name": "gbc-ButtonWidget-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-color"
+    },
+    {
+      "name": "gbc-ButtonWidget-focus-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-emphasis-background-color"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "DateEditWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-DateEdit-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "gbc-DateEdit-field-height-ratio",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-field-height-ratio"
+    },
+    {
+      "name": "gbc-DateEdit-font-size-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-font-size-ratio"
+    },
+    {
+      "name": "gbc-DateEdit-daysOff-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-faded-color"
+    }
+  ]
+}

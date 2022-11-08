@@ -1,0 +1,190 @@
+{
+  "gwc": {
+    "lngName": "Deutsch",
+    "app": {
+      "ending": {
+        "title": "Die Anwendung wurde beendet",
+        "session": "Session ID",
+        "redirect": "Your session has ended. You will be automatically redirected in a few seconds."
+      },
+      "notFound": {
+        "title": "Die Anwendung nicht gefunden",
+        "message": "Die Anwendung __appId__ startete nicht, weil sie nicht gefunden wurde.<br>"
+      },
+      "error": {
+        "message": "In der Anwendung ist ein Problem aufgetreten"
+      },
+      "forbidden": {
+        "message": "Unberechtiger Zugriff"
+      },
+      "webcompNotFound": {
+        "message": "Webcomponent not found or method 'onICHostReady' is not present : this application cannot continue!"
+      },
+      "webcompError": {
+        "message": "Webcomponent threw an error"
+      },
+      "autologout": {
+        "message": "Sie wurden abgemeldet"
+      },
+      "uaProxy": {
+        "message": "Die Anwendung ist aufgrund eines unerwarteten Fehlers beendet worden"
+      },
+      "logs": {
+        "vm": "VM logs herunterladen",
+        "proxy": "Proxy logs herunterladen",
+        "gbc": "GBC logs herunterladen"
+      },
+      "waiting": "Bitte warten",
+      "restart": "Die Anwendung noch einmal starten",
+      "busy": "die Anwendung kann nicht unterbrochen werden",
+      "noload": "If it doesn't load, click here",
+      "run": "Start",
+      "close": "Schliessen",
+      "networkError": "Die Anwendung its nicht mehr verfügbar (Fehler %1)"
+    },
+    "welcome": {
+      "history": "Verlauf",
+      "bookmark": "Lesezeichen",
+      "urlLauncher": "UA Url Starter"
+    },
+    "date": {
+      "monthList": "Januar,Februar,März,April,May,Juni,Juli,August,September,October,November,December",
+      "dayList": "Sonntag,Montag,Dienstag,Mittwoch,Donnerstag,Freitag,Sonnabend",
+      "weekdaysShort": "So,Mo,Di,Mi,Do,Fr,Sa",
+      "previousMonth": "Voriger Monat",
+      "nextMonth": "Nächster Monat",
+      "midnight": "Mitternacht",
+      "noon": "Mittag"
+    },
+    "button": {
+      "ok": "OK",
+      "cancel": "Abbrechen"
+    },
+    "contextMenu": {
+      "restoreColumnSort": "Sortierung abschalten",
+      "showAllColumns": "Alle Spalten zeigen",
+      "disable": "Deaktivieren",
+      "readOnly": "Schreibgeschützt",
+      "clearSettings": "Einstellungen löschen",
+      "restoreDefaultSettings": "Standardwerte für die Einstellungen",
+      "clearStoredSettingsQuestion": "Einstellungen löschen ? (Bitte Neustart der Anwendung um die Änderungen zu sehen.)",
+      "freezeLeft": "Spalten links fixieren",
+      "freezeRight": "Spalten rechts fixieren",
+      "unfreezeAll": "Normale Sichtbarkeit der Spalten",
+      "hideAllButSelected": "Alle verstecken außer der selektierten",
+      "selectAll": "Select all",
+      "copyRow": "Copy row",
+      "copyCell": "Copy cell",
+      "autoFitAllColumns": "AutoFit all columns",
+      "fitToViewAllColumns": "Fit to view all columns"
+    },
+    "file": {
+      "upload": {
+        "droporclick": "Datei hier ablegen oder für Hochladen klicken.",
+        "droporclick-multiple": "Drop files here or click to upload.",
+        "select": "Datei auswählen",
+        "select-multiple": "Select files",
+        "processing": "Hochladen gestartet",
+        "nofile": "Keine Datei ausgewählt",
+        "upload": "Hochladen",
+        "ready": "Fertig",
+        "waiting": "warten",
+        "confirmation": "Datei hochladen?",
+        "confirmation-multiple": "Upload the files ?",
+        "uploading": "Datei wird hochgeladen",
+        "required": "Es muss eine Datei zum Hochladen auswählt werden",
+        "accept": "Datei mit Dateiendung",
+        "accept-multiple": "Expecting files with extension"
+      },
+      "clickForDownload": "Klicken Sie hier , wenn der Download nicht automatisch startet",
+      "select": "Datei auswählen"
+    },
+    "clipboard": {
+      "title": "To copy this in your clipboard, hit your system Copy shortcut (usually Ctrl+C)",
+      "copy": "Copy",
+      "paste": "Paste"
+    },
+    "storedSettings": {
+      "configuration": "Konfiguration gespeicherter Einstellungen",
+      "settings": "Gespeicherte Einstellungen",
+      "theme": "Interface theme",
+      "uiLanguage": "Sprache",
+      "defaultLng": "Use browser default",
+      "disable": "gespeicherte Einstellungen deaktivieren",
+      "enable": "gespeicherte Einstellungen aktivieren",
+      "reset": "gespeicherte Einstellungen löschen",
+      "confirm": "Sind Sie sich sicher?",
+      "changed": "Die Einstellungen haven sich geändert, bitte Neustart der Anwendung, um die Einstellungen einzulesen",
+      "done": "Fertig!",
+      "message": "Information",
+      "messageContent": "Etwas ist schiefgelaufen beim Speichern im Browser"
+    },
+    "settings": "Einstellungen",
+    "decimalSeparator": ",",
+    "session": {
+      "logprompt": {
+        "logneeded": "Your credentials have been invalidated, please log-in again",
+        "relog": "login"
+      },
+      "waitingend": {
+        "title": "Die Anwendung ist noch aktiv",
+        "message": "Wenn diese Seite geschlossen wird, werden alle Anwendungen in dieser Seite beendet."
+      }
+    },
+    "main": {
+      "sidebar": {
+        "title": "Meine Genero Anwendungen",
+        "multitab_title": "Die Fenster meiner Anwendung"
+      },
+      "chromebar": {
+        "appInfo": "Application Information",
+        "debugTools": "Debug Tools",
+        "runInGDC": "Run in GDC",
+        "proxyLog": "Proxy logs",
+        "vmLog": "VM logs",
+        "settings": "Einstellungen",
+        "bookmark": "Lesezeichen",
+        "bookmarkAlt": "Bookmark this application",
+        "close": "Close Window",
+        "recordingLog": "Recording log",
+        "getRecordedLog": "Click to here get the log",
+        "filter": "Filter"
+      }
+    },
+    "logPlayer": {
+      "unsavedConfirm": "An unsaved log already exists! \nDo you want to download it before starting a new session?",
+      "recordingLog": "Recording log",
+      "notEnabled": "Log recorder is not enabled!, use queryString ?recordGbcLog=1",
+      "logInfo": {
+        "headers": {
+          "browser": "BROWSER",
+          "themeVariables": "THEME VARIABLES",
+          "storedSettings": "STORED SETTINGS"
+        },
+        "version": "Version",
+        "platform": "Platform",
+        "protocol": "Protocol",
+        "theme": "Theme",
+        "availableThemes": "Available themes",
+        "sidebar": "SideBar visible",
+        "userAgent": "User Agent",
+        "os": "OS",
+        "lang": "Language",
+        "availableLang": "Available languages",
+        "dimension": "Dimension",
+        "url": "URL"
+      },
+      "topBar": {
+        "logFile": "Log File",
+        "statistics": "Statistics",
+        "statisticsTitle": "Enable statistics",
+        "delayFromLog": "Use delay from log",
+        "showHelpers": "Show interactions helpers",
+        "showHelpersTitle": "Display keys pressed, and mouse pointer",
+        "controls": "Controls",
+        "gotoStep": "Go to Step",
+        "delay": "Delay"
+      }
+    }
+  }
+}

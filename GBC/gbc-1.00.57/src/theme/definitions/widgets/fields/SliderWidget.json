@@ -1,0 +1,44 @@
+{
+  "name": "SliderWidget",
+  "title": "Slider specific variables",
+  "description": "Configure variables specific to slider widget",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-SliderWidget-field-height-ratio",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-field-height-ratio"
+    },
+    {
+      "name": "gbc-SliderWidget-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "gbc-SliderWidget-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    },
+    {
+      "name": "gbc-SliderWidget-disabled-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-disabled-color"
+    },
+    {
+      "name": "gbc-SliderWidget-thumb-hover-color",
+      "title": "Gbc Slider thumb hover color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-emphasis-background-color"
+    },
+    {
+      "name": "gbc-SliderWidget-focus-border-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    }
+  ]
+}

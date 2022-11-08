@@ -1,0 +1,150 @@
+{
+  "name": "mt-field",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "mt-field-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "mt-field-default-height",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-field-default-height"
+    },
+    {
+      "name": "mt-field-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-field-background-color"
+    },
+    {
+      "name": "mt-field-border-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-faded-background-color"
+    },
+    {
+      "name": "mt-field-border-width-top",
+      "description": "",
+      "type": "size",
+      "defaultValue": "0px"
+    },
+    {
+      "name": "mt-field-border-width-right",
+      "description": "",
+      "type": "size",
+      "defaultValue": "0px"
+    },
+    {
+      "name": "mt-field-border-width-bottom",
+      "description": "",
+      "type": "size",
+      "defaultValue": "2px"
+    },
+    {
+      "name": "mt-field-border-width-left",
+      "description": "",
+      "type": "size",
+      "defaultValue": "0px"
+    },
+    {
+      "name": "mt-field-focus-border-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-emphasis-background-color"
+    },
+    {
+      "name": "mt-field-focus-border-width-top",
+      "description": "",
+      "type": "size",
+      "defaultValue": "0px"
+    },
+    {
+      "name": "mt-field-focus-border-width-right",
+      "description": "",
+      "type": "size",
+      "defaultValue": "0px"
+    },
+    {
+      "name": "mt-field-focus-border-width-bottom",
+      "description": "",
+      "type": "size",
+      "defaultValue": "2px"
+    },
+    {
+      "name": "mt-field-focus-border-width-left",
+      "description": "",
+      "type": "size",
+      "defaultValue": "0px"
+    },
+    {
+      "name": "mt-field-readonly-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-field-readonly-background-color"
+    },
+    {
+      "name": "mt-field-disabled-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-field-disabled-background-color"
+    },
+    {
+      "name": "mt-field-placeholder-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-placeholder-color"
+    },
+    {
+      "name": "mt-field-input-padding-top",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-input-padding-top"
+    },
+    {
+      "name": "mt-field-input-padding-right",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-input-padding-right"
+    },
+    {
+      "name": "mt-field-input-padding-bottom",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-input-padding-bottom"
+    },
+    {
+      "name": "mt-field-input-padding-left",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-input-padding-left"
+    },
+    {
+      "name": "mt-field-textarea-padding-top",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-textarea-padding-top"
+    },
+    {
+      "name": "mt-field-textarea-padding-right",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-textarea-padding-right"
+    },
+    {
+      "name": "mt-field-textarea-padding-bottom",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-textarea-padding-bottom"
+    },
+    {
+      "name": "mt-field-textarea-padding-left",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-textarea-padding-left"
+    }
+  ]
+}

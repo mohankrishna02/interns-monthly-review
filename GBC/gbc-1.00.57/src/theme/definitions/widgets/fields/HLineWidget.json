@@ -1,0 +1,11 @@
+{
+  "name": "HLineWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+    "name": "gbc-HLineWidget-color",
+    "description": "",
+    "type": "color",
+    "defaultValue": "$theme-separator-color"
+  }]
+}

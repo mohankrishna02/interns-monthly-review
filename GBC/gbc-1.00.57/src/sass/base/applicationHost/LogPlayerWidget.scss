@@ -1,0 +1,226 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2015)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2015, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_LogPlayerWidget {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  > header {
+    display: flex;
+    align-items: center;
+    background-color: $gbc-LogPlayerWidget-header-background-color;
+    padding: 6px;
+    border-bottom: 1px solid $gbc-LogPlayerWidget-separator-color;
+
+    > * {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    .logplayer-fileinput {
+      flex: 1 1 auto;
+      padding-top: 3px;
+      input[type="file"] {
+        display: none;
+      }
+      &:hover{
+        cursor: pointer;
+      }
+      &:after {
+        content: attr(data-title);
+        position: absolute;
+        color: black;
+        margin-top: 3px;
+      }
+    }
+
+    span {
+      color: black;
+
+      &.logfile{
+        display: block;
+      }
+    }
+
+    .mt-button {
+      min-width: initial;
+    }
+    .mt-button-green {
+      background: $mt-green-600;
+      &:not(.disabled):hover{
+        background: $mt-green-400;
+      }
+    }
+
+    .logplayer-item{
+      &:first-child{
+        flex-direction: column;
+      }
+      text-align: center;
+
+      div{
+        display: flex;
+        button{
+          margin:0 2px ;
+        }
+      }
+      &:last-child{
+        right: 0;
+        position: absolute;
+      }
+
+      .gbc_ToggleCheckBoxWidget .content {
+        flex-direction: column-reverse;
+      }
+
+    }
+
+    .logplayer-separator{
+      background: #bfbfbf;
+      width: 1px;
+      height: 100%;
+      padding: 0;
+    }
+
+    .logplayer-keypressed{
+      .key {
+        display: inline-block;
+        background: #eee;
+        border-radius: 4px;
+        box-shadow: inset 0 0 25px #e8e8e8, 0 1px 0 #c3c3c3, 0 2px 0 #c9c9c9, 0 2px 3px #333;
+        box-sizing: border-box;
+        border-top: 1px solid #efefef;
+        height: 41px;
+        font-family: 'Noto Sans', sans-serif;
+        margin: 0 10px;
+        padding: 4px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        min-width: 44px;
+
+        &.pressed{
+          padding-top: 6px;
+          margin-top: 3px;
+          box-shadow: inset 0 0 25px #e8e8e8, 0 1px 0 #c3c3c3, 0 2px 0 #c9c9c9, 0 0 2px #333;
+        }
+
+
+        &.key-modifier:after{
+          content: "+";
+          position: relative;
+          left: 21px;
+          font-size: 1.8em;
+          color: #777;
+        }
+
+        span {
+          font-size: 1.8em;
+          color: #777;
+          margin: 0 auto;
+        }
+      }
+    }
+
+    .logplayer-mousepressed{
+      .key {
+        display: inline-block;
+        background: #eee;
+        box-shadow: inset 0 0 25px #e8e8e8, 0 1px 0 #c3c3c3, 0 2px 0 #c9c9c9, 0 2px 3px #333;
+        box-sizing: border-box;
+        border-top: 1px solid #efefef;
+        height: 41px;
+        font-family: 'Noto Sans', sans-serif;
+        padding: 4px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        min-width: 44px;
+        opacity: 0.7;
+
+        &.key-left{
+          border-top-left-radius: 10px;
+        }
+        &.key-right{
+          border-top-right-radius: 10px;
+        }
+        &.key-wheel{
+          min-width: 10px;
+          background: #2a2a2a;
+          height: 40px;
+        }
+
+        &.pressed{
+          padding-top: 6px;
+          margin-top: 3px;
+          box-shadow: inset 0 0 25px #e8e8e8, 0 1px 0 #c3c3c3, 0 2px 0 #c9c9c9, 0 0 2px #333;
+          opacity: 1;
+        }
+
+        span {
+          font-size: 1.8em;
+          color: #777;
+          margin: 0 auto;
+        }
+      }
+
+
+    }
+
+    .mt-field{
+      width: 40px;
+      padding-left: 3px;
+      padding-right: 3px;
+    }
+  }
+  > .containerElement {
+    flex: 1 1 0px;
+    position: relative;
+  }
+
+  .logplayer-cursor {
+    background: url("$$RES/img/cursor-debug-small.png") center no-repeat;
+    margin:0;
+    width: 32px;
+    height: 32px;
+    z-index: 9999;
+    display: block;
+    position: fixed;
+    transition: top 0.1s ease-in-out, left 0.1s ease-in-out;
+
+    &.highlight {
+      &::before {
+        content: '';
+        margin: 0 auto;
+        width: 20px;
+        height: 20px;
+        top: 5px;
+        left: 5px;
+        border: 1px solid black;
+        border-radius: 50%;
+        position: absolute;
+        animation: circle 0.5s linear;
+      }
+    }
+    @keyframes circle {
+      from {
+        transform: scale(0);
+        border: 1px solid black;
+      }
+      to {
+        transform: scale(6);
+        border: 1px solid CadetBlue;
+      }
+    }
+  }
+}

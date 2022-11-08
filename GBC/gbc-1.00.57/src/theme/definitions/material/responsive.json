@@ -1,0 +1,25 @@
+{
+  "name": "mt-responsive",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "mt-responsive-sidebar-always-visible-min-width",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-sidebar-always-visible-min-width"
+    },
+    {
+      "name": "mt-responsive-sidebar-default-width",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-sidebar-default-width"
+    },
+    {
+      "name": "mt-responsive-screen-width-breakpoint",
+      "title": "Phone and tablet width breakpoint (px number). Under that size we consider screen being on a phone.",
+      "description": "",
+      "type": "number",
+      "defaultValue": 768
+    }
+  ]
+}

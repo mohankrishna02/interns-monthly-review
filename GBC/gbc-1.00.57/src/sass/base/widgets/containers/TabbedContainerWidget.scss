@@ -1,0 +1,66 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+
+
+.gbc_TabbedContainerWidget {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  & > .mt-tabs {
+    flex: 1 1 auto;
+  }
+  & > .mt-tabs > .mt-tab-items > .mt-tab-items-container {
+    background-image: url('$$RES/img/emptytabbed.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: contain;
+  }
+  & > .mt-tabs > .mt-tab-titles-bar {
+    .mt-tab-title-actions {
+      .gbc_TabbedApplicationCloseWidget {
+        display: none;
+      }
+      .gbc_TabbedApplicationCloseWidget:last-child {
+        display: block;
+      }
+    }
+    .mt-tab-title-text {
+      width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+
+.gbc_TabbedApplicationCloseWidget {
+  &[processing] {
+    cursor: wait;
+    i {
+      @extend .zmdi-swap-vertical;
+    }
+  }
+}
+
+.gbc_ApplicationHostMenuWidget {
+  .gbc_TabbedApplicationHostMenuWindowCloseWidget{
+    display: none !important;
+  }
+  .gbc_TabbedApplicationHostMenuWindowCloseWidget.gbc-disabled,
+  .gbc_TabbedApplicationHostMenuWindowCloseWidget.gbc-disabled:last-child{
+    display: none !important;
+  }
+  .gbc_TabbedApplicationHostMenuWindowCloseWidget:last-child{
+    display: inline-block !important;
+  }
+}

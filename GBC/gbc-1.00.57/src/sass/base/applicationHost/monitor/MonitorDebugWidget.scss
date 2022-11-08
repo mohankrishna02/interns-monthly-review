@@ -1,0 +1,33 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.debug_monitor {
+  width: 100%;
+  height: 100%;
+  > .mt-centralcontainer {
+    > .mt-toolbar {
+      flex: 0 0;
+    }
+ }
+}
+
+.monitor-content {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.auiTree {
+  flex: 1 1 auto;
+  display: flex;
+  > * {
+      flex: 1 1 auto;
+  }
+}

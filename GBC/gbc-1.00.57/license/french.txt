@@ -1,0 +1,465 @@
+CONTRAT DE LICENCE
+À DESTINATION DE L’UTILISATEUR FINAL
+
+Le présent Contrat de licence à destination de l’utilisateur final (« Contrat
+de licence») est conclu entre vous, (le « Licencié » ou « Vous ») et Four Js
+Development Tools Europe Ltd. (« Four Js »).
+
+EN OUVRANT L’EMBALLAGE SCELLE DU MEDIA, EN CLIQUANT SUR LA MENTION « ACCEPT »
+(J’ACCEPTE) FIGURANT AU BAS DU PRESENT CONTRAT SUR LE SITE WEB, EN UTILISANT LE
+LOGICIEL SOUS LICENCE OU EN PRESSANT LA TOUCHE D’ACTIVATION DU LOGICIEL SOUS
+LICENCE, VOUS RECONNAISSEZ AVOIR LU LE PRESENT CONTRAT DE LICENCE A DESTINATION
+DE L’UTILISATEUR FINAL, L’AVOIR COMPRIS ET ACCEPTER D’ETRE LIE PAR SES
+CONDITIONS. SI VOUS NE L’ACCEPTEZ PAS, VOUS N’AVEZ AUCUN DROIT D’UTILISER LE
+LOGICIEL SOUS LICENCE ; AU LIEU DE CELA, VOUS DEVEZ IMMEDIATEMENT VOUS
+CONFORMER AUX PROCEDURES DE L’ARTICLE 8.3(ii) QUI SUIT. SI VOUS N’ACCEPTEZ PAS
+D’ETRE LIE PAR LE PRESENT CONTRAT DE LICENCE A DESTINATION DE L’UTILISATEUR
+FINAL ET QUE VOUS N’AVEZ PAS ENCORE UTILISE LE LOGICIEL SOUS LICENCE, VOUS
+POUVEZ OBTENIR UN REMBOURSEMENT SI VOUS RESPECTEZ LES PROCEDURES DE RETOUR
+STANDARDS DE FOUR J’S. LE PRESENT CONTRAT DE LICENCE A DESTINATION DE
+L’UTILISATEUR FINAL PRENDRA EFFET A LA DATE D’OUVERTURE DE L’EMBALLAGE SCELLE
+DU MEDIA, DE L’UTILISATION DU LOGICIEL SOUS LICENCE OU DE LA PRESSION SUR LA
+TOUCHE D’ACTIVATION DU LOGICIEL SOUS LICENCE (LA « DATE D’ENTREE EN VIGUEUR »).
+
+
+1. DÉFINITIONS
+
+Lorsqu’ils sont utilisés dans le présent Contrat de licence :
+
+« Documentation » s’entendra des manuels utilisateur (par écrit ou au format
+électronique) fournis au Licencié avec le Logiciel sous licence.
+
+« Code exécutable » s’entendra de la version compilée complète d’un programme
+logiciel pouvant être exécuté par un ordinateur et utilisé par un utilisateur
+final sans autre compilation.
+
+« Logiciel sous licence » s’entendra du ou des programmes logiciels pour
+lesquels le Licencié a acheté une licence (Annexe A), y compris, pour les
+Licenciés des produits de « Classe A – licence de développement » définis à
+l’article 10.1 uniquement, tous modules d’exécution destinés à la
+redistribution par le Licencié (« les Eléments redistribuables ») et toute
+version modifiée, mise à jour ou améliorée desdits programmes que Four Js
+pourrait fournir au Licencié conformément au présent Contrat de licence ou d’un
+Contrat de service séparé (Annexe A et Annexe B).
+
+« Code source » s’entendra de la version lisible par l’homme d’un programme
+logiciel qui peut être compilé en Code exécutable.
+
+
+2. CESSIONS DE LICENCE
+
+Sous condition du respect complet par le Licencié des conditions du présent
+Contrat de licence, Four Js cède au Licencié (i) une licence non-exclusive et
+non-transférable visant à utiliser le Logiciel sous licence (sous la forme
+uniquement de Code exécutable), en se conformant exclusivement à la
+Documentation, et à effectuer une seule copie du Logiciel sous licence,
+uniquement pour des raisons de sauvegarde ou d’archivage ; et (ii) (pour les
+Licenciés des produits de la « Classe A » définis à l’article 10.1 uniquement)
+une licence non-exclusive et non-transférable visant à utiliser, reproduire et
+distribuer (uniquement aux utilisateurs finaux ayant acheté des licences
+d’exécution adaptées à Four Js) les Eléments redistribuables (sous la forme
+uniquement de Code exécutable), et seulement dans le cadre d’une application
+développée par le Licencié.  Le Licencié ne peut pas distribuer les Eléments
+redistribuables de manière indépendante. Le Logiciel sous licence ne peut être
+utilisé qu’en accord avec la Documentation. Four Js cède au Licencié une
+licence non-exclusive et non-transférable permettant d’utiliser la
+Documentation. Le cas échéant, Four Js communiquera au Licencié une nouvelle
+clé d’activation si ce dernier certifie par écrit qu’il doit installer le
+Logiciel sous licence sur un nouvel ordinateur du fait d’une mise à jour, d’un
+vol ou d’une panne. La présente licence est accordée au Licencié pour le seul
+nombre d’utilisateurs simultanés spécifié dans un bon de commande valide
+accepté par Four Js et payé par le Licencié. Four Js effectuera certaines
+Améliorations généralement mises à disposition du Licencié, à condition que le
+Licencié souscrive séparément des services d’assistance et de maintenance.
+Outre ladite souscription, si Four Js fournit au Licencié toute mise à jour du
+Logiciel sous licence, le Licencié accepte d’adopter ladite mise à jour dans un
+délai de trente (30) jours à compter de la sortie de ladite mise à jour. Si
+ladite mise à jour est réputée urgente par Four Js, à sa discrétion raisonnable
+et de bonne foi, le Licencié entreprendra des efforts raisonnables pour adopter
+ladite mise à jour urgente dès que possible.
+
+
+3. RESTRICTIONS D’UTILISATION
+
+Le Licencié reconnaît que le Logiciel sous licence et sa structure, sa
+séquence, son organisation et son Code source constituent des secrets
+commerciaux de valeur de Four Js ou de ses fournisseurs. Ainsi, à l’exception
+de ce qui est spécifiquement autorisé à la présente, le Licencié accepte de ne
+pas (a) modifier, adapter, altérer, traduire ou créer des œuvres dérivées du
+Logiciel sous licence, (b) sous-licencier, louer, mettre en leasing, prêter,
+divulguer ou autrement transférer ou autoriser l’utilisation du Logiciel sous
+licence par toute tierce partie, y compris par le personnel d’externalisation,
+(c) effectuer une ingénierie inverse, décompiler, désassembler ou autrement
+tenter de dériver le Code source du Logiciel sous licence ou (d) autrement
+utiliser ou copier le Logiciel sous licence. En dépit de ce qui précède, la
+décompilation du Logiciel sous licence est autorisée dans la mesure où les lois
+de la juridiction du Licencié lui accordent le droit de ce faire pour obtenir
+des informations nécessaires au fonctionnement croisé de ce Logiciel sous
+licence avec d’autres logiciels. Il convient toutefois de noter que le Licencié
+doit d’abord demander ladite information à Four Js et que Four Js doit pouvoir,
+à sa discrétion, soit fournir ces informations au Licencié, soit lui imposer
+des conditions raisonnables, y compris des frais raisonnables, pour cette
+utilisation du Logiciel sous licence, dans le but de s’assurer de la protection
+des droits propriétaires de Four Js et de ses fournisseurs dans le Logiciel
+sous licence. Le Licencié accepte de ne pas faire usage des droits de la
+licence accordés dans le Logiciel sous licence pour développer ou
+commercialiser un produit similaire ou concurrent au Logiciel sous licence.
+
+
+4. COMMANDE, ACCEPTATION, TARIFICATION ET PAIEMENTS
+
+Les conditions du bon de commande standard du Licencié, ou de tout autre
+document qui lui aurait été envoyé, et qui entreraient en conflit avec les
+conditions du présent Contrat de licence (Annexe A) ou qui, de quelque manière,
+tendraient à amender n’importe laquelle de ses conditions sont spécifiquement
+rejetées par la présente et ne pourront en aucun cas produire des effets ni
+entrer en vigueur. Four Js entreprendra des efforts commercialement
+raisonnables pour respecter les dates de disponibilité et de livraison ainsi
+que les quantités demandées sur tout bon de commande qu’il accepte ; il se
+réserve toutefois le droit de refuser des bons de commande. Dès acceptation
+d'un bon de commande et dès téléchargement du Logiciel sous licence par le
+Licencié ou dès livraison d'un kit média par Four Js, Four Js fournira au
+Licencié les clés du Logiciel sous licence, permettant son utilisation. Le
+Licencié sera responsable de l'installation du Logiciel sous licence sur ses
+ordinateurs, tel que cela est spécifié dans le cadre du présent Contrat de
+licence à destination de l'utilisateur final. Le Logiciel sous licence sera
+réputé être accepté au moment de sa livraison. Si vous installez le Logiciel
+sous licence au nom du Licencié figurant sur le bon de commande, ce sera au
+Licencié de cliquer sur le bouton « I accept » (J'accepte) et de se conformer
+aux conditions du présent Contrat de licence. Si vous le faites en son nom,
+vous et votre organisme serez conjointement liés par les conditions du présent
+Contrat de licence à destination de l'utilisateur final et responsables de tout
+manquement à celui-ci.
+
+
+5. GARANTIES
+
+5.1 Performances
+
+(a) Pendant une période de soixante (60) jours à compter de la livraison du
+Logiciel sous licence (autrement que pour les produits de « classe B – licence
+de déploiement » prévus à l’article 10.2) au Licencié (« la Période de garantie
+du logiciel »), Four Js garantit que le Logiciel sous licence, lorsqu'il est
+utilisé tel qu'indiqué par Four Js et tel qu'autorisé dans le cadre du présent
+Contrat de licence à destination de l'utilisateur final et en accord avec la
+Documentation (y compris son utilisation sur un matériel informatique et une
+plate-forme de système d'exploitation prise en charge par Four Js),
+fonctionnera substantiellement tel que cela est décrit dans la Documentation.
+
+(b) Pour les produits de « Classe B – licences de déploiement » définis à
+l’article 10.2, Four Js n'apporte aucune garantie, qu’elle soit expresse,
+implicite ou statutaire. Les produits de « classe B » définis à l’article 10.2
+sont fournis en l’état. Si toutefois le Licencié a besoin de garanties
+supplémentaire il doit souscrire un Contrat de service décrit dans l’annexe B.
+
+(c) Four Js ne garantit pas que l'utilisation du Logiciel sous licence par le
+Licencié se fera sans erreurs ni interruptions. Four Js entreprendra, à ses
+frais et à sa seule obligation et suite à un recours exclusif du licencié
+concernant toute rupture de la garantie susmentionnée, des efforts
+commercialement raisonnables pour corriger ou fournir un contournement à toutes
+les erreurs reproductibles du Logiciel sous licence signalées à Four Js par le
+Licencié par écrit au cours de la Période de garantie du logiciel. Toutefois,
+si Four Js décide, de son avis professionnel raisonnable, qu'il est
+commercialement infaisable de corriger l’erreur ou de fournir un contournement,
+Four Js remboursera au Licencié les frais de licence payés pour le Logiciel
+sous licence. Dans ce cas, le présent Contrat de licence à destination de
+l'utilisateur final ainsi que le droit du Licencié à utiliser le Logiciel sous
+licence seront résiliés. Toute correction des erreurs, tout contournement ou
+toute fourniture d’un nouveau code au Licencié ne pourront prolonger la Période
+de garantie originale du logiciel.
+
+5.2 Limites de responsabilité. Les garanties expresses présentées dans le
+présent article 5 remplacent toutes autres garanties expresses, implicites ou
+statutaires RELATIVES AU logiciel sous licence et A la documentation, y compris
+toute garantie de qualité marchande, d'adaptation à un but particulier, de
+titre et de non-infraction aux droits de tierces parties. 
+
+Certaines juridictions n'autorisant pas l'exclusion de garanties implicites, la
+présente limite de responsabilité peut ne pas s'appliquer à votre cas. 
+
+Le licencié reconnaît qu'il sE FONDE sur l'absence de garanties autres que
+CELLES exprimées dans le présent contrat de licence à destination de
+l'utilisateur final et que FOUR J’S ne sera lié par aucune garantie FOURNIE par
+toute tierce partie. 
+
+La présente garantie vous accorde des droits spécifiques ; d'autres droits
+peuvent en outre vous revenir, en fonction des juridictions compétentes.
+
+
+6. PLAINTES EN CAS D'INFRACTION
+
+Four Js défendra, à ses frais, toute action intentée contre le Licencié par une
+tierce partie dans la mesure où l'action se fonde sur une plainte stipulant que
+le Logiciel sous licence enfreint tous droits d'auteur américains d’une tierce
+partie ou s'approprie par erreur tous secrets commerciaux d'une tierce partie,
+faits reconnus comme tels dans le cadre de la Loi sur le secret commercial
+uniforme. De plus, Four Js paiera les coûts et dommages et intérêts décidés en
+dernier ressort contre le Licencié dans toute action de ce type et qui seraient
+spécifiquement attribuables à ladite plainte ou encore les coûts et dommages et
+intérêts convenus en règlement monétaire de ladite action. Les obligations qui
+précèdent sont conditionnées au fait que le Licencié avertisse Four Js
+rapidement et par écrit de ladite action, au fait que le Licencié accorde à
+Four Js le seul contrôle de la défense de cette plainte et de toute négociation
+de règlement qui y seraient liées et que le Licencié coopère et, à la demande
+et aux frais de Four Js, assiste à ladite défense. Si le Logiciel sous licence
+devient ou, de l’avis de Four Js, risque de devenir l'objet d'une plainte pour
+infraction, Four Js peut, à son avis et à ses frais, (a) offrir au Licencié le
+droit de continuer à utiliser le Logiciel sous licence, (b) remplacer ou
+modifier le Logiciel sous licence afin qu'il mette fin à l’infraction ou (c)
+accepter le retour du Logiciel sous licence et rembourser au Licencié les frais
+de licence payés par lui, diminués d’une indemnité raisonnable équivalant à la
+période pendant laquelle le Licencié a utilisé le Logiciel sous licence. En
+dépit de ce qui précède, Four Js n'assumera aucune obligation dans le cadre du
+présent article 6 ou autrement, relativement à toute plainte pour infraction
+basée sur (i) toute utilisation du Logiciel sous licence qui ne soit pas en
+accord avec le présent Contrat de licence à destination de l'utilisateur final
+ou dans des objectifs qui n'ont pas été prévus par Four Js, (ii) toute
+utilisation du Logiciel sous licence en combinaison avec d'autres produits,
+équipements, logiciels ou données qui ne soient pas fournis par Four Js, dans
+la mesure où ladite combinaison constitue la cause de toute plainte, (iii)
+toute utilisation de toute version du Logiciel sous licence autre que la
+version la plus courante mise à la disposition du Licencié ou (iv) toute
+modification du Logiciel sous licence par toute personne autre que Four Js. Le
+présent article 6 prévoit la TOTALITE DE LA responsabilité de Four Js et le
+recours unique et exclusif du licencié pour des plaintes et actions en cas
+d'infraction.
+
+
+7. LIMITES DE RESPONSABILITÉ
+
+A. Exclusion de certains dommages. En aucun cas, Four Js ne pourra être tenu
+pour responsable de tous dommages consécutifs, indirects, exemplaires, spéciaux
+ou incidents, y compris toute perte de données et de BENEFICES naissant du
+présent contrat de licence à destination de l'utilisateur final ou liés à lui.
+Certains Etats n’autorisent pas l'exclusion de limitation des dommages
+incidents ou consécutifs ; par conséquent, la limitation ou l'exclusion qui
+précèdent ne s'appliqueront peut-être pas à vous.
+
+B. Limitation de responsabilité. La responsabilité cumulée totale de Four Js
+en relation avec le présent Contrat de licence ainsi que le logiciel sous
+licence et la documentation, que ce soit DANS LE CADRE DU contrat ou EN DEHORS
+DE CELUI-CI ou autrement, ne POURRA dépasser le montant des honoraires payés à
+four j’s dans le cadre de la présente.
+
+C. Applications de contrôle primordial. Le logiciel sous licence n'a pas pour
+objectif d'être utilisé en rapport avec toute application nucléaire, aérienne,
+de transit en masse ou médicale ou toutE autre application dangereuse qui
+pourrait entraîner le décès, des blessures corporelles, des dommages
+catastrophiques ou une destruction en masse. le licencié accepte le fait que
+Four Js ne supporte aucune responsabilité d'aucune nature que ce soit en
+conséquence de toute utilisation de ce type du logiciel sous licence.
+
+D. Attribution des risques. Le licencié reconnaît que les honoraires payés dans
+le cadre de la présente PREVOIENT LE TRANSFERT des risques spécifiés dans le
+présent contrat de licence à destination de l'utilisateur final et que four j’s
+ne pourrait conclure le présent contrat de licence à destination de
+l'utilisateur final en l'absence de ces limitations de responsabilité. En
+outre, le licencié RENONCE toute responsabilité de quelque sorte que ce soit de
+LA PART DEs fournisseurs de Four Js.
+
+
+8. DURÉE ET RÉSILIATION
+
+8.1 Durée. La durée du présent Contrat de licence à destination de
+l'utilisateur final débutera à la Date d'entrée en vigueur et se poursuivra
+indéfiniment jusqu'à ce qu'elle soit résiliée conformément à l’article 8.2.
+
+8.2 Résiliation. Le Licencié peut résilier le présent Contrat de licence à tout
+moment, avec ou sans raison, sur notification écrite adressée à Four Js. Le
+présent Contrat de licence sera automatiquement résilié si (a) le Licencié
+manque à toute disposition de l’article 3 ou de l’article 9.1 ou si (b) le
+Licencié manque à toute autre disposition du présent Contrat de licence à
+destination de l'utilisateur final sans réparer pas ce manquement dans un délai
+de trente (30) jours à compter de la réception de sa notification écrite de la
+part de Four Js.
+
+8.3 Effets de la résiliation. Dès résiliation du présent Contrat de licence
+pour quelque raison que ce soit, (i) tous les droits de licence accordés par le
+présent Contrat de licence cesseront immédiatement d’exister, (ii) le Licencié
+devra interrompre rapidement toute utilisation du Logiciel sous licence, en
+effacer toutes les copies de ses ordinateurs et renvoyer à Four Js toutes les
+copies du Logiciel sous licence et de la Documentation sur un support tangible
+en possession du Licencié ou en son contrôle et certifier par écrit à Four Js
+qu'il a totalement respecté ses obligations et (iii) (pour les Licenciés des
+produits de la « Classe A – licence de développement» définis à l’article 10.1
+uniquement) le Licencié devra rapidement interrompre l'utilisation, la
+reproduction et la distribution des Eléments redistribuables. A l'exception des
+dispositions des articles 5.1(c) et 6(c) du présent Contrat de licence à
+destination de l'utilisateur final, le Licencié ne pourra être autorisé à
+percevoir aucun remboursement de toutes sommes payées pour le Logiciel sous
+licence. Les articles 1 (« Définitions »), 3 (« Restrictions d'utilisation »),
+5 (« Garanties »), 7 (« Limites de responsabilité »), 8.3 (« Effets de la
+résiliation ») et 9 (« Généralités ») du présent Contrat de licence survivront
+à la résiliation, quelle qu’en soit la raison.
+
+
+9. GÉNÉRALITÉS
+
+9.1 Droits propriétaires. Tel que convenu, les parties reconnaissent que le
+Logiciel sous licence et la Documentation, ainsi que tous droits de propriété
+intellectuelle internationale à la présente, sont la propriété exclusive de
+Four Js et de ses fournisseurs. Tous droits relatifs au Logiciel sous licence
+qui sont pas expressément accordés au Licencié dans le présent Contrat de
+licence demeurent auprès de Four Js et de ses fournisseurs. Sans pour autant
+limiter ce qui précède, la présente n’accorde aucune licence permettant
+d’utiliser les marques commerciales ou les noms commerciaux de Four Js ou de
+ses fournisseurs. Le Licencié ne pourra supprimer, altérer ni obscurcir toute
+notice propriétaire (y compris les notifications de droits d'auteur) de Four Js
+ou de ses fournisseurs présente sur le Logiciel sous licence ou la
+Documentation. Le Licencié reconnaît que le Logiciel sous licence contient des
+Informations confidentielles et des secrets commerciaux de valeur ainsi que des
+informations propriétaires de Four Js, que tout manquement réel ou menacé de
+l’article 3 ou des articles 9.1 ou 9.2 constituerait un dommage immédiat et
+irréparable pour Four Js. Dans ce cas, des dommages-intérêts monétaires ne
+pourraient pas constituer un recours adapté ; il conviendrait, pour parvenir à
+un recours adapté audit manquement, que soient prononcées des mesures de
+redressement par voie d’injonction.
+
+9.2 Confidentialité. « Les Informations confidentielles » s'entendent de toutes
+informations divulguées par une partie (« la Partie diffusante ») à l'autre
+partie (« la Partie réceptrice ») y compris, mais sans s'y limiter, toute
+information ou document propriétaire (sous quelque forme et sur quelque support
+que ce soit) qui ont été ou sont par la suite diffusées et qui ne sont pas
+généralement connues du commerce ou du marché concerné. Les Informations
+confidentielles incluent, mais sans s’y limiter, tous les secrets commerciaux
+et droits de propriété intellectuelle ainsi que tous les produits existants ou
+envisagés et les prévisions de fonctions, plan d'activités, tarifs, rabais,
+données d’études de marchés, qu’ils contiennent des informations passées,
+actuelles ou liées à l'avenir, le Logiciel sous licence (y compris tout bogue
+ou toutes erreurs qui y figurent) ainsi que la Documentation. Les
+« Informations confidentielles » n’incluront pas des informations qui (a) sont
+publiques ou mises à la connaissance du public sans qu'il y ait rupture d'une
+obligation de confidentialité par la Partie réceptrice, (b) seraient
+développées indépendamment par la Partie réceptrice sans accès aux Informations
+confidentielles de la Partie diffusante ou (c) seraient fournies par une tierce
+partie, sans qu’il y ait pour autant rupture de toute obligation de
+confidentialité de toute partie. La Partie réceptrice peut divulguer les
+Informations confidentielles de la Partie diffusante dans la mesure où ladite
+diffusion est exigée par la loi, une décision d'un tribunal ou l'ordre d’une
+agence gouvernementale compétente, à condition que la Partie réceptrice en
+avertisse la Partie diffusante avant ladite diffusion et ne lui offre une
+opportunité raisonnable de rechercher une protection ou de contester ladite
+obligation. La Partie réceptrice traitera toutes Informations confidentielles
+comme strictement confidentielles et emploiera le même soin pour empêcher leur
+diffusion que pour ses propres informations confidentielles, à savoir en aucun
+cas des soins inférieurs à un degré raisonnable d'attention. La Partie
+réceptrice devra (aa) diffuser lesdites Informations confidentielles (i)
+uniquement aux employés autorisés et aux directeurs de la Partie réceptrice
+dont les obligations justifient leur besoin de connaître lesdites informations
+et qui sont convenus par écrit d’en assurer la confidentialité ou le statut
+propriétaire ou (ii) uniquement aux tierces parties exigées pour l’exécution
+des obligations de la Partie réceptrice dans le cadre du Contrat de licence à
+destination de l'utilisateur final, conformément à un accord écrit contenant
+des dispositions au moins aussi protectrices que les dispositions de
+confidentialité de la présente et (bb) utiliser lesdites Informations
+confidentielles uniquement pour le respect du Contrat de licence à destination
+de l'utilisateur final et au bénéfice de l'une et l'autre parties à la
+présente.
+
+9.3 Déclaration de confidentialité. Le Logiciel sous licence communique
+automatiquement avec les serveurs de Four Js pour rechercher des mises à jour
+du logiciel telles que des correctifs, des corrections de bogues, des mises à
+niveau ou autres améliorations. Vous consentez à ce que le Logiciel sous
+licence peut automatiquement rechercher et vous notifier de la présence de ces
+améliorations. Vous pouvez choisir de refuser ce service. Si vous souhaitez en
+apprendre plus sur les informations que nous envoyons, veuillez visiter
+https://4js.com/updates/.
+
+9.4 Respect des lois. Dans son utilisation du Logiciel sous licence, le
+Licencié se conformera à toutes les lois et réglementations applicables pour le
+contrôle de l'import et de l'export et, en particulier, n'exportera ni ne
+réexportera le Logiciel sous licence en l'absence de toutes licences
+gouvernementales des Etats-Unis et celles exigées par d’autres pays. Le
+Licencié défendra Four Js, l’indemnisera et le tiendra à couvert de toute
+violation desdites lois ou réglementations de la part du Licencié ou de
+n’importe lequel de ses agents, représentants, directeurs ou employés.
+
+9.5 Cession. Le Licencié ne pourra céder ni transférer, par le biais de la loi
+ou autrement, aucun de ses droits ou aucune de ses obligations dans le cadre du
+présent Contrat de licence (y compris ses licences relativement au Logiciel
+sous licence) à une tierce partie en l'absence du consentement écrit préalable
+de Four Js, sauf suite à une fusion, une vente, une acquisition, une
+réorganisation d'entreprise ou toute autre modification de direction du
+Licencié dans son intégralité. Toute tentative de cession ou de transfert en
+violation de ce qui précède sera annulée. Four Js peut transférer ou céder le
+présent Contrat de licence à destination de l'utilisateur final suite à toute
+fusion, vente, acquisition, consolidation, réorganisation d'entreprise ou
+changement de direction, y compris suite à la vente de tout ou partie des
+actifs auxquels le présent Contrat de licence à destination de l'utilisateur
+final peut être lié.
+
+9.6 Utilisateurs finaux au gouvernement américain. Si le Licencié est une
+branche ou une agence du Gouvernement des Etats-Unis, la disposition suivante
+s’applique. Le Logiciel sous licence et la Documentation font partie du
+« logiciel informatique commercial » et de la « documentation du logiciel
+informatique commercial », tel que ces termes sont utilisés dans le document 48
+C.F.R. 12.212 (sept. 1995) et ils sont fournis au Gouvernement (i) pour
+acquisition par ou au nom des agences civiles, en conformité avec la politique
+définie dans le document 48 C.F.R. 12.212 ou (ii) pour acquisition par ou au
+nom de services du Ministère de la Défense, en conformité avec les politiques
+définies dans les documents 48 C.F.R. 7202-1 (juin 1995) et 27.7202-3 (juin
+1995).
+
+9.7 Notifications. Toutes notifications, consentements et approbations liés au
+présent Contrat de licence doivent être remis par écrit et par courrier ou
+télécopie ou encore par lettre recommandée ou certifiée (affranchie au tarif en
+vigueur avec accusé de réception) à l’autre partie et elles prendront effet dès
+réception ou trois (3) jours ouvrés après avoir été déposées au courrier comme
+exigé ci-avant, quel que soit l’événement qui survienne en premier.
+
+9.8 Droit applicable et juridiction. Le présent Contrat de licence sera régi
+par les lois de l’Irlande. La Convention des Nations Unies sur les Contrats
+pour la vente de marchandises à l’international ne s’applique pas au présent
+Contrat de licence. Vous convenez que toute action ou procédure naissant du
+présent Contrat de licence ou liée à lui et entamée par vous, doive être portée
+devant un tribunal en Irlande et que chaque partie se soumette de manière
+irrévocable à la juridiction et à la compétence de tout tribunal de ce type
+dans toute action ou procédure de ce type. En dépit de ce qui précède, (i) vous
+consentez à participer à toute décision portée contre vous dans toute
+juridiction où vous menez ou assurez une activité ou des actifs et à l’exécuter
+et (ii) vous convenez que Four Js peut entamer une action contre vous dans
+toute juridiction qu’il choisira, dans l’objectif de faire appliquer ses droits
+conformément au présent Contrat de licence ou à ses droits de propriété
+intellectuelle.
+
+9.9 Recours. A l’exception de ce qui est stipulé dans les articles 5 et 6 qui
+précèdent, les droits et recours des Parties dans le cadre du présent Contrat
+de licence sont cumulatifs. Au cas où toute action légale serait entamée en vue
+de faire appliquer le présent Contrat de licence, la partie gagnante sera
+autorisée à se faire rembourser ses frais d’avocat, frais de tribunaux et
+autres frais de recouvrement, en plus de tout autre dédommagement qu’elle
+pourrait recevoir.
+
+9.10 Maintenance ou assistance. Four Js n’a pas pour obligation de fournir des
+services d’assistance ou de maintenance à toute partie dans le cadre du présent
+Contrat de licence. La maintenance et l’assistance, dans la mesure où elles
+sont fournies, devront faire l’objet d’un Contrat de service séparé décrit dans
+l’Annexe B.
+
+9.11 Divers. Toutes renonciations doivent être faites par écrit. Toute
+renonciation ou tout manquement à appliquer toute disposition du présent
+Contrat de licence, à une occasion précise, ne sera pas réputé constituer une
+renonciation à toute autre disposition ou à cette disposition en toute autre
+occasion. Au cas où toute disposition du présent Contrat de licence deviendrait
+inapplicable, ladite disposition sera modifiée et interprétée en vue de
+parvenir aux objectifs de ladite disposition dans la plus grande mesure
+possible, conformément à la loi applicable. Les dispositions restantes
+continueront à produire des effets. Les titres des articles du présent Contrat
+de licence n’ont qu’un but de commodité et ne peuvent être utilisés pour
+l’interpréter. Tels qu’ils sont utilisés dans le présent Contrat de licence,
+les mots « y compris » s’entendront de « y compris, mais sans s’y limiter ». Le
+présent Contrat de licence constitue la totalité de l’accord entre les parties
+concernant le sujet à la présente et remplace tout contrat, accord et
+communication précédents ou contemporains, qu’ils soient écrits ou oraux. Le
+présent Contrat de licence ne pourra être amendé que par un document écrit,
+signé sur l’original à l’encre, par l’une et l’autre partie.
+
+
+10. PRODUITS
+
+10.1 Les produits de « Classe A » désignent les produits principalement
+utilisés pour des objectifs de développement.
+
+10.2 Les produits de « Classe B » désignent les produits principalement
+utilisés pour déployer des applications développées à l’aide de produits de la
+« Classe A ».

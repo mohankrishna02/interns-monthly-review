@@ -1,0 +1,221 @@
+{
+  "name": "TableWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-TableWidget-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "gbc-TableWidget-font-size-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-font-size-ratio"
+    },
+    {
+      "name": "gbc-TableWidget-table-margin",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-table-margin"
+    },
+    {
+      "name": "gbc-TableWidget-resizer-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-above-Normal"
+    },
+    {
+      "name": "gbc-TableWidget-border-width-top",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-border-width-top"
+    },
+    {
+      "name": "gbc-TableWidget-border-width-right",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-border-width-right"
+    },
+    {
+      "name": "gbc-TableWidget-border-width-bottom",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-border-width-bottom"
+    },
+    {
+      "name": "gbc-TableWidget-border-width-left",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-border-width-left"
+    },
+    {
+      "name": "gbc-TableWidget-border-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$mt-field-border-color"
+    },
+    {
+      "name": "gbc-TableWidget-focus-border-width-top",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-focus-border-width-top"
+    },
+    {
+      "name": "gbc-TableWidget-focus-border-width-right",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-focus-border-width-right"
+    },
+    {
+      "name": "gbc-TableWidget-focus-border-width-bottom",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-focus-border-width-bottom"
+    },
+    {
+      "name": "gbc-TableWidget-focus-border-width-left",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-focus-border-width-left"
+    },
+    {
+      "name": "gbc-TableWidget-focus-border-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$mt-field-focus-border-color"
+    },
+    {
+      "name": "gbc-TableWidget-inner-border-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "gbc-TableWidget-field-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-field-background-color"
+    },
+    {
+      "name": "gbc-TableWidget-field-disabled-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-field-disabled-background-color"
+    },
+    {
+      "name": "gbc-TableWidget-currentRow-background-color",
+      "title": "Gbc TableWidget currentRow background color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-currentrow-background-color"
+    },
+    {
+      "name": "gbc-TableWidget-unfocused-currentRow-background-color",
+      "title": "Gbc TableWidget unfocused currentRow background color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-faded-background-color"
+    },
+    {
+      "name": "gbc-TableWidget-currentRow-color",
+      "title": "Gbc TableWidget currentRow text color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-currentrow-color"
+    },
+    {
+      "name": "gbc-TableWidget-unfocused-currentRow-color",
+      "title": "Gbc TableWidget unfocused currentRow text color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$palette-text-secondary"
+    },
+    {
+      "name": "gbc-TableWidget-dnd-border-color",
+      "title": "Gbc TableWidget dnd border color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "gbc-TableWidget-header-color",
+      "title": "Gbc TableWidget header text color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-header-color"
+    },
+    {
+      "name": "gbc-TableWidget-header-disabled-color",
+      "title": "Gbc TableWidget disabled header text color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "gbc-TableWidget-hover-color",
+      "title": "Gbc TableWidget hover color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-faded-background-color"
+    },
+    {
+      "name": "gbc-TableWidget-mrs-border-color",
+      "title": "Gbc TableWidget mrs border color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "gbc-TableWidget-treeview-collapsed-icon",
+      "title": "Gbc TableWidget Treeview icon when collapsed",
+      "description": "",
+      "type": "string",
+      "defaultValue": "menu-right"
+    },
+    {
+      "name": "gbc-TableWidget-treeview-expanded-icon",
+      "title": "Gbc TableWidget Treeview icon when expanded",
+      "description": "",
+      "type": "string",
+      "defaultValue": "menu-down"
+    },
+    {
+      "name": "gbc-TableWidget-treeview-leaf-icon",
+      "title": "Gbc TableWidget Treeview icon on leaf",
+      "description": "",
+      "type": "string",
+      "defaultValue": "blank"
+    },
+    {
+      "name": "gbc-TableWidget-min-width",
+      "title": "Gbc TableWidget minimum width (pixels)",
+      "description": "",
+      "type": "number",
+      "defaultValue": 60,
+      "aliases": [
+        "table-min-width",
+        "theme-table-min-width"
+      ]
+    },
+    {
+      "name": "gbc-TableWidget-min-page-size",
+      "title": "Gbc TableWidget minimum page size",
+      "description": "",
+      "type": "number",
+      "defaultValue": 3,
+      "aliases": [
+        "table-min-pageSize",
+        "theme-table-min-page-size"
+      ]
+    },
+    {
+      "name": "gbc-TableWidget-focused-cell-border-width",
+      "title": "Gbc TableWidget focused cell highlight width",
+      "description": "",
+      "type": "size",
+      "defaultValue": "1px"
+    }
+  ]
+}

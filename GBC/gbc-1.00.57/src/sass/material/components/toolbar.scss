@@ -1,0 +1,70 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+
+.mt-sidebar-toggle{
+  width:$mt-toolbar-item-height;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mt-toolbar{
+  background-color: $mt-toolbar-background-color;
+  color: $mt-toolbar-color;
+  fill: $mt-toolbar-color;
+  min-height:$mt-toolbar-item-height;
+  height:$mt-toolbar-item-height;
+  line-height: $mt-toolbar-item-height;
+  //transition: all 0.3s ease;
+  @include mt-shadow($mt-toolbar-margin-ratio*2);
+  @include flex-stretch(row);
+  @at-root header#{&} {
+    z-index: $mt-toolbar-z-index;
+  }
+  >*{
+    line-height: $mt-toolbar-item-height;
+  }
+  a, a:focus, a:visited {
+    color:$mt-toolbar-color;
+  }
+  a:hover {
+    color:$mt-sidebar-faded-color;
+  }
+  .mt-actions{
+    margin: 0;
+    >li{
+      position:relative;
+      display: inline-block;
+      min-width:$mt-toolbar-item-height;
+      margin-right: $mt-toolbar-margin-ratio * 6px;
+      text-align: center;
+      ul {
+        display: none;
+      }
+    }
+  }
+  .mt-item {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .mt-separator{
+    border-left: 1px solid $mt-toolbar-separator-color;
+  }
+}
+
+.mt-toolbar-title{
+  @include flexible_guest_stretch;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 8px;
+}

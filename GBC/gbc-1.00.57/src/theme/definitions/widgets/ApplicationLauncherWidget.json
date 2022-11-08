@@ -1,0 +1,31 @@
+{
+  "name": "application-launcher",
+  "title": "Application launcher",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-ApplicationLauncher-item-title-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    },
+    {
+      "name": "gbc-ApplicationLauncher-item-title-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-color"
+    },
+    {
+      "name": "gbc-ApplicationLauncher-item-title-hover-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-faded-background-color"
+    },
+    {
+      "name": "gbc-ApplicationLauncher-item-title-hover-link-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-faded-color"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--
+   FOURJS_START_COPYRIGHT(D,2018)
+   Property of Four Js*
+   (c) Copyright Four Js 2018, 2019. All Rights Reserved.
+   * Trademark of Four Js Development Tools Europe Ltd
+     in the United States and elsewhere
+   
+   This file can be modified by licensees according to the
+   product manual.
+   FOURJS_END_COPYRIGHT
+ -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FglRichText</title>
+    <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Include Quill stylesheet -->
+    <link rel="stylesheet" href="lib/Quill/quill.snow.css">
+    <link rel="stylesheet" href="lib/quill-emoji/quill-emoji.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div id="toolbar" class="hidden disabled">
+        <!-- bold italic underline strikethrough -->
+        <span class="ql-formats">
+          <button class="ql-bold" data-item="bold" data-toggle="tooltip" data-placement="bottom" title="Bold"></button>
+          <button class="ql-italic" data-item="italic" data-toggle="tooltip" data-placement="bottom" title="Add italic text <cmd+i>"></button>
+          <button class="ql-underline" data-item="underline" data-toggle="tooltip" data-placement="bottom" title="Underline"></button>
+          <button class="ql-strike" data-item="strikethrough" data-toggle="tooltip" data-placement="bottom" title="Strike"></button>
+        </span>
+        <!-- aligncenter alignjustify alignleft alignnone alignright -->
+        <span class="ql-formats">
+          <button class="ql-align" data-item="alignleft" value="" data-toggle="tooltip" data-placement="bottom" title="Align left"></button>
+          <button class="ql-align" data-item="aligncenter" value="center" data-toggle="tooltip" data-placement="bottom" title="Align center"></button>
+          <button class="ql-align" data-item="alignright" value="right" data-toggle="tooltip" data-placement="bottom" title="Align right"></button>
+          <button class="ql-align" data-item="alignjustify" value="justify" data-toggle="tooltip" data-placement="bottom" title="Align justify"></button>
+          <button class="ql-align" data-item="alignnone" value="none"  data-toggle="tooltip" data-placement="bottom" title="Align none"></button>
+        </span>
+        <!-- numlist bullist -->
+        <span class="ql-formats">
+          <button type="button" data-item="numlist" class="ql-list" value="ordered" data-toggle="tooltip" data-placement="bottom" title="Ordered list"></button>
+          <button type="button" data-item="bullist" class="ql-list" value="bullet" data-toggle="tooltip" data-placement="bottom" title="Bullet list"></button>
+        </span>
+        <!-- indent outdent -->
+        <span class="ql-formats">
+          <button type="button" data-item="outdent" class="ql-indent" value="-1" data-toggle="tooltip" data-placement="bottom" title="Decrease indentation"></button>
+          <button type="button" data-item="indent" class="ql-indent" value="+1" data-toggle="tooltip" data-placement="bottom" title="Increase indentation"></button>
+        </span>
+        <!-- styleselect -->
+        <span class="ql-formats">
+          <select class="ql-align" data-toggle="tooltip" data-placement="bottom" title="Alignements">
+            <option selected="" data-toggle="tooltip" data-placement="right" title="Left"></option>
+            <option value="center" data-toggle="tooltip" data-placement="right" title="Center"></option>
+            <option value="right" data-toggle="tooltip" data-placement="right" title="Right"></option>
+            <option value="justify" data-toggle="tooltip" data-placement="right" title="Justify"></option>
+          </select>
+        </span>
+
+        <!-- code -->
+        <span class="ql-formats">
+          <button type="button" class="ql-code-block" data-toggle="tooltip" data-placement="bottom" title="Insert code"></button>
+        </span>
+
+        <!-- link -->
+        <span class="ql-formats">
+          <button type="button" data-item="insert" class="ql-link" data-toggle="tooltip" data-placement="bottom" title="Insert link"></button>
+        </span>
+
+        <!-- color -->
+        <span class="ql-formats">
+          <select class="ql-color" data-item="color" data-toggle="tooltip" data-placement="bottom" title="Text color"></select>
+          <select class="ql-background" data-item="backgroundcolor" data-toggle="tooltip" data-placement="bottom" title="Background color"></select>
+        </span>
+
+        <!-- removeformat -->
+        <span class="ql-formats">
+          <button type="button" data-item="removeformat" class="ql-clean" data-toggle="tooltip" data-placement="bottom" title="Remove format"></button>
+        </span>
+
+        <!-- styleselect -->
+        <!--span class="ql-formats">
+          <select class="custom-styleselect" data-toggle="tooltip" data-placement="bottom" title="Styles select">
+            <option value="ql-code-block"></option>
+          </select>
+        </span-->
+
+        <!-- fontselect -->
+        <span class="ql-formats">
+          <select class="ql-font" data-item="fontselect" data-toggle="tooltip" data-placement="bottom" title="Font select">
+            <option value="sansserif" selected=""></option>
+            <option value="serif"></option>
+            <option value="monospace"></option>
+          </select>
+        </span>
+        <!-- linespacing -->
+        <span class="ql-formats">
+           <select class="ql-lineheight" data-item="linespacing" data-toggle="tooltip" data-placement="bottom" title="Line height">
+            <option value="1">Small</option>
+             <!-- Note a missing, thus falsy value, is used to reset to default -->
+            <option value="1.42" selected>Normal</option>
+            <option value="2">Large</option>
+            <option value="2.5">Huge</option>
+          </select>
+        </span>
+
+        <!-- fontsizeselect -->
+        <span class="ql-formats">
+          <select id="fontsizeselect" data-item="fontsizeselect" class="ql-size" data-toggle="tooltip" data-placement="bottom" title="Font size">
+            <option value="6px" data-item="6px">6</option>
+            <option value="7px" data-item="7px">7</option>
+            <option value="8px" data-item="8px">8</option>
+            <option value="9px" data-item="9px">9</option>
+            <option value="10px" data-item="10px">10</option>
+            <option value="11px" data-item="11px">11</option>
+            <option value="12px" data-item="12px">12</option>
+            <option value="13px" data-item="13px" selected="">13</option>
+            <option value="14px" data-item="14px">14</option>
+            <option value="15px" data-item="15px">15</option>
+            <option value="16px" data-item="16px">16</option>
+            <option value="17px" data-item="17px">17</option>
+            <option value="18px" data-item="18px">18</option>
+            <option value="19px" data-item="19px">19</option>
+            <option value="20px" data-item="20px">20</option>
+            <option value="21px" data-item="21px">21</option>
+            <option value="22px" data-item="22px">22</option>
+            <option value="23px" data-item="23px">23</option>
+            <option value="24px" data-item="24px">24</option>
+            <option value="25px" data-item="25px">25</option>
+            <option value="26px" data-item="26px">26</option>
+            <option value="27px" data-item="27px">27</option>
+            <option value="28px" data-item="28px">28</option>
+            <option value="29px" data-item="29px">29</option>
+            <option value="30px" data-item="30px">30</option>
+            <option value="31px" data-item="31px">31</option>
+            <option value="32px" data-item="32px">32</option>
+            <option value="33px" data-item="33px">33</option>
+            <option value="34px" data-item="34px">34</option>
+            <option value="35px" data-item="35px">35</option>
+            <option value="36px" data-item="36px">36</option>
+            <option value="37px" data-item="37px">37</option>
+            <option value="38px" data-item="38px">38</option>
+            <option value="39px" data-item="39px">39</option>
+            <option value="40px" data-item="40px">40</option>
+            <option value="41px" data-item="41px">41</option>
+            <option value="42px" data-item="42px">42</option>
+            <option value="43px" data-item="43px">43</option>
+            <option value="44px" data-item="44px">44</option>
+            <option value="45px" data-item="45px">45</option>
+            <option value="46px" data-item="46px">46</option>
+            <option value="47px" data-item="47px">47</option>
+            <option value="48px" data-item="48px">48</option>
+            <option value="49px" data-item="49px">49</option>
+            <option value="50px" data-item="50px">50</option>
+            <option value="51px" data-item="51px">51</option>
+            <option value="52px" data-item="52px">52</option>
+            <option value="53px" data-item="53px">53</option>
+            <option value="54px" data-item="54px">54</option>
+            <option value="55px" data-item="55px">55</option>
+            <option value="56px" data-item="56px">56</option>
+            <option value="57px" data-item="57px">57</option>
+            <option value="58px" data-item="58px">58</option>
+            <option value="59px" data-item="59px">59</option>
+            <option value="60px" data-item="60px">60</option>
+            <option value="61px" data-item="61px">61</option>
+            <option value="62px" data-item="62px">62</option>
+            <option value="63px" data-item="63px">63</option>
+            <option value="64px" data-item="64px">64</option>
+            <option value="65px" data-item="65px">65</option>
+            <option value="66px" data-item="66px">66</option>
+            <option value="67px" data-item="67px">67</option>
+            <option value="68px" data-item="68px">68</option>
+            <option value="69px" data-item="69px">69</option>
+            <option value="70px" data-item="70px">70</option>
+            <option value="71px" data-item="71px">71</option>
+            <option value="72px" data-item="72px">72</option>
+            <option value="73px" data-item="73px">73</option>
+            <option value="74px" data-item="74px">74</option>
+            <option value="75px" data-item="75px">75</option>
+            <option value="76px" data-item="76px">76</option>
+            <option value="77px" data-item="77px">77</option>
+            <option value="78px" data-item="78px">78</option>
+            <option value="79px" data-item="79px">79</option>
+            <option value="80px" data-item="80px">80</option>
+            <option value="81px" data-item="81px">81</option>
+            <option value="82px" data-item="82px">82</option>
+            <option value="83px" data-item="83px">83</option>
+            <option value="84px" data-item="84px">84</option>
+            <option value="85px" data-item="85px">85</option>
+            <option value="86px" data-item="86px">86</option>
+            <option value="87px" data-item="87px">87</option>
+            <option value="88px" data-item="88px">88</option>
+            <option value="89px" data-item="89px">89</option>
+            <option value="90px" data-item="90px">90</option>
+            <option value="91px" data-item="91px">91</option>
+            <option value="92px" data-item="92px">92</option>
+            <option value="93px" data-item="93px">93</option>
+            <option value="94px" data-item="94px">94</option>
+            <option value="95px" data-item="95px">95</option>
+            <option value="96px" data-item="96px">96</option>
+            <option value="97px" data-item="97px">97</option>
+            <option value="98px" data-item="98px">98</option>
+            <option value="99px" data-item="99px">99</option>
+            <option value="100px" data-item="100px">100</option>
+          </select>
+        </span>
+        <!-- formatselect -->
+        <span class="ql-formats">
+          <select class="ql-header" data-item="formatselect" data-toggle="tooltip" data-placement="bottom" title="Format select">
+            <option value="1">Heading 1</option>
+            <option value="2">Heading 2</option>
+            <option value="3">Heading 3</option>
+            <option value="4">Heading 4</option>
+            <option value="5">Heading 5</option>
+            <option value="6">Heading 6</option>
+            <option value="" selected="">Normal</option>
+          </select>
+        </span>
+        <!-- image -->
+        <span class="ql-formats">
+          <button type="button" data-item="image" class="ql-image" data-toggle="tooltip" data-placement="bottom" title="Insert Image"></button>
+        </span>
+        <!-- insert link -->
+        <span class="ql-formats">
+          <button type="button" data-item="insert" class="ql-link" data-toggle="tooltip" data-placement="bottom" title="Insert link"></button>
+        </span>
+        <!-- removeformat -->
+        <span class="ql-formats">
+          <button type="button" data-item="removeformat" class="ql-clean" data-toggle="tooltip" data-placement="bottom" title="Remove formatting"></button>
+        </span>
+
+        <!-- redo undo -->
+        <span class="ql-formats">
+          <button type="button" data-item="undo" data-toggle="tooltip" data-placement="bottom" title="Undo" class="ql-undo"><i class="fa fa-undo"></i></button>
+          <button type="button" data-item="redo" data-toggle="tooltip" data-placement="bottom" title="Redo" class="ql-redo"><i class="fa fa-repeat"></i></button>
+        </span>
+
+        <!-- emoji -->
+        <span class="ql-formats">
+          <button type="button" data-item="emoji" class="ql-emoji" data-toggle="tooltip" data-placement="bottom" title="Insert Emoji"></button>
+        </span>
+      </div>
+
+      <!-- Create the editor container -->
+      <div id="editor"></div>
+
+    </div>
+
+    <!-- Include the Quill library -->
+    <script src="lib/Quill/quill.min.js"></script>
+    <!-- Include the Quill converter to HTML -->
+    <script src="lib/QuillDeltaToHtmlConverter.bundle.js"></script>
+    <script src="lib/quill-emoji/quill-emoji.js"></script>
+
+    <script src="lib/jsface/jsface.min.js"></script>
+    <script src="lib/helpers.js"></script>
+
+    <script src="js/quill-modules.js"></script>
+    <script src="js/Toolbar.js"></script>
+    <script src="js/HtmlParser.js"></script>
+    <!--Disabled for now: script src="js/Spellchecker.js"></script-->
+    <script src="js/fglrichtext.js"></script>
+    <!-- Init gICAPI -->
+    <script src="js/gICAPI.js"></script>
+
+    <script>
+    </script>
+
+  </body>
+</html>
+

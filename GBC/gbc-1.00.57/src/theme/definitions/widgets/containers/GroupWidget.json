@@ -1,0 +1,30 @@
+{
+  "name": "GroupWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-GroupWidget-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "gbc-GroupWidget-font-size-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-font-size-ratio"
+    },
+    {
+      "name": "gbc-GroupWidget-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-alternative-background-color"
+    },
+    {
+      "name": "gbc-GroupWidget-collapser-position",
+      "description": "Define the group collapser position (left or right)",
+      "type": "string",
+      "defaultValue": "$theme-collapser-position"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2014)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2014, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.upshift.editing {
+  text-transform: uppercase;
+}
+.downshift.editing {
+  text-transform: lowercase;
+}
+
+@if variable-exists(theme-selection-background-color) {
+  ::selection {
+    background-color: $theme-selection-background-color;
+    color: $theme-selection-text-color;
+  }
+}
+
+@mixin noTextSelection {
+  user-select: none;
+}
+
+@mixin caret-private {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.caret-none {
+  @include caret-private;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.caret-down {
+  @include caret-private;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.caret-up {
+  @include caret-private;
+  border-bottom: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.caret-right {
+  @include caret-private;
+  border-left: 4px solid;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+.caret-left {
+  @include caret-private;
+  border-right: 4px solid;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+/* Disable spin buttons on input type=number */
+input[type=date]::-webkit-inner-spin-button,
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none!important;
+  margin: 0;
+}
+input[type=date]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+/**
+ * Disable hardware acceleration since we are not using any animation/transition
+ * This improve performances on IE
+ * @see http://stackoverflow.com/questions/10814178/css-performance-relative-to-translatez0
+ */
+.zmdi{
+  transform: inherit;
+}
+
+.noPointerEvents {
+  pointer-events: none;
+}
+
+.activePointerEvents {
+  pointer-events: auto;
+}
+
+/**
+ * avoid unwanted text selection on firefox
+ */
+body.is-firefox{
+  user-select: none;
+  > * {
+    user-select: text;
+  }
+}
+
+/**
+ * Fix for: iOS doesn't support event click bubbling to <body> element
+ * https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html
+ * http://gravitydept.com/blog/js-click-event-bubbling-on-ios
+ */
+body.is-ios > * {
+  cursor: pointer;
+}
+
+/**
+ * Smooth scrolling like Android
+ */
+body.is-ios {
+  -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,98 @@
+{
+  "name": "application-host",
+  "title": "Application Host level specific variables",
+  "description": "Configure variables specific to Application Host",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-ApplicationHostMenuWidget-actions-height",
+      "title": "Gbc ApplicationHostMenuWidget actions height",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-margin-ratio*72px"
+    },
+    {
+      "name": "gbc-ApplicationHostMenuWidget-chromebar-min-width",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-toggle-chromebar-min-width",
+      "aliases": [
+        "gbc-ApplicationHostMenuWidget-right-sidebar-min-width"
+      ]
+    },
+    {
+      "name": "gbc-ApplicationHostMenuWidget-toolbar-z-index",
+      "title": "Gbc ApplicationHostMenuWidget toolbar z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-BarsContainer"
+    },
+    {
+      "name": "gbc-ApplicationHostMenuWidget-actions-z-index",
+      "title": "Gbc ApplicationHostMenuWidget actions z-index",
+      "type": "number",
+      "defaultValue": "$z-index-above-DropDown"
+    },
+    {
+      "name": "gbc-ApplicationHostMenuWidget-runtime-processing-opacity",
+      "type": "number",
+      "defaultValue": 0.7
+    },
+    {
+      "name": "gbc-SessionSidebarWindowItemWidget-height",
+      "title": "Gbc SessionSidebarWindowItemWidget height",
+      "type": "size",
+      "defaultValue": "$theme-margin-ratio*48px"
+    },
+    {
+      "name": "gbc-MainContainerWidget-z-index",
+      "title": "Gbc MainContainerWidget z-index",
+      "type": "number",
+      "defaultValue": "$z-index-under-Dialog"
+    },
+    {
+      "name": "gbc-ApplicationHostMenuWidget-margin-ratio",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "gbc-ApplicationHostMenuWidget-font-size-ratio",
+      "type": "number",
+      "defaultValue": "$theme-font-size-ratio"
+    },
+    {
+      "name": "gbc-ApplicationHostMenuWidget-background-color",
+      "type": "color",
+      "defaultValue": "$theme-secondary-alternative-background-color"
+    },
+    {
+      "name": "gbc-ApplicationHostMenuWidget-sidebar-item-color",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    },
+    {
+      "name": "gbc-ApplicationHostMenuWidget-toolbar-item-color",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    },
+    {
+      "name": "gbc-ApplicationHostMenuWidget-toolbar-item-hover-color",
+      "type": "color",
+      "defaultValue": "$theme-primary-emphasis-background-color"
+    },
+    {
+      "name": "gbc-ApplicationHostWidget-dialog-button-hover-color",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    },
+    {
+      "name": "gbc-LogPlayerWidget-header-background-color",
+      "type": "color",
+      "defaultValue": "$theme-disabled-color"
+    },
+    {
+      "name": "gbc-LogPlayerWidget-separator-color",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    }
+  ]
+}

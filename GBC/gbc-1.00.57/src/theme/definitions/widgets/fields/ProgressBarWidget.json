@@ -1,0 +1,11 @@
+{
+  "name": "ProgressBarWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+    "name": "gbc-ProgressBarWidget-color",
+    "description": "",
+    "type": "color",
+    "defaultValue": "$theme-primary-background-color"
+  }]
+}

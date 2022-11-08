@@ -1,0 +1,169 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ModalWidget {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  z-index: $gbc-ModalWidget-z-index;
+  .g_measuring &.g_measureable{
+    height: 100%;
+  }
+  &.g_needLayout{
+    visibility: hidden;
+  }
+  &.gbc_SystemModal {
+    &> .mt-dialog-pane {
+      flex: 0 0 auto;
+    }
+  }
+  &.left-realign {
+    justify-content: flex-start;
+  }
+  &.top-realign {
+    .mt-dialog-pane {
+      margin-top: auto;
+    }
+  }
+  .mt-dialog-pane {
+    overflow: auto;
+    &.moved{
+      .is-edge .g_measuring & {
+        position: relative;
+      }
+      position: absolute;
+    }
+  }
+
+  .mt-dialog-resizer{
+    display: none;
+  }
+  .mt-dialog-header {
+    > .movable_firefox_placekeeper {
+      color: rgba(255, 255, 255, 0.01);
+      background-color: rgba(255, 255, 255, 0.01);
+      pointer-events: none;
+      width:1px;
+      height:1px;
+    }
+
+    flex: 0 0 auto;
+    padding: $gbc-ModalWidget-field-height-ratio*8px 0 $gbc-ModalWidget-field-height-ratio*16px $gbc-ModalWidget-field-height-ratio*8px;
+    .reverse & {
+      padding: $gbc-ModalWidget-field-height-ratio*8px $gbc-ModalWidget-field-height-ratio*8px $gbc-ModalWidget-field-height-ratio*16px 0;
+    }
+    > .gbc_ImageWidget {
+      flex: 0 0 auto;
+      width: auto;
+    }
+    .mt-dialog-title {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .mt-dialog-actions {
+      margin-left: 1.2em;
+      font-size: 1.2em;
+      &:hover {
+        color: $gbc-ModalWidget-button-hover-color;
+      }
+    }
+  }
+  .mt-dialog-content {
+    flex: 1 1 auto;
+  }
+  .mt-dialog-footer {
+    flex: 0 0 auto;
+  }
+  .gbc_WindowWidget {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: transparent;
+    box-shadow: none;
+
+    .gbc_WindowToolbarContainer {
+      flex: 0 0 auto;
+      border: none;
+      background-color: inherit;
+    }
+    .gbc_WindowMenuContainerBottom, .gbc_WindowMenuContainerTop {
+      flex-shrink: 0;
+      & > .gbc_MenuWidget > .gbc_MenuWidgetScrollContainer {
+        flex-shrink: 0;
+      }
+    }
+    .gbc_WindowMenuContainerMiddle{
+      box-shadow: inherit;
+    }
+  }
+
+  &.movable .mt-dialog-header{
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+  }
+
+  &.movable.moving {
+    .mt-dialog-header {
+      cursor: move;
+      cursor: grabbing;
+      cursor: -moz-grabbing;
+      cursor: -webkit-grabbing;
+      opacity: 1;
+    }
+    .mt-dialog-pane {
+      outline: 1px dotted $gbc-ModalWidget-button-hover-color;
+      opacity: 0.6;
+    }
+  }
+
+  &.noselect{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+  }
+
+  &.sizable{
+    .mt-dialog-resizer{
+      font-size: 1.3em;
+      display: inline-block;
+      cursor: se-resize;
+      position: absolute;
+      bottom:0;
+      right:0;
+      .reverse &{
+        left:0;
+        right:auto;
+        cursor: sw-resize;
+        i{
+          transform: rotateZ(90deg);
+        }
+      }
+      > .sizable_firefox_placekeeper {
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.01);
+        background-color: rgba(255, 255, 255, 0.01);
+        pointer-events: none;
+        width:1px;
+        height:1px;
+      }
+
+    }
+  }
+}

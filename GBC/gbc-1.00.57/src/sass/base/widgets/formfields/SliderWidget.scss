@@ -1,0 +1,189 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_SliderWidget {
+
+  &.gbc_Focus {
+    outline: $mt-field-focus-border-width-bottom dotted $gbc-SliderWidget-focus-border-color;
+  }
+  input {
+    background-color: transparent;
+    &[readonly] {
+      background-color: transparent;
+      opacity: 0.6;
+      pointer-events: none;
+    }
+    &[type=range] {
+      -webkit-appearance: none;
+      border: none;
+      box-shadow: none !important;
+      vertical-align: middle;
+      padding: 0;
+      margin: 0;
+      min-height: $gbc-SliderWidget-field-height-ratio*20px;
+      overflow: hidden;
+
+      .g_measured &:not([orient=vertical]) {
+        width: 100%;
+        &::-webkit-slider-runnable-track {
+          height: $gbc-SliderWidget-field-height-ratio*5px;
+          width: 100%;
+        }
+        &::-moz-range-track {
+          pointer-events: none;
+          width: 100%;
+          height: $gbc-SliderWidget-field-height-ratio*5px;
+        }
+        &::-ms-track {
+          width: 100%;
+          height: $gbc-SliderWidget-field-height-ratio*5px;
+        }
+      }
+      &[orient=vertical] {
+        height: 90%;
+        &::-webkit-slider-runnable-track {
+          width: $gbc-SliderWidget-field-height-ratio*5px;
+          height: 100%;
+        }
+        &::-moz-range-track {
+          pointer-events: none;
+          height: 100%;
+          width: $gbc-SliderWidget-field-height-ratio*5px;
+        }
+        &::-ms-track {
+          height: 100%;
+          width: $gbc-SliderWidget-field-height-ratio*5px;
+        }
+      }
+      // Chrome
+      &::-webkit-slider-runnable-track {
+        -webkit-appearance: none !important;
+        background-color: $gbc-SliderWidget-background-color;
+        border: none;
+        border-radius: 3px;
+      }
+      &::-webkit-slider-thumb {
+        -webkit-appearance: none !important;
+        border-radius: $gbc-SliderWidget-field-height-ratio*18px;
+        background-color: $gbc-SliderWidget-color;
+        height: $gbc-SliderWidget-field-height-ratio*18px;
+        width: $gbc-SliderWidget-field-height-ratio*18px;
+        margin-top: $gbc-SliderWidget-field-height-ratio*-7px;
+        position: relative;
+        border: 1px solid $gbc-SliderWidget-disabled-color;
+        &:hover{
+          background-color: $gbc-SliderWidget-thumb-hover-color;
+          cursor: pointer;
+        }
+      }
+      &:active::-webkit-slider-thumb {
+        background-color: $gbc-SliderWidget-thumb-hover-color;
+      }
+
+      &::-webkit-slider-thumb::before {
+        position: absolute;
+        top: $gbc-SliderWidget-field-height-ratio*7px;
+        right: 50%;
+        left: -99999px;
+        background-color: $gbc-SliderWidget-color;
+        content: '';
+        height: $gbc-SliderWidget-field-height-ratio*5px;
+        pointer-events: none;
+      }
+      &::-webkit-range-progress {
+        background-color: $gbc-SliderWidget-color;
+      }
+
+      // Firefox
+      &::-moz-range-track {
+        pointer-events: none;
+        background-color: $gbc-SliderWidget-background-color;
+        border: none;
+        border-radius: 3px;
+      }
+
+      &::-moz-range-thumb {
+        border-radius: $gbc-SliderWidget-field-height-ratio*16px;
+        background-color: $gbc-SliderWidget-color;
+        height: $gbc-SliderWidget-field-height-ratio*16px;
+        width: $gbc-SliderWidget-field-height-ratio*16px;
+        &:hover{
+          background-color: $gbc-SliderWidget-thumb-hover-color;
+          cursor: pointer;
+        }
+      }
+      &:active::-moz-range-thumb{
+        background-color: $gbc-SliderWidget-thumb-hover-color;
+      }
+
+      // ie11
+      &::-ms-track {
+        background: transparent;
+        border-color: transparent;
+        border-width: $gbc-SliderWidget-field-height-ratio*6px 0;
+        color: transparent;
+      }
+      &::-ms-fill-lower {
+        background-color: $gbc-SliderWidget-color;
+        border-radius: $gbc-SliderWidget-field-height-ratio*10px;
+      }
+      &::-ms-fill-upper {
+        background-color: $gbc-SliderWidget-background-color;
+        border-radius: $gbc-SliderWidget-field-height-ratio*10px;
+      }
+
+      &::-ms-thumb {
+        border-radius: $gbc-SliderWidget-field-height-ratio*14px;
+        background-color: $gbc-SliderWidget-color;
+        height: $gbc-SliderWidget-field-height-ratio*16px;
+        width: $gbc-SliderWidget-field-height-ratio*16px;
+        margin: 0;
+        padding: 0;
+        &:hover{
+          background-color: $gbc-SliderWidget-thumb-hover-color;
+          cursor: pointer;
+        }
+      }
+      &:active::-ms-thumb{
+        background-color: $gbc-SliderWidget-thumb-hover-color;
+      }
+
+      &::-ms-tooltip {
+        display: none;
+      }
+    }
+  }
+
+  // Disabled L&F
+  &.disabled{
+    input[type=range] {
+      pointer-events: none;
+      filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'>
+<filter id=\'grayscale\'><feColorMatrix type=\'matrix\'
+values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/>
+</filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+      filter: gray; /* IE6-9 */
+      -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+      &::-webkit-slider-thumb {
+        &:hover{
+          cursor:default;
+        }
+      }
+      &::-ms-fill-lower {
+        opacity: 0.6;
+      }
+      &::-ms-fill-upper {
+        opacity: 0.6;
+      }
+
+    }
+  }
+}

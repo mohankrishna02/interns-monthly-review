@@ -1,0 +1,22 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_TraditionalScreenWidget {
+  width: 100%;
+  height: 100%;
+  background-color: $gbc-TraditionalScreenWidget-background-color;
+
+  @include mt-card-border($theme-margin-ratio, $theme-font-size-ratio);
+  letter-spacing: $theme-traditional-mode-letter-spacing;
+  .mt-field {
+    padding: 0;
+  }
+}

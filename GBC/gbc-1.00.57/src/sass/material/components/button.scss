@@ -1,0 +1,183 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+//TODO: hardcoded colors - might be themed
+
+@mixin mt-button {
+  min-height: $mt-button-default-height;
+  padding-left: $mt-button-margin-ratio*8px;
+  padding-right: $mt-button-margin-ratio*8px;
+  min-width: $mt-button-default-width;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 $mt-button-margin-ratio*2px $mt-button-margin-ratio*2px 0 rgba(0, 0, 0, .14), 0 $mt-button-margin-ratio*3px 1px -2px rgba(0, 0, 0, .2), 0 1px $mt-button-margin-ratio*5px 0 rgba(0, 0, 0, .12);
+  background-color: $mt-button-primary-background-color;
+  color: $mt-button-primary-color;
+  height:100%;
+
+  &:not(.disabled):hover, &[interruptable][interruptable-active]:hover {
+    background-color: $mt-button-primary-emphasis-background-color;
+    .gbc_ImageWidget img:hover, .gbc_ImageWidget svg:hover{
+      cursor: pointer;
+    }
+  }
+  &:focus {
+    outline: none;
+  }
+  &:not(.disabled):active, &[interruptable][interruptable-active]:active {
+    box-shadow: none;
+  }
+  &.disabled:not([interruptable-active]), &.disabled:not([interruptable-active]):focus {
+    background-color: $mt-button-disabled-background-color;
+    color: $mt-button-disabled-color;
+    cursor: default;
+  }
+  &.disabled:not([interruptable-active]) img{
+    opacity: 0.4;
+    filter: grayscale(100%);
+  }
+  &.mt-button-flat {
+    box-shadow: none;
+    font-weight: bold;
+    background-color: transparent;
+    color: $mt-button-primary-background-color;
+    &:not(.disabled):hover, &[interruptable][interruptable-active]:hover{
+      background-color: transparent;
+      color: $mt-button-primary-emphasis-background-color;
+    }
+    &.disabled:not([interruptable-active]), &.disabled:not([interruptable-active]):focus {
+      color: $mt-button-primary-faded-background-color;
+    }
+  }
+
+  span.mt-button-text {
+    white-space: pre;
+  }
+
+  span.title{
+    display: none;
+  }
+
+  // Button type : command Link
+  &[__ButtonWidget].buttonType_commandLink{
+    flex-direction: row;
+    align-items: flex-start;
+    display: flex;
+
+    font-weight: bold;
+    padding: 10px;
+    justify-content: left;
+
+    background-color: transparent;
+    color:inherit;
+    border: none;
+    box-shadow: none;
+    transition: box-shadow 1s;
+
+    &:not(.disabled):hover, &[interruptable][interruptable-active]:hover {
+      box-shadow: 0 $mt-button-margin-ratio*2px $mt-button-margin-ratio*2px 0 rgba(0, 0, 0, .14), 0 $mt-button-margin-ratio*3px 1px -2px rgba(0, 0, 0, .2), 0 1px $mt-button-margin-ratio*5px 0 rgba(0, 0, 0, .12);
+      background-color: transparent;
+    }
+    &.disabled:not([interruptable-active]), &.disabled:not([interruptable-active]):focus {
+      color: $mt-button-disabled-background-color;
+      background-color: transparent;
+      .gbc_ImageContainer:before{
+        color: $mt-button-disabled-background-color;
+      }
+      span.title{
+        display: inherit;
+        color: $mt-button-disabled-background-color;
+      }
+      .gbc_ImageWidget{
+        fill: $mt-button-disabled-background-color;
+      }
+    }
+
+    // Remove green arrow if an image has been set
+    .hasImage &{
+      .gbc_ImageContainer:before{
+        content: "";
+      }
+    }
+
+    .gbc_ImageContainer:before{
+      content: mdi("arrow-right") "\00a0";
+      font: normal normal normal 18px / 1 "Material Design Icons";
+      vertical-align: middle;
+      color: $mt-green-400;
+    }
+
+    .command{
+      padding-left: 0.1em;
+      width: 90%;
+    }
+
+    .gbc_ImageWidget{
+      fill: $gbc-CommandLinkWidget-ttf-color;
+    }
+
+    span.title{
+      font-size: 0.9em;
+      color: $mt-button-secondary-faded-color;
+      white-space: pre;
+      text-align: left;
+      display: inherit;
+    }
+  }
+
+  // Button type : Link
+  &[__ButtonWidget].mt-button.buttonType_link{
+    cursor:default;
+    flex: 0 0 auto;
+    padding: 0;
+    color: $mt-button-link-color;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    &.disabled:not([interruptable-active]), &.disabled:not([interruptable-active]):focus {
+      background-color: transparent;
+      cursor:default;
+      text-decoration: none;
+      color: $mt-button-disabled-color;
+    }
+    &:not(.disabled):hover, &[interruptable][interruptable-active]:hover{
+      color: $mt-button-link-active-color;
+      background-color: transparent;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  &.content-left {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  &.content-right {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  &.text-hidden {
+    span {
+      display: none;
+    }
+  }
+
+
+  .textimage{
+    display: flex;
+  }
+  .gbc_ImageWidget{
+    display: inherit;
+  }
+
+}
+
+.mt-button{@include mt-button();}

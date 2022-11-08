@@ -1,0 +1,48 @@
+{
+  "name": "mt-toolbar",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "mt-toolbar-item-height",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-host-action-default-height"
+    },
+    {
+      "name": "mt-toolbar-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "mt-toolbar-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-color"
+    },
+    {
+      "name": "mt-sidebar-faded-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-faded-background-color"
+    },
+    {
+      "name": "mt-toolbar-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-emphasis-background-color"
+    },
+    {
+      "name": "mt-toolbar-separator-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "mt-toolbar-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Toolbar"
+    }
+  ]
+}

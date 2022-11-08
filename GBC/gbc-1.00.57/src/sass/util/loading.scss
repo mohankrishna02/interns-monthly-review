@@ -1,0 +1,43 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+  .processing .loading-bar {
+    display: block;
+    animation: shift-rightwards 4s ease-in-out infinite;
+    animation-delay: .4s;
+  }
+
+  .loading-bar {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    z-index: 800;
+    background: $palette-text-primary;
+    transform: translateX(100%);
+  }
+
+  @keyframes shift-rightwards {
+    0% {
+      transform: translateX(-100%);
+    }
+    40% {
+      transform: translateX(0%);
+    }
+    60% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }

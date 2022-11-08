@@ -1,0 +1,84 @@
+{
+  "name": "mt-button",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "mt-button-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "mt-button-default-height",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-field-default-height"
+    },
+    {
+      "name": "mt-button-default-width",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-button-default-width"
+    },
+    {
+      "name": "mt-button-primary-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    },
+    {
+      "name": "mt-button-primary-emphasis-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-emphasis-background-color"
+    },
+    {
+      "name": "mt-button-primary-faded-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-faded-background-color"
+    },
+    {
+      "name": "mt-button-primary-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-color"
+    },
+    {
+      "name": "mt-button-secondary-faded-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-faded-color"
+    },
+    {
+      "name": "mt-button-disabled-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-disabled-color"
+    },
+    {
+      "name": "mt-button-disabled-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-disabled-background-color"
+    },
+    {
+      "name": "mt-button-separator-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "mt-button-link-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$html-anchor-color"
+    },
+    {
+      "name": "mt-button-link-active-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$html-anchor-active-color"
+    }
+  ]
+}

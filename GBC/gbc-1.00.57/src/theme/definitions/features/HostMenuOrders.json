@@ -1,0 +1,84 @@
+{
+  "name": "host-menu-order",
+  "title": "Host menu actions order",
+  "description": "Defines the order of the different actions available in the host menu",
+  "type": "group",
+  "contents": [{
+      "name": "host-menu-order-upload-icon",
+      "title": "Host Menu Order upload-icon",
+      "description": "",
+      "type": "number",
+      "defaultValue": 1
+    },
+    {
+      "name": "host-menu-order-runtime-status",
+      "title": "Host Menu Order runtime-status",
+      "description": "",
+      "type": "number",
+      "defaultValue": 10
+    },
+    {
+      "name": "host-menu-order-about",
+      "title": "Host Menu Order about",
+      "description": "",
+      "type": "number",
+      "defaultValue": 50
+    },
+    {
+      "name": "host-menu-order-debug",
+      "title": "Host Menu Order debug",
+      "description": "",
+      "type": "number",
+      "defaultValue": 100
+    },
+    {
+      "name": "host-menu-order-run-gwc",
+      "title": "Host Menu Order run-gwc",
+      "description": "",
+      "type": "number",
+      "defaultValue": 200
+    },
+    {
+      "name": "host-menu-order-run-gdc",
+      "title": "Host Menu Order run-gdc",
+      "description": "",
+      "type": "number",
+      "defaultValue": 500
+    },
+    {
+      "name": "host-menu-order-log-proxy",
+      "title": "Host Menu Order log-proxy",
+      "description": "",
+      "type": "number",
+      "defaultValue": 1000
+    },
+    {
+      "name": "host-menu-order-log-vm",
+      "title": "Host Menu Order log-vm",
+      "description": "",
+      "type": "number",
+      "defaultValue": 2000
+    },
+    {
+      "name": "host-menu-order-settings",
+      "title": "Host Menu Order settings",
+      "description": "",
+      "type": "number",
+      "defaultValue": 5000
+    },
+    {
+      "name": "host-menu-order-bookmark",
+      "title": "Host Menu Order bookmark",
+      "description": "",
+      "type": "number",
+      "defaultValue": 10000
+    },
+    {
+      "name": "host-menu-order-close",
+      "title": "Host Menu Order close",
+      "description": "",
+      "type": "number",
+      "defaultValue": 20000
+    }
+  ]
+}

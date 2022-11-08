@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Schema gstVersion="31408" id="{c1382333-0446-4c0a-b26b-aa3de710c411}" version="4.0">
+  <AGSettings version="1.1">
+    <DynamicProperties version="2">
+      <DynamicProperty description="Associated label when generating form" initialValue="" isDefaultInherited="false" isHidden="false" label="Label" name="label" readOnly="false" type="TEXT"/>
+      <DynamicProperty description="Associated widget" editorInfo="contains:ButtonEdit|CheckBox|ComboBox|DateEdit|DateTimeEdit|Edit|FFImage|FFLabel|Field|Phantom|ProgressBar|RadioGroup|Slider|SpinEdit|TextEdit|TimeEdit" initialValue="Edit" isDefaultInherited="false" isHidden="false" label="Widget" name="widget" readOnly="false" type="ENUM"/>
+      <DynamicPropertyGroup collapsed="false" description="Formfied properties" label="Formfield" name="formfieldGroup" properties="label;widget"/>
+    </DynamicProperties>
+    <NodeInfos version="1">
+      <NodeInfo mimeType="db/column" properties="widget;label"/>
+    </NodeInfos>
+  </AGSettings>
+  <ExtractionSettings last="SQLite">
+    <ExtractionOptions casens="LowerCase" cvmeth="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" ignerr="true" systab="false" type="SQLite"/>
+  </ExtractionSettings>
+  <Table active="true" name="details" status="U" uuid="db/table8">
+    <Column fglLength="4" fglType="2" name="intern_id" notNull="false" order="1" status="U" uuid="db/column38"/>
+    <Column fglLength="255" fglType="201" name="name" notNull="false" order="2" status="U" uuid="db/column40"/>
+    <Column fglLength="255" fglType="201" name="mentor_name" notNull="false" order="3" status="U" uuid="db/column42"/>
+    <Column fglLength="4" fglType="2" name="test1" notNull="false" order="4" status="U" uuid="db/column44"/>
+    <Column fglLength="4" fglType="2" name="test2" notNull="false" order="5" status="U" uuid="db/column46"/>
+    <Column fglLength="4" fglType="2" name="test3" notNull="false" order="6" status="U" uuid="db/column48"/>
+    <Column fglLength="4" fglType="2" name="monthly_test_result" notNull="false" order="7" status="U" uuid="db/column50"/>
+    <Column fglLength="4" fglType="2" name="attendance" notNull="false" order="8" status="U" uuid="db/column52"/>
+  </Table>
+  <Table active="true" name="intern" status="U" uuid="db/table10">
+    <Column fglLength="4" fglType="2" name="id" notNull="true" order="1" status="U" uuid="db/column54"/>
+    <Column fglLength="255" fglType="201" name="name" notNull="false" order="2" status="U" uuid="db/column56"/>
+    <Column fglLength="255" fglType="201" name="qualification" notNull="false" order="3" status="U" uuid="db/column58"/>
+    <Column fglLength="4" fglType="2" name="year_of_pass" notNull="false" order="4" status="U" uuid="db/column60"/>
+    <Column fglLength="8" fglType="52" name="mobile_num" notNull="false" order="5" status="U" uuid="db/column62"/>
+    <Column fglLength="255" fglType="201" name="email" notNull="false" order="6" status="U" uuid="db/column64"/>
+    <Column fglLength="4" fglType="2" name="mentor_id" notNull="false" order="7" status="U" uuid="db/column66"/>
+    <Index indexColumns="id" indexConstraint="primaryKey" name="sqlite_autoindex_intern_1" status="U" uuid="db/index1"/>
+  </Table>
+  <Table active="true" name="mentor" status="U" uuid="db/table12">
+    <Column fglLength="4" fglType="2" name="mentor_id" notNull="false" order="1" status="U" uuid="db/column68"/>
+    <Column fglLength="255" fglType="201" name="mentor_name" notNull="false" order="2" status="U" uuid="db/column70"/>
+    <Column fglLength="4" fglType="2" name="team_size" notNull="false" order="3" status="U" uuid="db/column72"/>
+  </Table>
+</Schema>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="detailsper" build="3.20.08" sqlDbName="project" width="43" height="12">
+  <ToolBar>
+    <ToolBarItem name="find" image="find" text="find">
+      <LStr text="find"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="next" image="next" text="next">
+      <LStr text="next"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="previous" image="previous" text="previous">
+      <LStr text="previous"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="accept" image="accept" text="accept">
+      <LStr text="accept"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="cancel" image="cancel" text="cancel">
+      <LStr text="cancel"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="quit" image="quit" text="quit">
+      <LStr text="quit"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="add" image="add" text="add">
+      <LStr text="add"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="update" image="update" text="update">
+      <LStr text="update"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="delete" image="delete" text="delete">
+      <LStr text="delete"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="print" image="print" text="print">
+      <LStr text="print"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="clear" image="clear" text="clear">
+      <LStr text="clear"/>
+    </ToolBarItem>
+  </ToolBar>
+  <Grid width="43" height="12">
+    <Group posY="0" posX="1" gridWidth="42" gridHeight="12">
+      <Label name="a1" width="3" text=" DETAILS" style="mystyle" posY="1" posX="18" gridWidth="3"/>
+      <Label text="                                    " posY="2" posX="2" gridWidth="38"/>
+      <Label text="INTERN ID" posY="3" posX="1" gridWidth="9"/>
+      <Label text=":" posY="3" posX="14" gridWidth="1"/>
+      <FormField name="details.intern_id" colName="intern_id" sqlType="INTEGER" fieldId="0" sqlTabName="details" tabIndex="1">
+        <Edit width="24" comment="ENTER INTERN ID" placeholder="ENTER INTERN ID" posY="3" posX="16" gridWidth="24"/>
+      </FormField>
+      <Label text="NAME" posY="4" posX="1" gridWidth="4"/>
+      <Label text=":" posY="4" posX="14" gridWidth="1"/>
+      <FormField name="details.name" colName="name" sqlType="VARCHAR(255)" fieldId="1" sqlTabName="details" tabIndex="2">
+        <Edit width="24" comment="ENTER INTERN NAME" placeholder="ENTER INTERN NAME" posY="4" posX="16" gridWidth="24"/>
+      </FormField>
+      <Label text="MENTOR NAME" posY="5" posX="1" gridWidth="11"/>
+      <Label text=":" posY="5" posX="14" gridWidth="1"/>
+      <FormField name="details.mentor_name" colName="mentor_name" sqlType="VARCHAR(255)" fieldId="2" sqlTabName="details" tabIndex="3">
+        <Edit width="24" comment="ENTER MENTOR NAME" placeholder="ENTER MENTOR NAME" posY="5" posX="16" gridWidth="24"/>
+      </FormField>
+      <Label text="TEST1" posY="6" posX="1" gridWidth="5"/>
+      <Label text=":" posY="6" posX="14" gridWidth="1"/>
+      <FormField name="details.test1" colName="test1" sqlType="INTEGER" fieldId="3" sqlTabName="details" tabIndex="4">
+        <Edit width="24" comment="ENTER TEST1 RESULT" placeholder="ENTER TEST1 RESULT" posY="6" posX="16" gridWidth="24"/>
+      </FormField>
+      <Label text="TEST2" posY="7" posX="1" gridWidth="5"/>
+      <Label text=":" posY="7" posX="14" gridWidth="1"/>
+      <FormField name="details.test2" colName="test2" sqlType="INTEGER" fieldId="4" sqlTabName="details" tabIndex="5">
+        <Edit width="24" comment="ENTER TEST2 RESULT" placeholder="ENTER TEST2 RESULT" posY="7" posX="16" gridWidth="24"/>
+      </FormField>
+      <Label text="TEST3" posY="8" posX="1" gridWidth="5"/>
+      <Label text=":" posY="8" posX="14" gridWidth="1"/>
+      <FormField name="details.test3" colName="test3" sqlType="INTEGER" fieldId="5" sqlTabName="details" tabIndex="6">
+        <Edit width="24" comment="ENTER TEST3 RESULT" placeholder="ENTER TEST3 RESULT" posY="8" posX="16" gridWidth="24"/>
+      </FormField>
+      <Label text="MONTHLY RES" posY="9" posX="1" gridWidth="11"/>
+      <Label text=":" posY="9" posX="14" gridWidth="1"/>
+      <FormField name="details.monthly_test_result" colName="monthly_test_result" sqlType="INTEGER" fieldId="6" sqlTabName="details" tabIndex="7">
+        <Edit width="24" comment="ENTER MONTHLY RESULT" placeholder="ENTER MONTHLY TEST RESULT" posY="9" posX="16" gridWidth="24"/>
+      </FormField>
+      <Label text="ATTENDANCE" posY="10" posX="1" gridWidth="10"/>
+      <Label text=":" posY="10" posX="14" gridWidth="1"/>
+      <FormField name="details.attendance" colName="attendance" sqlType="INTEGER" fieldId="7" sqlTabName="details" tabIndex="8">
+        <Edit width="24" comment="ENTER ATTENDANCE" placeholder="ENTER ATTENDANCE" posY="10" posX="16" gridWidth="24"/>
+      </FormField>
+    </Group>
+  </Grid>
+  <RecordView tabName="details">
+    <Link colName="intern_id" fieldIdRef="0"/>
+    <Link colName="name" fieldIdRef="1"/>
+    <Link colName="mentor_name" fieldIdRef="2"/>
+    <Link colName="test1" fieldIdRef="3"/>
+    <Link colName="test2" fieldIdRef="4"/>
+    <Link colName="test3" fieldIdRef="5"/>
+    <Link colName="monthly_test_result" fieldIdRef="6"/>
+    <Link colName="attendance" fieldIdRef="7"/>
+  </RecordView>
+</Form>

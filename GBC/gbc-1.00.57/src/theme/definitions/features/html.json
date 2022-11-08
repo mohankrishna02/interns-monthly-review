@@ -1,0 +1,49 @@
+{
+  "name": "html-defaults",
+  "title": "HTML defalults variables",
+  "description": "variables applied to defaults HTML elements",
+  "type": "group",
+  "contents": [{
+      "name": "html-font-family",
+      "title": "html font family",
+      "description": "",
+      "type": "string",
+      "defaultValue": "$theme-font-family"
+    },
+    {
+      "name": "html-font-family-monospace",
+      "title": "html font family monospace",
+      "description": "",
+      "type": "string",
+      "defaultValue": "$theme-font-family-monospace"
+    },
+    {
+      "name": "html-font-size-ratio",
+      "title": "html font size ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-font-size-ratio"
+    },
+    {
+      "name": "html-anchor-color",
+      "title": "html anchor color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    },
+    {
+      "name": "html-anchor-active-color",
+      "title": "html anchor active color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-emphasis-background-color"
+    },
+    {
+      "name": "html-separator-color",
+      "title": "html separator color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_TopMenuWidget {
+  display: flex;
+  list-style: none;
+  user-select: none;
+
+  &:not(.open) > .gbc_TopMenuGroupWidget:hover {
+    background-color: $gbc-TopMenuWidget-hover-color;
+  }
+
+  .gbc_TopMenuGroupWidget {
+    display: flex;
+    align-items: center;
+    padding: $gbc-TopMenuWidget-vertical-padding $gbc-TopMenuWidget-horizontal-padding;
+    line-height: $gbc-TopMenuWidget-line-height;
+    user-select: none;
+
+    &.current{
+      background-color: $gbc-TopMenuWidget-hover-color;
+    }
+
+    &:not(.disabled):hover{
+      cursor: pointer;
+    }
+    &:not(.disabled).touchHover{
+      cursor: pointer;
+      background-color: $gbc-TopMenuWidget-hover-color;
+    }
+
+    .gbc_ImageWidget {
+      display: flex;
+      align-items: center;
+      margin-right: 8px;
+      &.gbc_autoScale {
+        width: 20px !important;
+        height: 16px !important;
+      }
+    }
+  }
+}
+
+/* concerns element in DropDown */
+.gbc_DropDownContainerWidget{
+  .divider {
+    margin: 4px 12px;
+    border-top: 1px solid $gbc-TopMenuWidget-separator-color;
+    min-height: 1px;
+    &:not(.disabled):hover{
+      cursor:default;
+      background-color: inherit;
+    }
+  }
+
+  .gbc_TopMenuGroupWidget, .gbc_TopMenuCommandWidget {
+    display: flex;
+    align-items: center;
+    padding: $gbc-TopMenuWidget-vertical-padding $gbc-TopMenuWidget-horizontal-padding;
+    line-height: $gbc-TopMenuWidget-line-height;
+
+    .gbc_ImageWidget{
+      display: flex;
+      align-items: center;
+      margin-right: 8px;
+
+      &.gbc_autoScale {
+        width: $gbc-TopMenuWidget-icon-size * 1.25 !important;
+        height: $gbc-TopMenuWidget-icon-size !important;
+      }
+    }
+
+    .anchor{
+      flex: 1 1 auto;
+      padding-right: 2em;
+    }
+    .gbc-label-comment-container{
+      flex: 0 1 auto;
+      color: $theme-secondary-faded-color;
+    }
+
+    &.current .gbc-label-comment-container{
+      color: $gbc-DropDownWidget-item-current-color;
+    }
+
+    > .topMenuGroupText {
+      flex: 1 1 auto;
+    }
+  }
+
+  .gbc_TopMenuGroupWidget {
+    .gbc_ImageWidget.hidden + .topMenuGroupText {
+      padding-left: 24px;
+    }
+
+    .topMenuGroupCaret{
+      margin-left:8px;
+      @extend .caret-right;
+    }
+  }
+
+  .gbc_TopMenuCommandWidget{
+    span {
+      user-select: none;
+      color:inherit;
+    }
+  }
+
+  /* Arabic */
+  &.reverse{
+    .gbc_TopMenuGroupWidget, .gbc_TopMenuCommandWidget {
+
+      .gbc_ImageWidget{
+        margin-left:8px;
+        margin-right: 0px;
+      }
+
+      .topMenuGroupCaret{
+        margin-left:0px;
+        margin-right:8px;
+        transform: scaleX(-1);
+      }
+    }
+  }
+}
+
+

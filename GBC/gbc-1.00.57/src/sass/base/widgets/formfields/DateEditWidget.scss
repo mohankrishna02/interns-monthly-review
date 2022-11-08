@@ -1,0 +1,60 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.dd_DateEditWidget, .dd_DateTimeEditWidget, .dd_DummyDateEditWidget, .dd_DummyDateTimeEditWidget {
+  > .gbc_DropDownWidget {
+    text-align: right;
+    &.reverse{
+      text-align: left;
+    }
+
+    > .gbc_DateEditButton {
+      display: inline-block;
+      margin: $gbc-DateEdit-margin-ratio*6px;
+      cursor: pointer;
+    }
+  }
+}
+
+// TODO Spinedit, DateTimeEdit, DateEdit, TimeEdit has the same CSS classes, is it not possible to factorize ?
+.gbc_DateEditWidgetBase, .gbc_DateTimeEditWidgetBase, .gbc_DummyDateEditWidget, .gbc_DummyDateTimeEditWidget {
+  display: flex;
+  cursor: default;
+  > div:first-child {
+    flex: 1 1 auto;
+    > input {
+      width: 100%;
+      font-family: inherit;
+    }
+  }
+
+  .widget-decoration {
+    padding-right: $gbc-DateEdit-margin-ratio*6px;
+    &:hover {
+      cursor: pointer;
+    }
+    .disabled &:hover {
+      cursor: inherit;
+    }
+    svg {
+      font-style: normal;
+      width: $gbc-DateEdit-font-size-ratio*2em;
+    }
+    img {
+      max-height: $gbc-DateEdit-field-height-ratio * 24px;
+    }
+  }
+
+  input {
+    cursor: text;
+  }
+
+}

@@ -1,0 +1,64 @@
+SCHEMA project
+TOOLBAR 
+ITEM find(IMAGE="find",TEXT=%"find")
+SEPARATOR 
+ITEM next (IMAGE="next",TEXT=%"next")
+SEPARATOR
+ITEM previous (IMAGE="previous",TEXT=%"previous")
+SEPARATOR
+ITEM accept(IMAGE="accept",TEXT=%"accept")
+SEPARATOR
+ITEM cancel(IMAGE="cancel",TEXT=%"cancel")
+SEPARATOR
+ITEM quit(IMAGE="quit",TEXT=%"quit")
+SEPARATOR
+ITEM add(IMAGE="add",TEXT=%"add")
+SEPARATOR
+ITEM update(IMAGE ="update",TEXT =%"update")
+SEPARATOR
+ITEM delete(IMAGE ="delete",TEXT =%"delete")
+SEPARATOR
+ITEM clear(IMAGE ="clear",TEXT =%"clear")
+END
+ 
+LAYOUT
+--HBOX 
+--GRID 
+--{
+-- [image1]
+--}
+--END 
+ 
+GRID 
+{
+ <g                                       >
+                     [a1 ]
+  ["                                    "]
+  ID           :[f01                     ]
+  NAME         :[f02                     ]
+  QUALIFICATION:[f03                     ]
+  YEAR OF PASS :[f04                     ]
+  MOBILE NUMBER:[f05                     ]
+  EMAIL        :[f06                     ]
+  MENTOR ID    :[f07                     ]
+ <                                        >
+}
+END 
+END 
+--END 
+
+TABLES intern
+END
+ 
+ATTRIBUTES 
+LABEL a1:a1, TEXT = "INTERN",STYLE="mystyle";
+--IMAGE image1:image2, IMAGE = "intern.png";
+EDIT f01 = intern.id, COMMENTS ="ENTER INTERN ID",PLACEHOLDER ="ENTER INTERN ID";
+EDIT f02 = intern.name,COMMENTS ="ENTER INTERN NAME",PLACEHOLDER="ENTER INTERN NAME";
+EDIT f03 = intern.qualification,COMMENTS ="ENTER QUALIFICATION",PLACEHOLDER="ENTER QUALIFICATION";
+COMBOBOX f04 = intern.year_of_pass,ITEMS=("2022","2021","2020","2019","2018"),COMMENTS="ENTER YEAR OF PASS",PLACEHOLDER="ENTER YEAR OF PASS";
+EDIT f05 = intern.mobile_num,COMMENTS="ENTER MOBILE NUMBER",PLACEHOLDER="ENTER MOBILE NUMBER";
+TEXTEDIT f06 = intern.EMAIL,COMMENTS="ENTER EMAIL ID",PLACEHOLDER="ENTER EMAIL ID";
+EDIT f07 = intern.mentor_id,COMMENTS="ENTER MENTOR ID",PLACEHOLDER="ENTER MENTOR ID";
+END 
+

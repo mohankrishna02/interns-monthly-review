@@ -1,0 +1,42 @@
+{
+  "name": "HBoxSplitViewWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-HBoxSplitViewWidget-arrows-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-above-Normal"
+    },
+    {
+      "name": "gbc-HBoxSplitViewWidget-dots-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-above-Normal"
+    },
+    {
+      "name": "gbc-HBoxSplitViewWidget-arrows-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-faded-color"
+    },
+    {
+      "name": "gbc-HBoxSplitViewWidget-arrows-child-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-color"
+    },
+    {
+      "name": "gbc-HBoxSplitViewWidget-dots-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-faded-color"
+    },
+    {
+      "name": "gbc-HBoxSplitViewWidget-dots-current-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-color"
+    }
+  ]
+}

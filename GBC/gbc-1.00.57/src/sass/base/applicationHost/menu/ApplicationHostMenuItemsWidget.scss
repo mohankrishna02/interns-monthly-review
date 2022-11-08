@@ -1,0 +1,82 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ApplicationHostMenuUploadsWidget{
+  order:$host-menu-order-upload-icon;
+  opacity: 0;
+  & >*:hover{
+    cursor: default;
+  }
+  &.processing{
+    opacity: 0.7;
+  }
+}
+.gbc_ApplicationHostMenuRuntimeWidget{
+  order:$host-menu-order-runtime-status;
+  opacity: 0;
+  & >*:hover{
+    cursor: default;
+  }
+  &.processing{
+    opacity: $gbc-ApplicationHostMenuWidget-runtime-processing-opacity;
+  }
+}
+
+.gbc_ApplicationHostMenuAboutWidget {
+  order:$host-menu-order-about;
+}
+.gbc_ApplicationHostMenuDebugWidget{
+  order:$host-menu-order-debug;
+}
+.gbc_ApplicationHostMenuRunInGwcWidget{
+  order:$host-menu-order-run-gwc;
+}
+.gbc_ApplicationHostMenuRunInGdcWidget{
+  order:$host-menu-order-run-gdc;
+}
+.gbc_ApplicationHostMenuProxyLogWidget {
+  order:$host-menu-order-log-proxy;
+}
+.gbc_ApplicationHostMenuVmLogWidget{
+  order:$host-menu-order-log-vm;
+}
+
+.gbc_ApplicationHostMenuDebugWidget,
+.gbc_ApplicationHostMenuRunInGwcWidget,
+.gbc_ApplicationHostMenuRunInGdcWidget,
+.gbc_ApplicationHostMenuVmLogWidget,
+.gbc_ApplicationHostMenuProxyLogWidget {
+  display: none !important;
+  &.debugActivated {
+    display: inline-block !important;
+    &.hidden{
+      display: none !important;
+    }
+  }
+}
+
+.gbc_ApplicationHostMenuSettingsWidget{
+  order:$host-menu-order-settings;
+}
+
+.gbc_ApplicationHostMenuBookmarkWidget{
+  order:$host-menu-order-bookmark;
+}
+
+.gbc_ApplicationHostMenuWindowCloseWidget{
+  order:$host-menu-order-close;
+  &[processing]{
+    cursor: wait !important;
+    a {
+      cursor: wait !important;
+    }
+  }
+}

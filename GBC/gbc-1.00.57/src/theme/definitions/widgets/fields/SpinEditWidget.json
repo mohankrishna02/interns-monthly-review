@@ -1,0 +1,36 @@
+{
+  "name": "SpinEditWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-SpinEditWidget-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "gbc-SpinEditWidget-font-family",
+      "description": "",
+      "type": "string",
+      "defaultValue": "$theme-font-family"
+    },
+    {
+      "name": "gbc-SpinEditWidget-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-color"
+    },
+    {
+      "name": "gbc-SpinEditWidget-hover-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-faded-background-color"
+    },
+    {
+      "name": "gbc-SpinEditWidget-arrows-size",
+      "description": "",
+      "type": "size",
+      "defaultValue": "0.6em"
+    }
+  ]
+}

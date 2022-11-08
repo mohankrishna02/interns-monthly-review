@@ -1,0 +1,117 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+@import "GridLayoutEngine";
+@import "HBoxLayoutEngine";
+@import "TraditionalScreenWidget";
+@import "VBoxLayoutEngine";
+@import "ScrollBarWidget";
+@import "StackLayoutEngine";
+
+.dpiTest{
+  width:1in;
+  height:1in;
+  position:absolute;
+  top:-10000px;
+  left:-10000px;
+  visibility:hidden;
+  padding:0;
+}
+
+.measureTool {
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+}
+
+.measurementHost {
+  position: absolute;
+  top: -100000px;
+  left:- 100000px;
+}
+
+body {
+  overflow-y: hidden;
+  &.debug {
+    .g_GridLayoutEngine > .g_GridElement {
+      outline: green 1px inset;
+    }
+    .g_HBoxLayoutEngine > .g_BoxElement {
+      outline: blue 1px inset;
+    }
+    .g_VBoxLayoutEngine > .g_BoxElement {
+      outline: red 1px inset;
+    }
+  }
+}
+
+.gbc_dataContentMeasure{
+  line-height: 1em;
+  white-space: pre;
+  display: none;
+}
+.g_layout_charMeasurer{
+  position:absolute;
+  display: none;
+  overflow: visible;
+  left:-10000px;
+  top:-10000px;
+  .g_measuring & {
+    display: inline-block;
+  }
+}
+.g_layout_charMeasurer1 {
+  display: inline;
+  white-space: pre;
+}
+.g_layout_charMeasurer2 {
+  display: inline;
+  white-space: nowrap;
+}
+.g_measuring {
+  position:absolute;
+  left:-10000px;
+  top:-10000px;
+  width:100%;
+  height:100%;
+}
+.g_measuring.__debug {
+  left:0;
+  top:0;
+}
+.g_measuring .g_measureable{
+  height: auto;
+}
+.g_measuring .g_measureable.gbc_dataContentPlaceholder.gbc_staticMeasure,
+.g_measuring .g_measureable .gbc_dataContentPlaceholder.gbc_staticMeasure {
+  >:not(.gbc_dataContentMeasure):not(char-measurer){
+    display: none;
+  }
+  >.gbc_dataContentMeasure{
+    display: inline-flex;
+    padding: $theme-input-padding-top $theme-input-padding-right $theme-input-padding-bottom $theme-input-padding-left;
+  }
+}
+.g_measuring .g_measureable.gbc_dataContentPlaceholder.gbc_dynamicMeasure, .g_measuring .g_measureable .gbc_dataContentPlaceholder.gbc_dynamicMeasure {
+  >.gbc_dataContentMeasure{
+    display: none;
+  }
+}
+.g_measured .g_measureable.gbc_dataContentPlaceholder, .g_measured .g_measureable .gbc_dataContentPlaceholder {
+  >.gbc_dataContentMeasure{
+    display: none;
+  }
+}
+
+/* Arabic */
+.reverse {
+  direction: rtl;
+}

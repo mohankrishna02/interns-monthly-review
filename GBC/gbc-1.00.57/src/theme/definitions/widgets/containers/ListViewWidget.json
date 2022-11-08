@@ -1,0 +1,112 @@
+{
+  "name": "ListViewWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-ListViewWidget-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "gbc-ListViewWidget-table-margin",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-table-margin"
+    },
+    {
+      "name": "gbc-ListViewWidget-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-field-background-color"
+    },
+    {
+      "name": "gbc-ListViewWidget-border-width-top",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-border-width-top"
+    },
+    {
+      "name": "gbc-ListViewWidget-border-width-right",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-border-width-right"
+    },
+    {
+      "name": "gbc-ListViewWidget-border-width-bottom",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-border-width-bottom"
+    },
+    {
+      "name": "gbc-ListViewWidget-border-width-left",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-border-width-left"
+    },
+    {
+      "name": "gbc-ListViewWidget-border-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$mt-field-border-color"
+    },
+    {
+      "name": "gbc-ListViewWidget-focus-border-width-top",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-focus-border-width-top"
+    },
+    {
+      "name": "gbc-ListViewWidget-focus-border-width-right",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-focus-border-width-right"
+    },
+    {
+      "name": "gbc-ListViewWidget-focus-border-width-bottom",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-focus-border-width-bottom"
+    },
+    {
+      "name": "gbc-ListViewWidget-focus-border-width-left",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$mt-field-focus-border-width-left"
+    },
+    {
+      "name": "gbc-ListViewWidget-focus-border-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$mt-field-focus-border-color"
+    },
+    {
+      "name": "gbc-ListViewWidget-currentRow-background-color",
+      "title": "Gbc ListViewWidget currentRow background color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-currentrow-background-color"
+    },
+    {
+      "name": "gbc-ListViewWidget-currentRow-color",
+      "title": "Gbc ListViewWidget currentRow text color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-currentrow-color"
+    },
+    {
+      "name": "gbc-ListViewWidget-min-width",
+      "title": "Gbc ListViewWidget minimum width (pixels)",
+      "description": "",
+      "type": "number",
+      "defaultValue": 60
+    },
+    {
+      "name": "gbc-ListViewWidget-min-page-size",
+      "title": "Gbc ListViewWidget minimum page size",
+      "description": "",
+      "type": "number",
+      "defaultValue": 1
+    }
+  ]
+}

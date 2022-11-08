@@ -1,0 +1,224 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2019. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ *
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT
+ */
+html, body {
+    height: 100%;
+    margin:0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.menu .group {
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px #EEE solid;
+    margin: 5px;
+}
+
+.menu .item {
+    color: #000;
+    float: left;
+    background: #FFF;
+    padding: 10px;
+    border-left: 1px #EEE solid;
+    border-bottom: 3px transparent solid;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+span.ql-formats:not(.visible){
+    display: none;
+}
+span.ql-formats.visible>*:not(.visible){
+    display: none;
+}
+
+#editor {
+    width: 100%;
+    -webkit-border-radius: 4px;
+    padding: 5px;
+    color: #333;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+    overflow: auto;
+}
+
+#editor .ql-editor[contenteditable="false"]{
+    background-color: #efefef;
+}
+
+#editor .focus{
+    border: none;
+    outline: none;
+    border-bottom: solid 2px #2196f3;
+    box-shadow: inset 0 1px 2.4px rgba(0, 0, 0, 0.24), inset 0 1px 1px rgba(0, 0, 0, 0.24);
+}
+
+.hidden{
+    display: none;
+}
+
+.disabled{
+    pointer-events: none;
+    background: #f1f1f1;
+}
+
+.ql-toolbar.ql-snow{
+    background: rgba(234, 234, 234, 0.36);
+}
+
+#editor .ql-spell{
+    background: url(./misspell.gif) bottom repeat-x
+}
+
+/** SpellChecker tooltip **/
+.ql-snow .ql-tooltip.ql-spellcheck {
+    position: fixed;
+}
+.ql-tooltip.ql-spellcheck:before{
+    content: "Suggested: "!important;
+    opacity: 0.7;
+}
+.ql-tooltip.ql-spellcheck span{
+    margin: 0 3px ;
+}
+
+.ql-tooltip.ql-spellcheck span:hover{
+    cursor: pointer;
+    color:#000;
+}
+
+
+
+/** Font-size picker **/
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='10px']::before {
+    font-size: 10px;
+    content: 'Small';
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='13px']::before {
+    font-size: 13px;
+    content: 'Normal';
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='18px']::before {
+    font-size: 18px;
+    content: 'Large';
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='28px']::before {
+    font-size: 28px;
+    content: 'Huge';
+}
+
+
+.ql-undo.disabled,.ql-redo.disabled{
+    color: #cccccc;
+}
+
+.ql-lineheight{
+    color:#444;
+}
+.ql-lineheight i{
+    display: inline;
+    margin-right: 1px;
+}
+.ql-lineheight .ql-picker-label{
+    padding-top: 5px;
+}
+
+
+#textarea-emoji{
+    top:0;
+}
+.textarea-emoji-control{
+    display: none;
+}
+
+#tab-panel.native .ap{
+    font-size: 1.4em;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: none;
+    text-indent: 0;
+    color: #5d5d5d;
+}
+.emoji-tab.filter-flags{
+    display: none;
+}
+
+
+/* Override ol list style*/
+.ql-editor ol li.ql-indent-1:before {
+    content: counter(list-1, decimal) '. ';
+}
+.ql-editor ol li.ql-indent-2:before {
+    content: counter(list-2, decimal) '. ';
+}
+.ql-editor ol li.ql-indent-4:before {
+    content: counter(list-4, decimal) '. ';
+}
+.ql-editor ol li.ql-indent-5:before {
+    content: counter(list-5, decimal) '. ';
+}
+.ql-editor ol li.ql-indent-7:before {
+    content: counter(list-7, decimal) '. ';
+}
+.ql-editor ol li.ql-indent-8:before {
+    content: counter(list-8, decimal) '. ';
+}
+
+/* Override ul list style*/
+.ql-editor ul li.ql-indent-1::before {
+    content: '\26AC';
+}
+.ql-editor ul li.ql-indent-2::before,
+.ql-editor ul li.ql-indent-3::before,
+.ql-editor ul li.ql-indent-4::before,
+.ql-editor ul li.ql-indent-5::before,
+.ql-editor ul li.ql-indent-6::before,
+.ql-editor ul li.ql-indent-7::before,
+.ql-editor ul li.ql-indent-8::before{
+    content: '\25AA';
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label::before {
+    content: attr(data-value);
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=sansserif]::before, .ql-snow .ql-picker.ql-font .ql-picker-item[data-value=sansserif]::before {
+     content: 'Sans Serif';
+ }
+
+.ql-size .ql-picker-options{
+    overflow: auto;
+    max-height: 175px;
+}
+/*override default*/
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='13px']::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='18px']::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='10px']::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='28px']::before{
+    content: '';
+    font-size: inherit;
+}
+
+.ql-snow .ql-picker-label::before {
+    line-height: 25px;
+}

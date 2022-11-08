@@ -1,0 +1,469 @@
+Lizenzvertrag für den Endbenutzer
+
+Der vorliegende Lizenzvertrag für den Endbenutzer („Lizenzvertrag für den
+Endbenutzer“) wird mit Ihnen - natürliche oder juristische Person – (als
+„Lizenznehmer“) und Four Js Development Tools Ltd („Four Js“) abgeschlossen.
+
+Wenn Sie die verschlossene Verpackung des Media öffnen, wenn Sie im
+vorliegenden Vertrag unten auf der Webseite auf „accept“ (ich akzeptiere)
+klicken, wenn Sie die lizenzpflichtige Software benutzen oder das
+Aktivierungsfeld der lizenzpflichtigen Software betätigen erkennen Sie an, den
+vorliegenden Lizenzvertrag für den Endbenutzer gelesen und auch verstanden zu
+haben. Sie erkennen ebenso an, dass Sie damit einverstanden sind, an die
+Vertragsbedingungen gebunden zu sein. Sollten Sie nicht einverstanden sein,
+haben Sie kein Recht, die lizenzpflichtige Software zu benutzen. Stattdessen
+müssen Sie sofort nach folgendem Artikel 8.3 (ii) verfahren. Wenn Sie nicht
+damit einverstanden sind, durch den vorliegenden Lizenzvertrag für den
+Endbenutzer gebunden zu sein und die lizenzpflichtige Software noch nicht
+benutzt haben, können Sie eine Erstattung erhalten, soweit Sie die
+Standard-Rückgabeverfahren von Four Js einhalten. Der vorliegende Lizenzvertrag
+für den Endbenutzer tritt am Tag der Öffnung der Media-Verpackung, der
+Benutzung der lizenzpflichtigen Software oder der Betätigung des
+Aktivierungsfeldes der lizenzpflichtigen Software in Kraft („Tag der
+Inkraftsetzung“).
+
+
+1. DEFINITIONEN
+
+Im vorliegenden Lizenzvertrag für den Endbenutzer gelten nachstehende
+Definitionen.
+
+Die „Dokumentation“ umfasst die dem Lizenznehmer mit der lizenzierten Software
+als Druckschrift oder im elektronischen Format für den Endbenutzer gelieferten
+Unterlagen. 
+
+„Ausführbarer Code“ gilt für das vollständig übersetzte, von dem Endbenutzer
+benutzbare Softwareprogramm, das von einem Computer ohne weitere Kompilation
+ausgeführt werden kann. 
+
+„Lizenzierte Software“ gilt für das oder die Programme, für die vom
+Lizenznehmer die Lizenz der lizenzpflichtigen Software erworben wurde
+(einschließlich – für Lizenznehmer von Produkten der „A-Klasse“ gemäss
+Definition nach Artikel 10.1 – alle nur zur Vermarktung durch den Lizenznehmer
+bestimmten Ausführungsmoduln („die zur Vermarktung bestimmten Produkte“) und
+alle geänderten, revidierten oder verbesserten Ausführungsformen (Updates) der
+Programme, die Four Js an den Lizenznehmer auf der Grundlage des vorliegenden
+Vertrages für den Endbenutzer oder eines separaten Service-Vertrages liefert).
+
+„Source-Code“ (Quelltext) gilt für die vom Menschen lesbare Version eines
+Software-Programmes, die in einen ausführbaren Code kompiliert werden kann.
+
+
+2. LIZENZVERGABE
+
+Vorbehaltlich der vollständigen Einhaltung der Bedingungen des vorliegenden
+Lizenzvertrages für den Endbenutzer erteilt Four Js dem Lizenznehmer (i) eine
+nicht exklusive und nicht übertragbare Lizenz zur Benutzung der lizenzierten
+Software (nur in der Form als ausführbarer Code) unter ausschließlicher
+Beachtung der Dokumentation und zur Anfertigung einer Kopie der lizenzierten
+Software ausschließlich zum Zweck der Sicherung oder Archivierung; und (ii) für
+Lizenznehmer von Produkten der „A-Klasse“ gemäss Definition nach Artikel 10.1
+eine nicht exklusive und nicht übertragbare Lizenz zum Zweck der Benutzung,
+Reproduktion und Vermarktung (nur an Endbenutzer, die an Four Js angepasste
+Ausführungslizenzen gekauft haben) der zum weiteren Vertrieb bestimmten
+Produkte (in der Form eines ausführbaren Code) und nur im Rahmen einer von dem
+Lizenznehmer entwickelten Anwendung. Der Lizenznehmer darf zum weiteren
+Vertrieb bestimmte Produkte nicht in dieser Form alleine verkaufen. Die
+lizenzierte Software darf nur gemäß der Dokumentation verwendetet werden. 
+Four Js verkauft an den Lizenznehmer eine nicht exklusive und nicht übertragbare
+Lizenz, die es gestattet, die Dokumentation zu benutzen. Gegebenenfalls wird
+Four Js dem Lizenznehmer einen neuen Aktivierungsschlüssel liefern, wenn
+letzterer schriftlich bescheinigt, dass er die lizenzierte Software im Rahmen
+eines Updates, aufgrund von Diebstahl oder einer Panne auf einem neuen Computer
+installieren muss. Die vorliegende Lizenz wird dem Lizenznehmer nur für die
+Anzahl gleichzeitiger Benutzer erteilt, die auf einer gültigen und von Four Js
+akzeptierten Bestellung angegeben sind und von dem Lizenznehmer bezahlt wurden.
+Four Js wird im allgemeinen gewisse Verbesserungen unter der Bedingung
+durchführen und dem Lizenznehmer zur Verfügung stellen, dass der Lizenznehmer
+einen separaten Assistenz- und Wartungsvertrag abgeschlossen hat. Neben
+erwähntem Vertragsabschluss – wenn Four Js dem Lizenznehmer die revidierte
+lizenzierte Software liefert – akzeptiert der Lizenznehmer, die revidierte
+Software innerhalb einer Frist von 30 Tagen, ausgehend vom Tag der Ausgabe
+erwähnter revidierter Fassung anzupassen. Wenn erwähnte revidierte Fassung von
+Four Js gutgläubig als dringend angesehen wird, hat der Lizenznehmer umgehend
+die erforderlichen Schritte zu unternehmen, um die revidierte Ausgabe der
+Software unter angemessenen Bedingungen anzupassen. 
+
+
+3. EINSCHRÄNKUNGEN DER BENUTZBARKEIT
+
+Der Lizenznehmer erkennt an, dass die lizenzierte Software und deren Struktur,
+Aufbau und Quelltext für Four Js oder deren Lieferanten Geschäftsgeheimnisse
+darstellen. Der Lizenznehmer akzeptiert also – soweit dieses hier nicht
+ausdrücklich genehmigt wird – a) an der lizenzierten Software keine Änderungen,
+Anpassungen, Beschädigungen vorzunehmen, Übersetzungen auszuführen oder hiervon
+abgeleitete Werke zu schaffen, b) keine Unter-Lizenzen zu erteilen, die
+Software zu vermieten, durch Leasing zu verwerten, zu verleihen, durch
+Bekanntgabe zu verbreiten oder sonst wie zu übertragen oder die Genehmigung zur
+Benutzung der lizenzierten Software durch Dritte zu erteilen; dieses gilt auch
+für Zeitarbeiter bzw. Mitarbeiter von Zulieferanten (Outsourcing personnel).
+c) den Source Code (Quelltext) der lizenzierten Software nicht zu
+entschlüsseln, zu dekompilieren, zu disassemblieren oder in irgend einer Weise
+zu ändern.  d) vorbehaltlich, o. a. Ausnahme, keine Kopien von der lizenzierten
+Software zu machen oder anders als zum vorgesehenen, bestimmungsgemäßen
+Gebrauch zu benutzen.
+
+In Abweichung von vorstehenden Angaben kann die lizenzierte Software insoweit
+dekompiliert werden, wie die Gesetzgebung oder Rechtsprechung im Land des
+Lizenznehmers dieses Recht zugesteht, um erforderliche Informationen für das
+Zusammenwirken mit anderer Software zu erhalten. Voraussetzung hierzu ist
+jedoch, dass der Lizenznehmer zunächst einen entsprechenden Antrag auf
+Information an Four Js richtet, Four Js hat dann nach eigenem Ermessen dem
+Lizenznehmer diese Information zu liefern oder angemessene Bedingungen und
+Kosten für diesen Gebrauch der lizenzierten Software anzubieten, so dass die
+Schutzrechte von Four Js und ihrer Zulieferanten in finanziell gerechter Weise
+Anerkennung finden. Der Lizenznehmer akzeptiert, die mit der Lizenz für die
+lizenzierte Software zuerkannten Rechte nicht für die Entwicklung oder den
+Vertrieb eines Produktes zu benutzen, welches geeignet wäre, der lizenzierten
+Software Konkurrenz zu machen. 
+
+
+4. BESTELLUNG, ANNAHME, PREISE UND BEZAHLUNG
+
+Die Bedingungen der Standard-Bestellung des Lizenznehmers oder eines beliebigen
+anderen stattdessen übergebenen Dokumentes, die mit den Bedingungen des
+vorliegenden Lizenzvertrages für den Endbenutzer in Konflikt treten oder eine
+beliebige Bedingung ändern könnten, werden hiermit ausdrücklich zurückgewiesen
+und können keinesfalls wirksam werden oder in Kraft treten. Four Js wird in
+kaufmännischer Hinsicht angemessene Bemühungen machen, um den auf den
+Bestellungen verlangten Mengen und Lieferfristen oder Verfügbarkeiten
+nachzukommen. Four Js behält sich jedoch das Recht vor, Bestellungen
+abzulehnen. Nach der Annahme einer Bestellung und dem Downloaden der
+lizenzierten Software durch den Lizenznehmer oder Lieferung des Media-Kits
+durch Four Js erhält der Lizenznehmer die Schlüssel der lizenzierten Software,
+welche deren Benutzung ermöglichen. Der Lizenznehmer ist dafür verantwortlich,
+dass die lizenzierte Software auf seinen Computern so installiert wird, wie es
+im Lizenzvertrag für den Endarbeiter genehmigt ist. Die lizenzierte Software
+gilt bei ihrer Übergabe als akzeptiert. Wenn Sie die lizenzierte Software im
+Namen des Lizenznehmers installieren, der auf der Bestellung steht, so hat der
+Lizenznehmer auf das Feld „I accept“ (ich akzeptiere) zu klicken und die
+Bedingungen des vorliegenden Lizenzvertrages für den Endbenutzer einzuhalten.
+Wenn Sie es in seinem Namen tun, sind Sie und Ihre Organisation (Firma)
+gemeinsam durch die Bedingungen des vorliegenden Lizenzvertrages für den
+Endbenutzer gebunden und für jede fehlende Einhaltung verantwortlich.
+
+
+5. GARANTIEN
+
+5.1 Leistung
+
+a) Während einer Periode von 60 Tagen nach der Lieferung der lizenzierten
+Software (ausgenommen Produkte der „B-Klasse“ gemäss Artikel 10.2) an den
+Lizenznehmer (die „Garantiezeit der Software“) garantiert Four Js, dass die
+lizenzierte Software, wenn sie nach den Angaben von Four Js, wie im
+vorliegenden Lizenzvertrag für den Endbenutzer genehmigt und entsprechend der
+Dokumentation (und von Four Js unterstützter Computer-Hardware und
+Betriebssystem) benutzt wird, im wesentlichen nach der Beschreibung in der
+Dokumentation arbeiten wird.
+
+b) Für Produkte der „B - Klasse“ nach der
+Definition in Artikel 10.2 gibt Four Js keine ausdrückliche, implizite oder
+gesetzliche Garantie. Produkte der „B - Klasse“ nach der Definition in Artikel
+10.2 werden als Basis-Erzeugnisse geliefert.
+
+c) Four Js garantiert nicht, dass
+die lizenzierte Software frei von Fehlern oder Unterbrechungen sein wird. 
+Four Js unternimmt nach aufgetretener Unterbrechung, die Four Js während der
+Garantiezeit schriftlich angezeigt worden ist, auf eigene Kosten bei alleiniger
+Leistungsverpflichtung im Anschluss an die nur dem Lizenznehmer zustehende
+Inanspruchnahme auf Gewährleistung aus o. a. Garantie kaufmännisch angemessene
+Bemühungen im Hinblick auf die Korrektur oder Umgehung reproduzierbarer Fehler
+in der lizenzierten Software. Sollte Four Js aufgrund fundierter betrieblicher
+Erfahrung entscheiden, dass der Fehler aus wirtschaftlichen Erwägungen nicht zu
+korrigieren oder zu umgehen ist, erstattet Four Js dem Lizenznehmer die für die
+lizenzierte Software bezahlten Gebühren. In diesem Fall werden der vorliegende
+Lizenzvertrag für den Endbenutzer und das Recht des Lizenznehmers auf Benutzung
+der lizenzierten Software beendet. Die Korrektur von Fehlern, Umgehungen oder
+die Lieferung eines neuen Code an den Lizenznehmer führen nicht zu einer
+Verlängerung der ursprünglichen Garantiezeit für die Software.
+
+5.2 Haftungsbeschränkung. Die ausdrücklichen Garantien in diesem vorliegenden
+Artikel 5 ersetzen für die lizenzierte Software und Dokumentation alle anderen
+ausdrücklichen, impliziten oder einschlägigen Garantien, einschließlich alle
+Garantien für die Handelsgüte, die Eignung für einen besonderen Zweck oder
+fehlende Verletzung von Schutzrechten Dritter. Da in einigen Ländern der
+Ausschluss impliziter Garantien rechtlich nicht zulässig ist, kann die
+vorliegende Beschränkung der Haftung auf Ihren Fall nicht zutreffend sein. Der
+Lizenznehmer erkennt an, dass er sich auf das Fehlen anderer Garantien beruft
+als jenen, die im vorliegenden Lizenzvertrag für den Endabnehmer zum Ausdruck
+kamen, und dass Four Js durch keine von jeder anderen dritten Partie gegebenen
+Garantie gebunden ist. Die vorliegende Garantie gewährt Ihnen spezifische
+Rechte, Sie können auch – je nach der zuständigen Gerichtsbarkeit, bzw. den
+Gesetzen und Vorschriften Ihres Landes – über andere Rechte verfügen.
+
+
+6. KLAGEN WEGEN SCHUTZRECHTVERLETZUN
+
+Four Js übernimmt auf eigene Kosten
+eventuelle Klagen gegen den Lizenznehmer wegen Schutzrechtverletzung durch die
+lizenzierte Software, d. h. amerikanische Urheberrechte Dritter, irrtümliche
+Aneignung von Geschäftsgeheimnissen Dritter, oder Fälle nach dem Uniform Trade
+Secret law. Four Js kommt für die Verpflichtung zum Schadensersatz des
+Lizenznehmers aufgrund einer derartigen Prozessführung und Verurteilung in
+letzter Instanz oder bei Vergleich auf. In diesem Zusammenhang kommt es darauf
+an, dass Four Js umgehend über bevorstehende oder anhängige Gerichtsverfahren
+schriftlich benachrichtigt wird und Four Js alleine die Verteidigung gegen
+diesen Angriff oder Vergleichsverhandlungen unter der Mitwirkung des
+Lizenznehmers ausführt. Sollte gegen die lizenzierte Software gerichtlich
+vorgegangen werden oder nach der Auffassung von Four Js eine derartige Gefahr
+bestehen, kann Four Js nach eigenem Ermessen und Kosten: a) dem Lizenznehmer
+das Recht zur weiteren Benutzung der Software erteilen, b) die lizenzierte
+Software ersetzen oder ändern, um somit der Beanstandung Rechnung zu tragen, c)
+die Rückgabe der Software akzeptieren und dem Lizenznehmer die von ihm
+bezahlten Gebühren unter Anrechnung einer angemessenen Gebühr für die
+Nutzungsdauer erstatten.  Nichtsdestoweniger entsteht für Four Js aus
+vorliegendem Artikel 6 keine Verpflichtung insoweit, wie (i) die lizenzierte
+Software den vorliegenden Vertrag für den Endbenutzer verletzend oder zu von
+Four Js nicht vorgesehenen Zwecken benutzt wurde, (ii) die lizenzierte Software
+in Verbindung mit anderen Produkten, Geräten, Software oder Daten benutzt
+wurde, die nicht von Four Js geliefert wurden und die Verbindung der Grund des
+Streitfalls ist, (iii) Im Fall der Benutzung der lizenzierten Software in einer
+anderen als der vertragsgegenständlichen Ausführungsform.  (iv) Im Fall der
+Änderung der lizenzierten Software durch Personen, die hierzu von Four Js nicht
+befugt worden sind.  Der vorliegende Artikel 6 enthält den vollen Umfang der
+Haftpflicht von Four Js im Zusammenhang mit Klagen wegen Schutzrechtverletzung.
+
+
+7. HAFTUNGSBESCHRÄNKUNG
+
+A. Ausschluss gewisser Schäden Die Haftpflicht von Four Js kann nicht für
+direkte oder indirekte Schäden herangezogen werden. Es besteht auch keine
+Schadensersatzpflicht in (amerikanischen) „exemplarischen, speziellen“ Fällen
+oder für Nebenkosten, für Verlust von Daten oder entgangenen Gewinn auf der
+Grundlage des vorliegenden Lizenzvertrages für den Endbenutzer. In einigen
+Staaten ist der Haftungsausschluss für direkte oder indirekte Schäden nicht
+erlaubt. Dementsprechend kann es in Ihrem Fall möglich sein, dass vorstehende
+Einschränkungen nicht für Sie gelten.
+
+B. Begrenzung der Ersatzhöhe. Four Js Ersatzpflicht auf der Grundlage des
+vorliegenden Lizenzvertrages für den Endbenutzer, die lizenzierte Software und
+Dokumentation kann insgesamt nicht höher ausfallen als der Betrag an Honoraren
+bzw. Gebühren, der im Rahmen des vorliegenden Vertrages bezahlt worden ist.
+
+C. Aktivitäten mit hohem. Gefahrenpotential Die Software wurde nicht im
+Hinblick auf ihren Einsatz in einer sicherheitsrelevanten Umgebung hergestellt
+oder entwickelt. Dies gilt etwa für ausfallsichere Systeme, wie sie zur
+Kontrolle von Kernkraftwerken, zur Flugnavigation oder im Kommunikationssystem
+des Luftverkehrs, bei medizinischen Geräten oder bei Waffensystemen Verwendung
+finden. Dies gilt ebenfalls dann, wenn der Ausfall der Software direkt zum
+Tode, zu Körperverletzungen oder zu anderen ernsthaften Schädigungen der Umwelt
+führen könnte.
+
+D. Gefahrenübergang. Der Lizenznehmer erkennt an, dass die hier im Rahmen des
+vorliegenden Lizenzvertrages für den Endbenutzer bezahlten Honorare bzw.
+Gebühren den Gefahrenübergang auf ihn auslösen und Four Js ohne diese
+Haftpflichtbegrenzung den Lizenzvertrag für den Endbenutzer nicht abschließen
+kann. Der Lizenznehmer verzichtet darauf, Four Js aus einem beliebigen Grund
+haftpflichtig machen zu wollen.
+
+
+8. DAUER UND KÜNDIGUNG
+
+8.1 Dauer. Der vorliegende Lizenzvertrag für den Endbenutzer beginnt am Tag der
+Inkraftsetzung und dauert so lange, wie er nicht nach Maßgabe von Artikel 8.2
+beendet wird.
+
+8.2 Kündigung. Der Lizenznehmer kann zu jeder Zeit den Lizenzvertrag für den
+Endbenutzer mit oder ohne Grund kündigen. Die Kündigung ist Four Js schriftlich
+anzuzeigen. Der vorliegende Lizenzvertrag für den Endbenutzer wird automatisch
+gekündigt, wenn a) der Lizenznehmer eine der Bestimmungen von Artikel 3 oder
+Artikel 9.1 nicht einhält, oder b) der Lizenznehmer eine beliebige andere
+Bestimmung des vorliegenden Lizenzvertrages für den Endbenutzer nicht einhält
+und einer entsprechenden schriftlichten Abmahnung von Four Js innerhalb 30
+Tagen nach Bekanntgabe nicht nachgekommen ist.
+
+8.3 Wirkungen der Kündigung. Mit der Kündigung des vorliegenden Lizenzvertrages
+für den Endbenutzer aus beliebigem Grund (i) enden sofort alle Lizenzrechte,
+die im Rahmen des vorliegenden Lizenzvertrages für den Endbenutzer erteilt
+worden sind; (ii) der Lizenznehmer hat umgehend jede Benutzung der
+lizenzierten Software einzustellen, alle Kopien von seinen Computern zu
+löschen und die Kopien der lizenzierten Software und die Dokumentation an
+Four Js auf dem fühlbaren Trägermaterial im Besitz oder unter Kontrolle des
+Lizenznehmers zurückzusenden und Four Js schriftlich zu bescheinigen, dass er
+seine Pflichten vollkommen eingehalten hat, (iii) (für Lizenznehmer von
+Produkten der „A - Klasse“ nach der Definition von Artikel 10.1) Der
+Lizenznehmer hat umgehend die Benutzung, die Wiedergabe und den Vertrieb der
+vermarktbaren Produkte einzustellen. Mit Ausnahme der Bestimmungen von Artikel
+5.1 c und 6 c des vorliegenden Lizenzvertrages für den Endbenutzer kann dem
+Lizenznehmer keine Rückerstattung auf die Summen gewährt werden, die für die
+lizenzierte Software gezahlt wurden. Die Artikel 1 („Definitionen“), 3
+(„Einschränkungen der Benutzbarkeit“), 5 („Garantien“), 7
+(„Haftungsbeschränkung“), 8.3 („Wirkungen der Kündigung“) und 9 („Allgemeines“)
+dieses Lizenzvertrages für den Endbenutzer bleiben auch dann noch bestehen,
+wenn der vorliegende Lizenzvertrag für den Endbenutzer aus einem beliebigen
+Grund gekündigt worden ist.
+
+
+9. ALLGEMEINES
+
+9.1 Eigentumsrecht. Die Parteien erkennen vereinbarungsgemäß an, dass die
+lizenzierte Software und die Dokumentation, wie auch alle hiermit weltweit
+verbundenen Rechte aus dem geistigen Eigentum Four Js und deren Zulieferanten
+gehören. Alle Rechte betreffend die lizenzierte Software, die dem Lizenznehmer
+im vorliegenden Lizenzvertrag für den Endbenutzer nicht ausdrücklich zugestanden
+werden, verbleiben bei Four Js und deren Zulieferanten. Eine Genehmigung der
+Benutzung der Handelsmarken oder der Firma von Four Js wird durch den
+vorliegenden Lizenzvertrag nicht erteilt. Der Lizenznehmer darf Angaben
+betreffend Schutzrechte von Four Js oder deren Zulieferanten (einschließlich
+der Bekanntgabe von Urheberrechten) in der lizenzierten Software oder
+Dokumentation weder entfernen, noch beschädigen oder verdecken. Der
+Lizenznehmer erkennt an, dass die lizenzierte Software vertrauliche
+Informationen, wertvolle Geschäftsgeheimnisse und Schutzrechtangaben von
+Four Js enthält, so dass jede Verletzung oder Androhung einer Verletzung von
+Artikel 3 oder Artikel 9, Punkt 1 und 2 für Four Js einen unmittelbaren Schaden
+bildet, der durch Geld alleine nicht ersetzt werden kann und gerichtliches
+Vorgehen zur Festsetzung geeigneter
+Maßnahmen erfordert.
+
+9.2 Vertraulichkeit. „Vertrauliche Informationen“ sind alle von der „gebenden
+Partei“ der anderen, „nehmenden Partei“ unbeschadet von Form oder
+Trägermaterial offengelegten Informationen einschließlich der mit Schutzrechten
+ausgestatteten Informationen oder Dokumente beliebiger Art, die im allgemeinen
+im betreffenden Handel oder Gewerbe nicht bekannt sind. Zu den
+vertraulichen Informationen gehören, ohne dass diese Aufzählung vollständig
+wäre : alle Geschäftsgeheimnisse und die Schutzrechte betreffend das geistige
+Eigentum, alle existierenden oder geplanten Produkte, Geschäftspläne,
+Preislisten, Rabatte, Erkenntnisse der Marktforschung welche die Vergangenheit,
+die Gegenwart oder die Zukunft betreffen, die lizenzierte Software
+(einschließlich der darin enthaltenen Bugs oder Fehler) und die Dokumentation.
+„Vertrauliche Informationen“ gelten nicht für Informationen die a) der
+Öffentlichkeit bekannt sind oder der Öffentlichkeit ohne Verletzung der
+Verpflichtung zur Vertraulichkeit durch die „nehmende Partei“ bekannt gemacht
+werden, b) von der „nehmenden Partei“ unabhängig und ohne Zugriff auf die
+bekanntgegebene vertrauliche Information entwickelt worden sind, c) von Dritten
+erhalten wurden und genutzt werden können, ohne Schutzrechte zu verletzen. Die
+„nehmende Partei“ kann in dem Maße vertrauliche Informationen der „gebenden
+Partei“ bekannt geben, wie die Bekanntmachung durch das Gesetz, die
+Entscheidung eines Gerichts oder einer Behörde gefordert wird. Jedoch hat sie
+die „gebende Partei“ vor der Bekanntmachung entsprechend zu informieren und ihr
+eine angemessene Gelegenheit zu geben, nach Verteidigungsmitteln zu suchen und
+Stellung zu nehmen oder die ergangene Aufforderung zur Bekanntmachung
+anzugreifen. Die „nehmende Partei“ hat vertrauliche Informationen absolut
+vertraulich und mit mindestens derselben Sorgfaltspflicht wie bei eigenen
+vertraulichen Informationen zu behandeln. Die „nehmende Partei“ darf
+gegebenenfalls erwähnte vertrauliche Informationen (i) nur den autorisierten
+Angestellten und Direktoren der „nehmenden Partei“ bekannt geben, deren
+Aufgaben die Kenntnis erwähnter vertraulicher Informationen erforderlich
+machen, und die schriftlich bescheinigt haben, Vertraulichkeit und Schutzrechte
+einzuhalten, oder (ii) nur Dritten bekannt geben, deren Aufgaben nachweislich
+diese Kenntnisse zur Erledigung der ihr von der „nehmenden Partei“ im Rahmen
+des vorliegenden Lizenzvertrages für den Endbenutzer übertragenen Arbeiten
+notwendig machen, wobei vertraglich Geheimhaltungspflicht und Beachtung der
+Schutzrechte durch mindestens ebenso starke Klauseln wie im hier vorliegenden
+Vertrag abzusichern sind und (iii) Erwähnte vertrauliche Informationen dürfen
+nur zur Einhaltung des vorliegenden Lizenzvertrages für den Endbenutzer und
+Vorteil der gegenwärtigen Vertragsparteien benutzt werden.
+
+9.3 Datenschutzerklärung. Die lizenzierte Software tritt automatisch mit den
+Servern von Four J's in Verbindung, um nach Aktualisierungen der Software wie
+z.B. Korrekturen, Fehlerbehebungen, Upgrades oder andere Verbesserungen zu
+suchen. Hiermit erklären Sie sich einverstanden, dass die lizenzierte Software
+automatische Suchvorgänge durchführt und Sie über vorhandene Optimierungen in
+Kenntnis setzt.  Sie haben die Möglichkeit, diesen Dienst abzulehnen. Für
+weitere Informationen von uns besuchen Sie bitte die Seite
+https://4js.com/updates/.
+
+9.4 Beachtung gesetzlicher Vorschriften. Der Lizenznehmer ist verpflichtet, alle
+einschlägigen Gesetze und Vorschriften für die Kontrolle von Import und Export
+hinsichtlich der Benutzung der lizenzierten Software zu beachten und
+insbesondere verzichtet der Lizenznehmer auf den Export oder Re-Export der
+lizenzierten Software ohne über alle erforderlichen Genehmigungen seitens der
+Vereinigten Staaten von Amerika oder der Regierungen der betroffenen anderen
+Länder zu verfügen. Der Lizenznehmer ist gehalten Four Js zu verteidigen, zu
+entschädigen und von allen gegebenenfalls erfolgenden Verurteilungen schadlos
+zu halten, wenn gegen die erwähnten Gesetze oder Vorschriften seitens des
+Lizenznehmers oder eines seiner Mitarbeiter (Angestellte, Direktoren oder
+Vertreter) verstoßen werden sollte.
+
+9.5 Verkauf oder sonstige Abtretungen. Der Lizenznehmer darf ohne vorherige
+schriftliche Zustimmung von Four Js keines seiner Rechte und keine seiner
+Verpflichtungen aus dem vorliegenden Lizenzvertrag für den Endbenutzer unter
+Berufung auf Gesetze oder in sonstiger Weise an Dritte abtreten oder
+übertragen, es sei denn, dieses erfolge im Zusammenhang mit einer
+Verschmelzung, Übernahme oder Umstellung des Unternehmens oder auf Grund jeder
+anderen Änderung in der gesamten Geschäftsführung des Lizenznehmers. Jeder
+Versuch einer nicht den o. a. Bestimmungen entsprechenden Abtretung oder
+Übertragung ist nichtig. Four Js kann der Abtretung oder Übertragung des
+vorliegenden Lizenzvertrages für den Endbenutzer im Zusammenhang mit der
+Verschmelzung, der Übernahme oder Umstellung des Unternehmens, Wechsel der
+Geschäftsführung und selbst bei einem teilweisen Verkauf von Betriebseinheiten,
+an die der vorliegende Lizenzvertrag für den Endbenutzer gebunden ist,
+zustimmen.
+
+9.6 Endbenutzer in der Regierung der Vereinigten Staaten. Wenn der
+Lizenznehmer ein Zweig oder eine Agency der Regierung der USA ist, gilt
+folgende Regelung: Die lizenzierte Software und die Dokumentation gehören zur
+„commercial computer software“ und „commercial computer software documentation“
+soweit diese Begriffe in der Schrift 48 C. F. R. 12. 2. 12 (Sept. 1995) benutzt
+werden, und sie werden der Regierung gemäss der in diesem Dokument definierten
+Politik geliefert (i) zum Erwerb durch oder im Namen ziviler Agenturen oder
+(ii) zum Erwerb durch oder im Namen des Verteidigungsministeriums, entsprechend
+der in dem Dokument 48 C.F.R. 227 7202 – 1 (Juni 1995) und 27 7202 - 3 (Juni
+1995) definierten Politik.
+
+9.7 Bekanntmachungen. Alle Bekanntmachungen, Zustimmungen oder Genehmigungen
+gemäß dem vorliegenden Lizenzvertrag für den Endbenutzer sind der anderen
+Partei in schriftlicher Form zu übergeben per ausreichend frankiertem Brief,
+Telefax, auch als Einschreiben oder gegen Empfangsschein. Sie werden am Tag
+des Empfangs wirksam, spätestens jedoch am dritten Werktag nach der Übergabe
+an die Post, je nach dem, welches Ereignis als erstes eintritt.
+
+9.8 Anwendbares Recht und Gerichtsstand. Der vorliegende Lizenzvertrag für den
+Endbenutzer unterliegt dem Recht von Kalifornien, soweit die Gesetze dieses
+Staates für Verträge gelten, die zwischen Einheimischen abgeschlossen werden.
+Die Vereinbarung der Vereinten Nationen für internationale Verträge betreffend
+den Verkauf von Waren ist nicht auf den vorliegenden Lizenzvertrag für den
+Endbenutzer anwendbar. Sie erklären sich damit einverstanden, dass alle sich
+aus dem vorliegenden Lizenzvertrag für den Endbenutzer ergebenden
+Meinungsverschiedenheiten, aus deren Grund Sie den Wunsch haben, der Streiffall
+möge von einem Gericht entschieden werden, das Gericht in Kalifornien[ ]
+angerufen wird. Die Entscheidung soll endgültig sein, welches auch das Gericht
+oder das angestrengte Verfahren sein mag. Unbeschadet vorstehender Angaben sind
+Sie damit einverstanden, (i) sich an jeder Verhandlung zu beteiligen, die vor
+ein Gericht an einem Ort gebracht wird, wo Sie eine Aktivität ausüben oder
+erfüllen (ii) Sie sind damit einverstanden, dass Four Js ein Gericht an einem
+beliebigen Four Js genehmen Ort gegen Sie anrufen kann, um ihre Rechte aus dem
+vorliegenden Lizenzvertrag für den Endbenutzer oder ihre durch Schutzrechte
+gesicherten Ansprüche durchzusetzen.
+
+9.9 Kosten. Mit Ausnahme der vorstehenden Angaben in Artikel 5 und 6 sind die
+Ansprüche und Kosten der Parteien im Rahmen des vorliegenden Lizenzvertrages
+für den Endbenutzer kumulativ. Sollte das Gericht im Hinblick auf die Anwendung
+des vorliegenden Lizenzvertrages für den Endbenutzer angerufen werden, kann
+sich die obsiegende Partei ihre Rechtsanwaltskosten, die Gerichtskosten und die
+sonstigen Kosten der Beitreibung neben jeder anderen zugebilligten
+Entschädigungssumme erstatten bzw. bezahlen lassen.
+
+9.10 Pflege. Wartung oder Unterstützung Four Js ist nicht verpflichtet,
+Assistenz- oder Pflege- bzw. Wartungsdienste im Rahmen des vorliegenden
+Lizenzvertrag für den Endbenutzer zu leisten. Zu diesem Zweck ist ein
+besonderer Service-Vertrag erforderlich.
+
+9.11 Verschiedenes. Alle Verzichte sind schriftlich anzuzeigen. Jeder Verzicht
+oder die fehlende Anwendung einer Bestimmung des vorliegenden Lizenzvertrages
+für den Endbenutzer aus einem bestimmten Anlass  bedeutet nicht, das damit
+ebenso auf andere Bestimmungen bei anderen Anlässen verzichtet wird. Sollte
+eine Bestimmung des vorliegenden Lizenzvertrages für den Endbenutzer ungültig
+sein oder werden, ist soweit wie möglich eine der Zielsetzung des Vertrages
+nahekommende und den gesetzlichen Vorschriften entsprechende Änderung
+herbeizuführen, und die anderen Bestimmungen des Vertrages bleiben erhalten und
+voll wirksam. Die Titel der Artikel des vorliegenden Lizenzvertrages für den
+Endbenutzer dienen nur der Erleichterung der Handhabung und können nicht zur
+Interpretierung verwendet werden. Das Wort „einschließlich“ bedeutet
+„einschließlich, jedoch nicht begrenzt auf“. Der vorliegende Lizenzvertrag für
+den Endbenutzer bildet für den Gegenstand des Vertrages die vollständige
+Vereinbarung zwischen den Parteien und ersetzt alle vorherigen Vereinbarungen
+und Kommunikationen schriftlicher oder mündlicher Art. Der vorliegende
+Lizenzvertrag für den Endbenutzer kann nur durch ein schriftliches Dokument
+geändert werden, dessen Urschrift mit Tinte von den beiden Parteien
+unterschrieben wurde.
+
+
+10. PRODUKTE
+
+10.1 Die Produkte der „A-Klasse“ bezeichnen Produkte, die im wesentlichen für
+Entwicklungsziele benutzt werden.
+
+10.2 Die Produkte der „B-Klasse“ bezeichnen Produkte, die im wesentlichen zur
+Ausbreitung der Anwendungen verwendet werden, die mit Hilfe von Produkten der
+„A-Klasse“ entwickelt wurden.

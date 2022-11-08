@@ -1,0 +1,36 @@
+{
+  "name": "UserInterfaceWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-UserInterfaceWidget-bars-container-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-BarsContainer"
+    },
+    {
+      "name": "gbc-UserInterfaceWidget-topmenu-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-TopMenu"
+    },
+    {
+      "name": "gbc-UserInterfaceWidget-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-background-color"
+    },
+    {
+      "name": "gbc-UserInterfaceWidget-separator-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "gbc-UserInterfaceWidget-header-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-header-color"
+    }
+  ]
+}

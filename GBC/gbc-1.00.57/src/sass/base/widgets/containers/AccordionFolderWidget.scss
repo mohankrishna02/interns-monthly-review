@@ -1,0 +1,122 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_AccordionFolderWidget {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  // Create common definition for both left or right collapsers
+  %colapser{
+    content: '\271A';
+    font-size: $gbc-AccordionFolderWidget-font-size*0.8;
+    transition: all 0.5s;
+    transform: scale(1);
+    padding-right: 0.5em;
+  }
+  %colapser-current{
+    transform: scale(0);
+    transition: transform 0.5s;
+  }
+
+  .gbc_AccordionElement {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+
+    overflow: hidden;
+
+    &:first-child > .gbc_PageTitleWidget {
+      border-radius: 4px 4px 0 0;
+    }
+
+    &:not(.currentPage):last-child {
+      border-radius: 0 0 4px 4px;
+    }
+
+    &:not(.currentPage) > .gbc_AccordionPage {
+      border-bottom: transparent solid 1px;
+    }
+
+    > .gbc_AccordionPage {
+
+      flex: 0 0 auto;
+      position: relative;
+      visibility: visible;
+
+      overflow: hidden;
+      transition: height 0.5s ease;
+      height: 0;
+
+      border-bottom: $theme-separator-color solid 1px;
+      border-right: $theme-separator-color solid 1px;
+      border-left: $theme-separator-color solid 1px;
+
+      > .gbc_PageWidget {
+        padding: $gbc-AccordionFolderWidget-page-margin;
+      }
+    }
+
+    > .gbc_PageTitleWidget {
+      flex: 0 0 auto;
+
+      font-size: $gbc-AccordionFolderWidget-font-size;
+      background-color: $gbc-AccordionFolderWidget-background-color;
+      padding: $gbc-AccordionFolderWidget-title-margin;
+
+      margin-top: 2px;
+      border: $theme-separator-color solid 1px;
+
+      color: $gbc-AccordionFolderWidget-color;
+      fill: $gbc-AccordionFolderWidget-color;
+      width: 100%;
+      transition: border-radius 0.5s linear;
+
+
+      .gbc_ImageWidget, .mt-tab-title-text {
+        height: $gbc-AccordionFolderWidget-font-size; // fix height to be sure it's well measured
+        max-height: $gbc-AccordionFolderWidget-font-size; // fix height to be sure it's well measured
+        min-height: $gbc-AccordionFolderWidget-font-size; // fix height to be sure it's well measured
+      }
+
+      .mt-tab-title-text {
+        width: 100%;
+      }
+    }
+
+  }
+
+  &.collapser-position-left > .gbc_AccordionElement > .gbc_PageTitleWidget {
+    &:before {
+      @extend %colapser;
+    }
+    &.mt-tab-current:before {
+      @extend %colapser-current;
+    }
+  }
+  &.collapser-position-right > .gbc_AccordionElement > .gbc_PageTitleWidget {
+    &:after {
+      @extend %colapser;
+    }
+    &.mt-tab-current:after {
+      @extend %colapser-current;
+    }
+  }
+
+
+
+
+
+
+}
+
+
+

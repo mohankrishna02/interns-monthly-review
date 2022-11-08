@@ -1,0 +1,41 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2017)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2017, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_LogTypesSelectorWidget {
+  display: flex;
+  font-family: "Droid Sans Mono", monospace;
+  line-height: 2em;
+
+  > div {
+    border-radius: 4px;
+    min-width: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 4px;
+    padding: 0 6px;
+
+    &.active {
+      background-color: $mt-grey-800;
+      color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .gbc_LogTypesSelectorWidget {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    > div {
+      margin-right: 0;
+      margin-top: 4px;
+    }
+  }
+}

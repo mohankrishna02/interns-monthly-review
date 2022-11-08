@@ -1,0 +1,322 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+/*based on normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+html, body {
+  height: 100%;
+  font-family: unquote($html-font-family);
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-size: $html-font-size-ratio*1em;
+  &.no-box-shadow *, &.no-box-shadow * *, &.no-box-shadow * * * {
+    box-shadow: none !important;
+  }
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+template {
+  display: none;
+}
+
+a {
+  background: transparent;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: $html-font-size-ratio*2em;
+  margin: $html-font-size-ratio*0.67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+  margin: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code, kbd, pre, samp {
+    font-family: unquote($html-font-family-monospace);
+}
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  line-height:normal;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], html input[disabled], textarea[disabled], select[disabled] {
+  cursor: default;
+}
+
+.disabled{
+  button, input, textarea, select {
+    cursor: default !important;
+  }
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+button, input[type="submit"] {
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  line-height: $html-font-size-ratio*1em
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: unquote($html-font-family);
+  margin: 0;
+  text-rendering: optimizeLegibility
+}
+
+h1 {font-size: $html-font-size-ratio*2.25em;}
+h2 {font-size: $html-font-size-ratio*2em;}
+h3 {font-size: $html-font-size-ratio*1.75em;}
+h4 {font-size: $html-font-size-ratio*1.5em;}
+h5 {font-size: $html-font-size-ratio*1.25em;}
+h6 {font-size: $html-font-size-ratio*1em;}
+
+p {
+  margin: 0 0 $html-font-size-ratio*0.5em
+}
+
+a {
+  color: $html-anchor-color;
+  text-decoration: none;
+  transition: color 0.1s linear
+}
+
+a:hover {
+  color: $html-anchor-active-color;
+}
+
+a:active, a:focus {
+  color: $html-anchor-active-color;
+}
+
+hr {
+  border-bottom: 1px solid $html-separator-color;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: $html-font-size-ratio*1em 0;
+}
+
+abbr, acronym {
+  border-bottom: 1px dotted $html-separator-color;
+  cursor: help
+}
+
+address {
+  display: block;
+  margin: 0 0 0.5em
+}
+
+del {
+  color: #595959
+}
+
+blockquote {
+  border-left: 2px solid #DDD;
+  color: #595959;
+  margin: $html-font-size-ratio*1em 0;
+  padding-left: $html-font-size-ratio*0.5em
+}
+
+cite {
+  color: #737373;
+  font-style: italic
+}
+
+cite:before {
+  content: '\2014 \00A0'
+}
+
+
+fieldset {
+  background: #f7f7f7;
+  border: 1px solid #DDD;
+  margin: 0 0 $html-font-size-ratio*0.5em 0;
+  padding: $html-font-size-ratio*1em
+}
+
+input, label, select {
+  display: block;
+  font-family: unquote($html-font-family);
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: $html-font-size-ratio*0.25em
+}
+
+label.required:after {
+  content: "*"
+}
+
+label abbr {
+  display: none
+}
+
+textarea:disabled,
+input:not([type]):disabled,
+input[type]:disabled {
+  background-color: transparent;
+}
+
+input, textarea {
+  outline: 0;
+  border:0;
+  padding: 0;
+  &:focus{
+    border:0;
+    outline: 0;
+  }
+}

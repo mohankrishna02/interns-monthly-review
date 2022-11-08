@@ -1,0 +1,46 @@
+{
+  "name": "GBC",
+  "version": "1.00.57",
+  "private": true,
+  "engines": {
+    "node": ">= 10.16.3"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@mdi/font": "2.4.85",
+    "connect-fonts-droidsans": "0.0.1",
+    "connect-fonts-droidsansmono": "0.0.1",
+    "i18next": "11.3.2",
+    "i18next-browser-languagedetector": "2.2.0",
+    "javascript-state-machine": "2.3.5",
+    "js-base64": "2.4.5",
+    "jsface": "2.4.9",
+    "moment": "2.22.2",
+    "node-sass": "^5.0.0",
+    "pikaday-time": "1.6.1",
+    "stackframe": "1.0.4",
+    "stacktrace-js": "2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "9.6.0",
+    "fs-extra": "8.1.0",
+    "grunt": "1.1.0",
+    "grunt-contrib-clean": "2.0.0",
+    "grunt-contrib-compress": "1.6.0",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-connect": "2.0.0",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-uglify": "4.0.1",
+    "grunt-contrib-watch": "1.1.0",
+    "grunt-node-version": "1.0.2",
+    "grunt-templates2js": "0.0.2",
+    "grunt-text-replace": "0.4.0",
+    "postcss": "7.0.17",
+    "postcss-discard-comments": "4.0.2",
+    "postcss-url-mapper": "1.2.0",
+    "time-grunt": "2.0.0",
+    "tinycolor2": "1.4.1"
+  },
+  "author": "Four Js Development Tools Europe Ltd",
+  "license": "ISC"
+}

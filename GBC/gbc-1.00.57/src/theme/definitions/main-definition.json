@@ -1,0 +1,746 @@
+[{
+    "name": "theme",
+    "title": "Theme",
+    "description": "Defines theme main variables",
+    "type": "group",
+    "contents": [{
+        "name": "theme-colors",
+        "title": "Theme colors",
+        "description": "Defines theme main colors",
+        "type": "group",
+        "contents": [{
+            "name": "theme-selection-text-color",
+            "title": "Theme selection text color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$theme-currentrow-color"
+          },
+          {
+            "name": "theme-primary-color",
+            "title": "Theme primary color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$palette-text-primary-100",
+            "aliases": [
+              "gbc-secondary-text-color"
+            ]
+          },
+          {
+            "name": "theme-primary-background-color",
+            "title": "Theme primary background color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$palette-primary-700",
+            "aliases": [
+              "gbc-primary-color"
+            ]
+          },
+          {
+            "name": "theme-primary-emphasis-background-color",
+            "title": "Theme primary emphasis background color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$palette-primary-500",
+            "aliases": [
+              "gbc-primary-medium-color"
+            ]
+          },
+          {
+            "name": "theme-primary-faded-background-color",
+            "title": "Theme primary faded background color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$palette-primary-100",
+            "aliases": [
+              "gbc-primary-light-color"
+            ]
+          },
+          {
+            "name": "theme-secondary-color",
+            "title": "Theme secondary color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$palette-text-secondary-100",
+            "aliases": [
+              "gbc-primary-text-color"
+            ]
+          },
+          {
+            "name": "theme-secondary-faded-color",
+            "title": "Theme secondary faded color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$palette-text-secondary-54"
+          },
+          {
+            "name": "theme-secondary-background-color",
+            "title": "Theme secondary background color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$palette-secondary-50",
+            "aliases": [
+              "gbc-primary-background-color"
+            ]
+          },
+          {
+            "name": "theme-secondary-alternative-background-color",
+            "title": "Theme secondary alternative background color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$mt-white",
+            "aliases": [
+              "gbc-secondary-background-color"
+            ]
+          },
+          {
+            "name": "theme-field-background-color",
+            "title": "Theme field background color",
+            "description": "Widget background color.",
+            "type": "color",
+            "defaultValue": "$mt-white",
+            "aliases": [
+              "gbc-field-background-color"
+            ]
+          },
+          {
+            "name": "theme-header-color",
+            "title": "Theme header color",
+            "description": "Table header background color.",
+            "type": "color",
+            "defaultValue": "$palette-secondary-100",
+            "aliases": [
+              "gbc-header-color"
+            ]
+          },
+          {
+            "name": "theme-separator-color",
+            "title": "Theme separator color",
+            "description": "Toolbar separator color.",
+            "type": "color",
+            "defaultValue": "$palette-secondary-400",
+            "aliases": [
+              "gbc-separator-color"
+            ]
+          },
+          {
+            "name": "theme-disabled-color",
+            "title": "Theme disabled color",
+            "description": "Generally used as widgets disabled foreground color",
+            "type": "color",
+            "defaultValue": "$palette-disabled-200"
+          },
+          {
+            "name": "theme-disabled-background-color",
+            "title": "Theme disabled background color",
+            "description": "Generally used as widgets disabled background color",
+            "type": "color",
+            "defaultValue": "$palette-disabled-400",
+            "aliases": [
+              "gbc-disabled-color"
+            ]
+          },
+          {
+            "name": "theme-field-disabled-background-color",
+            "title": "Theme field disabled background color",
+            "description": "Widget disabled background color.",
+            "type": "color",
+            "defaultValue": "$palette-disabled-200",
+            "aliases": [
+              "gbc-field-disabled-background-color"
+            ]
+          },
+          {
+            "name": "theme-field-readonly-background-color",
+            "title": "Theme field readonly background color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$palette-disabled-200",
+            "aliases": [
+              "gbc-field-readonly-background-color"
+            ]
+          },
+          {
+            "name": "theme-placeholder-color",
+            "title": "Theme placeholder color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$palette-disabled-400"
+          },
+          {
+            "name": "theme-overlay-background-color",
+            "title": "Theme overlay color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$palette-text-secondary-26"
+          },
+          {
+            "name": "theme-message-color",
+            "description": "Message foreground color.",
+            "type": "color",
+            "defaultValue": "$theme-primary-color"
+          },
+          {
+            "name": "theme-message-background-color",
+            "description": "Message background color.",
+            "type": "color",
+            "defaultValue": "$palette-secondary-800",
+            "aliases": [
+              "gbc-message-color"
+            ]
+          },
+          {
+            "name": "theme-error-background-color",
+            "description": "Error message background color.",
+            "type": "color",
+            "defaultValue": "$mt-red-800",
+            "aliases": [
+              "gbc-error-color"
+            ]
+          },
+          {
+            "name": "theme-currentrow-color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$theme-primary-color"
+          },
+          {
+            "name": "theme-currentrow-background-color",
+            "description": "",
+            "type": "color",
+            "defaultValue": "$theme-primary-emphasis-background-color"
+          }
+        ]
+      },
+      {
+        "name": "theme-layout",
+        "title": "Theme layout variables",
+        "description": "Defines theme layout variables",
+        "type": "group",
+        "contents": [{
+            "name": "theme-field-height-ratio",
+            "title": "Theme field height ratio",
+            "description": "Ratio applied to the space around text in a field (top and bottom).",
+            "type": "number",
+            "defaultValue": 0.7,
+            "aliases": [
+              "gbc-field-height-ratio"
+            ]
+          },
+          {
+            "name": "theme-field-default-height",
+            "title": "Theme field default height",
+            "description": "",
+            "type": "size",
+            "defaultValue": "$theme-field-height-ratio * 32px",
+            "aliases": [
+              "field-default-height"
+            ]
+          },
+          {
+            "name": "theme-font-size-ratio",
+            "title": "Theme font-size ratio",
+            "description": "The font size adjustment ratio in relation to Droid Sans font family sizes. For example, if the browser's available font for the &lt;body&gt; element is Times (12px), size of letters are adjusted by multiplying theme-font-size-ratio by font size. In our example, they display at 10.8 pixels high, (0.9 × 12).",
+            "type": "number",
+            "defaultValue": 0.8,
+            "aliases": [
+              "gbc-font-size-ratio"
+            ]
+          },
+          {
+            "name": "theme-host-action-default-height",
+            "title": "Theme host-action default height",
+            "description": "",
+            "type": "size",
+            "defaultValue": "$theme-margin-ratio * 56px",
+            "aliases": [
+              "mt-toolbar-height"
+            ]
+          },
+          {
+            "name": "theme-button-default-width",
+            "title": "theme button default width",
+            "description": "",
+            "type": "size",
+            "defaultValue": "$theme-font-size-ratio * 100px",
+            "aliases": [
+              "button-default-width"
+            ]
+          },
+          {
+            "name": "theme-margin-ratio",
+            "title": "Theme margin ratio",
+            "description": "Ratio applied to the margin or space on the left of a field. When you type text in a field you have some space before text that is defined by this variable.",
+            "type": "number",
+            "defaultValue": 0.6,
+            "aliases": [
+              "gbc-margin-ratio"
+            ]
+          },
+          {
+            "name": "theme-input-padding-top",
+            "title": "Theme input padding-top",
+            "description": "",
+            "type": "size",
+            "defaultValue": "$theme-margin-ratio*2px"
+          },
+          {
+            "name": "theme-input-padding-right",
+            "title": "Theme input padding-right",
+            "description": "",
+            "type": "size",
+            "defaultValue": "$theme-margin-ratio*6px"
+          },
+          {
+            "name": "theme-input-padding-bottom",
+            "title": "Theme input padding-bottom",
+            "description": "",
+            "type": "size",
+            "defaultValue": "$theme-margin-ratio*2px"
+          },
+          {
+            "name": "theme-input-padding-left",
+            "title": "Theme input padding-left",
+            "description": "",
+            "type": "size",
+            "defaultValue": "$theme-margin-ratio*6px"
+          },
+          {
+            "name": "theme-textarea-padding-top",
+            "title": "Theme textarea padding-top",
+            "description": "",
+            "type": "size",
+            "defaultValue": "$theme-margin-ratio*4px"
+          },
+          {
+            "name": "theme-textarea-padding-right",
+            "title": "Theme textarea padding-right",
+            "description": "",
+            "type": "size",
+            "defaultValue": "$theme-input-padding-right"
+          },
+          {
+            "name": "theme-textarea-padding-bottom",
+            "title": "Theme textarea padding-bottom",
+            "description": "",
+            "type": "size",
+            "defaultValue": "0"
+          },
+          {
+            "name": "theme-textarea-padding-left",
+            "title": "Theme textarea padding-left",
+            "description": "",
+            "type": "size",
+            "defaultValue": "$theme-input-padding-left"
+          },
+          {
+            "name": "theme-table-margin",
+            "description": "",
+            "type": "size",
+            "defaultValue": "6px",
+            "aliases": [
+              "gbc-table-margin"
+            ]
+          },
+          {
+            "name": "theme-combobox-margin",
+            "description": "",
+            "type": "size",
+            "defaultValue": "5px",
+            "aliases": [
+              "gbc-combobox-margin"
+            ]
+          },
+          {
+            "name": "theme-combobox-padding",
+            "description": "",
+            "type": "size",
+            "defaultValue": "2px",
+            "aliases": [
+              "gbc-combobox-padding"
+            ]
+          },
+          {
+            "name": "theme-radiobutton-size",
+            "title": "radiobutton size",
+            "description": "Size of the radio button in pixels.",
+            "type": "size",
+            "defaultValue": "14px",
+            "aliases": [
+              "gbc-radiobutton-size"
+            ]
+          },
+          {
+            "name": "theme-checkbox-size",
+            "title": "checkbox size",
+            "description": "Size of the checkbox in pixels",
+            "type": "size",
+            "defaultValue": "14px",
+            "aliases": [
+              "gbc-checkbox-size"
+            ]
+          },
+          {
+            "name": "theme-sidebar-always-visible-min-width",
+            "title": "Theme sidebar always-visible min-width",
+            "description": "Browser window width size (in pixels) for the left sidebar to appear. Use this setting to hide the left sidebar.See {@local howdoi/customization/display-sidebar}.",
+            "type": "size",
+            "defaultValue": "1400px",
+            "aliases": [
+              "gbc-sidebar-always-visible-min-width"
+            ]
+          },
+          {
+            "name": "theme-sidebar-default-width",
+            "title": "Theme sidebar default width",
+            "description": "Default size of sidebar in pixels.",
+            "type": "size",
+            "defaultValue": "300px",
+            "aliases": [
+              "gbc-sidebar-default-width"
+            ]
+          },
+          {
+            "name": "theme-sidebar-max-width",
+            "description": "",
+            "type": "size",
+            "defaultValue": "800px",
+            "aliases": [
+              "gbc-sidebar-max-width"
+            ]
+          },
+          {
+            "name": "theme-toggle-chromebar-min-width",
+            "title": "chromebar toggling min-width",
+            "description": "Warning, this is a deprecated feature! Browser window width size (in pixels) for the chromebar to appear. Use this setting to hide the chromebar.",
+            "type": "size",
+            "defaultValue": "720px",
+            "aliases": [
+              "theme-toggle-right-sidebar-min-width",
+              "gbc-toggle-right-sidebar-min-width"
+            ],
+            "deprecated": true
+          },
+          {
+            "name": "theme-group-separation-size",
+            "description": "",
+            "type": "string",
+            "defaultValue": "$theme-margin-ratio * 12",
+            "aliases": [
+              "group-separation-size"
+            ]
+          },
+          {
+            "name": "theme-splitter-size",
+            "title": "Theme splitter size",
+            "description": "",
+            "type": "size",
+            "defaultValue": "$theme-group-separation-size * 1px",
+            "aliases": [
+              "splitter-size"
+            ]
+          },
+          {
+            "name": "theme-traditional-mode-letter-spacing",
+            "description": "",
+            "type": "size",
+            "defaultValue": "2px",
+            "aliases": [
+              "traditional-mode-letter-spacing"
+            ]
+          },
+          {
+            "name": "theme-max-icon-size",
+            "description": "",
+            "type": "size",
+            "defaultValue": "32px",
+            "aliases": [
+              "gbc-max-icon-size"
+            ]
+          },
+          {
+            "name": "theme-small-icon-size",
+            "description": "",
+            "type": "size",
+            "defaultValue": "20px * $theme-font-size-ratio"
+          },
+          {
+            "name": "theme-grid-inner-gutter",
+            "description": "",
+            "type": "number",
+            "defaultValue": 3,
+            "aliases": [
+              "layout-grid-inner-gutter"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "theme-network",
+        "title": "Theme network features",
+        "description": "Defines themere variables linked to network features",
+        "type": "group",
+        "contents": [{
+          "name": "theme-network-use-credentials-headers",
+          "title": "Enable credentials headers",
+          "description": "Enable credentials headers",
+          "type": "boolean",
+          "defaultValue": false
+        }]
+      },
+      {
+        "name": "theme-misc",
+        "title": "Theme miscellaneous",
+        "description": "Defines theme variables",
+        "type": "group",
+        "contents": [{
+            "name": "theme-font-family",
+            "title": "Theme font family",
+            "description": "",
+            "type": "string",
+            "defaultValue": "'\"Droid Sans\", sans-serif'"
+          },
+          {
+            "name": "theme-font-family-monospace",
+            "title": "Theme font family monospace",
+            "description": "",
+            "type": "string",
+            "defaultValue": "'\"Droid Sans Mono\", monospace'"
+          },
+          {
+            "name": "theme-animation-duration",
+            "description": "Animation duration (in seconds), such as the speed of Product identication window pop-down appearance.",
+            "type": "string",
+            "defaultValue": "0.3s",
+            "aliases": [
+              "gbc-animation-duration"
+            ]
+          },
+          {
+            "name": "theme-disable-ending-popup",
+            "description": "Deactivate the pop-up warning about leaving the application displayed when the browser tab containing your GBC application is closed",
+            "type": "boolean",
+            "defaultValue": false,
+            "aliases": [
+              "gbc-disable-ending-popup",
+              "gbc-desactivate-ending-popup"
+            ]
+          },
+          {
+            "name": "theme-disable-context-menu",
+            "title": "Disable context menu",
+            "description": "Disable the genero context menu",
+            "type": "boolean",
+            "defaultValue": true,
+            "aliases": [
+              "gbc-disable-context-menu"
+            ]
+          },
+          {
+            "name": "theme-scrollers-clickonly",
+            "description": "Define general scrollers behavior",
+            "type": "boolean",
+            "defaultValue": false,
+            "aliases": [
+              "gbc-scrollers-clickonly"
+            ]
+          },
+          {
+            "name": "theme-scrollers-speed",
+            "description": "Define the scrollers speed",
+            "type": "number",
+            "defaultValue": 10,
+            "aliases": [
+              "gbc-scrollers-speed"
+            ]
+          },
+          {
+            "name": "theme-message-display-time",
+            "description": "Specify the number of seconds to display the message pane<br/><ul><li>A positive value is the number of seconds to display the pane before fade-out.</li><li>Set to zero (0) to always show the pane.</li><li>Set to a negative value to always hide the pane.</li></ul>",
+            "type": "number",
+            "defaultValue": 0,
+            "aliases": [
+              "gbc-message-display-time"
+            ]
+          },
+          {
+            "name": "theme-message-display-position",
+            "description": "Position of the message panel.<br/>Valid values are:<br/><ul><li>top-left</li><li>top-center</li><li>top-right</li><li>bottom-left</li><li>bottom-center</li><li>bottom-right (default)</li></ul><br/>If the error and message positions are defined for the same place, the two panels will stack.",
+            "type": "message-display-position",
+            "defaultValue": "bottom-right",
+            "aliases": [
+              "gbc-message-position"
+            ]
+          },
+          {
+            "name": "theme-error-display-time",
+            "description": "Specify the number of seconds to display the error message pane<br/><ul><li>A positive value is the number of seconds to display the pane before fade-out.</li><li>Set to zero (0) to always show the pane.</li><li>Set to a negative value to always hide the pane.</li></ul>",
+            "type": "number",
+            "defaultValue": 0,
+            "aliases": [
+              "gbc-error-display-time"
+            ]
+          },
+          {
+            "name": "theme-error-display-position",
+            "description": "Position of the error panel.<br/>Valid values are:<br/><ul><li>top-left</li><li>top-center</li><li>top-right</li><li>bottom-left</li><li>bottom-center</li><li>bottom-right (default)</li></ul><br/>If the error and message positions are defined for the same place, the two panels will stack.",
+            "type": "message-display-position",
+            "defaultValue": "bottom-right",
+            "aliases": [
+              "gbc-error-position"
+            ]
+          },
+          {
+            "name": "theme-collapser-position",
+            "description": "Define the default collapser position (left or right)",
+            "defaultValue": "left"
+          },
+          {
+            "name": "aui-mutation-watch",
+            "title": "Gbc Watch aui mutations",
+            "description": "Enable watching aui mutations",
+            "type": "boolean",
+            "defaultValue": false
+          },
+          {
+            "name": "aui-mobileUI-default",
+            "title": "Define if 'mobileUI' flag is sent to DVM",
+            "description": "",
+            "type": "boolean",
+            "defaultValue": false
+          },
+          {
+            "name": "theme-table-default-widget",
+            "title": "Gbc table default widget",
+            "description": "Gbc default widget used to render table (if value is 'listview' table will be rendered as listview by default else it will be rendered as normal table). Behavior can still be override by 4ST (tableType).",
+            "type": "string",
+            "defaultValue": "table"
+          },
+          {
+            "name": "theme-legacy-topbar",
+            "title": "Use the old topbar of GBC instead of Chromebar",
+            "description": "Warning, this is a deprecated feature, the old topbar will be removed in the future",
+            "type": "boolean",
+            "defaultValue": false
+          },
+          {
+            "name": "theme-default-reduceFilter",
+            "title": "Define if 'reduceFilter' is set by default for Tables and ScrollGrids",
+            "description": "",
+            "type": "boolean",
+            "defaultValue": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main-color-palettes",
+    "title": "Main color palettes",
+    "description": "Defines general colors palettes appearing in the customization",
+    "type": "group",
+    "contents": [{
+        "name": "palette-primary",
+        "title": "Primary color base",
+        "description": "Defines the theme's main color base",
+        "type": "color",
+        "generator": "material-color",
+        "defaultValue": "$mt-blue",
+        "aliases": [
+          "primary"
+        ]
+      },
+      {
+        "name": "palette-secondary",
+        "title": "Secondary color base",
+        "description": "Defines the theme's secondary color base",
+        "type": "color",
+        "generator": "material-color",
+        "defaultValue": "$mt-grey"
+      },
+      {
+        "name": "palette-disabled",
+        "title": "Disabled color base",
+        "description": "Defines the theme's disabled color base",
+        "type": "color",
+        "generator": "material-color",
+        "defaultValue": "$mt-grey"
+      },
+      {
+        "name": "palette-text-primary",
+        "title": "Text Light",
+        "description": "",
+        "const": true,
+        "type": "color",
+        "generator": "material-text-color",
+        "value": "$mt-text-white",
+        "aliases": [
+          "text-light"
+        ]
+      },
+      {
+        "name": "palette-text-secondary",
+        "title": "Text Dark",
+        "description": "",
+        "const": true,
+        "type": "color",
+        "generator": "material-text-color",
+        "value": "$mt-text-black",
+        "aliases": [
+          "text-dark"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "features",
+    "title": "Features",
+    "description": "",
+    "type": "group",
+    "contents": "features/**/*.json"
+  },
+  {
+    "name": "layout",
+    "title": "Gbc layout variables",
+    "description": "Configure Gbc layout variables",
+    "type": "group",
+    "contents": "layout/**/*.json"
+  },
+  {
+    "name": "material",
+    "title": "Material variables",
+    "description": "",
+    "type": "group",
+    "contents": "material/**/*.json"
+  },
+  {
+    "name": "widgets",
+    "title": "Widgets specific variables",
+    "description": "Configure variables specific to a widget",
+    "type": "group",
+    "contents": "widgets/**/*.json"
+  },
+  {
+    "name": "constants",
+    "title": "Constant variables",
+    "description": "Constants variables that can be used but not modified",
+    "type": "group",
+    "contents": "constants/**/*.json"
+  },
+  {
+    "name": "deprecated",
+    "title": "Deprecated variables",
+    "description": "deprecated variables that will be removed",
+    "type": "group",
+    "contents": [{
+        "name": "gbc-primary-strong-color",
+        "description": "deprecated variable that will be removed",
+        "deprecated": true
+      },
+      {
+        "name": "gbc-secondary-color",
+        "description": "deprecated variable that will be removed",
+        "deprecated": true
+      }
+    ]
+  }
+]

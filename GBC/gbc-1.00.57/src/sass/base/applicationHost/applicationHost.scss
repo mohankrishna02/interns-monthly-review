@@ -1,0 +1,36 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+@import "ProductInformationWidget";
+@import "ApplicationHostWidget";
+@import "ApplicationHostAboutWidget";
+@import "ApplicationHostSettingsWidget";
+@import "LogPlayerWidget";
+@import "LogInfoWidget";
+@import "MainContainerWidget";
+@import "LogLevelSelectorWidget";
+@import "LogTypesSelectorWidget";
+@import "launcher/ApplicationLauncherWidget";
+@import "launcher/ApplicationLauncherBookmarkWidget";
+@import "launcher/ApplicationLauncherHistoryWidget";
+@import "launcher/ApplicationLauncherUrlInputWidget";
+@import "launcher/ApplicationLauncherStartLogPlayerWidget";
+@import "menu/ApplicationHostMenuWidget";
+@import "menu/ApplicationHostMenuItemsWidget";
+@import "monitor/monitor";
+@import "sidebar/SessionSidebarWidget";
+@import "sidebar/SessionSidebarApplicationItemWidget";
+@import "sidebar/SessionSidebarWindowItemWidget";
+@import "chromeBar/ChromeBarWidget";
+@import "chromeBar/ChromeRightBarWidget";
+@import "chromeBar/ChromeBarItemWidget";
+@import "chromeBar/ChromeBarItemFilterWidget";
+@import "chromeBar/LogRecorderWidget";

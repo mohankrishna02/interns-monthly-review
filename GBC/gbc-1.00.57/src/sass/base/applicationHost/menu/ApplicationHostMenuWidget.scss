@@ -1,0 +1,161 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ApplicationHostMenuWidget {
+  .hasChromeBar & {
+    display: none;
+  }
+
+  &.mt-toolbar{
+    z-index: $gbc-ApplicationHostMenuWidget-toolbar-z-index;
+  }
+
+  .error a:after{
+    content: "\F026";
+    color: #ff706c;
+    position: absolute;
+    top: -5px;
+    font: normal normal normal 14px/1 "Material Design Icons";
+  }
+
+  > ul {
+    display: flex;
+    overflow: hidden;
+    > li{flex: 0 0 auto;}
+  }
+
+  .gbc_ImageWidget:not(.gbc_fixedSvg)  {
+    margin-left: 4px;
+    @extend .icon;
+  }
+
+  .mt-sidebar-toggle{
+    .gbc_ImageWidget {
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  .mt-sidebar-action-toggle {
+    display: none;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  &.noselect{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+  }
+}
+
+@media screen and (max-width: $gbc-ApplicationHostMenuWidget-chromebar-min-width) {
+
+  /* Edge & IE11 hack to fix browser issue with decimal opacity not recognized in that specific case (ex: opacity: 0.7) */
+  .is-edge, .is-ie{
+    .gbc_ApplicationHostMenuRuntimeWidget.processing{
+      opacity: 1;
+    }
+  }
+
+  .mt-toolbar a, .mt-toolbar a:focus, .mt-toolbar a:visited, .mt-sidebar-action-toggle.open{
+    color: $gbc-ApplicationHostMenuWidget-toolbar-item-color;
+
+   &:hover{
+     color:$gbc-ApplicationHostMenuWidget-toolbar-item-hover-color;
+   }
+  }
+
+  .gbc_ApplicationHostMenuWidget {
+
+    > ul.mt-actions {
+      right: -720px;
+      display: flex;
+      background-color: $gbc-ApplicationHostMenuWidget-background-color;
+      position: absolute;
+      top: 0;
+      z-index: $gbc-ApplicationHostMenuWidget-actions-z-index;
+
+      height: 100%;
+      line-height: $gbc-ApplicationHostMenuWidget-actions-height;
+      font-size: $gbc-ApplicationHostMenuWidget-font-size-ratio*16px;
+
+
+      flex-direction: column;
+      align-items: flex-start;
+      transition: right 0.3s ease;
+      box-shadow: 1px 2px 9px 3px rgba(0, 0, 0, 0.24);
+
+      &:after{
+        content: "";
+        position: fixed;
+        background: black;
+        width: 0;
+        height: 0;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: opacity 0.3s ease;
+      }
+
+      .gbc_ApplicationHostMenuRuntimeWidget .mt-action {
+        color: white;
+        line-height: $mt-toolbar-item-height;
+        position: fixed;
+        top: 0;
+        right: 2em;
+      }
+    }
+
+    > ul.mt-actions.open {
+
+      right: 0;
+
+      li{
+        display: block;
+        margin: 0 7px;
+        
+        i:before{
+          vertical-align: middle;
+        }
+        i:after{
+          content: attr(title);
+          margin-left: 3px;
+          font-weight: bold;
+          height: $gbc-ApplicationHostMenuWidget-actions-height;
+          line-height: $gbc-ApplicationHostMenuWidget-actions-height;
+          font-size: $gbc-ApplicationHostMenuWidget-font-size-ratio*16px;
+          font-family: "Droid Sans", sans-serif;
+          vertical-align: middle;
+        }
+        a small{
+          display: none;
+        }
+      }
+
+    }
+
+    > .mt-sidebar-action-toggle {
+      display: flex;
+      align-self: center;
+      z-index: $gbc-ApplicationHostMenuWidget-actions-z-index;
+    }
+
+
+  }
+}
+

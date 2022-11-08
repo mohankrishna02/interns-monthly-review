@@ -1,0 +1,50 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ScrollBarWidget{
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 0 auto;
+  height: 100%;
+
+  .track{
+    height: 100%;
+    width: 4px;
+    background: rgba(219, 219, 219, 0.6);
+  }
+
+  .thumb{
+    background: rgba(186,186,186,1);
+    width: 70%;
+    position: absolute;
+    top:1px;
+    transition: top 0.2s ease-out;
+    border-radius: 5px;
+  }
+
+  &.moving .thumb{
+    cursor: default;
+    opacity: 1;
+  }
+  &.disabled{
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  &.thinScrollbar-vanished{
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+
+    .thumb{
+      opacity: 0;
+    }
+  }
+}

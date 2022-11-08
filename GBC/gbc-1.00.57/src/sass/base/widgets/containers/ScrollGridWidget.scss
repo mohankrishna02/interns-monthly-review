@@ -1,0 +1,38 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+
+.g_measured .g_gridChildrenInParent > .gbc_ScrollGridWidget.g_measureable {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.gbc_ScrollGridWidget {
+  display: inline-block;
+}
+
+.gbc_ScrollGridWidget:not(.nohighlight) > .containerElement, .gbc_GridWidget:not(.nohighlight), .gbc_GridWidget:not(.nohighlight) > .containerElement, .gbc_TraditionalScreenWidget {
+  > .g_GridElement > .currentRow,
+  > .g_GridElement > .gbc_HBoxWidget > .g_BoxElement > .currentRow {
+    background-color: $gbc-ScrollGridWidget-current-background-color !important;
+    color: $gbc-ScrollGridWidget-current-color !important;
+    width: 100%;
+    height: 100%;
+    .mt-field, .mt-label {
+      background-color: inherit !important;
+    }
+    @include placeholder {
+      color: $gbc-ScrollGridWidget-field-background-color;
+      opacity: 0.7;
+    }
+  }
+}
+

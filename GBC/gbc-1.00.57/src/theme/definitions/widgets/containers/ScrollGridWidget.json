@@ -1,0 +1,54 @@
+{
+  "name": "ScrollGridWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-ScrollGridWidget-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "gbc-ScrollGridWidget-font-size-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-font-size-ratio"
+    },
+    {
+      "name": "gbc-ScrollGridWidget-field-default-height",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-field-default-height"
+    },
+    {
+      "name": "gbc-ScrollGridWidget-inner-gutter",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-grid-inner-gutter"
+    },
+    {
+      "name": "gbc-ScrollGridWidget-disabled-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-disabled-color"
+    },
+    {
+      "name": "gbc-ScrollGridWidget-current-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-currentrow-background-color"
+    },
+    {
+      "name": "gbc-ScrollGridWidget-current-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-currentrow-color"
+    },
+    {
+      "name": "gbc-ScrollGridWidget-field-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-field-background-color"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ToolBarWidget {
+  text-align: center;
+  display: flex;
+  width: 100%;
+
+  // Hide separator if it is the last item
+  .mt-tab-titles-container > *.mt-separator:last-child {
+    opacity: 0;
+  }
+
+  &.mt-toolbar {
+    background-color: transparent;
+    box-shadow: none;
+    color: inherit;
+  }
+
+  .mt-tab-previous, .mt-tab-next {
+    width: $gbc-ToolBarWidget-font-size-ratio*50px;
+  }
+
+  .mt-tab-previous.overflown-previous, .mt-tab-next.overflown-next {
+    color: $gbc-ToolBarWidget-trigger-color;
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  .gbc_ToolBarSeparatorWidget{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    .mt-line-v{
+      width: 1px;
+      height: 100%;
+      background: $gbc-ToolBarSeparatorWidget-color;
+    }
+  }
+
+  &.buttonTextHidden .gbc_ToolBarItemWidget > span{
+    display: none;
+  }
+
+}

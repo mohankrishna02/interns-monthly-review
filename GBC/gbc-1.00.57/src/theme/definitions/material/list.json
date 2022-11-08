@@ -1,0 +1,11 @@
+{
+  "name": "mt-list",
+  "description": "",
+  "type": "group",
+  "contents": [{
+    "name": "mt-list-field-background-color",
+    "description": "",
+    "type": "color",
+    "defaultValue": "$theme-field-background-color"
+  }]
+}

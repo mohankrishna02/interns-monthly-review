@@ -1,0 +1,100 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ToggleCheckBoxWidget {
+
+  padding-top: $gbc-CheckBoxWidget-checkbox-size*0.3;
+  padding-bottom: $gbc-CheckBoxWidget-checkbox-size*0.3;
+
+  .switch, .switch * {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+  }
+
+  .switch label {
+    cursor: pointer;
+
+    // Thumb
+    .lever {
+      content: "";
+      display: inline-block;
+      position: relative;
+      width: $gbc-CheckBoxWidget-checkbox-size*2.6;
+      height: $gbc-CheckBoxWidget-checkbox-size;
+      background-color: rgba(0, 0, 0, 0.38);
+      border-radius: 15px;
+      transition: background 0.3s ease;
+      vertical-align: middle;
+      margin: 0 $gbc-CheckBoxWidget-margin-ratio*8px 0 0;
+
+      &:before, &:after {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: $gbc-CheckBoxWidget-checkbox-size*1.42;
+        height: $gbc-CheckBoxWidget-checkbox-size*1.42;
+        border-radius: 50%;
+        left: 0;
+        top: $gbc-CheckBoxWidget-checkbox-size*-0.21;
+        transition: left 0.3s ease, background .3s ease, box-shadow 0.1s ease, transform .1s ease;
+      }
+
+      &:before {
+        background-color: $gbc-CheckBoxWidget-checked-color;
+      }
+      &:after {
+        background-color: $gbc-CheckBoxWidget-disabled-color;
+        box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+      }
+    }
+
+    input[type=checkbox] {
+      opacity: 0;
+      width: 0;
+      height: 0;
+      box-sizing: border-box;
+      padding: 0;
+
+      &:not(:checked), &:checked {
+        position: absolute;
+        left: -9999px;
+        opacity: 0;
+      }
+
+      &:checked + .lever {
+        background-color: $gbc-CheckBoxWidget-unchecked-color;
+      }
+
+      &[disabled]+.lever {
+        cursor: default;
+        background-color: rgba(0,0,0,0.12);
+        &:after{
+          background-color: #BDBDBD;
+        }
+      }
+
+      &[disabled]:checked+.lever:after {
+        background-color: #BDBDBD;
+      }
+
+      &:checked + .lever{
+        &:before, &:after{
+          left: $gbc-CheckBoxWidget-checkbox-size*1.29;
+        }
+        &:after {
+          background-color: $gbc-CheckBoxWidget-checked-color;
+        }
+      }
+    }
+  }
+}

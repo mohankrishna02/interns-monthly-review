@@ -1,0 +1,41 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+
+@media screen and (min-width: $mt-responsive-sidebar-always-visible-min-width) {
+  .mt-centralcontainer {
+    left:$mt-responsive-sidebar-default-width;
+  }
+  .mt-sidebar-backdrop {
+    display: none;
+  }
+  .mt-sidebar-toggle {
+    display: none;
+    pointer-events: none;
+  }
+  .mt-toolbar-title {
+    margin-left: 24px;
+  }
+  .mt-sidebar:not(.mt-sidebar-unavailable) {
+    left:0;
+  }
+}
+@media screen and (max-width: 620px) {
+  .mt-side-by-side {
+    display: block;
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  .mt-sidebar-content {
+    width: 300px;
+  }
+}

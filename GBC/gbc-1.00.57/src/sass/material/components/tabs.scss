@@ -1,0 +1,81 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.mt-tabs {
+  display: flex;
+  flex-direction: column;
+}
+.mt-tab-titles-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: default;
+}
+.mt-tab-items {
+  @include flexible_guest_stretch;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+.mt-tab-items-container {
+  flex: 1 1 auto;
+  position: relative;
+  margin: $mt-tabs-margin-ratio*6px;
+  overflow: hidden;
+}
+.mt-tab-item {
+  @include fill-wh;
+  z-index: $mt-tabs-tab-z-index;
+  > * {
+    width: 100%;
+    height: 100%;
+  }
+  &.mt-tab-current {
+    pointer-events: all;
+    z-index: $mt-tabs-tab-current-z-index;
+  }
+}
+
+.mt-tab-previous, .mt-tab-next {
+  flex:0 0 auto;
+  transition: opacity 0.3s ease;
+  opacity: 0.1;
+  font-size: $mt-tabs-font-size-ratio*32px;
+  text-align: center;
+  width: $mt-tabs-font-size-ratio*72px;
+}
+
+.mt-tab-titles {
+  display:flex;
+  position:relative;
+  flex-direction: row;
+  overflow: hidden;
+  @include flexible_guest_stretch;
+  white-space: nowrap;
+}
+.mt-tab-titles-container {
+  display: flex;
+  .gbc_ImageWidget {
+    display: inline-block;
+  }
+}
+.mt-tab-title {
+  display: inline-block;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.mt-tab-title-text {
+  min-width: 1px;
+  min-height: 1px;
+  display: inline-block;
+}

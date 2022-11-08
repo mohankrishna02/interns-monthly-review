@@ -1,0 +1,193 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.mt-sidebar-toggle.mt-sidebar-unavailable {
+  visibility: hidden;
+  pointer-events: none;
+}
+.mt-centralcontainer {
+  @include fill-absolute;
+  transition: width 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.mt-centralcontainer-content {
+  @include flexible_guest_stretch;
+  overflow: hidden;
+  display: flex;
+}
+.mt-sidebar-backdrop {
+  @include fill-absolute;
+  pointer-events: none;
+  background-color: $mt-sidebar-overlay-background-color;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.mt-sidebar-backdrop.mt-sidebar-displayed:not(.mt-sidebar-unavailable) {
+  opacity: 1;
+  z-index: $mt-sidebar-overlay-z-index;
+  pointer-events: all;
+}
+
+.mt-sidebar {
+  @include fill-absolute;
+  right: auto;
+  width: $mt-sidebar-default-width;
+  max-width: 80%;
+  left: -100%;
+  transition: left $mt-sidebar-animation-duration ease;
+  z-index: $mt-sidebar-z-index;
+  a:focus {
+    outline: none;
+  }
+  > .resizer {
+    @include fill-absolute;
+    left:auto;
+    top:0;
+    bottom:0;
+    min-height: 1px;
+    width: $mt-sidebar-splitter-size;
+    min-width: $mt-sidebar-splitter-size;
+    max-width: $mt-sidebar-splitter-size;
+    cursor: ew-resize;
+    z-index: $mt-sidebar-z-index+1;
+    > i {
+      @extend .zmdi-drag-vertical;
+    }
+    > .firefox_placekeeper {
+      color: rgba(255, 255, 255, 0.01);
+      pointer-events: none;
+    }
+    &:hover {
+      background: $mt-sidebar-resizer-hover-color;
+    }
+  }
+  &.noselect{
+    user-select: none;
+  }
+}
+.mt-sidebar-content {
+  @include fill-absolute;
+  @include flexible_host_stretch_col;
+  background-color: $mt-sidebar-background-color;
+  @include mt-shadow(1);
+  z-index: $mt-sidebar-z-index;
+  overflow-x: hidden;
+  overflow-y: auto;
+  > .mt-content {
+    @include flexible_guest_stretch;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    > .containerElement {
+      flex: 1 1 auto;
+      overflow:auto;
+      > .mt-actions {
+        margin: 0;
+        padding: 0;
+        > .mt-action {
+          background-color: $mt-sidebar-background-color;
+          list-style: none;
+          height: $mt-sidebar-margin-ratio*72px;
+          line-height: $mt-sidebar-margin-ratio*72px;
+          font-size: $mt-sidebar-font-size-ratio*16px;
+          padding-left: $mt-sidebar-margin-ratio*16px;
+          transition: background $mt-sidebar-animation-duration ease;
+        }
+      }
+    }
+    .mt-hideleft {
+      left: -100%
+    }
+    .mt-hideright {
+      left: 100%
+    }
+  }
+  > .mt-bottom-actions {
+    margin: 0;
+    padding: 0;
+    @include mt-shadow(1);
+    > .mt-action {
+      background-color: $mt-sidebar-background-color;
+      list-style: none;
+      height: $mt-sidebar-font-size-ratio*48px;
+      line-height: $mt-sidebar-font-size-ratio*48px;
+      font-size: $mt-sidebar-font-size-ratio*14px;
+      padding-left: $mt-sidebar-font-size-ratio*72px;
+      transition: background $mt-sidebar-animation-duration ease;
+    }
+  }
+}
+
+.mt-sidebar-title {
+  background-color: $mt-sidebar-background-color;
+  color: $mt-sidebar-item-color;
+  height: $mt-sidebar-item-height;
+  line-height: $mt-sidebar-item-height;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  > * {
+    line-height: $mt-sidebar-item-height;
+  }
+}
+.mt-sidebar-title-text {
+  font-weight:bold;
+  padding-left: $mt-sidebar-margin-ratio*16px;
+}
+
+.mt-sidebar.mt-sidebar-displayed:not(.mt-sidebar-unavailable) {
+  left: 0;
+  >.mt-sidebar-content {
+    @include mt-shadow(2);
+  }
+}
+
+
+  .is-mobile-device .mt-sidebar-title{
+    height: $gbc-ChromeBarWidget-height;
+  }
+
+  .mt-sidebar-title{
+    height: $gbc-ChromeBarWidget-height / 1.7;
+    font-weight: normal;
+
+    &>*{
+      line-height:$gbc-ChromeBarWidget-item-height;
+    }
+    .mt-sidebar-toggle{
+      margin-left: $gbc-ChromeBarWidget-item-toggle-margin;
+      width: auto;
+
+      .zmdi-hc-2x {
+        font-size: $gbc-ChromeBarWidget-item-height;
+      }
+    }
+    .mt-sidebar-title-text{
+      align-self: center;
+      margin-left: $gbc-ChromeBarWidget-title-margin/2;
+    }
+  }
+
+  .mt-content{
+    padding-top: $gbc-ChromeBarWidget-item-toggle-margin;
+  }
+
+  .is-not-mobile-device .mt-sidebar .mt-content{
+    padding-top: 0;
+  }

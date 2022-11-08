@@ -1,0 +1,40 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_LabelWidget {
+  display: inline-block;
+  white-space: nowrap;
+  padding: $gbc-LabelWidget-margin-ratio*4px $gbc-LabelWidget-margin-ratio*6px;
+  .g_measured &.g_measureable{
+    width: 100%;
+  }
+}
+[__LabelWidget].gbc-label-text-container{
+  flex: 1 1 auto;
+  white-space: pre;
+  .g_StackElement & {
+    white-space: pre-wrap;
+  }
+  &.is-empty-label:before {
+    content: "\00a0";
+    visibility: hidden;
+    .g_measuring & {
+      visibility: initial;
+    }
+  }
+}
+
+[grid-parent-renderer="stack"] [__LabelWidget].gbc-label-text-container {
+  padding-left: 16px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 0.8em;
+}

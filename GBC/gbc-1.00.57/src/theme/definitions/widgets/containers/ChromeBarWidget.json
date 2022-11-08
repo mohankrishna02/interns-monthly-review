@@ -1,0 +1,54 @@
+{
+  "name": "ChromeBarWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-ChromeBarWidget-height",
+      "type": "size",
+      "description": "Defines the ChromeBar height",
+      "defaultValue": "56px"
+    },
+    {
+      "name": "gbc-ChromeBarWidget-item-height",
+      "type": "size",
+      "description": "Defines the ChromeBar item height",
+      "defaultValue": "24px"
+    },
+    {
+      "name": "gbc-ChromeBarWidget-item-toggle-margin",
+      "type": "size",
+      "description": "Defines the ChromeBar item toggle (burger + dots) margins",
+      "defaultValue": "16px"
+    },
+    {
+      "name": "gbc-ChromeBarWidget-title-margin",
+      "type": "size",
+      "description": "Defines the ChromeBar title margin",
+      "defaultValue": "32px"
+    },
+    {
+      "name": "gbc-ChromeBarWidget-item-spacing",
+      "type": "size",
+      "description": "Defines the space between ChromeBar item",
+      "defaultValue": "24px"
+    },
+    {
+      "name": "gbc-ChromeBarWidget-right-item-height",
+      "type": "size",
+      "description": "Defines the Right ChromeBar item height",
+      "defaultValue": "$gbc-ChromeBarWidget-height"
+    },
+    {
+      "name": "gbc-ChromeBarWidget-right-item-margin",
+      "type": "size",
+      "description": "Defines the Right ChromeBar item margins",
+      "defaultValue": "16px"
+    },
+    {
+      "name": "gbc-ChromeBarWidget-right-item-image-margin",
+      "type": "size",
+      "description": "Defines the Right ChromeBar item image margins",
+      "defaultValue": "$gbc-ChromeBarWidget-title-margin"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+<!--
+ FOURJS_START_COPYRIGHT(D,2014)
+ Property of Four Js*
+ (c) Copyright Four Js 2014, 2020. All Rights Reserved.
+ * Trademark of Four Js Development Tools Europe Ltd
+   in the United States and elsewhere
+ 
+ This file can be modified by licensees according to the
+ product manual.
+ FOURJS_END_COPYRIGHT
+-->
+
+<div>
+  <header class="logplayer-topbar">
+    <span class="logplayer-cursor hidden"></span>
+    <div class="logplayer-item">
+      <span class="logfile" data-i18n="gwc.logPlayer.topBar.logFile">Log File</span>
+      <label class="logplayer-fileinput mt-button">
+        <div><div data-i18n="gwc.file.upload.select"></div> <i class="zmdi zmdi-upload"></i></div>
+        <input type="file" class="mt-field">
+      </label>
+    </div>
+
+    <div class="logplayer-separator"></div>
+
+    <div class="logplayer-item">
+      <span data-i18n="gwc.logPlayer.topBar.controls">Controls</span>
+      <div>
+        <button class="logplayer-reset mt-button" title="Reset"><i class="zmdi zmdi-backup-restore"></i></button>
+        <button class="logplayer-step mt-button" title="Next step"><i class="zmdi zmdi-debug-step-over"></i></button>
+        <button class="logplayer-play mt-button mt-button-green" title="Play"><i class="zmdi zmdi-play"></i></button>
+        <button class="logplayer-pause mt-button" title="Pause"><i class="zmdi zmdi-pause"></i></button>
+      </div>
+    </div>
+    <div class="logplayer-item">
+      <span data-i18n="gwc.logPlayer.topBar.gotoStep">Go to Step</span>
+      <div>
+        <input type="number" class="logplayer-forward-count mt-field" value="5">
+        <button class="logplayer-forward mt-button" title="Forward"><i class="zmdi zmdi-fast-forward"></i></button>
+      </div>
+    </div>
+
+    <div class="logplayer-separator"></div>
+
+    <div class="logplayer-item">
+      <span class="logplayer-stats"></span>
+    </div>
+
+    <div class="logplayer-separator"></div>
+
+    <div class="logplayer-item">
+      <label><span data-i18n="gwc.logPlayer.topBar.delay">Delay</span>
+        <input type="number" class="logplayer-delay mt-field">
+      </label>
+    </div>
+    <div class="logplayer-item">
+      <div class="logplayer-delayfromlog"></div>
+    </div>
+
+    <div class="logplayer-separator"></div>
+
+    <div class="logplayer-item">
+      <div class="logplayer-showHelpers"></div>
+    </div>
+
+    <div class="logplayer-separator"></div>
+
+    <div class="logplayer-item">
+      <div class="logplayer-userInteraction"></div>
+    </div>
+
+    <div class="logplayer-item">
+      <div class="logplayer-keypressed hidden">
+        <div class="key key-modifier hidden">
+          <span></span>
+        </div>
+        <div class="key key-letter">
+          <span></span>
+        </div>
+      </div>
+      <div class="logplayer-mousepressed hidden">
+        <div class="key key-left">
+          <span>❰</span>
+        </div>
+        <div class="key key-wheel">
+          <span></span>
+        </div>
+        <div class="key key-right">
+          <span>❱</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- GBC will be rendered in this div -->
+  <div class="containerElement"></div>
+</div>

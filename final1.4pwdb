@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceDatabase fileContentsEncoding="CP1252" version="3.0">
+<File n="details.4gl" s="2" ts="20210929133859231">
+<Fct c="8" el="498" l="435" n="detailsreport(printdetailsrec RECORD)" t="R" v="pub"/>
+<Fct c="10" el="433" l="397" n="details_report()" t="F" v="pub">
+<Call c="18" l="411" n="detailsreport" t="R"/>
+<Call c="26" l="429" n="detailsreport" t="R"/>
+<Call c="19" l="431" n="detailsreport" t="R"/>
+</Fct>
+<Fct c="10" el="395" l="388" n="clean_up_fun()" t="F" v="pub"/>
+<Fct c="10" el="386" l="356" n="delete_check()" t="F" v="pub"/>
+<Fct c="10" el="354" l="340" n="delete_value()" t="F" v="pub"/>
+<Fct c="10" el="338" l="312" n="update_cust()" t="F" v="pub"/>
+<Fct c="10" el="310" l="297" n="insert_cust()" t="F" v="pub"/>
+<Fct c="10" el="295" l="190" n="fun_input_clg1(au_flag CHAR(20))" t="F" v="pub"/>
+<Fct c="10" el="188" l="186" n="display_custm()" t="F" v="pub"/>
+<Fct c="10" el="184" l="166" n="fetch_rel_cust(p_fetch_flag SMALLINT)" t="F" v="pub">
+<Call c="10" l="172" n="fetch_custm" t="F"/>
+<Call c="14" l="175" n="display_custm" t="F"/>
+</Fct>
+<Fct c="10" el="164" l="139" n="fetch_custm(p_fetch_flag SMALLINT)" t="F" v="pub"/>
+<Fct c="10" el="137" l="119" n="cust1_select(p_where_clause STRING)" t="F" v="pub">
+<Call c="10" l="130" n="fetch_custm" t="F"/>
+</Fct>
+<Fct c="10" el="117" l="95" n="get_cust_cntm(p_where_clause STRING)" t="F" v="pub"/>
+<Fct c="10" el="93" l="59" n="query_cust()" t="F" v="pub">
+<Call c="14" l="77" n="get_cust_cntm" t="F"/>
+<Call c="18" l="80" n="cust1_select" t="F"/>
+<Call c="14" l="88" n="display_custm" t="F"/>
+</Fct>
+<Fct c="10" el="57" l="16" n="fun_details()" t="F" v="pub">
+<Call c="18" l="22" n="query_cust" t="F"/>
+<Call c="22" l="25" n="fetch_rel_cust" t="F"/>
+<Call c="22" l="32" n="fetch_rel_cust" t="F"/>
+<Call c="17" l="38" n="fun_input_clg1" t="F"/>
+<Call c="22" l="39" n="insert_cust" t="F"/>
+<Call c="18" l="43" n="update_cust" t="F"/>
+<Call c="17" l="46" n="delete_check" t="F"/>
+<Call c="22" l="47" n="delete_value" t="F"/>
+<Call c="18" l="50" n="details_report" t="F"/>
+</Fct>
+<Fct c="10" el="14" l="7" n="details_fun()" t="F" v="pub">
+<Call c="10" l="11" n="fun_details" t="F"/>
+</Fct>
+</File>
+<File n="intern.4gl" s="2" ts="20210929092712617">
+<Fct c="10" el="427" l="420" n="intern_clean_up_fun()" t="F" v="pub"/>
+<Fct c="10" el="418" l="391" n="intern_delete_check()" t="F" v="pub"/>
+<Fct c="10" el="389" l="375" n="intern_delete_value()" t="F" v="pub"/>
+<Fct c="10" el="373" l="349" n="intern_update_cust()" t="F" v="pub"/>
+<Fct c="10" el="347" l="334" n="intern_insert_cust()" t="F" v="pub"/>
+<Fct c="10" el="332" l="188" n="intern_fun_input_clg1(au_flag CHAR(20))" t="F" v="pub"/>
+<Fct c="10" el="186" l="184" n="intern_display_custm()" t="F" v="pub"/>
+<Fct c="10" el="182" l="164" n="intern_fetch_rel_cust(p_fetch_flag SMALLINT)" t="F" v="pub">
+<Call c="10" l="170" n="intern_fetch_custm" t="F"/>
+<Call c="14" l="173" n="intern_display_custm" t="F"/>
+</Fct>
+<Fct c="10" el="162" l="137" n="intern_fetch_custm(p_fetch_flag SMALLINT)" t="F" v="pub"/>
+<Fct c="10" el="135" l="117" n="intern_cust1_select(p_where_clause STRING)" t="F" v="pub">
+<Call c="10" l="128" n="intern_fetch_custm" t="F"/>
+</Fct>
+<Fct c="10" el="115" l="93" n="intern_get_cust_cntm(p_where_clause STRING)" t="F" v="pub"/>
+<Fct c="10" el="91" l="57" n="intern_query_cust()" t="F" v="pub">
+<Call c="14" l="75" n="intern_get_cust_cntm" t="F"/>
+<Call c="18" l="78" n="intern_cust1_select" t="F"/>
+<Call c="14" l="86" n="intern_display_custm" t="F"/>
+</Fct>
+<Fct c="10" el="55" l="16" n="fun_intern()" t="F" v="pub">
+<Call c="18" l="22" n="intern_query_cust" t="F"/>
+<Call c="22" l="25" n="intern_fetch_rel_cust" t="F"/>
+<Call c="22" l="32" n="intern_fetch_rel_cust" t="F"/>
+<Call c="17" l="38" n="intern_fun_input_clg1" t="F"/>
+<Call c="22" l="39" n="intern_insert_cust" t="F"/>
+<Call c="18" l="43" n="intern_update_cust" t="F"/>
+<Call c="17" l="46" n="intern_delete_check" t="F"/>
+<Call c="22" l="47" n="intern_delete_value" t="F"/>
+</Fct>
+<Fct c="10" el="14" l="7" n="intern_fun()" t="F" v="pub">
+<Call c="10" l="11" n="fun_intern" t="F"/>
+</Fct>
+</File>
+<File n="mentor.4gl" s="2" ts="20210929092712456">
+<Fct c="10" el="373" l="366" n="mentor_clean_up_fun()" t="F" v="pub"/>
+<Fct c="10" el="364" l="334" n="mentor_delete_check()" t="F" v="pub"/>
+<Fct c="10" el="332" l="318" n="mentor_delete_value()" t="F" v="pub"/>
+<Fct c="10" el="316" l="296" n="mentor_update_cust()" t="F" v="pub"/>
+<Fct c="10" el="294" l="281" n="mentor_insert_cust()" t="F" v="pub"/>
+<Fct c="10" el="279" l="188" n="mentor_fun_input_clg1(au_flag CHAR(20))" t="F" v="pub"/>
+<Fct c="10" el="186" l="184" n="mentor_display_custm()" t="F" v="pub"/>
+<Fct c="10" el="182" l="164" n="mentor_fetch_rel_cust(p_fetch_flag SMALLINT)" t="F" v="pub">
+<Call c="10" l="170" n="mentor_fetch_custm" t="F"/>
+<Call c="14" l="173" n="mentor_display_custm" t="F"/>
+</Fct>
+<Fct c="10" el="162" l="137" n="mentor_fetch_custm(p_fetch_flag SMALLINT)" t="F" v="pub"/>
+<Fct c="10" el="135" l="117" n="mentor_cust1_select(p_where_clause STRING)" t="F" v="pub">
+<Call c="10" l="128" n="mentor_fetch_custm" t="F"/>
+</Fct>
+<Fct c="10" el="115" l="93" n="mentor_get_cust_cntm(p_where_clause STRING)" t="F" v="pub"/>
+<Fct c="10" el="91" l="57" n="mentor_query_cust()" t="F" v="pub">
+<Call c="14" l="75" n="mentor_get_cust_cntm" t="F"/>
+<Call c="18" l="78" n="mentor_cust1_select" t="F"/>
+<Call c="14" l="86" n="mentor_display_custm" t="F"/>
+</Fct>
+<Fct c="10" el="55" l="16" n="fun_mentor()" t="F" v="pub">
+<Call c="18" l="22" n="mentor_query_cust" t="F"/>
+<Call c="22" l="25" n="mentor_fetch_rel_cust" t="F"/>
+<Call c="22" l="32" n="mentor_fetch_rel_cust" t="F"/>
+<Call c="17" l="38" n="mentor_fun_input_clg1" t="F"/>
+<Call c="22" l="39" n="mentor_insert_cust" t="F"/>
+<Call c="18" l="43" n="mentor_update_cust" t="F"/>
+<Call c="17" l="46" n="mentor_delete_check" t="F"/>
+<Call c="22" l="47" n="mentor_delete_value" t="F"/>
+</Fct>
+<Fct c="10" el="14" l="7" n="mentor_fun()" t="F" v="pub">
+<Call c="10" l="11" n="fun_mentor" t="F"/>
+</Fct>
+</File>
+<File n="trans.4gl" s="2" ts="20211009080315870">
+<Fct c="10" el="170" l="152" n="display_tran_custarr()" t="F" v="pub"/>
+<Fct c="10" el="150" l="148" n="display_tran_cust()" t="F" v="pub"/>
+<Fct c="10" el="146" l="128" n="fetch_tra_rel_cust(p_fetch_flag SMALLINT)" t="F" v="pub">
+<Call c="10" l="134" n="fetch_tra_cust" t="F"/>
+<Call c="14" l="137" n="display_tran_cust" t="F"/>
+</Fct>
+<Fct c="10" el="126" l="108" n="fetch_tra_cust(p_fetch_flag SMALLINT)" t="F" v="pub"/>
+<Fct c="10" el="106" l="86" n="tran_cust_select(p_where_clause STRING)" t="F" v="pub">
+<Call c="10" l="99" n="fetch_tra_cust" t="F"/>
+</Fct>
+<Fct c="10" el="84" l="68" n="tran_get_cust_cnt(p_where_clause STRING)" t="F" v="pub"/>
+<Fct c="10" el="66" l="33" n="tran_query_cust()" t="F" v="pub">
+<Call c="14" l="52" n="tran_get_cust_cnt" t="F"/>
+<Call c="18" l="55" n="tran_cust_select" t="F"/>
+<Call c="14" l="63" n="display_tran_cust" t="F"/>
+</Fct>
+<Fct c="10" el="30" l="14" n="trans_fun()" t="F" v="pub">
+<Call c="18" l="20" n="tran_query_cust" t="F"/>
+<Call c="18" l="21" n="display_tran_custarr" t="F"/>
+</Fct>
+</File>
+<File n="main.4gl" s="2" ts="20210929092712517">
+<Dep t="details.4gl"/>
+<Dep t="intern.4gl"/>
+<Dep t="mentor.4gl"/>
+<Dep t="trans.4gl"/>
+<Fct c="1" el="23" l="6" n="main()" t="F" v="pub">
+<Call c="18" i="details" l="12" n="details_fun" t="F"/>
+<Call c="18" i="intern" l="14" n="intern_fun" t="F"/>
+<Call c="18" i="mentor" l="16" n="mentor_fun" t="F"/>
+<Call c="18" i="trans" l="18" n="trans_fun" t="F"/>
+</Fct>
+</File>
+</WorkspaceDatabase>

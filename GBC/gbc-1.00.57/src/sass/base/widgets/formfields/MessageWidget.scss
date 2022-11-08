@@ -1,0 +1,62 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_MessageWidget{
+  &.hidden {
+    display: inline-block !important;
+    z-index: -1;
+    &.bottom-left, &.bottom-right {
+      transform: translateY(500px);
+    }
+    &.top-left, &.top-right {
+      transform: translateY(-500px);
+    }
+    &.bottom-center{
+      transform: translateY(500px);
+    }
+    &.top-center{
+      transform: translateY(-500px);
+    }
+    opacity: 0;
+  }
+  &.out-of-view{
+    transform: translateY(9999px);
+  }
+
+  z-index: -1; // default hidden, updated by messageApplicationService
+  display: inline-block;
+  position: fixed;
+  background-color: $gbc-MessageWidget-background-color;
+  color: $gbc-MessageWidget-color;
+  min-height: 48px;
+  min-width: 288px;
+  padding: 16px 24px 12px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px 0 $gbc-MessageWidget-shadow-color;
+  border-radius: 2px;
+  opacity: 0;
+  
+  font-size: $theme-font-size-ratio * 18px;
+  cursor: default;
+  transition: top 0.3s, bottom 0.3s, left 0.3s, right 0.3s, transform 0.3s, z-index 0.3s;
+
+  /* Arabic */
+  &.reverse{
+    right: auto;
+  }
+
+  .close-button {
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+  }
+}

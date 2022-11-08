@@ -1,0 +1,190 @@
+{
+  "gwc": {
+    "lngName": "Português",
+    "app": {
+      "ending": {
+        "title": "O aplicativo terminou",
+        "session": "ID de sessão",
+        "redirect": "Your session has ended. You will be automatically redirected in a few seconds."
+      },
+      "notFound": {
+        "title": "O aplicativo não pôde ser encontrado",
+        "message": "O aplicativo __appId__ não foi iniciado porque não foi encontrado.<br> Tenha certeza que seu aplicativo existe e tente reiniciar o mesmo aplicativo"
+      },
+      "error": {
+        "message": "O aplicativo encontrou um problema"
+      },
+      "forbidden": {
+        "message": "O aplicativo encontrou um problema de acesso"
+      },
+      "webcompNotFound": {
+        "message": "Webcomponent não encontrado ou o método 'onICHostReady' não está presente : este aplicativo não pode continuar!"
+      },
+      "webcompError": {
+        "message": "Webcomponent threw an error"
+      },
+      "autologout": {
+        "message": "Você foi desconectado"
+      },
+      "uaProxy": {
+        "message": "O aplicativo parou inesperadamente"
+      },
+      "logs": {
+        "vm": "Obtenha os logs da VM",
+        "proxy": "Obtenha os logs do proxy",
+        "gbc": "Obtenha os logs do GBC"
+      },
+      "waiting": "Aguardando conexão",
+      "restart": "Reinicie o mesmo aplicativo",
+      "busy": "O aplicativo está ocupado",
+      "noload": "If it doesn't load, click here",
+      "run": "Executar",
+      "close": "Fechar",
+      "networkError": "O aplicativo já não está disponível (erro %1)"
+    },
+    "welcome": {
+      "history": "Histórico",
+      "bookmark": "Favoritos",
+      "urlLauncher": "UA lançador por Url"
+    },
+    "date": {
+      "monthList": "Janeiro,Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Outubro,Novembro,Dezembro",
+      "dayList": "Domingo,Segunda,Terça,Quarta,Quinta,Sexta,Sábado",
+      "weekdaysShort": "Dom,Seg,Ter,Qua,Qui,Sex,Sáb",
+      "previousMonth": "Mês anterior",
+      "nextMonth": "Mês seguinte",
+      "midnight": "Meia-noite",
+      "noon": "Meio dia"
+    },
+    "button": {
+      "ok": "Aceitar",
+      "cancel": "Cancelar"
+    },
+    "contextMenu": {
+      "restoreColumnSort": "Redefinir ordem das colunas",
+      "showAllColumns": "Mostrar todas as colunas",
+      "disable": "Desativar",
+      "readOnly": "Somente leitura",
+      "clearSettings": "Limpar configurações",
+      "restoreDefaultSettings": "Redefinir configurações padrões",
+      "clearStoredSettingsQuestion": "Deseja limpar as configurações armazenadas ? (Por favor, reinicie o aplicativo para que as alterações entrem em vigor.)",
+      "freezeLeft": "Congelar para a esquerda",
+      "freezeRight": "Congelar para a direita",
+      "unfreezeAll": "Descongelar todas",
+      "hideAllButSelected": "Esconder as outras colunas",
+      "selectAll": "Select all",
+      "copyRow": "Copy row",
+      "copyCell": "Copy cell",
+      "autoFitAllColumns": "AutoFit all columns",
+      "fitToViewAllColumns": "Fit to view all columns"
+    },
+    "file": {
+      "upload": {
+        "droporclick": "Arraste aqui o arquivo ou clique para upload.",
+        "droporclick-multiple": "Drop files here or click to upload.",
+        "select": "Selecione o arquivo",
+        "select-multiple": "Select files",
+        "processing": "Upload em progresso",
+        "nofile": "Não foi informado o arquivo",
+        "upload": "Upload",
+        "ready": "Pronto para fazer upload",
+        "waiting": "esperando",
+        "confirmation": "Faça o upload do arquivo ?",
+        "confirmation-multiple": "Upload the files ?",
+        "uploading": "Fazendo upload",
+        "required": "Você deve selecionar um arquivo para upload",
+        "accept": "Esperando um arquivo com extensão",
+        "accept-multiple": "Expecting files with extension"
+      },
+      "clickForDownload": "Clique aqui se o download não começar automaticamente",
+      "select": "Selecione o arquivo"
+    },
+    "clipboard": {
+      "title": "Para colocar isto na área de transferência, toque o atalho para Copiar do seu sistema (geralmente Ctrl+C)",
+      "copy": "Copiar",
+      "paste": "Colar"
+    },
+    "storedSettings": {
+      "configuration": "Configurações de Ajustes armazenados",
+      "settings": "Ajustes armazenados",
+      "theme": "Interface theme",
+      "uiLanguage": "Linguagem da interface",
+      "defaultLng": "Use browser default",
+      "disable": "Desativar Ajustes armazenados",
+      "enable": "Habilitar Ajustes armazenados",
+      "reset": "Restabelecer Ajustes armazenados",
+      "confirm": "Você tem certeza?",
+      "changed": "Os Ajustes armazenados foram alteradas. Por favor, reinicie o aplicativo para que as alterações entrem em vigor",
+      "done": "Feito!",
+      "message": "Mensagem",
+      "messageContent": "Algo está errado com o armazenamento local do seu navegador"
+    },
+    "settings": "Configurações",
+    "decimalSeparator": ",",
+    "session": {
+      "logprompt": {
+        "logneeded": "Your credentials have been invalidated, please log-in again",
+        "relog": "login"
+      },
+      "waitingend": {
+        "title": "Sua sessão ainda está em execução",
+        "message": "Sua sessão atual ainda está em execução. Se você fechar esta página, todos os aplicativos pendentes nesta sessão serão encerrados."
+      }
+    },
+    "main": {
+      "sidebar": {
+        "title": "Minhas aplicações do Genero",
+        "multitab_title": "Janelas do meu aplicativo"
+      },
+      "chromebar": {
+        "appInfo": "Application Information",
+        "debugTools": "Debug Tools",
+        "runInGDC": "Run in GDC",
+        "proxyLog": "Proxy logs",
+        "vmLog": "VM logs",
+        "settings": "Configurações",
+        "bookmark": "Favoritos",
+        "bookmarkAlt": "Bookmark this application",
+        "close": "Close Window",
+        "recordingLog": "Recording log",
+        "getRecordedLog": "Click to here get the log",
+        "filter": "Filter"
+      }
+    },
+    "logPlayer": {
+      "unsavedConfirm": "An unsaved log already exists! \nDo you want to download it before starting a new session?",
+      "recordingLog": "Recording log",
+      "notEnabled": "Log recorder is not enabled!, use queryString ?recordGbcLog=1",
+      "logInfo": {
+        "headers": {
+          "browser": "BROWSER",
+          "themeVariables": "THEME VARIABLES",
+          "storedSettings": "STORED SETTINGS"
+        },
+        "version": "Version",
+        "platform": "Platform",
+        "protocol": "Protocol",
+        "theme": "Theme",
+        "availableThemes": "Available themes",
+        "sidebar": "SideBar visible",
+        "userAgent": "User Agent",
+        "os": "OS",
+        "lang": "Language",
+        "availableLang": "Available languages",
+        "dimension": "Dimension",
+        "url": "URL"
+      },
+      "topBar": {
+        "logFile": "Log File",
+        "statistics": "Statistics",
+        "statisticsTitle": "Enable statistics",
+        "delayFromLog": "Use delay from log",
+        "showHelpers": "Show interactions helpers",
+        "showHelpersTitle": "Display keys pressed, and mouse pointer",
+        "controls": "Controls",
+        "gotoStep": "Go to Step",
+        "delay": "Delay"
+      }
+    }
+  }
+}

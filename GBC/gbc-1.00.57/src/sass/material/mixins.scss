@@ -1,0 +1,81 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+
+@mixin mt-card-border($shadow-ratio, $radius-ratio) {
+  box-shadow: 1px 1px $shadow-ratio*6px rgba(0,0,0,0.40);
+  border-radius: $radius-ratio*3px;
+}
+
+@mixin mt-shadow($level:0) {
+  box-shadow: 1px $level*1px 1+$level*4px 1+$level*1px rgba(0, 0, 0, 0.24);
+}
+
+@mixin list-shadow {
+  border-radius:2px;
+  background-clip: padding-box;
+  box-shadow: 0px 2px 3px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+  -webkit-tap-highlight-color: transparent;
+}
+
+@mixin fill-absolute($all:0) {
+  position: absolute;
+  top:$all;
+  left:$all;
+  bottom:$all;
+  right:$all;
+}
+@mixin fill-wh() {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
+
+@mixin center($axis: "both"){
+  position:absolute;
+  @if $axis == "y"{
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  @if $axis == "x"{
+    left:50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  @if $axis == "both"{
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}

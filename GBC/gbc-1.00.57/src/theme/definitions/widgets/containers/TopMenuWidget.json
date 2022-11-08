@@ -1,0 +1,43 @@
+{
+  "name": "TopMenuWidget",
+  "title": "Top menu specific variables",
+  "description": "Configure variables specific to Top menu widget",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-TopMenuWidget-horizontal-padding",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-margin-ratio * 20px"
+    },
+    {
+      "name": "gbc-TopMenuWidget-line-height",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-font-size-ratio * 26px"
+    },
+    {
+      "name": "gbc-TopMenuWidget-vertical-padding",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-margin-ratio * 6px"
+    },
+    {
+      "name": "gbc-TopMenuWidget-hover-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-faded-background-color"
+    },
+    {
+      "name": "gbc-TopMenuWidget-separator-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "gbc-TopMenuWidget-icon-size",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-small-icon-size"
+    }
+  ]
+}

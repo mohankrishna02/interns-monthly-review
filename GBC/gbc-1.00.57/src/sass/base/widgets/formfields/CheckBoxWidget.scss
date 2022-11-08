@@ -1,0 +1,62 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_CheckBoxWidget, .gbc_ThreeStateCheckBoxWidget {
+  border-top: $mt-field-focus-border-width-top solid transparent;
+  border-left: $mt-field-focus-border-width-left solid transparent;
+  border-bottom: $mt-field-focus-border-width-bottom solid transparent;
+  border-right: $mt-field-focus-border-width-right solid transparent;
+  padding: 2px;
+  display: inline-flex;
+  flex-direction: column;
+  cursor:default;
+  &.gbc_Focus {
+    outline: $mt-field-focus-border-width-bottom dotted $gbc-CheckBoxWidget-focus-border-color;
+  }
+
+  .zmdi{
+    font-size: 3+$gbc-CheckBoxWidget-checkbox-size;
+    color: $gbc-CheckBoxWidget-unchecked-color;
+
+    &.unchecked {
+      @extend .zmdi-#{$gbc-CheckBoxWidget-unchecked-icon};
+    }
+
+    &.checked{
+      @extend .zmdi-#{$gbc-CheckBoxWidget-checked-icon};
+      color: $gbc-CheckBoxWidget-checked-color;
+    }
+
+    &.indeterminate{
+      @extend .zmdi-#{$gbc-CheckBoxWidget-indeterminate-icon};
+    }
+
+    &.disabled{
+      color: $gbc-CheckBoxWidget-disabled-color;
+    }
+  }
+
+  .content{
+     flex: 1 1 auto;
+     display: inline-flex;
+     align-items: center;
+  }
+  .label{
+     margin: 0 $gbc-CheckBoxWidget-margin-ratio*8px;
+     flex: 1 1 auto;
+     cursor: default;
+     white-space:nowrap;
+  }
+  .label.notext {
+     display: none;
+  }
+
+}

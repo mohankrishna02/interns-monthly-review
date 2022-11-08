@@ -1,0 +1,60 @@
+<!--
+ FOURJS_START_COPYRIGHT(D,2016)
+ Property of Four Js*
+ (c) Copyright Four Js 2016, 2020. All Rights Reserved.
+ * Trademark of Four Js Development Tools Europe Ltd
+   in the United States and elsewhere
+ 
+ This file can be modified by licensees according to the
+ product manual.
+ FOURJS_END_COPYRIGHT
+-->
+<div>
+  <div class="chromeBarContainer"></div>
+  <div class="mt-card">
+    <div class="mt-card-richhead">
+          <span class="mt-card-header-text">
+          </span>
+      <span class="mt-card-header-rightpic"><i class="zmdi zmdi-close-circle"></i></span>
+    </div>
+    <div class="mt-card-body">
+      <div class="message hidden"></div>
+      <p class="session hidden">
+        <span class="sessionTitle" data-i18n="gwc.app.ending.session">Session ID</span> :
+        <span class="sessionID"></span>
+      </p>
+      <ul class="mt-actions">
+        <li class="mt-action vmLink from-session hidden">
+          <a target="_blank" title="Virtual Machine log">
+            <i class="zmdi zmdi-file-document"></i> <span data-i18n="gwc.app.logs.vm">Get the VM Log</span>
+          </a>
+        </li>
+        <li class="mt-action uaLink from-session hidden">
+          <a target="_blank" title="Proxy log">
+            <i class="zmdi zmdi-file-document"></i> <span data-i18n="gwc.app.logs.proxy">Get the Proxy Log</span>
+          </a>
+        </li>
+        <li class="mt-action auiLink mt-as-link from-session_ hidden">
+          <a title="Aui log">
+            <i class="zmdi zmdi-file-document"></i> <span>Get the AUI log</span>
+          </a>
+        </li>
+        <li class="mt-action gbcLogLink hidden">
+          <a target="_blank" title="GBC log">
+            <i class="zmdi zmdi-file-document"></i> <span data-i18n="gwc.app.logs.gbc">Get the GBC Log</span>
+          </a>
+        </li>
+        <li class="mt-action restartApp from-ua hidden">
+          <a title="Restart the app">
+            <i class="zmdi zmdi-repeat"></i> <span data-i18n="gwc.app.restart">Restart the same application</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="mt-card-actions">
+      <button type="button" class="mt-button mt-button-flat closeApplicationEnd" aria-label="Close">
+        <span aria-hidden="true" data-i18n="gwc.app.close">CLOSE</span>
+      </button>
+    </div>
+  </div>
+</div>

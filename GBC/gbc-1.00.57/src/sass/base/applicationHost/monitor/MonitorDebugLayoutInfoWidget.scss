@@ -1,0 +1,62 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_MonitorDebugLayoutInfoWidget {
+  margin-top: 20px;
+
+  td {
+    padding: 2px;
+  }
+
+  h5 {
+    background-color: $gbc-MonitorDebug-block-title-background-color;
+    color: $gbc-MonitorDebug-block-title-color;
+    padding: 0 8px;
+  }
+
+  > div {
+    vertical-align: top;
+
+    display: inline-block;
+    table {
+      width: 240px;
+      tr:nth-child(odd) {
+        background: $gbc-MonitorDebug-odd-line-background-color;
+      }
+      .auititle {
+        text-transform: uppercase;
+        background-color: $gbc-MonitorDebug-block-title-background-color !important;
+        color: $gbc-MonitorDebug-block-title-color;
+      }
+
+    }
+    &.aui {
+      table {
+        width: 100px;
+      }
+    }
+    &.deltas {
+      table {
+        width: 70px;
+      }
+    }
+    &.stretch {
+      table {
+        width: 70px;
+      }
+    }
+    &.fromController {
+      table {
+        width: 200px;
+      }
+    }
+  }
+}

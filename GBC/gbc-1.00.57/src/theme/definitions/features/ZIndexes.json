@@ -1,0 +1,98 @@
+{
+  "name": "z-indexes",
+  "title": "Z-indexes",
+  "description": "Defines the different layer levels used in the customization",
+  "type": "group",
+  "contents": [{
+      "name": "z-index-Normal",
+      "title": "Z-index Normal",
+      "description": "",
+      "type": "number",
+      "defaultValue": 1
+    },
+    {
+      "name": "z-index-above-Normal",
+      "title": "Z-index above-Normal",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal + 1"
+    },
+    {
+      "name": "z-index-TopMenu",
+      "title": "Z-index TopMenu",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal * 10"
+    },
+    {
+      "name": "z-index-Toolbar",
+      "title": "Z-index Toolbar",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal * 20"
+    },
+    {
+      "name": "z-index-under-Dialog",
+      "title": "Z-index under Dialog",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal * 39"
+    },
+    {
+      "name": "z-index-Dialog",
+      "title": "Z-index Dialog",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal * 40"
+    },
+    {
+      "name": "z-index-Modal",
+      "title": "Z-index Modal",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal * 55"
+    },
+    {
+      "name": "z-index-BarsContainer",
+      "title": "Z-index BarsContainer",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal * 56"
+    },
+    {
+      "name": "z-index-Tabbed-Modal",
+      "title": "Z-index TabbedContainer Modal",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal * 57"
+    },
+    {
+      "name": "z-index-DropDown",
+      "title": "Z-index DropDown",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal * 58"
+    },
+    {
+      "name": "z-index-above-DropDown",
+      "title": "Z-index above-DropDown",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-DropDown + 1"
+    },
+    {
+      "name": "z-index-Message",
+      "title": "Z-index Message",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal * 60"
+    },
+    {
+      "name": "z-index-LogPrompt",
+      "title": "Z-index LogPrompt",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal * 100"
+    }
+  ]
+}

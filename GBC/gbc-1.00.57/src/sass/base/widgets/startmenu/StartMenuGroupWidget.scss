@@ -1,0 +1,55 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_StartMenuGroupWidget {
+
+  &.gbc_open {
+    > .gbc_startMenuGroupTitle::before {
+      content: '\25bc';
+    }
+
+    > .containerElement {
+      display: block;
+    }
+  }
+
+  > .gbc_startMenuGroupTitle {
+    display: flex;
+
+    padding-top: $theme-margin-ratio*13px;
+    padding-bottom: $theme-margin-ratio*13px;
+
+    &::before {
+      content: '\25ba';
+      @include startMenu-item-expander();
+    }
+
+    &:hover {
+      background-color: $gbc-StartMenuGroupWidget-hover-color;
+    }
+
+    > .gbc_ImageWidget {
+      width: auto;
+      flex-shrink: 0;
+      @include startMenu-item-image();
+    }
+
+    > .gbc_startMenuGroupTitleText {
+      white-space: nowrap;
+      @include startMenu-item-title();
+    }
+  }
+  > .containerElement {
+    display: none;
+    padding-left: 2em;
+  }
+
+}

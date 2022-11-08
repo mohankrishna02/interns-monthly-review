@@ -1,0 +1,87 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ScrollWidget{
+  flex: 1 0 auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  .spacer {
+    width: 1px; // fix for Firefox
+    min-height: 1px;
+  }
+}
+
+.gbc_ScrollAreaWidget{
+  height: 100%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  overflow: hidden;
+  .g_measuring &.g_measureable .spacer{
+    height:1px !important;
+  }
+  .spacer {
+    width: 1px; // fix for Firefox
+    min-height: 1px;
+  }
+}
+
+.thinScrollBar-hidden{
+  overflow-y: hidden;
+}
+
+.ss-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  float: left;
+}
+
+.ss-content {
+  height: 100%;
+  width: 100%;
+  padding: 0 32px 0 0;
+  position: relative;
+  right: -18px;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.ss-scroll {
+  position: relative;
+  background: rgba(0, 0, 0, 0.1);
+  width: 9px;
+  border-radius: 4px;
+  top: 0;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.25s linear;
+}
+
+.ss-hidden {
+  display: none;
+}
+
+.ss-container:hover .ss-scroll {
+  opacity: 1;
+}
+
+.ss-grabbed {
+  cursor: default;
+  -o-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+

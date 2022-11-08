@@ -1,0 +1,107 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.mt-field {
+  background-color: $mt-field-background-color;
+  border-top: $mt-field-border-width-top solid $mt-field-border-color;
+  border-right: $mt-field-border-width-right solid $mt-field-border-color;
+  border-bottom: $mt-field-border-width-bottom solid $mt-field-border-color;
+  border-left: $mt-field-border-width-left solid $mt-field-border-color;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  cursor: text;
+  border-radius: 2px;
+  box-shadow: inset 0 1px $mt-field-margin-ratio*4px rgba(0,0,0,.24);
+  min-height: $mt-field-default-height;
+  &.gbc_Focus {
+    outline: none;
+    border-top: $mt-field-focus-border-width-top solid $mt-field-focus-border-color;
+    border-right: $mt-field-focus-border-width-right solid $mt-field-focus-border-color;
+    border-bottom: $mt-field-focus-border-width-bottom solid $mt-field-focus-border-color;
+    border-left: $mt-field-focus-border-width-left solid $mt-field-focus-border-color;
+    box-shadow: inset 0 1px $mt-field-margin-ratio*4px rgba(0,0,0,.24), inset 0 1px 1px rgba(0,0,0,.24);
+  }
+  input, textarea {
+    flex: 1 1 0px;
+    background-color: transparent;
+    resize: none;
+    outline: 0;
+    cursor: inherit;
+  }
+  input {
+    padding: $mt-field-input-padding-top $mt-field-input-padding-right $mt-field-input-padding-bottom $mt-field-input-padding-left;
+  }
+  textarea {
+    padding: $mt-field-textarea-padding-top $mt-field-textarea-padding-right $mt-field-textarea-padding-bottom $mt-field-textarea-padding-left;
+  }
+
+  .widget-decoration {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    padding-top: 2px; // To avoid border overlap
+  }
+
+  &.disabled {
+    background-color: $mt-field-disabled-background-color;
+    cursor: default !important;
+
+    .widget-decoration{
+      cursor: default !important;
+    }
+  }
+
+  &.readonly {
+    background-color: $mt-field-readonly-background-color;
+    cursor: default !important;
+    input, textarea{
+      cursor: default !important;
+    }
+  }
+
+  .g_measuring & {
+    min-height: $mt-field-default-height;
+  }
+
+  .g_measured & {
+    height: 100%;
+  }
+
+  .g_measuring .mt-field & {
+    min-height: auto;
+    padding:0 !important;
+  }
+
+  .g_measured .mt-field & {
+    height: auto;
+    padding:0 !important;
+  }
+
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: $mt-field-placeholder-color;
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: $mt-field-placeholder-color;
+    opacity: 1;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $mt-field-placeholder-color;
+  }
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: $mt-field-placeholder-color;
+  }
+}
+
+.mt-label{
+  background-color: inherit;
+}
+

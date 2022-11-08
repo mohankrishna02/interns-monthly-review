@@ -1,0 +1,31 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_FileInputWidget {
+  transition: opacity 0.5s, background-color 0.5s;
+  min-width: 400px;
+  min-height: 200px;
+  border: dashed 3px $gbc-FileInput-drop-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  cursor: pointer;
+  &.dropping {
+    opacity: 0.5;
+    background-color: $gbc-FileInput-drop-color;
+  }
+}
+form[__FileInputWidget]{position:absolute;}
+input[__FileInputWidget][type='file'] {
+    visibility: hidden;
+}

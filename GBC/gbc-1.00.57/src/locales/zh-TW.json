@@ -1,0 +1,190 @@
+{
+  "gwc": {
+    "lngName": "繁体中文 (Traditional)",
+    "app": {
+      "ending": {
+        "title": "應用程式結束",
+        "session": "session編號",
+        "redirect": "Your session has ended. You will be automatically redirected in a few seconds."
+      },
+      "notFound": {
+        "title": "應用程式沒有被發現",
+        "message": "應用程式 __appId__ 沒有啟動，因為它沒有被發現。 <br> 要確保你的應用程式存在，並嘗試重新開機相同的應用程式"
+      },
+      "error": {
+        "message": "應用程式遇到問題"
+      },
+      "forbidden": {
+        "message": "應用程式遇到存取問題"
+      },
+      "webcompNotFound": {
+        "message": "未找到Web組件或'onICHostReady'不存在：此應用程序無法繼續！"
+      },
+      "webcompError": {
+        "message": "Webcomponent threw an error"
+      },
+      "autologout": {
+        "message": "您已登出"
+      },
+      "uaProxy": {
+        "message": "應用程式意外停止"
+      },
+      "logs": {
+        "vm": "得到VM日誌",
+        "proxy": "得到代理日誌",
+        "gbc": "Get the GBC logs"
+      },
+      "waiting": "正在等待連接",
+      "restart": "重新開機同一應用程式",
+      "busy": "應用程式正忙",
+      "noload": "If it doesn't load, click here",
+      "run": "運行",
+      "close": "關閉",
+      "networkError": "應用程式不再可用（錯誤 %1 ）。 "
+    },
+    "welcome": {
+      "history": "歷史",
+      "bookmark": "書簽",
+      "urlLauncher": "UA Url發射器"
+    },
+    "date": {
+      "monthList": "一月 , 二月 , 三月 , 四月 , 五月 , 六月 , 七月 , 八月 , 九月 , 十月 , 十一月 , 十二月",
+      "dayList": " 星期日 , 星期一 , 星期二 , 星期三 , 星期四 , 星期五 , 星期六",
+      "weekdaysShort": "周日 , 週一 , 週二 , 週三 , 週四 , 週五 , 週六",
+      "previousMonth": "上個月",
+      "nextMonth": "下個月",
+      "midnight": "午夜",
+      "noon": "中午"
+    },
+    "button": {
+      "ok": "OK",
+      "cancel": "取消"
+    },
+    "contextMenu": {
+      "restoreColumnSort": "重置列順序",
+      "showAllColumns": "顯示所有列",
+      "disable": "停用",
+      "readOnly": "只能讀取",
+      "clearSettings": "清除設置",
+      "restoreDefaultSettings": "重新設置",
+      "clearStoredSettingsQuestion": "你想清除存儲的設置？（請重新開機應用程式使更改生效。）",
+      "freezeLeft": "向左凍結",
+      "freezeRight": "向右凍結",
+      "unfreezeAll": "全部解凍",
+      "hideAllButSelected": "除了選的隱藏所有",
+      "selectAll": "Select all",
+      "copyRow": "Copy row",
+      "copyCell": "Copy cell",
+      "autoFitAllColumns": "AutoFit all columns",
+      "fitToViewAllColumns": "Fit to view all columns"
+    },
+    "file": {
+      "upload": {
+        "droporclick": "在這裡放下檔或點擊上傳。",
+        "droporclick-multiple": "Drop files here or click to upload.",
+        "select": "選擇檔",
+        "select-multiple": "Select files",
+        "processing": "上傳正在進行",
+        "nofile": "未提供檔",
+        "upload": "上傳",
+        "ready": "準備上傳",
+        "waiting": "等候",
+        "confirmation": "上傳檔?",
+        "confirmation-multiple": "Upload the files ?",
+        "uploading": "正在上傳",
+        "required": "你必須選擇檔上傳",
+        "accept": "期望檔副檔名",
+        "accept-multiple": "Expecting files with extension"
+      },
+      "clickForDownload": "點擊此處如果下載沒有自動啟動。",
+      "select": "選擇檔"
+    },
+    "clipboard": {
+      "title": "要將其複製到剪貼板中，請點擊您的系統複製快捷方式（通常為Ctrl + C）",
+      "copy": "複製",
+      "paste": "貼上"
+    },
+    "storedSettings": {
+      "configuration": "存儲的設置配置",
+      "settings": "存儲的設置",
+      "theme": "Interface theme",
+      "uiLanguage": "介面語言",
+      "defaultLng": "Use browser default",
+      "disable": "停用存儲的設置",
+      "enable": "啟用存儲的設置",
+      "reset": "重置存儲的設置",
+      "confirm": "你確定?",
+      "changed": "存儲的設置已被更改。 請重新開機應用程式以使更改生效。",
+      "done": "完成!",
+      "message": "信息",
+      "messageContent": "瀏覽器的本地存儲有問題"
+    },
+    "settings": "設置",
+    "decimalSeparator": ".",
+    "session": {
+      "logprompt": {
+        "logneeded": "Your credentials have been invalidated, please log-in again",
+        "relog": "login"
+      },
+      "waitingend": {
+        "title": "您的會話仍在運行",
+        "message": "您當前的會話仍在運行。 如果關閉此頁面，則此會話中的所有待處理應用程序將被終止。"
+      }
+    },
+    "main": {
+      "sidebar": {
+        "title": "我的Genero應用程序",
+        "multitab_title": "我的應用程序的窗口"
+      },
+      "chromebar": {
+        "appInfo": "Application Information",
+        "debugTools": "Debug Tools",
+        "runInGDC": "Run in GDC",
+        "proxyLog": "Proxy logs",
+        "vmLog": "VM logs",
+        "settings": "設置",
+        "bookmark": "書簽",
+        "bookmarkAlt": "Bookmark this application",
+        "close": "Close Window",
+        "recordingLog": "Recording log",
+        "getRecordedLog": "Click to here get the log",
+        "filter": "Filter"
+      }
+    },
+    "logPlayer": {
+      "unsavedConfirm": "An unsaved log already exists! \nDo you want to download it before starting a new session?",
+      "recordingLog": "Recording log",
+      "notEnabled": "Log recorder is not enabled!, use queryString ?recordGbcLog=1",
+      "logInfo": {
+        "headers": {
+          "browser": "BROWSER",
+          "themeVariables": "THEME VARIABLES",
+          "storedSettings": "STORED SETTINGS"
+        },
+        "version": "Version",
+        "platform": "Platform",
+        "protocol": "Protocol",
+        "theme": "Theme",
+        "availableThemes": "Available themes",
+        "sidebar": "SideBar visible",
+        "userAgent": "User Agent",
+        "os": "OS",
+        "lang": "Language",
+        "availableLang": "Available languages",
+        "dimension": "Dimension",
+        "url": "URL"
+      },
+      "topBar": {
+        "logFile": "Log File",
+        "statistics": "Statistics",
+        "statisticsTitle": "Enable statistics",
+        "delayFromLog": "Use delay from log",
+        "showHelpers": "Show interactions helpers",
+        "showHelpersTitle": "Display keys pressed, and mouse pointer",
+        "controls": "Controls",
+        "gotoStep": "Go to Step",
+        "delay": "Delay"
+      }
+    }
+  }
+}

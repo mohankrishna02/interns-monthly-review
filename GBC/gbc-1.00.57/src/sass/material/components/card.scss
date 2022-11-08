@@ -1,0 +1,70 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.mt-card {
+  display: flex;
+  flex-direction: column;
+  @include mt-card-border($mt-card-margin-ratio, $mt-card-font-size-ratio);
+  >.mt-card-texthead {
+    padding: 8px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    border-bottom: solid 1px $mt-card-separator-color;
+    &.mt-card-texthead-small {
+      font-size:12px;
+      line-height: 12px;
+    }
+    &.mt-card-texthead-hidden {
+      display: none;
+    }
+  }
+  >.mt-card-richhead {
+    height: 180px;
+    position: relative;
+    border-bottom: solid 1px $mt-card-separator-color;
+    .mt-card-header-text {
+      font-size: 32px;
+      line-height: 32px;
+    }
+    >.mt-card-header-rightpic{
+        font-size: 160px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        opacity: 0.1;
+    }
+  }
+  >.mt-card-body {
+    padding: 16px;
+    .mt-actions {
+      list-style: none;
+      .mt-action {
+        height: 48px;
+        line-height: 48px;
+        font-size: 14px;
+      }
+    }
+    &.mt-card-body-fill  {
+      @include flexible_guest_stretch;
+      overflow: auto;
+    }
+  }
+  >.mt-card-actions {
+    height: $mt-card-margin-ratio*48px;
+    padding-left: $mt-card-margin-ratio*16px;
+    padding-right: $mt-card-margin-ratio*16px;
+    border-top: solid 1px $mt-card-separator-color;
+    .mt-button-flat {
+      margin-top: $mt-card-margin-ratio*6px;
+    }
+  }
+}

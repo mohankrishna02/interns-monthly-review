@@ -1,0 +1,56 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ApplicationLauncherBookmarkWidget {
+  white-space: nowrap;
+  >.mt-card-texthead{
+    flex:0 0 auto;
+  }
+  .gbc_ApplicationLauncherBookmarkItemWidget {
+    padding: 5px;
+    margin: 2px 0;
+    line-height: normal !important;
+    .deleting {
+      min-width: 100%;
+      background-color: $gbc-ApplicationLauncher-item-title-color;
+      color:$gbc-ApplicationLauncher-item-title-background-color;
+      .undo {
+        margin-left: 32px;
+      }
+    }
+    &:hover {
+      background-color: $gbc-ApplicationLauncher-item-title-hover-background-color;
+      .link {
+        color: $gbc-ApplicationLauncher-item-title-hover-link-color;
+      }
+    }
+    .mt-as-link:first-child {
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    .title {
+      color: $gbc-ApplicationLauncher-item-title-color;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .link {
+      font-size: 12px;
+      font-style: italic;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      display: block;
+    }
+    .logs {
+      display: none !important;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "theme-table-default-widget": "listview",
+  "theme-default-reduceFilter": true,
+  "theme-font-size-ratio": 1.1,
+  "theme-field-height-ratio": 1.1,
+  "gbc-SliderWidget-field-height-ratio": 1.6,
+  "gbc-WindowWidget-defaultActionPanelPosition": "chrome",
+  "gbc-WindowWidget-defaultRingMenuPosition": "chrome",
+  "gbc-WindowWidget-defaultToolBarPosition": "chrome",
+  "aui-mobileUI-default": true,
+  "theme-disable-context-menu": true
+}

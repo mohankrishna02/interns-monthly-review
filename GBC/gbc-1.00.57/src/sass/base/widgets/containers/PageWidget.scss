@@ -1,0 +1,22 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_PageWidget{
+  z-index: 1;
+  background-color: $gbc-PageWidget-background-color;
+
+  .g_measuring &.g_measureable {
+    width:auto !important;
+    height:auto !important;
+    overflow: visible;
+    display: inline-flex !important;
+  }
+}

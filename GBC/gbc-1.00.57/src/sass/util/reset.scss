@@ -1,0 +1,45 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+html {
+  margin: 0;
+  padding: 0;
+  border:0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body{
+  display: flex;
+  background-color: $theme-secondary-alternative-background-color;
+  color: $theme-secondary-color;
+  fill: $theme-secondary-color;
+}
+
+input, label, select{
+  display: inline-block;
+}
+
+label{
+  font-weight: normal;
+}
+
+input, textarea, keygen, select, button {text-transform: inherit;}
+
+a{cursor:pointer;}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}

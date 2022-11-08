@@ -1,0 +1,47 @@
+{
+  "name": "AccordionFolderWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-AccordionFolderWidget-title-margin",
+      "title": "Gbc AccordionWidget title margin",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio*16px"
+    },
+    {
+      "name": "gbc-AccordionFolderWidget-page-margin",
+      "title": "Gbc AccordionWidget page margin",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio*10px"
+    },
+    {
+      "name": "gbc-AccordionFolderWidget-font-size",
+      "title": "Gbc AccordionWidget font size",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-font-size-ratio*18px"
+    },
+    {
+      "name": "gbc-AccordionFolderWidget-color",
+      "title": "Gbc AccordionWidget color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-color"
+    },
+    {
+      "name": "gbc-AccordionFolderWidget-background-color",
+      "title": "Gbc AccordionWidget background color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-header-color"
+    },
+    {
+      "name": "gbc-AccordionFolderWidget-collapser-position",
+      "description": "Define the accordion folder collapser position (left or right)",
+      "type": "string",
+      "defaultValue": "$theme-collapser-position"
+    }
+  ]
+}

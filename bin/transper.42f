@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="transper" build="3.20.08" sqlDbName="project" width="102" height="8">
+  <ToolBar>
+    <ToolBarItem name="find" image="find" text="find">
+      <LStr text="find"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="accept" image="accept" text="accept">
+      <LStr text="accept"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="cancel" image="cancel" text="cancel">
+      <LStr text="cancel"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="quit" image="quit" text="quit">
+      <LStr text="quit"/>
+    </ToolBarItem>
+  </ToolBar>
+  <VBox>
+    <Grid width="55" height="6">
+      <Group posY="0" posX="1" gridWidth="54" gridHeight="6">
+        <Label text="INTERN ID" posY="1" posX="2" gridWidth="9"/>
+        <Label text=":" posY="1" posX="22" gridWidth="1"/>
+        <FormField name="intern.id" colName="id" sqlType="INTEGER" required="1" notNull="1" fieldId="0" sqlTabName="intern" tabIndex="1">
+          <Edit width="20" posY="1" posX="24" gridWidth="20"/>
+        </FormField>
+        <Label text="INTERN NAME" posY="2" posX="2" gridWidth="11"/>
+        <Label text=":" posY="2" posX="22" gridWidth="1"/>
+        <FormField name="intern.name" colName="name" sqlType="VARCHAR(255)" fieldId="1" sqlTabName="intern" tabIndex="2">
+          <Edit width="20" posY="2" posX="24" gridWidth="20"/>
+        </FormField>
+        <Label text="MENTOR ID" posY="3" posX="2" gridWidth="9"/>
+        <Label text=":" posY="3" posX="22" gridWidth="1"/>
+        <FormField name="mentor.mentor_id" colName="mentor_id" sqlType="INTEGER" fieldId="2" sqlTabName="mentor" tabIndex="3">
+          <Edit width="20" posY="3" posX="24" gridWidth="20"/>
+        </FormField>
+        <Label text="MENTOR NAME" posY="4" posX="2" gridWidth="11"/>
+        <Label text=":" posY="4" posX="22" gridWidth="1"/>
+        <FormField name="mentor.mentor_name" colName="mentor_name" sqlType="VARCHAR(255)" fieldId="3" sqlTabName="mentor" tabIndex="4">
+          <Edit width="20" posY="4" posX="24" gridWidth="20"/>
+        </FormField>
+      </Group>
+    </Grid>
+    <Table pageSize="1" tabName="mohan">
+      <PhantomColumn name="details.intern_id" colName="intern_id" sqlType="INTEGER" fieldId="4" sqlTabName="details">
+        <PhantomEdit width="1"/>
+      </PhantomColumn>
+      <TableColumn text="INTERN NAME" name="details.name" colName="name" sqlType="VARCHAR(255)" fieldId="5" sqlTabName="details" tabIndex="5">
+        <Edit width="15"/>
+      </TableColumn>
+      <TableColumn text="MENTOR NAME" name="details.mentor_name" colName="mentor_name" sqlType="VARCHAR(255)" fieldId="6" sqlTabName="details" tabIndex="6">
+        <Edit width="13"/>
+      </TableColumn>
+      <TableColumn text="TEST1" name="details.test1" colName="test1" sqlType="INTEGER" fieldId="7" sqlTabName="details" tabIndex="7" numAlign="1">
+        <Edit width="10"/>
+      </TableColumn>
+      <TableColumn text="TEST2" name="details.test2" colName="test2" sqlType="INTEGER" fieldId="8" sqlTabName="details" tabIndex="8" numAlign="1">
+        <Edit width="13"/>
+      </TableColumn>
+      <TableColumn text="TEST3" name="details.test3" colName="test3" sqlType="INTEGER" fieldId="9" sqlTabName="details" tabIndex="9" numAlign="1">
+        <Edit width="8"/>
+      </TableColumn>
+      <TableColumn text="MONTHLY TEST" name="details.monthly_test_result" colName="monthly_test_result" sqlType="INTEGER" fieldId="10" sqlTabName="details" tabIndex="10" numAlign="1">
+        <Edit width="14"/>
+      </TableColumn>
+      <TableColumn text="ATTENDENCE" name="details.attendance" colName="attendance" sqlType="INTEGER" fieldId="11" sqlTabName="details" tabIndex="11" numAlign="1">
+        <Edit width="19"/>
+      </TableColumn>
+    </Table>
+  </VBox>
+  <RecordView tabName="intern">
+    <Link colName="id" fieldIdRef="0"/>
+    <Link colName="name" fieldIdRef="1"/>
+  </RecordView>
+  <RecordView tabName="mentor">
+    <Link colName="mentor_id" fieldIdRef="2"/>
+    <Link colName="mentor_name" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="details">
+    <Link colName="intern_id" fieldIdRef="4"/>
+    <Link colName="name" fieldIdRef="5"/>
+    <Link colName="mentor_name" fieldIdRef="6"/>
+    <Link colName="test1" fieldIdRef="7"/>
+    <Link colName="test2" fieldIdRef="8"/>
+    <Link colName="test3" fieldIdRef="9"/>
+    <Link colName="monthly_test_result" fieldIdRef="10"/>
+    <Link colName="attendance" fieldIdRef="11"/>
+  </RecordView>
+</Form>

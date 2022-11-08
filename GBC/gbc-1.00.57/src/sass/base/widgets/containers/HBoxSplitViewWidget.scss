@@ -1,0 +1,140 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_HBoxSplitViewWidget.isSplitView {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  & > .splitViewContent {
+    position: absolute;
+    overflow-x: hidden;
+
+    & > .containerElement {
+      display: flex;
+      transition-property: transform;
+      transition-timing-function: ease-out;
+
+
+      &.disableAnimation {
+        transition-property: none !important;
+      }
+
+      & > .g_BoxElement {
+        position: relative;
+        flex: 1 0 auto;
+        width: 100%;
+        overflow-x: auto;
+      }
+    }
+  }
+
+  /** arrows & dots swipe helper **/
+  .left_arrow, .right_arrow {
+    position: absolute;
+    z-index: $gbc-HBoxSplitViewWidget-arrows-z-index;
+    top: 50%;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    border: solid $gbc-HBoxSplitViewWidget-arrows-child-color;
+    border-width: 0 9px 9px 0;
+    transition: transform .2s;
+
+    &.disabled:not(.solid) {
+      display: none;
+    }
+    &.disabled.solid {
+      pointer-events: none;
+      opacity: 0.5;
+    }
+
+
+    &:before{
+      content: " ";
+      position: absolute;
+      z-index: -1;
+      top: 2px;
+      left: 2px;
+      right: -7px;
+      bottom: -7px;
+      border: solid $gbc-HBoxSplitViewWidget-arrows-color;
+      border-width: 0 5px 5px 0;
+    }
+  }
+
+  .left_arrow {
+    left: 35px;
+    transform: rotate(135deg);
+
+    &.solid{
+      left: 5px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      transform: rotate(135deg) scale(1.1);
+    }
+  }
+
+  .right_arrow {
+    right: 35px;
+
+    &.solid{
+      right: 5px;
+    }
+
+    transform: rotate(-45deg);
+
+    &:hover {
+      cursor: pointer;
+      transform: rotate(-45deg) scale(1.1);
+    }
+  }
+
+
+  .dots {
+    position: absolute;
+    z-index: $gbc-HBoxSplitViewWidget-dots-z-index;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    padding: 3px;
+    transform: translate(-50%);
+
+    &.disabled{
+      display: none;
+    }
+
+    .dot {
+      background-color: $gbc-HBoxSplitViewWidget-dots-color;
+      width: 12px;
+      height: 12px;
+      border: 1px solid $gbc-HBoxSplitViewWidget-dots-current-color;
+      border-radius: 50%;
+      margin: 0 5px;
+      transition: transform .2s;
+
+      &.current {
+        background-color: $gbc-HBoxSplitViewWidget-dots-current-color;
+        border: 2px solid $gbc-HBoxSplitViewWidget-dots-color;
+        transform: scale(1.4);
+      }
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.4);
+      }
+    }
+
+  }
+
+}
+

@@ -1,0 +1,80 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_UserInterfaceWidget {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: $gbc-UserInterfaceWidget-background-color;
+
+  > .gbc_barsContainer {
+    background-color: $gbc-UserInterfaceWidget-header-color;
+    z-index: $gbc-UserInterfaceWidget-bars-container-z-index;
+    > .gbc_topMenuContainer {
+      display: flex;
+      z-index: $gbc-UserInterfaceWidget-topmenu-z-index;
+      &:not(:empty) + .gbc_toolBarContainer:not(:empty) {
+        border-top: 1px solid $gbc-UserInterfaceWidget-separator-color;
+      }
+    }
+    > .gbc_toolBarContainer {
+      display: flex;
+      flex-wrap: wrap;
+      z-index: $gbc-UserInterfaceWidget-bars-container-z-index;
+      &:not(:empty) {
+        border-bottom: 1px solid #bdbdbd;
+      }
+
+      // Hide it on mobile devices
+      .hasChromeBar &{
+        display: none;
+      }
+    }
+  }
+
+  > .gbc_contentContainer {
+    display: flex;
+    flex: 1 1 auto;
+    overflow: hidden;
+
+    > .gbc_startMenuContainer {
+      display: flex;
+      flex: 0 1 auto;
+      flex-direction: column;
+
+      &:not(:empty) {
+        border-right: 1px solid $gbc-UserInterfaceWidget-separator-color;
+      }
+
+      > * {
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+      }
+    }
+
+    > .containerElement {
+      flex:1 1 auto;
+      position: relative;
+
+      > .gbc_WindowWidget {
+        @include fill-absolute;
+      }
+    }
+  }
+
+
+  .gbc_chromeBarContainer:not(:empty){
+    border-bottom: 1px solid $gbc-UserInterfaceWidget-separator-color;
+  }
+
+
+}

@@ -1,0 +1,86 @@
+SCHEMA project
+ACTION DEFAULTS
+action exit(TEXT="exit",IMAGE="exit") 
+END
+
+LAYOUT
+VBOX #1
+HBOX #1
+
+VBOX #2
+GRID
+{
+ ["                        "]    [label2]
+ ["                        "]["          "]
+ ["                        "][details_img ]
+ ["                        "]["          "]
+ ["                        "][details     ]
+
+}
+END 
+END #vbox2
+
+VBOX #3
+GRID 
+{
+ ["                        "]    [label3]
+ ["                        "]["            "]
+ ["                        "][intern_img    ]
+ ["                        "]["            "]
+ ["                        "][intern        ]
+} 
+END 
+END #vbox3
+END #HBOX1
+HBOX #hbox2
+VBOX #4
+GRID 
+{
+ ["                        "]     [label4]
+ ["                        "]["              "]
+ ["                        "][mentor_img      ]
+ ["                        "]["              "]
+ ["                        "][mentor          ]
+} 
+END #grid4
+END #vbox4
+
+
+
+
+--END #hbox1
+
+
+--HBOX #hbox2
+
+
+VBOX #9
+GRID 
+{
+ ["                        "]     [label9 ]
+ ["                        "]["              "]
+ ["                        "][trans_img       ]
+ ["                        "]["              "]
+ ["                        "][transaction     ]
+}
+END#grid9 
+END #vbox9
+END #hbox2
+END #layout
+
+TABLES details,intern,mentor
+END 
+ATTRIBUTES 
+LABEL label2:label2, TEXT ="YOUR DETAILS",STYLE ="mystyle";
+IMAGE details_img:details_img, IMAGE ="details.png";
+BUTTON details:details,COMMENT ="click on details",STYLE ="mystyle",TEXT ="DETAILS";
+LABEL label3:label3, TEXT ="INTERN DETAILS", STYLE ="mystyle";
+IMAGE intern_img:intern_img, IMAGE ="intern.jpg";
+BUTTON intern:intern,COMMENT ="click on intern",STYLE ="mystyle",TEXT ="INTERN";
+LABEL label4:label4, TEXT ="MENTOR DETAILS", STYLE ="mystyle";
+IMAGE mentor_img:mentor_img, IMAGE ="mentor.jpg";
+BUTTON mentor:mentor,COMMENT ="click on mentor",STYLE ="mystyle",TEXT ="MENTOR";
+LABEL label9:label9, TEXT ="TRANSACTION DETAILS", STYLE ="mystyle";
+IMAGE trans_img:trans_img, IMAGE ="transaction.png";
+BUTTON transaction:transaction,COMMENT ="click on transaction",STYLE ="mystyle",TEXT  ="TRANSACTION";
+END 

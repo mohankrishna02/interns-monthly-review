@@ -1,0 +1,50 @@
+{
+  "name": "application-monitor-debug",
+  "title": "Application Monitor Debug level specific variables",
+  "description": "Configure variables specific to Application Monitor Debug",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-MonitorDebug-block-title-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-color"
+    },
+    {
+      "name": "gbc-MonitorDebug-block-title-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    },
+    {
+      "name": "gbc-MonitorDebug-block-title-background-hover-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-faded-background-color"
+    },
+    {
+      "name": "gbc-MonitorDebug-odd-line-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "gbc-MonitorDebug-table-separator-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    },
+    {
+      "name": "gbc-MonitorDebug-placeholder-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$mt-black"
+    },
+    {
+      "name": "gbc-MonitorDebug-actions-height",
+      "title": "Gbc ApplicationHostMenuWidget actions height",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-margin-ratio*72px"
+    }
+  ]
+}

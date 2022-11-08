@@ -1,0 +1,147 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_MenuWidget {
+  min-width: $gbc-MenuWidget-margin-ratio*150px;
+  .hasChromeBar &{
+    min-width: auto;
+  }
+  display: flex;
+
+  .hasChromeBar &.gbc_ModalMenu{
+    display: inherit;
+  }
+  
+  .mt-dialog-title {
+    text-align: center;
+  }
+
+  &>.gbc_MenuWidgetTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    margin-top: $gbc-MenuWidget-margin-ratio*8px;
+
+    .gbc_MenuWidgetText {
+      flex: 1 1 auto;
+    }
+    //hide title if in modal
+    .gbc_ModalWidget & {
+      display: none;
+    }
+  }
+
+  &.gbc_MenuWidget_horizontal {
+    flex-direction: row;
+    .containerElement {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  &.gbc_MenuWidget_vertical {
+    flex-direction: column;
+    .containerElement {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &.gbc_ModalMenu .containerElement{
+    justify-content: center;
+
+    & > .gbc_ButtonWidget {
+      min-width: $gbc-MenuWidget-margin-ratio*100px;
+    }
+  }
+
+  &.gbc_ModalMenu.gbc_style_winmsg .containerElement{
+    justify-content: flex-end;
+  }
+
+
+
+  &>.gbc_MenuWidgetScrollContainer {
+    display: flex;
+    flex: 1 1 auto;
+    overflow-y: auto;
+
+    .containerElement {
+      display: flex;
+      flex:1 1 auto;
+
+      &>*{
+        margin: $gbc-MenuWidget-margin-ratio*3px 0;
+      }
+      &>.gbc_ButtonWidget{
+        flex: 0 0 auto;
+      }
+    }
+  }
+
+  >*{
+    margin: $gbc-MenuWidget-margin-ratio*3px;
+  }
+
+  img{
+    height:auto !important;
+    display: block;
+    align-self: center;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  &.disabled:not([interruptable-active]){
+    .gbc_ButtonWidget {
+      pointer-events: none;
+      .mt-button {
+        @extend .mt-button.disabled:not([interruptable-active]);
+      }
+    }
+  }
+
+
+}
+
+.gbc_MenuWidget.disabled:not(:last){
+  display: none;
+}
+
+.dd_MenuWidget .gbc_ButtonWidget {
+  padding: $gbc-MenuWidget-margin-ratio*3px;
+}
+
+.gbc_ModalMenuDialog {
+  > .mt-dialog-pane {
+    padding: $gbc-MenuWidget-margin-ratio*16px;
+    min-width: 300px;
+
+    .mt-dialog-header {
+      padding: $gbc-MenuWidget-item-height-ratio*8px 0 $gbc-MenuWidget-item-height-ratio*16px 0;
+    }
+    .mt-dialog-content {
+      padding: $gbc-MenuWidget-item-height-ratio*16px 0;
+    }
+  }
+  &.tabbedContainer_Modal{
+    z-index: $gbc-MenuWidget-tabbed-z-index+1;
+  }
+
+
+}
+.gbc_ModalWindowDialog .gbc_ModalMenuDialog {
+  position: relative;
+  background-color: inherit !important;
+
+  > .mt-dialog-pane {
+    box-shadow: none;
+  }
+}

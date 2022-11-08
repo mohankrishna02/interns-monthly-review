@@ -1,0 +1,69 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ListViewRowWidget {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+
+  > .gbc_ListViewRowImage {
+    flex: 0 1 auto;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+
+    > .gbc_ImageWidget {
+      position: static; // optimize for ie11
+      flex: 1 1 auto;
+      margin: 0;
+      box-shadow: none;
+      align-items: center;
+      padding: $gbc-ListViewWidget-margin-ratio*$gbc-ListViewWidget-table-margin*2;
+      svg, img {
+        height: 100%;
+        width: auto;
+      }
+    }
+  }
+
+  > .containerElement {
+    flex: 1 1 auto;
+    display: flex;
+    margin-left: $gbc-ListViewWidget-margin-ratio*$gbc-ListViewWidget-table-margin*2;
+    margin-right: 2px;
+
+    > :first-child {
+      flex: 1 1 auto;
+    }
+  }
+
+  &:not(.horizontal) > .containerElement {
+    flex-direction: column;
+
+    > :nth-child(2) {
+      flex: 1 1 auto;
+      font-size: 95%;
+      opacity: 0.7;
+    }
+  }
+  &.horizontal > .containerElement {
+    flex-direction: row;
+
+    > :nth-child(2) {
+      margin-right: $gbc-ListViewWidget-margin-ratio*$gbc-ListViewWidget-table-margin*2;
+      margin-left: 2px;
+    }
+  }
+}

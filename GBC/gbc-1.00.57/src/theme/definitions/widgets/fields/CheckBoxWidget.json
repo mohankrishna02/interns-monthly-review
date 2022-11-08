@@ -1,0 +1,60 @@
+{
+  "name": "CheckBoxWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-CheckBoxWidget-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "gbc-CheckBoxWidget-checkbox-size",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-checkbox-size"
+    },
+    {
+      "name": "gbc-CheckBoxWidget-unchecked-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-color"
+    },
+    {
+      "name": "gbc-CheckBoxWidget-checked-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-background-color"
+    },
+    {
+      "name": "gbc-CheckBoxWidget-unchecked-icon",
+      "description": "",
+      "type": "string",
+      "defaultValue": "checkbox-blank-outline"
+    },
+    {
+      "name": "gbc-CheckBoxWidget-indeterminate-icon",
+      "description": "",
+      "type": "string",
+      "defaultValue": "minus-box"
+    },
+    {
+      "name": "gbc-CheckBoxWidget-checked-icon",
+      "description": "",
+      "type": "string",
+      "defaultValue": "checkbox-marked"
+    },
+    {
+      "name": "gbc-CheckBoxWidget-disabled-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-disabled-background-color"
+    },
+    {
+      "name": "gbc-CheckBoxWidget-focus-border-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-separator-color"
+    }
+  ]
+}

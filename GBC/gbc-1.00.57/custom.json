@@ -1,0 +1,47 @@
+{
+  "compile": {
+    "mode": "cdev",
+    "customization": "customization/sample"
+  },
+  "themes": [{
+      "name": "default",
+      "title": "Default",
+      "uses": ["platform/browser", "platform/desktop"]
+    },
+    {
+      "name": "highcontrast",
+      "title": "High contrast",
+      "uses": ["platform/browser", "platform/desktop", "colors/highcontrast"]
+    },
+    {
+      "name": "default_mobile",
+      "title": "Default",
+      "uses": ["platform/browser", "platform/mobile"]
+    },
+    {
+      "name": "highcontrast_mobile",
+      "title": "High contrast",
+      "uses": ["platform/browser", "platform/mobile", "colors/highcontrast"]
+    },
+    {
+      "name": "ur_default",
+      "title": "Default",
+      "uses": ["platform/ur", "platform/desktop"]
+    },
+    {
+      "name": "ur_highcontrast",
+      "title": "High contrast",
+      "uses": ["platform/ur", "platform/desktop", "colors/highcontrast"]
+    },
+    {
+      "name": "ur_default_mobile",
+      "title": "Default",
+      "uses": ["platform/ur", "platform/mobile"]
+    },
+    {
+      "name": "ur_highcontrast_mobile",
+      "title": "High contrast",
+      "uses": ["platform/ur", "platform/mobile", "colors/highcontrast"]
+    }
+  ]
+}

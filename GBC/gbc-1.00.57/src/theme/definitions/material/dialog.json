@@ -1,0 +1,42 @@
+{
+  "name": "mt-dialog",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "mt-dialog-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "mt-dialog-field-height-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-field-height-ratio"
+    },
+    {
+      "name": "mt-dialog-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Dialog"
+    },
+    {
+      "name": "mt-dialog-modal-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Modal"
+    },
+    {
+      "name": "mt-dialog-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-alternative-background-color"
+    },
+    {
+      "name": "mt-dialog-overlay-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-overlay-background-color"
+    }
+  ]
+}

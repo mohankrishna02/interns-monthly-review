@@ -1,0 +1,138 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+
+
+.gbc_WindowWidget{
+  position: relative;
+  background-color: $gbc-WindowWidget-background-color;
+  width: auto !important;
+  height: auto !important;
+  z-index: $gbc-WindowWidget-z-index;
+  display: flex;
+  flex-direction: row;
+
+  &.gbc_out_of_view{
+    top: -10000px !important;
+    left: -10000px !important;
+    width: 100px !important;
+    height: 100px !important;
+    overflow: hidden;
+  }
+
+  &.frozenWindow {
+    display: none;
+  }
+
+  /* Arabic */
+  &.reverse{
+    .gbc_WindowMenuContainerMiddle{
+      flex-direction: row-reverse;
+    }
+  }
+
+  .gbc_WindowMenuContainer,
+  .gbc_WindowMenuContainerMiddle,
+  .gbc_WindowMenuContainerLeft,
+  .gbc_WindowMenuContainerRight,
+  .gbc_WindowMenuContainerTop,
+  .gbc_WindowToolbarContainer,
+  .gbc_WindowMenuContainerBottom
+  {
+    display: flex;
+    > .gbc_MenuWidget {
+      flex: 1 1 auto;
+    }
+  }
+
+  .gbc_WindowToolbarContainer {
+    flex-direction: column-reverse;
+    background-color: $gbc-WindowWidget-header-color;
+    border-bottom: 1px solid #bdbdbd;
+
+    &:empty{
+      display: none;
+    }
+  }
+
+  .gbc_WindowMenuContainerTop{
+    .gbc_MenuWidget .containerElement {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  .gbc_WindowMenuContainerBottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .gbc_MenuWidget .containerElement {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .gbc_WindowMenuContainerRight, .gbc_WindowMenuContainerLeft{
+    flex: 0 0 auto;
+    margin-top: 5px;
+    .gbc_MenuWidget {
+      flex-direction: column;
+    }
+  }
+
+  .gbc_WindowMenuContainerMiddle {
+    position: relative;
+    box-shadow: inset 0 $gbc-WindowWidget-margin-ratio*12px $gbc-WindowWidget-margin-ratio*9px $gbc-WindowWidget-margin-ratio*-9px rgba(0, 0, 0, 0.24);
+    justify-content: space-between;
+    flex: 1 1 auto;
+    overflow: hidden;
+  }
+}
+
+.gbc_WindowMainContainer {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  overflow: hidden;
+
+  >.gbc_WindowMenuContainerMiddle>.gbc_WindowContent{
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 auto;
+    padding: $gbc-WindowWidget-margin-ratio*8px;
+    .mt-dialog-content & { padding: 0;}
+    >.containerElement {
+      overflow: hidden;
+      display: flex;
+      flex: 1 1 auto;
+      position: relative;
+    }
+  }
+  &.topMenu {
+    flex-direction: column-reverse;
+    .gbc_MenuWidget_horizontal .containerElement{
+      justify-content: center;
+    }
+  }
+  &.leftMenu {
+    flex-direction: row-reverse;
+  }
+  &.bottomMenu {
+    flex-direction: column;
+    .gbc_MenuWidget_horizontal .containerElement{
+      justify-content: center;
+    }
+  }
+  &.rightMenu {
+    flex-direction: row;
+  }
+}
+

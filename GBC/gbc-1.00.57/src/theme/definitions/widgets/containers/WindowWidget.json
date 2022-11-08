@@ -1,0 +1,48 @@
+{
+  "name": "WindowWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-WindowWidget-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "gbc-WindowWidget-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-Normal"
+    },
+    {
+      "name": "gbc-WindowWidget-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-background-color"
+    },
+    {
+      "name": "gbc-WindowWidget-header-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-header-color"
+    },
+    {
+      "name": "gbc-WindowWidget-defaultActionPanelPosition",
+      "description": "Change the default ActionPanel position",
+      "type": "string",
+      "defaultValue": "right"
+    },
+    {
+      "name": "gbc-WindowWidget-defaultRingMenuPosition",
+      "description": "Change the default RingMenu position",
+      "type": "string",
+      "defaultValue": "right"
+    },
+    {
+      "name": "gbc-WindowWidget-defaultToolBarPosition",
+      "description": "Change the default ToolBar position",
+      "type": "string",
+      "defaultValue": "top"
+    }
+  ]
+}

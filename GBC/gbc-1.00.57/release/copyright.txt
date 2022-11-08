@@ -1,0 +1,10 @@
+
+       Copyright 2002, 2020 Four Js Development Tools Europe Ltd.
+                          All Rights Reserved.
+
+ This product and related documentation is protected by copyright and
+ distributed under licenses restricting its use, copying, distribution
+ and decompilation. No part of this product or related documentation
+ may be reproduced in any form by any means without prior written
+ authorization of Four Js Development Tools and its licensors, if any.
+

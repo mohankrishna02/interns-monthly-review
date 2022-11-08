@@ -1,0 +1,66 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_SplitterWidget {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  > i {
+    flex: 0 0 auto;
+    font-size: $gbc-SplitterWidget-splitter-size;
+  }
+  > .firefox_placekeeper {
+    color: rgba(255, 255, 255, 0.01);
+    pointer-events: none;
+  }
+  &.canSplit:hover {
+    background: $gbc-SplitterWidget-hover-color;
+  }
+}
+.gbc_HBoxSplitterWidget {
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  min-height: 1px;
+  width: $gbc-SplitterWidget-splitter-size;
+  min-width: $gbc-SplitterWidget-splitter-size;
+  max-width: $gbc-SplitterWidget-splitter-size;
+
+  &.canSplit {
+    cursor: ew-resize;
+    > i {
+      @extend .zmdi-drag-vertical;
+    }
+  }
+}
+.gbc_VBoxSplitterWidget {
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  min-width: 1px;
+  height: $gbc-SplitterWidget-splitter-size;
+  min-height: $gbc-SplitterWidget-splitter-size;
+  max-height: $gbc-SplitterWidget-splitter-size;
+
+  &.canSplit {
+    cursor: ns-resize;
+    > i {
+      @extend .zmdi-drag-horizontal;
+    }
+  }
+}
+
+.gbc_SplitterWidget_splitholder {
+  @include fill-absolute;
+  background: #FFFFFF;
+  opacity:0.3;
+  display: none;
+}

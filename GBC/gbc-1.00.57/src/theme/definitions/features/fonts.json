@@ -1,0 +1,35 @@
+{
+  "name": "fonts",
+  "title": "Gbc Fonts",
+  "description": "Configure Gbc fonts",
+  "type": "group",
+  "contents": [{
+      "name": "droid-font-path",
+      "title": "Droid font path",
+      "description": "",
+      "type": "string",
+      "defaultValue": "\"$$RES/fonts\""
+    },
+    {
+      "name": "mdi-font-path",
+      "title": "Material design icons font path",
+      "description": "",
+      "type": "string",
+      "defaultValue": "\"$$RES/fonts\""
+    },
+    {
+      "name": "mdi-css-prefix",
+      "title": "Material design icons css prefix",
+      "description": "",
+      "type": "string",
+      "defaultValue": "zmdi"
+    },
+    {
+      "name": "mdi-cust-icons",
+      "title": "Defines additional icons used in the customization",
+      "description": "space separated icons identifiers",
+      "type": "array<mdi>",
+      "defaultValue": []
+    }
+  ]
+}

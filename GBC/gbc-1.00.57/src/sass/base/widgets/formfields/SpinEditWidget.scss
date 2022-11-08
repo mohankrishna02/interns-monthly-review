@@ -1,0 +1,61 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_SpinEditWidgetBase, .gbc_DummySpinEditWidget{
+  display: flex;
+  cursor:default;
+  > div:first-child {
+    flex: 1 1 auto;
+    > input {
+      width:100%;
+      font-family: inherit;
+    }
+  }
+
+  > .gbc_SpinEditWidget_arrows {
+    display: inline-flex;
+    text-decoration:none;
+    flex-direction: column;
+    user-select: none;
+    padding-right: $gbc-SpinEditWidget-margin-ratio*8px;
+    font-family: unquote($gbc-SpinEditWidget-font-family);
+    > div {
+      font-size: $gbc-SpinEditWidget-arrows-size;
+      transition: background-color 0.5s;
+      color: $gbc-SpinEditWidget-color;
+      line-height:1em;
+
+      > span {
+        display: inline;
+      }
+    }
+  }
+
+ .gbc_SpinEditWidget_arrows > div {
+    cursor: pointer;
+    &:hover {
+      background-color: $gbc-SpinEditWidget-hover-color;
+    }
+  }
+
+  &.readonly, &.disabled {
+    > .gbc_SpinEditWidget_arrows > div {
+      cursor: inherit;
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+
+  input{
+    cursor:text;
+  }
+}

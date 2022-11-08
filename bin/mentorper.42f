@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="mentorper" build="3.20.08" sqlDbName="project" width="92" height="7">
+  <ToolBar>
+    <ToolBarItem name="find" image="find" text="find">
+      <LStr text="find"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="next" image="next" text="next">
+      <LStr text="next"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="previous" image="previous" text="previous">
+      <LStr text="previous"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="accept" image="accept" text="accept">
+      <LStr text="accept"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="cancel" image="cancel" text="cancel">
+      <LStr text="cancel"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="quit" image="quit" text="quit">
+      <LStr text="quit"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="add" image="add" text="add">
+      <LStr text="add"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="update" image="update" text="update">
+      <LStr text="update"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="delete" image="delete" text="delete">
+      <LStr text="delete"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="clear" image="clear" text="clear">
+      <LStr text="clear"/>
+    </ToolBarItem>
+  </ToolBar>
+  <Grid width="92" height="7">
+    <Group posY="0" posX="1" gridWidth="91" gridHeight="7">
+      <Label name="a1" width="2" text="MENTOR" style="mystyle" posY="1" posX="21" gridWidth="2"/>
+      <Label text="                                    " posY="2" posX="4" gridWidth="38"/>
+      <Label text="MENTOR ID" posY="3" posX="3" gridWidth="9"/>
+      <Label text=":" posY="3" posX="16" gridWidth="1"/>
+      <FormField name="mentor.mentor_id" colName="mentor_id" sqlType="INTEGER" fieldId="0" sqlTabName="mentor" tabIndex="1">
+        <Edit width="24" comment="ENTER MENTOR ID" placeholder="ENTER MENTOR ID" posY="3" posX="18" gridWidth="24"/>
+      </FormField>
+      <Label text="MENTOR NAME" posY="4" posX="3" gridWidth="11"/>
+      <Label text=":" posY="4" posX="16" gridWidth="1"/>
+      <FormField name="mentor.mentor_name" colName="mentor_name" sqlType="VARCHAR(255)" fieldId="1" sqlTabName="mentor" tabIndex="2">
+        <Edit width="24" comment="ENTER MENTOR ID" placeholder="ENTER MENTOR NAME" posY="4" posX="18" gridWidth="24"/>
+      </FormField>
+      <Label text="TEAM SIZE" posY="5" posX="3" gridWidth="9"/>
+      <Label text=":" posY="5" posX="16" gridWidth="1"/>
+      <FormField name="mentor.team_size" colName="team_size" sqlType="INTEGER" fieldId="2" sqlTabName="mentor" tabIndex="3">
+        <Edit width="24" comment="ENTER TEAM SIZE" placeholder="ENTER TEAM SIZE" posY="5" posX="18" gridWidth="24"/>
+      </FormField>
+    </Group>
+  </Grid>
+  <RecordView tabName="mentor">
+    <Link colName="mentor_id" fieldIdRef="0"/>
+    <Link colName="mentor_name" fieldIdRef="1"/>
+    <Link colName="team_size" fieldIdRef="2"/>
+  </RecordView>
+</Form>

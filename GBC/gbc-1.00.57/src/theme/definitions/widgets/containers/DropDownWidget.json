@@ -1,0 +1,78 @@
+{
+  "name": "DropDownWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-DropDownWidget-z-index",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$z-index-DropDown"
+    },
+    {
+      "name": "gbc-DropDownWidget-margin-ratio",
+      "description": "",
+      "type": "number",
+      "defaultValue": "$theme-margin-ratio"
+    },
+    {
+      "name": "gbc-DropDownWidget-margin",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-combobox-margin"
+    },
+    {
+      "name": "gbc-DropDownWidget-line-height",
+      "description": "",
+      "type": "size",
+      "defaultValue": "2.2em"
+    },
+    {
+      "name": "gbc-DropDownWidget-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-alternative-background-color"
+    },
+    {
+      "name": "gbc-DropDownWidget-item-current-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-currentrow-color"
+    },
+    {
+      "name": "gbc-DropDownWidget-item-current-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-currentrow-background-color"
+    },
+    {
+      "name": "gbc-DropDownWidget-item-current-disabled-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-secondary-faded-color"
+    },
+    {
+      "name": "gbc-DropDownWidget-item-hover-background-color",
+      "description": "",
+      "type": "color",
+      "defaultValue": "$theme-primary-faded-background-color"
+    },
+    {
+      "name": "gbc-DropDownWidget-min-width",
+      "description": "",
+      "type": "number",
+      "defaultValue": 0
+    },
+    {
+      "name": "gbc-DropDownWidget-max-height",
+      "description": "",
+      "type": "number",
+      "defaultValue": 300
+    },
+    {
+      "name": "gbc-DropDownWidget-icon-size",
+      "description": "",
+      "type": "size",
+      "defaultValue": "$theme-small-icon-size"
+    }
+  ]
+}

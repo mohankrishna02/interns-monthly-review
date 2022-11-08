@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="internper" build="3.20.08" sqlDbName="project" width="43" height="11">
+  <ToolBar>
+    <ToolBarItem name="find" image="find" text="find">
+      <LStr text="find"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="next" image="next" text="next">
+      <LStr text="next"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="previous" image="previous" text="previous">
+      <LStr text="previous"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="accept" image="accept" text="accept">
+      <LStr text="accept"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="cancel" image="cancel" text="cancel">
+      <LStr text="cancel"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="quit" image="quit" text="quit">
+      <LStr text="quit"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="add" image="add" text="add">
+      <LStr text="add"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="update" image="update" text="update">
+      <LStr text="update"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="delete" image="delete" text="delete">
+      <LStr text="delete"/>
+    </ToolBarItem>
+    <ToolBarSeparator/>
+    <ToolBarItem name="clear" image="clear" text="clear">
+      <LStr text="clear"/>
+    </ToolBarItem>
+  </ToolBar>
+  <Grid width="43" height="11">
+    <Group posY="0" posX="1" gridWidth="42" gridHeight="11">
+      <Label name="a1" width="3" text="INTERN" style="mystyle" posY="1" posX="21" gridWidth="3"/>
+      <Label text="                                    " posY="2" posX="2" gridWidth="38"/>
+      <Label text="ID" posY="3" posX="1" gridWidth="2"/>
+      <Label text=":" posY="3" posX="14" gridWidth="1"/>
+      <FormField name="intern.id" colName="id" sqlType="INTEGER" required="1" notNull="1" fieldId="0" sqlTabName="intern" tabIndex="1">
+        <Edit width="24" comment="ENTER INTERN ID" placeholder="ENTER INTERN ID" posY="3" posX="16" gridWidth="24"/>
+      </FormField>
+      <Label text="NAME" posY="4" posX="1" gridWidth="4"/>
+      <Label text=":" posY="4" posX="14" gridWidth="1"/>
+      <FormField name="intern.name" colName="name" sqlType="VARCHAR(255)" fieldId="1" sqlTabName="intern" tabIndex="2">
+        <Edit width="24" comment="ENTER INTERN NAME" placeholder="ENTER INTERN NAME" posY="4" posX="16" gridWidth="24"/>
+      </FormField>
+      <Label text="QUALIFICATION:" posY="5" posX="1" gridWidth="14"/>
+      <FormField name="intern.qualification" colName="qualification" sqlType="VARCHAR(255)" fieldId="2" sqlTabName="intern" tabIndex="3">
+        <Edit width="24" comment="ENTER QUALIFICATION" placeholder="ENTER QUALIFICATION" posY="5" posX="16" gridWidth="24"/>
+      </FormField>
+      <Label text="YEAR OF PASS :" posY="6" posX="1" gridWidth="14"/>
+      <FormField name="intern.year_of_pass" colName="year_of_pass" sqlType="INTEGER" fieldId="3" sqlTabName="intern" tabIndex="4">
+        <ComboBox width="22" comment="ENTER YEAR OF PASS" placeholder="ENTER YEAR OF PASS" posY="6" posX="16" gridWidth="24">
+          <Item name="2022" text="2022"/>
+          <Item name="2021" text="2021"/>
+          <Item name="2020" text="2020"/>
+          <Item name="2019" text="2019"/>
+          <Item name="2018" text="2018"/>
+        </ComboBox>
+      </FormField>
+      <Label text="MOBILE NUMBER:" posY="7" posX="1" gridWidth="14"/>
+      <FormField name="intern.mobile_num" colName="mobile_num" sqlType="BIGINT" fieldId="4" sqlTabName="intern" tabIndex="5">
+        <Edit width="24" comment="ENTER MOBILE NUMBER" placeholder="ENTER MOBILE NUMBER" posY="7" posX="16" gridWidth="24"/>
+      </FormField>
+      <Label text="EMAIL" posY="8" posX="1" gridWidth="5"/>
+      <Label text=":" posY="8" posX="14" gridWidth="1"/>
+      <FormField name="intern.email" colName="email" sqlType="VARCHAR(255)" fieldId="5" sqlTabName="intern" tabIndex="6">
+        <TextEdit width="24" comment="ENTER EMAIL ID" placeholder="ENTER EMAIL ID" wantReturns="1" scroll="1" posY="8" posX="16" gridWidth="24"/>
+      </FormField>
+      <Label text="MENTOR ID" posY="9" posX="1" gridWidth="9"/>
+      <Label text=":" posY="9" posX="14" gridWidth="1"/>
+      <FormField name="intern.mentor_id" colName="mentor_id" sqlType="INTEGER" fieldId="6" sqlTabName="intern" tabIndex="7">
+        <Edit width="24" comment="ENTER MENTOR ID" placeholder="ENTER MENTOR ID" posY="9" posX="16" gridWidth="24"/>
+      </FormField>
+    </Group>
+  </Grid>
+  <RecordView tabName="intern">
+    <Link colName="id" fieldIdRef="0"/>
+    <Link colName="name" fieldIdRef="1"/>
+    <Link colName="qualification" fieldIdRef="2"/>
+    <Link colName="year_of_pass" fieldIdRef="3"/>
+    <Link colName="mobile_num" fieldIdRef="4"/>
+    <Link colName="email" fieldIdRef="5"/>
+    <Link colName="mentor_id" fieldIdRef="6"/>
+  </RecordView>
+</Form>

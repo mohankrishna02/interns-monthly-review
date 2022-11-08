@@ -1,0 +1,66 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_Invisible {
+  position: absolute !important;
+  visibility: hidden !important;
+  top: -100000px !important;
+  left: -100000px !important;
+}
+
+.gbc_FocusHolder {
+  position: absolute !important;
+  top: -100000px !important;
+  left: -100000px !important;
+}
+
+.gbc_NoBorder{
+  border:none !important;
+  box-shadow:none !important;
+  text-shadow:none !important;
+}
+
+@mixin vanished {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+.vanished{@include vanished();}
+
+.visibility-hidden{
+  visibility: hidden !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.disable-animations *,
+.disable-animations *:after,
+.disable-animations *:before {
+  transition: none !important;
+}
+
+.breakword{
+  word-break: break-all;
+}
+
+.prevent-touch-scroll{
+  touch-action: none;
+  overflow: hidden !important;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+
+}

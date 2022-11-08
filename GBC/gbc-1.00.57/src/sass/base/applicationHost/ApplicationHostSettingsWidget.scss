@@ -1,0 +1,93 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+
+
+.gbc_ApplicationHostSettingsWidget {
+  .gbc_SettingsWidget {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+
+    > .settingsTopic {
+      display: flex;
+      flex-direction: row;
+      margin-top: 16px;
+
+      > .settingTitle {
+        font-weight: bold;
+        margin-bottom: 8px;
+        min-width: 180px;
+        padding-right: 8px;
+      }
+      > .settingContent {
+        flex: 1 1 auto;
+        > div {
+          margin-bottom: 8px;
+        }
+
+        > .settingSubContent {
+          display: flex;
+          flex-direction: column;
+
+          > .settingSubTitle {
+            font-weight: bold;
+            margin: 8px 0;
+          }
+        }
+      }
+    }
+
+    .message{
+      background-color:#f2dede;
+      padding:9px;
+      margin-top:9px;
+      border-radius:2px;
+
+      .settingTitle{
+        margin-bottom:4px;
+        &:before{
+          content:"\F026";
+          font:normal normal normal 14px/1 "Material Design Icons";
+          margin-right:3px;
+        }
+      }
+    }
+  }
+
+  &.noselect{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .gbc_ApplicationHostSettingsWidget {
+    > .mt-dialog-pane {
+      position: absolute;
+
+      .gbc_SettingsWidget {
+        > .settingsTopic {
+          flex-direction: column;
+
+          > .settingContent > .settingSubContent > .settingSubTitle {
+            margin-left: 16px;
+          }
+        }
+      }
+    }
+  }
+}

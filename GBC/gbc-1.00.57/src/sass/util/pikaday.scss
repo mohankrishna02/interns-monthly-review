@@ -1,0 +1,118 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+@import "../../../node_modules/pikaday-time/scss/pikaday";
+
+/* Pikaday CSS Override */
+.pika-single {
+  border: none;
+  margin-bottom: 6px;
+}
+
+.pika-lendar {
+   width: auto;
+   float: none;
+   margin: 0;
+ }
+.pika-title {
+  background-color: $theme-header-color;
+  color: $theme-secondary-color;
+  padding: $theme-margin-ratio*10px;
+
+}
+
+.pika-label, .pika-button, .pika-table th {
+  font-size: inherit;
+}
+
+.pika-label {
+  background-color: transparent;
+}
+
+.pika-table {
+  margin: $theme-margin-ratio*8px auto;
+
+  > tbody > tr > td.is-selected {
+    > .pika-button, > .pika-button:hover {
+      background-color: $theme-primary-emphasis-background-color !important;
+      color: $theme-primary-color !important;
+    }
+  }
+}
+
+.pika-button {
+   background-color: transparent;
+   color: $theme-secondary-color;
+   transition: background-color, color .4s cubic-bezier(.25, .8, .25, 1);
+   border-radius: 50%;
+   width: $theme-font-size-ratio*40px;
+   height: $theme-font-size-ratio*40px;
+   line-height: $theme-font-size-ratio*32px;
+   text-align: center;
+
+   .is-selected & {
+     border-radius: 50%;
+   }
+
+   &:hover {
+     background: $theme-header-color !important;
+     color: initial !important;
+     border-radius: 50% !important;
+   }
+ }
+
+.pika-time {
+  width: 100%;
+  > tbody > tr > td {
+    text-align: center;
+  }
+}
+
+.pika-select {
+   width: 100px;
+   height: $theme-field-default-height;
+   box-shadow: 1px 1px $theme-margin-ratio*6px rgba(0, 0, 0, 0.4);
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.pika-table th, .pika-table td{
+  width:auto;
+  &.pika-week{
+    padding: 0 5px;
+  }
+}
+
+// Generate all selectors for disabled days
+@for $i from 0 through 7 {
+  .disabled#{$i} {
+    .pika-table .pika-row td:nth-child(#{$i+1}) {
+      .pika-button {
+        color: $gbc-DateEdit-daysOff-color;
+      }
+    }
+  }
+}
+
+/* Arabic */
+.reverse{
+  .pika-title{
+    button{
+      transform: scaleX(-1);
+      &.pika-prev{
+        float:right;
+      }
+      &.pika-next{
+        float:left;
+      }
+    }
+  }
+}

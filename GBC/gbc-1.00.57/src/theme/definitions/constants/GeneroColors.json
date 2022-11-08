@@ -1,0 +1,263 @@
+{
+  "name": "genero-colors",
+  "title": "Genero color definitions",
+  "description": "Genero colors (legacy equivalent)",
+  "type": "group",
+  "contents": [{
+      "name": "gbc-genero-black",
+      "title": "Genero 'black'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-grey-900"
+    },
+    {
+      "name": "gbc-genero-blue",
+      "title": "Genero 'blue'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-blue-500"
+    },
+    {
+      "name": "gbc-genero-cyan",
+      "title": "Genero 'cyan'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-cyan-500"
+    },
+    {
+      "name": "gbc-genero-darkBlue",
+      "title": "Genero 'darkBlue'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-blue-800"
+    },
+    {
+      "name": "gbc-genero-darkCyan",
+      "title": "Genero 'darkCyan'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-cyan-800"
+    },
+    {
+      "name": "gbc-genero-darkGray",
+      "title": "Genero 'darkGray'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-grey-800"
+    },
+    {
+      "name": "gbc-genero-darkGreen",
+      "title": "Genero 'darkGreen'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-green-800"
+    },
+    {
+      "name": "gbc-genero-darkMagenta",
+      "title": "Genero 'darkMagenta'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-pink-800"
+    },
+    {
+      "name": "gbc-genero-darkOlive",
+      "title": "Genero 'darkOlive'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-light-green-800"
+    },
+    {
+      "name": "gbc-genero-darkOrange",
+      "title": "Genero 'darkOrange'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-orange-800"
+    },
+    {
+      "name": "gbc-genero-darkRed",
+      "title": "Genero 'darkRed'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-red-800"
+    },
+    {
+      "name": "gbc-genero-darkTeal",
+      "title": "Genero 'darkTeal'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-teal-800"
+    },
+    {
+      "name": "gbc-genero-darkYellow",
+      "title": "Genero 'darkYellow'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-yellow-800"
+    },
+    {
+      "name": "gbc-genero-gray",
+      "title": "Genero 'gray'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-grey-500"
+    },
+    {
+      "name": "gbc-genero-green",
+      "title": "Genero 'green'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-green-500"
+    },
+    {
+      "name": "gbc-genero-lightBlue",
+      "title": "Genero 'lightBlue'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-blue-100"
+    },
+    {
+      "name": "gbc-genero-lightCyan",
+      "title": "Genero 'lightCyan'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-cyan-100"
+    },
+    {
+      "name": "gbc-genero-lightGray",
+      "title": "Genero 'lightGray'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-grey-300"
+    },
+    {
+      "name": "gbc-genero-lightGreen",
+      "title": "Genero 'lightGreen'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-green-100"
+    },
+    {
+      "name": "gbc-genero-lightMagenta",
+      "title": "Genero 'lightMagenta'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-pink-100"
+    },
+    {
+      "name": "gbc-genero-lightOlive",
+      "title": "Genero 'lightOlive'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-light-green-100"
+    },
+    {
+      "name": "gbc-genero-lightOrange",
+      "title": "Genero 'lightOrange'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-orange-100"
+    },
+    {
+      "name": "gbc-genero-lightRed",
+      "title": "Genero 'lightRed'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-red-100"
+    },
+    {
+      "name": "gbc-genero-lightTeal",
+      "title": "Genero 'lightTeal'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-teal-100"
+    },
+    {
+      "name": "gbc-genero-lightYellow",
+      "title": "Genero 'lightYellow'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-yellow-100"
+    },
+    {
+      "name": "gbc-genero-magenta",
+      "title": "Genero 'magenta'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-pink-500"
+    },
+    {
+      "name": "gbc-genero-olive",
+      "title": "Genero 'olive'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-light-green-500"
+    },
+    {
+      "name": "gbc-genero-orange",
+      "title": "Genero 'orange'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-orange-500"
+    },
+    {
+      "name": "gbc-genero-red",
+      "title": "Genero 'red'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-red-500"
+    },
+    {
+      "name": "gbc-genero-teal",
+      "title": "Genero 'teal'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-teal-500"
+    },
+    {
+      "name": "gbc-genero-white",
+      "title": "Genero 'white'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-white"
+    },
+    {
+      "name": "gbc-genero-yellow",
+      "title": "Genero 'yellow'",
+      "description": "Color code corresponding to Genero named color.",
+      "const": true,
+      "type": "color",
+      "value": "$mt-yellow-500"
+    }
+  ]
+}

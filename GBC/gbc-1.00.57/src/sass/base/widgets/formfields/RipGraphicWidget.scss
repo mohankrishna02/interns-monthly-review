@@ -1,0 +1,49 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_RipGraphicWidget {
+  @include fill-absolute;
+  overflow: hidden;
+
+  & > div {
+    @include fill-absolute;
+    border-style: solid;
+    border-color: $gbc-RipGraphicWidget-separator-color;
+  }
+  &.ul > div { /* Upper Left */
+    border-width: 1px 0 0 1px;
+    top: 50%;
+    left: 50%;
+  }
+  &.ur > div { /* Upper Right */
+    border-width: 1px 1px 0 0;
+    top: 50%;
+    right: calc(50% - 1px);
+  }
+  &.bl > div { /* Bottom Left */
+    border-width: 0 0 1px 1px;
+    bottom: calc(50% - 1px);
+    left: 50%;
+  }
+  &.br > div { /* Bottom Right */
+    border-width: 0 1px 1px 0;
+    bottom: calc(50% - 1px);
+    right: calc(50% - 1px);
+  }
+  &.ho > div { /* Horizontal */
+    border-width: 1px 0 0 0;
+    top: 50%;
+  }
+  &.ve > div { /* Vertical */
+    border-width: 0 0 0 1px;
+    left: 50%;
+  }
+}

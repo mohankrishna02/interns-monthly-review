@@ -1,0 +1,57 @@
+SCHEMA project
+TOOLBAR 
+ITEM find(IMAGE="find",TEXT=%"find")
+SEPARATOR
+ITEM next (IMAGE="next",TEXT=%"next")
+SEPARATOR
+ITEM previous (IMAGE="previous",TEXT=%"previous")
+SEPARATOR
+ITEM accept(IMAGE="accept",TEXT=%"accept")
+SEPARATOR
+ITEM cancel(IMAGE="cancel",TEXT=%"cancel")
+SEPARATOR
+ITEM quit(IMAGE="quit",TEXT=%"quit")
+SEPARATOR
+ITEM add(IMAGE="add",TEXT=%"add")
+SEPARATOR
+ITEM update(IMAGE ="update",TEXT =%"update")
+SEPARATOR
+ITEM delete(IMAGE ="delete",TEXT =%"delete")
+SEPARATOR
+ITEM clear(IMAGE ="clear",TEXT =%"clear")
+END
+ 
+LAYOUT
+--HBOX 
+--GRID 
+--{
+-- [image1]
+--}
+--END 
+ 
+GRID 
+{
+ <g                                                                                        >
+                     [a1]
+    ["                                    "]
+    MENTOR ID    :[f01                     ]
+    MENTOR NAME  :[f02                     ]
+    TEAM SIZE    :[f03                     ]
+ <                                                                                         >
+}
+END 
+END 
+--END 
+
+TABLES mentor
+END
+ 
+ATTRIBUTES 
+LABEL a1:a1, TEXT = "MENTOR",STYLE ="mystyle";
+--IMAGE image1:image2, IMAGE = "mentor.png";
+EDIT f01 = mentor.mentor_id, COMMENTS ="ENTER MENTOR ID", PLACEHOLDER ="ENTER MENTOR ID" ;
+EDIT f02 = mentor.mentor_name, COMMENTS ="ENTER MENTOR ID", PLACEHOLDER ="ENTER MENTOR NAME";
+EDIT f03 = mentor.team_size, COMMENTS ="ENTER TEAM SIZE", PLACEHOLDER ="ENTER TEAM SIZE";
+
+END 
+

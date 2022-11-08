@@ -1,0 +1,51 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ChoiceDropDownWidget, .gbc_ListDropDownWidget{
+
+  &>div {
+    position:relative;
+    display: block;
+    line-height: $gbc-DropDownWidget-line-height;
+    min-height: $gbc-DropDownWidget-line-height;
+    padding: 0 $gbc-DropDownWidget-margin-ratio*$gbc-DropDownWidget-margin;
+    font-weight: 400;
+
+    white-space: nowrap;
+    transition:all 0.2s ease;
+
+    &:not(.disabled).current,
+    &.disabled.current[interruptable-active] {
+      text-decoration: none;
+      color: $gbc-DropDownWidget-item-current-color;
+      background-color: $gbc-DropDownWidget-item-current-background-color;
+      cursor: pointer;
+    }
+    &.disabled:not([interruptable-active]) {
+      cursor:default;
+      opacity: 0.3;
+      *{
+        cursor:default;
+      }
+    }
+  }
+  &>.gbc_ButtonWidget{
+    >.mt-button{
+      color:inherit;
+      background-color: inherit;
+      box-shadow: inherit;
+    }
+  }
+}
+
+.active {
+  opacity:1;
+}

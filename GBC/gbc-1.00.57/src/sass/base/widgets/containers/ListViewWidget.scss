@@ -1,0 +1,75 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_ListViewWidget {
+  display: flex;
+  flex-direction: row;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, .24);
+  padding: 2px;
+  overflow: hidden;
+  background-color: $gbc-ListViewWidget-background-color;
+  border-top: $gbc-ListViewWidget-border-width-top solid $gbc-ListViewWidget-border-color;
+  border-right: $gbc-ListViewWidget-border-width-right solid $gbc-ListViewWidget-border-color;
+  border-bottom: $gbc-ListViewWidget-border-width-bottom solid $gbc-ListViewWidget-border-color;
+  border-left: $gbc-ListViewWidget-border-width-left solid $gbc-ListViewWidget-border-color;
+  cursor: default;
+  min-width: 20px;
+
+  .g_measuring &.g_measureable {
+    height: auto !important;
+    width: auto !important;
+
+    .gbc_ListViewRowWidget, .gbc_ListViewRowWidget * {
+      display: inline !important;
+      height: auto !important;
+      width: auto !important;
+    }
+  }
+  &:not(.disabled) {
+    &.highlight .gbc_ListViewRowWidget {
+      &.currentRow {
+        background-color: $gbc-ListViewWidget-currentRow-background-color !important;
+        color: $gbc-ListViewWidget-currentRow-color !important;
+        fill: $gbc-ListViewWidget-currentRow-color;
+
+        .mt-field, .mt-label {
+          color: inherit !important;
+          fill: inherit;
+        }
+        @include placeholder {
+          color: $gbc-ListViewWidget-background-color;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  &.gbc_Focus {
+    border-top: $gbc-ListViewWidget-focus-border-width-top solid $gbc-ListViewWidget-focus-border-color;
+    border-right: $gbc-ListViewWidget-focus-border-width-right solid $gbc-ListViewWidget-focus-border-color;
+    border-bottom: $gbc-ListViewWidget-focus-border-width-bottom solid $gbc-ListViewWidget-focus-border-color;
+    border-left: $gbc-ListViewWidget-focus-border-width-left solid $gbc-ListViewWidget-focus-border-color;
+  }
+}
+
+.gbc_ListViewRowsContainer {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.gbc_ListViewScrollArea {
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+}
+

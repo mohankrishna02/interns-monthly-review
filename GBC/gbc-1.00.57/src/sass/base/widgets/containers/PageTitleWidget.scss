@@ -1,0 +1,26 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+.gbc_PageTitleWidget {
+  min-width: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+  flex:0 0 auto;
+  display: inline-flex;
+  & > .gbc_ImageWidget {
+    margin-right: 8px;
+    max-width: $gbc-PageTitleWidget-icon-size * 1.25;
+    img{
+      max-width:100%;
+      max-height:100%;
+    }
+  }
+}

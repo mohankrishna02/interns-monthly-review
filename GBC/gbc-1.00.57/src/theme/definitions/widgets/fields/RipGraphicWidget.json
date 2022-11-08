@@ -1,0 +1,11 @@
+{
+  "name": "RipGraphicWidget",
+  "description": "",
+  "type": "group",
+  "contents": [{
+    "name": "gbc-RipGraphicWidget-separator-color",
+    "description": "",
+    "type": "color",
+    "defaultValue": "$theme-separator-color"
+  }]
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<!--
+   FOURJS_START_COPYRIGHT(D,2014)
+   Property of Four Js*
+   (c) Copyright Four Js 2014, 2019. All Rights Reserved.
+   * Trademark of Four Js Development Tools Europe Ltd
+     in the United States and elsewhere
+
+   This file can be modified by licensees according to the
+   product manual.
+   FOURJS_END_COPYRIGHT
+ -->
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+  window.__gbcThemesInfo = [{"name":"default","title":"Default","conditions":["isBrowser","isDesktop"]},{"name":"highcontrast","title":"High contrast","conditions":["isBrowser","isDesktop"]},{"name":"default_mobile","title":"Default","conditions":["isBrowser","isMobile"]},{"name":"highcontrast_mobile","title":"High contrast","conditions":["isBrowser","isMobile"]},{"name":"ur_default","title":"Default","conditions":["isUR","isDesktop"]},{"name":"ur_highcontrast","title":"High contrast","conditions":["isUR","isDesktop"]},{"name":"ur_default_mobile","title":"Default","conditions":["isUR","isMobile"]},{"name":"ur_highcontrast_mobile","title":"High contrast","conditions":["isUR","isMobile"]}];
+</script>
+  <base href="$(gwc-js.uri)/index.html"/>
+<script>
+  var __gbcBootstrap = {
+    appName: decodeURI("$(short.session.name)"),
+    connectorUri: "$(connector.uri)",
+    subAppInfo: "$(app.id)",
+    sessionId: "$(session.id)",
+    serverVersion: "GAS/$(server.version)",
+    reloadOnRestart : "$(reloadOnRestart)",
+    queryString: decodeURI("$(application.querystring)")
+  };
+</script>
+
+  <base href="."/>
+  <title>Genero Browser Client</title>
+
+  <!-- Icon -->
+  <link href='resources/img/gbc_logo.ico?t=1633270307305' rel='shortcut icon' id="favicon_element" />
+
+  <script>
+    if(window.location.search.toLowerCase().indexOf("unittestmode=1")>=0) {
+      window.__gbcDefer = function (start) {
+        //never start
+      };
+    }
+  </script>
+</head>
+<body>
+<script src="js/third-party/jsface.js?t=1633270307305"></script>
+<script src="js/third-party/base64.js?t=1633270307305"></script>
+<script src="js/third-party/moment.js?t=1633270307305"></script>
+<script src="js/third-party/pikaday.js?t=1633270307305"></script>
+<script src="js/third-party/state-machine.js?t=1633270307305"></script>
+<script src="js/third-party/i18next.js?t=1633270307305"></script>
+<script src="js/third-party/i18next-browser-languagedetector.js?t=1633270307305"></script>
+<script src="js/third-party/stackframe.js?t=1633270307305"></script>
+<script src="js/third-party/stacktrace.js?t=1633270307305"></script>
+<script src="js/compiledLocales.js?t=1633270307305"></script>
+<script src="js/compiledTemplates.js?t=1633270307305"></script>
+<script src="js/gbc.bootstrap.js?t=1633270307305"></script>
+<script src="js/gbc.js?t=1633270307305"></script>
+</body>
+</html>

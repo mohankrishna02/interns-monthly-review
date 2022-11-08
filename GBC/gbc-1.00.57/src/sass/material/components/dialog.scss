@@ -1,0 +1,104 @@
+/*
+ * FOURJS_START_COPYRIGHT(D,2018)
+ * Property of Four Js*
+ * (c) Copyright Four Js 2018, 2020. All Rights Reserved.
+ * * Trademark of Four Js Development Tools Europe Ltd
+ *   in the United States and elsewhere
+ * 
+ * This file can be modified by licensees according to the
+ * product manual.
+ * FOURJS_END_COPYRIGHT */
+
+
+.mt-dialog, .mt-dialog-about, .mt-dialog-menu, .mt-dialog-filetransfer {
+  @include fill-absolute;
+  z-index: $mt-dialog-z-index;
+  pointer-events: none;
+  background-color: transparent;
+  &.displayed {
+    pointer-events: inherit;
+    background-color: $mt-dialog-overlay-background-color;
+    > .mt-dialog-pane {
+      top: $mt-dialog-margin-ratio*8px;
+    }
+  }
+}
+.mt-dialog-pane {
+  display:inline-block;
+  padding: $mt-dialog-margin-ratio*8px;
+  position: relative;
+  top: -2000px;
+  background-color: $mt-dialog-background-color;
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+  .mt-dialog-header {
+    font-weight: bold;
+    display:flex;
+    padding: $mt-dialog-field-height-ratio*8px 0;
+    .mt-dialog-title{
+      @include flexible_guest_stretch;
+      margin-left: 5px;
+    }
+    .mt-dialog-actions{
+
+    }
+  }
+  .mt-dialog-content{
+    display: flex;
+    overflow: hidden;
+  }
+  .mt-dialog-footer {
+    padding-top: 8px;
+  }
+}
+
+.mt-dialog-menu{
+  & > .mt-dialog-pane{
+    width:auto;
+    height: auto;
+
+    .mt-dialog-content{
+      margin-bottom: $mt-dialog-margin-ratio*10px;
+      display : flex;
+      align-items: center;
+      img{
+        margin-right: $mt-dialog-margin-ratio*10px;
+      }
+    }
+    .gbc_Menu h5{
+      display: none;
+    }
+  }
+}
+
+.mt-dialog-filetransfer {
+  & > .mt-dialog-pane {
+    width: auto;
+    height: auto;
+    .mt-dialog-content{
+      position:relative;
+      flex-direction: row;
+      width: 400px;
+      min-height: 60px;
+      >div{display: flex;}
+    }
+  }
+}
+
+.mt-dialog-about {
+  & > .mt-dialog-pane {
+    width: auto;
+    height: auto;
+  }
+}
+
+.overlay{
+  @include fill-absolute;
+  z-index:$mt-dialog-modal-z-index;
+  opacity: 0;
+  transition: opacity 1s ease;
+  background-color: $mt-dialog-overlay-background-color;
+
+  &.greybg {
+    opacity: 0.5;
+  }
+}
